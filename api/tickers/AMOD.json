@@ -26,12 +26,12 @@
     "market_cap": 10363527.9744,
     "ttm_pe": -0.8832061720208438,
     "static_pe": -1.292011513738221,
-    "ev_revenue": 1446.9066929672179,
+    "ev_revenue": 2301.003358699916,
     "pb": -0.22246848037683464,
     "ps": 1451.8811956290278,
     "p_fcf": -2.4485722015330027,
     "ttm_pocf": -2.5248379146383684,
-    "debt_asset": 0.0,
+    "debt_asset": 2.3106607273007054,
     "gross_margin": null,
     "op_margin": -1077.6314093583637,
     "net_margin": -1643.87573550014,
@@ -284,6 +284,27 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Operating Income": -190911.0,
+          "Net Income": -222696.0,
+          "Diluted EPS": -0.06,
+          "Diluted Average Shares": 3531111.0,
+          "Selling General And Administration": 76520.0,
+          "General And Administrative Expense": 352581.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Operating Income": -120553.0,
@@ -321,21 +342,6 @@
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
           "Total Revenue": "derived"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 0.0,
-          "Operating Income": -237300.0,
-          "Net Income": 4828546.0,
-          "Selling General And Administration": 237300.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -421,22 +427,22 @@
       {
         "period": "2026-03-31",
         "items": {
+          "Total Revenue": 0.0,
           "Operating Income": -3807146.0,
           "Net Income": -4020831.0,
           "Diluted EPS": -0.08,
           "Diluted Average Shares": 47934912.0,
           "Selling General And Administration": 997005.0,
-          "General And Administrative Expense": 3807146.0,
-          "Total Revenue": 0
+          "General And Administrative Expense": 3807146.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance",
-          "Total Revenue": "derived"
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -569,7 +575,6 @@
           "Total Assets": 1702519.0,
           "Common Stock Equity": -80600359.0,
           "Net PPE": 0.0,
-          "Accounts Receivable": 125068.0,
           "Total Debt": 2934543.0
         },
         "sources": {
@@ -577,7 +582,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -671,14 +675,16 @@
           "Total Assets": 2638441.0,
           "Common Stock Equity": -46584253.0,
           "Net PPE": 127847.0,
-          "Total Debt": 0.0
+          "Accounts Receivable": 129010.0,
+          "Total Debt": 6096542.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -723,7 +729,7 @@
   },
   "validation": {
     "ticker": "AMOD",
-    "checked_at": "2026-05-19T06:12:10.195654+00:00",
+    "checked_at": "2026-05-19T14:09:16.224339+00:00",
     "status": "info",
     "issues": [
       {

@@ -338,6 +338,27 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Operating Income": -1965718.0,
+          "Net Income": -1903794.0,
+          "Diluted EPS": -0.26,
+          "Diluted Average Shares": 7388508.0,
+          "Research And Development": 552126.0,
+          "General And Administrative Expense": 1413592.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Operating Income": -1681963.0,
@@ -377,27 +398,6 @@
           "Research And Development": "sec",
           "General And Administrative Expense": "sec",
           "Total Revenue": "derived"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Cost Of Revenue": 0.0,
-          "Operating Income": -1768761.0,
-          "Net Income": -1742954.0,
-          "Research And Development": 590856.0,
-          "Selling General And Administration": 1177905.0,
-          "Total Revenue": 0,
-          "Gross Profit": 0.0
-        },
-        "sources": {
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Total Revenue": "derived",
-          "Gross Profit": "yfinance"
         }
       },
       {
@@ -515,6 +515,7 @@
           "Diluted EPS": -0.12,
           "Diluted Average Shares": 12948732.0,
           "Research And Development": 434819.0,
+          "Selling General And Administration": 1179808.0,
           "General And Administrative Expense": 1179808.0
         },
         "sources": {
@@ -526,6 +527,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -809,7 +811,7 @@
   },
   "validation": {
     "ticker": "BFRG",
-    "checked_at": "2026-05-19T06:12:10.199460+00:00",
+    "checked_at": "2026-05-19T14:09:16.227892+00:00",
     "status": "warn",
     "issues": [
       {

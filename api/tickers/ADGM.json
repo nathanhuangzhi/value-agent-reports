@@ -23,20 +23,20 @@
     "logic_summary": "A medical technology company commercializing ablation catheters for cardiac arrhythmias."
   },
   "snapshot": {
-    "market_cap": 19640201.099999998,
-    "ttm_pe": -0.8060494582615119,
-    "static_pe": -0.7829772404720139,
+    "market_cap": 21655197.525,
+    "ttm_pe": -0.888746512558483,
+    "static_pe": -0.8633071888454791,
     "ev_revenue": null,
-    "pb": 1.583631761006289,
+    "pb": 3.782567253275109,
     "ps": null,
-    "p_fcf": null,
-    "ttm_pocf": null,
-    "debt_asset": 0.49002381337710677,
+    "p_fcf": -1.2774420437116563,
+    "ttm_pocf": -1.3594825491242388,
+    "debt_asset": 0.5875903124045996,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -1.9646831156265119,
-    "roa": -0.5633366471689825,
+    "roe": -4.256069868995633,
+    "roa": -0.6198738170347003,
     "dividend_rate": 0.0
   },
   "annual": {
@@ -453,12 +453,26 @@
       {
         "period": "2026-03-31",
         "items": {
+          "Total Revenue": 0.0,
+          "Gross Profit": 0.0,
+          "Cost Of Revenue": 0.0,
+          "Operating Income": -5200000.0,
           "Net Income": -6995000.0,
-          "Research And Development": 2741000.0
+          "Diluted EPS": -0.31,
+          "Diluted Average Shares": 22210459.0,
+          "Research And Development": 2741000.0,
+          "Selling General And Administration": 2459000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "yfinance",
-          "Research And Development": "yfinance"
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -544,25 +558,18 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Capital Expenditure": -2000.0
+          "Cash Flow From Continuing Operating Activities": -4126000.0,
+          "Capital Expenditure": -2000.0,
+          "Free Cash Flow": -4128000.0
         },
         "sources": {
-          "Capital Expenditure": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-07-30",
-        "items": {
-          "Cash And Cash Equivalents": 35154000.0,
-          "Common Stock Equity": -148315000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec"
-        }
-      },
       {
         "period": "2024-07-31",
         "items": {
@@ -605,7 +612,7 @@
           "Net PPE": 1961000.0,
           "Inventory": 2566000.0,
           "Accounts Receivable": 35000.0,
-          "Total Debt": 16219000.0
+          "Total Debt": 16076000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -615,7 +622,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -709,6 +716,27 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 12909000.0,
+          "Total Assets": 39308000.0,
+          "Common Stock Equity": 5725000.0,
+          "Goodwill": 13967000.0,
+          "Net PPE": 2516000.0,
+          "Inventory": 1604000.0,
+          "Total Debt": 23097000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -752,7 +780,7 @@
   },
   "validation": {
     "ticker": "ADGM",
-    "checked_at": "2026-05-19T06:12:10.193014+00:00",
+    "checked_at": "2026-05-19T14:09:16.221880+00:00",
     "status": "warn",
     "issues": [
       {

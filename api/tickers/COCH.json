@@ -26,12 +26,12 @@
     "market_cap": 44497516.68,
     "ttm_pe": -1.9255492093989355,
     "static_pe": -1.8731064438457652,
-    "ev_revenue": 82.25007128205128,
+    "ev_revenue": 83.01075504273504,
     "pb": 4.379245810451727,
     "ps": 190.1603276923077,
     "p_fcf": -2.148600515692902,
     "ttm_pocf": -2.1666999405950236,
-    "debt_asset": 0.0,
+    "debt_asset": 0.005968747904231775,
     "gross_margin": -3.106837606837607,
     "op_margin": -98.8119658119658,
     "net_margin": -98.75641025641026,
@@ -362,6 +362,33 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 59000.0,
+          "Cost Of Revenue": 153000.0,
+          "Operating Income": -4884000.0,
+          "Net Income": -6270000.0,
+          "Diluted EPS": -0.41,
+          "Diluted Average Shares": 18599982.0,
+          "Research And Development": 2360000.0,
+          "Selling And Marketing Expense": 325000.0,
+          "General And Administrative Expense": 2105000.0,
+          "Gross Profit": -94000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 68000.0,
@@ -413,25 +440,6 @@
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec",
           "Gross Profit": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 42000.0,
-          "Cost Of Revenue": 157000.0,
-          "Operating Income": -4524000.0,
-          "Net Income": -4618000.0,
-          "General And Administrative Expense": 1420000.0,
-          "Gross Profit": -115000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "General And Administrative Expense": "yfinance",
-          "Gross Profit": "yfinance"
         }
       },
       {
@@ -734,7 +742,7 @@
           "Net PPE": 1275000.0,
           "Inventory": 1708000.0,
           "Accounts Receivable": 38000.0,
-          "Total Debt": 18859000.0
+          "Total Debt": 18716000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -839,7 +847,7 @@
           "Net PPE": 962000.0,
           "Inventory": 1490000.0,
           "Accounts Receivable": 31000.0,
-          "Total Debt": 0
+          "Total Debt": 178000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -848,7 +856,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -893,7 +901,7 @@
   },
   "validation": {
     "ticker": "COCH",
-    "checked_at": "2026-05-19T06:12:10.204327+00:00",
+    "checked_at": "2026-05-19T14:09:16.232443+00:00",
     "status": "info",
     "issues": [
       {

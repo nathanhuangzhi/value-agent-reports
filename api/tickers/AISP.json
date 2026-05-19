@@ -26,12 +26,12 @@
     "market_cap": 84924710.78,
     "ttm_pe": 17.357170141110135,
     "static_pe": 2.896342532917041,
-    "ev_revenue": 4.521224051840449,
+    "ev_revenue": 4.502153852375573,
     "pb": -11.793275675579595,
     "ps": 5.251466212504759,
     "p_fcf": -16.676441332501785,
     "ttm_pocf": -16.676441332501785,
-    "debt_asset": 0.03965813853741553,
+    "debt_asset": 0.02353103101768284,
     "gross_margin": 0.5335648211845704,
     "op_margin": -0.43798948021221623,
     "net_margin": 0.3025531333628377,
@@ -327,6 +327,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 10575015.0,
+          "Gross Profit": 2628127.0,
+          "Cost Of Revenue": 7946888.0,
+          "Operating Income": -1402533.0,
+          "Net Income": -31964469.0,
+          "Diluted EPS": -1.4,
+          "Diluted Average Shares": 22898487.0,
+          "Research And Development": 695366.0,
+          "Selling General And Administration": 3335294.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 6401031.0,
@@ -374,27 +399,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 3206518.0,
-          "Gross Profit": 1239041.0,
-          "Cost Of Revenue": 1967477.0,
-          "Operating Income": -1491411.0,
-          "Net Income": -50176370.0,
-          "Research And Development": 333022.0,
-          "Selling General And Administration": 2397430.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -761,13 +765,15 @@
           "Cash And Cash Equivalents": 12567574.0,
           "Total Assets": 19122834.0,
           "Common Stock Equity": -7201113.0,
+          "Net PPE": 705564.0,
           "Accounts Receivable": 5379360.0,
-          "Total Debt": 758376.0
+          "Total Debt": 449980.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
@@ -814,7 +820,7 @@
   },
   "validation": {
     "ticker": "AISP",
-    "checked_at": "2026-05-19T06:12:10.194994+00:00",
+    "checked_at": "2026-05-19T14:09:16.223713+00:00",
     "status": "warn",
     "issues": [
       {

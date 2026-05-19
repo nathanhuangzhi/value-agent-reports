@@ -26,12 +26,12 @@
     "market_cap": 195884941.317,
     "ttm_pe": -2.3947985392561986,
     "static_pe": -0.9467431336126899,
-    "ev_revenue": 4.075463699848871,
+    "ev_revenue": 4.060697701285831,
     "pb": 7.698366724975437,
     "ps": 4.8530818154497934,
     "p_fcf": -2.7714338047113753,
     "ttm_pocf": -2.7809949503386004,
-    "debt_asset": 0.029624604251469924,
+    "debt_asset": 0.021200814111261873,
     "gross_margin": 0.1756559225032827,
     "op_margin": -2.210142952704209,
     "net_margin": -2.0265094269504247,
@@ -310,6 +310,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 549000.0,
+          "Cost Of Revenue": 306000.0,
+          "Operating Income": -8137000.0,
+          "Net Income": -16743000.0,
+          "Diluted EPS": -1.23,
+          "Diluted Average Shares": 13613270.0,
+          "Research And Development": 4094000.0,
+          "Selling General And Administration": 3988000.0,
+          "Gross Profit": 243000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 223000.0,
@@ -357,15 +382,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Net Income": 50389468.0
-        },
-        "sources": {
-          "Net Income": "yfinance"
         }
       },
       {
@@ -478,7 +494,8 @@
           "Net Income": -22653000.0,
           "Diluted EPS": -0.19,
           "Diluted Average Shares": 122382195.0,
-          "Research And Development": 9675000.0
+          "Research And Development": 9675000.0,
+          "Selling General And Administration": 15103000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -488,7 +505,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Research And Development": "sec"
+          "Research And Development": "sec",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -743,7 +761,7 @@
           "Net PPE": 1378000.0,
           "Inventory": 9012000.0,
           "Accounts Receivable": 16727000.0,
-          "Total Debt": 2096000.0
+          "Total Debt": 1500000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -797,7 +815,7 @@
   },
   "validation": {
     "ticker": "BZAI",
-    "checked_at": "2026-05-19T06:12:10.202078+00:00",
+    "checked_at": "2026-05-19T14:09:16.230359+00:00",
     "status": "warn",
     "issues": [
       {
