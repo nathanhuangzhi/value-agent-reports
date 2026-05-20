@@ -29,7 +29,7 @@
     "ev_revenue": 20.962884673164428,
     "pb": 2.420040780675675,
     "ps": 25.345953959257134,
-    "p_fcf": -1.3135139104938363,
+    "p_fcf": -1.2942205108963614,
     "ttm_pocf": -1.3318675280754901,
     "debt_asset": 0.0,
     "gross_margin": 0.8199011546472557,
@@ -373,6 +373,33 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 78671.0,
+          "Gross Profit": 69515.0,
+          "Cost Of Revenue": 9156.0,
+          "Operating Income": -1073712.0,
+          "Net Income": -1041157.0,
+          "Diluted EPS": -0.14,
+          "Diluted Average Shares": 7436562.0,
+          "Research And Development": 105668.0,
+          "Selling General And Administration": 483313.0,
+          "General And Administrative Expense": 645719.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 26840.0,
@@ -424,27 +451,6 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 27179.0,
-          "Gross Profit": 19683.0,
-          "Cost Of Revenue": 7496.0,
-          "Operating Income": -2875396.0,
-          "Net Income": -2833275.0,
-          "Selling General And Administration": 1704195.0,
-          "General And Administrative Expense": 1704195.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -610,13 +616,13 @@
         "period": "2024-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1134476.0,
-          "Capital Expenditure": -16226.0,
-          "Free Cash Flow": -1150702.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1134476.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -675,13 +681,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1712988.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -1712988.0
+          "Capital Expenditure": -79273.0,
+          "Free Cash Flow": -1792261.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -829,6 +835,7 @@
           "Cash And Cash Equivalents": 1207895.0,
           "Total Assets": 3694633.0,
           "Common Stock Equity": 2886269.0,
+          "Net PPE": 45169.0,
           "Inventory": 179489.0,
           "Accounts Receivable": 43004.0,
           "Total Debt": 0
@@ -837,6 +844,7 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -884,7 +892,7 @@
   },
   "validation": {
     "ticker": "NXL",
-    "checked_at": "2026-05-19T14:09:16.254257+00:00",
+    "checked_at": "2026-05-20T14:11:40.493705+00:00",
     "status": "ok",
     "issues": []
   },

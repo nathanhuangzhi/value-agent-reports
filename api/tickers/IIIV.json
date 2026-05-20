@@ -26,13 +26,13 @@
     "market_cap": 577552155.495,
     "ttm_pe": 32.23127158295664,
     "static_pe": 32.314225675320316,
-    "ev_revenue": 2.9883043789604176,
+    "ev_revenue": 2.9965351350747267,
     "pb": 1.3179021246428866,
     "ps": 2.6616410611269594,
     "p_fcf": 13.19214608257195,
     "ttm_pocf": 12.701549459985486,
-    "debt_asset": 0.12727444140661828,
-    "gross_margin": null,
+    "debt_asset": 0.1300807642751642,
+    "gross_margin": 0.6813185800332733,
     "op_margin": 0.009286099423478394,
     "net_margin": 0.08257946182099718,
     "roe": 0.04088892742723099,
@@ -668,8 +668,6 @@
         "period": "2024-12-31",
         "items": {
           "Total Revenue": 52221000.0,
-          "Gross Profit": 36645000.0,
-          "Cost Of Revenue": 15576000.0,
           "Operating Income": 2053000.0,
           "Net Income": 2056000.0,
           "Diluted EPS": 0.08,
@@ -678,8 +676,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -691,8 +687,8 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 54135000.0,
-          "Gross Profit": 40872000.0,
-          "Cost Of Revenue": 22187000.0,
+          "Gross Profit": 37555000.0,
+          "Cost Of Revenue": 16580000.0,
           "Operating Income": 5061000.0,
           "Net Income": -154000.0,
           "Diluted EPS": 0.04,
@@ -783,6 +779,8 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 57518000.0,
+          "Gross Profit": 40380000.0,
+          "Cost Of Revenue": 17138000.0,
           "Operating Income": 3743000.0,
           "Net Income": 1464000.0,
           "Diluted EPS": 0.07,
@@ -791,6 +789,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1077,7 +1077,7 @@
           "Net PPE": 6023000.0,
           "Inventory": 2617000.0,
           "Accounts Receivable": 55284000.0,
-          "Total Debt": 81000000.0
+          "Total Debt": 82786000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1087,7 +1087,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1132,7 +1132,7 @@
   },
   "validation": {
     "ticker": "IIIV",
-    "checked_at": "2026-05-19T14:09:16.243127+00:00",
+    "checked_at": "2026-05-20T14:11:40.481662+00:00",
     "status": "warn",
     "issues": [
       {

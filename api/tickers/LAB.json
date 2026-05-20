@@ -26,12 +26,12 @@
     "market_cap": 395966040.0,
     "ttm_pe": 5.063180615050189,
     "static_pe": -5.286878337961974,
-    "ev_revenue": 1.4886214132514057,
+    "ev_revenue": 1.5528495739377428,
     "pb": 0.7056670997267979,
     "ps": 4.590644484377718,
     "p_fcf": -4.191181252381557,
     "ttm_pocf": -4.367738177967504,
-    "debt_asset": 0.00046783515929865407,
+    "debt_asset": 0.009136085268042948,
     "gross_margin": 0.49622630572140747,
     "op_margin": -1.0788360095066953,
     "net_margin": 0.9066720769810446,
@@ -1068,6 +1068,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 45540000.0,
+          "Gross Profit": 24188000.0,
+          "Cost Of Revenue": 21352000.0,
+          "Operating Income": -60182000.0,
+          "Net Income": -32157000.0,
+          "Diluted EPS": -0.27,
+          "Diluted Average Shares": 294125000.0,
+          "Research And Development": 15980000.0,
+          "Selling General And Administration": 46943000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 22492000.0,
@@ -1115,31 +1140,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 46718000.0,
-          "Gross Profit": 21905000.0,
-          "Cost Of Revenue": 24813000.0,
-          "Operating Income": -29736000.0,
-          "Net Income": -34072000.0,
-          "Diluted EPS": -0.09,
-          "Diluted Average Shares": 374544000.0,
-          "Research And Development": 14053000.0,
-          "Selling General And Administration": 37588000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1539,7 +1539,7 @@
           "Net PPE": 17103000.0,
           "Inventory": 18594000.0,
           "Accounts Receivable": 16637000.0,
-          "Total Debt": 299000.0
+          "Total Debt": 5839000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1548,7 +1548,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1593,7 +1593,7 @@
   },
   "validation": {
     "ticker": "LAB",
-    "checked_at": "2026-05-19T14:09:16.247976+00:00",
+    "checked_at": "2026-05-20T14:11:40.486680+00:00",
     "status": "warn",
     "issues": [
       {
