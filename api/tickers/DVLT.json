@@ -26,12 +26,12 @@
     "market_cap": 308873434.4817,
     "ttm_pe": -2.5201402921109315,
     "static_pe": -3.9100872785490037,
-    "ev_revenue": 7.323250417463464,
+    "ev_revenue": 7.4794257923798835,
     "pb": 1.4037914923632446,
     "ps": 7.375905876437578,
     "p_fcf": -11.480149952860064,
     "ttm_pocf": -11.738434784391746,
-    "debt_asset": 0.0,
+    "debt_asset": 0.026148181022177974,
     "gross_margin": 0.7269557741904671,
     "op_margin": -1.2893781641035438,
     "net_margin": -2.9267838379978985,
@@ -622,6 +622,33 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 255000.0,
+          "Gross Profit": -83000.0,
+          "Cost Of Revenue": 338000.0,
+          "Operating Income": -4158000.0,
+          "Net Income": 2707000.0,
+          "Diluted EPS": -5.35,
+          "Diluted Average Shares": 585500.0,
+          "Research And Development": 1715000.0,
+          "Selling And Marketing Expense": 929000.0,
+          "General And Administrative Expense": 1431000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 345000.0,
@@ -673,31 +700,6 @@
           "Research And Development": "sec",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 902000.0,
-          "Gross Profit": 222000.0,
-          "Cost Of Revenue": 680000.0,
-          "Operating Income": -6332000.0,
-          "Net Income": -6359000.0,
-          "Research And Development": 2089000.0,
-          "Selling General And Administration": 4465000.0,
-          "Selling And Marketing Expense": 1197000.0,
-          "General And Administrative Expense": 3268000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -823,6 +825,7 @@
           "Diluted EPS": -0.09,
           "Diluted Average Shares": 574220923.0,
           "Research And Development": 5729000.0,
+          "Selling General And Administration": 25332000.0,
           "Selling And Marketing Expense": 6636000.0,
           "General And Administrative Expense": 18696000.0
         },
@@ -835,6 +838,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -999,7 +1003,7 @@
           "Net PPE": 58000.0,
           "Inventory": 1618000.0,
           "Accounts Receivable": 349000.0,
-          "Total Debt": 9675000.0
+          "Total Debt": 9569000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1009,7 +1013,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1112,7 +1116,7 @@
           "Net PPE": 1199000.0,
           "Inventory": 717000.0,
           "Accounts Receivable": 1066000.0,
-          "Total Debt": 0
+          "Total Debt": 6540000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1122,7 +1126,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1167,7 +1171,7 @@
   },
   "validation": {
     "ticker": "DVLT",
-    "checked_at": "2026-05-20T14:11:40.475362+00:00",
+    "checked_at": "2026-05-21T14:24:32.780066+00:00",
     "status": "warn",
     "issues": [
       {

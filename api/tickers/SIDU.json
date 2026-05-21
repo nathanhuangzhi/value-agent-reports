@@ -26,12 +26,12 @@
     "market_cap": 260340272.9,
     "ttm_pe": -9.208646940124828,
     "static_pe": -8.832787803912181,
-    "ev_revenue": 66.47838448668038,
+    "ev_revenue": 66.50117637290585,
     "pb": 5.497353219566494,
     "ps": 74.28199649276583,
     "p_fcf": -8.832593916780388,
     "ttm_pocf": -12.643210796204807,
-    "debt_asset": 0.0,
+    "debt_asset": 0.001548270701990937,
     "gross_margin": -1.459206289967119,
     "op_margin": -7.819353472823786,
     "net_margin": -8.066548427337024,
@@ -413,6 +413,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 1050155.0,
+          "Gross Profit": 84064.0,
+          "Cost Of Revenue": 966091.0,
+          "Operating Income": -3561519.0,
+          "Net Income": -3810500.0,
+          "Diluted EPS": -1.42,
+          "Diluted Average Shares": 2719812.0,
+          "Selling General And Administration": 3645583.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 927570.0,
@@ -456,25 +479,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 825963.0,
-          "Gross Profit": -750145.0,
-          "Cost Of Revenue": 1576108.0,
-          "Operating Income": -5087549.0,
-          "Net Income": -5674883.0,
-          "Selling General And Administration": 4337404.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -746,7 +750,6 @@
           "Common Stock Equity": 23536065.0,
           "Net PPE": 14891976.0,
           "Inventory": 255716.0,
-          "Accounts Receivable": 1469262.0,
           "Total Debt": 3059767.0
         },
         "sources": {
@@ -755,7 +758,6 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -848,14 +850,16 @@
           "Total Assets": 51593045.0,
           "Common Stock Equity": 47357385.0,
           "Net PPE": 17260377.0,
-          "Total Debt": 0
+          "Accounts Receivable": 1470363.0,
+          "Total Debt": 79880.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -894,7 +898,7 @@
   },
   "validation": {
     "ticker": "SIDU",
-    "checked_at": "2026-05-20T14:11:40.507078+00:00",
+    "checked_at": "2026-05-21T14:24:32.813431+00:00",
     "status": "warn",
     "issues": [
       {

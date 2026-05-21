@@ -942,6 +942,27 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 2000.0,
+          "Operating Income": -4926000.0,
+          "Net Income": -4291000.0,
+          "Diluted EPS": -1.19,
+          "Diluted Average Shares": 3616000.0,
+          "Research And Development": 1268000.0,
+          "Selling General And Administration": 3660000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 1000.0,
@@ -981,23 +1002,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 0.0,
-          "Operating Income": -6669000.0,
-          "Net Income": -6215000.0,
-          "Research And Development": 2371000.0,
-          "Selling General And Administration": 4298000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1401,7 +1405,7 @@
   },
   "validation": {
     "ticker": "VHC",
-    "checked_at": "2026-05-20T14:11:40.515253+00:00",
+    "checked_at": "2026-05-21T14:24:32.822461+00:00",
     "status": "warn",
     "issues": [
       {

@@ -32,7 +32,7 @@
     "p_fcf": -3.3747791877775124,
     "ttm_pocf": -3.3747791877775124,
     "debt_asset": 1.8247133980922376,
-    "gross_margin": null,
+    "gross_margin": -8.877158287061688,
     "op_margin": -12.762835627899902,
     "net_margin": -15.882026317791132,
     "roe": 0.5990543708094368,
@@ -452,6 +452,27 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 7656000.0,
+          "Operating Income": -7654000.0,
+          "Net Income": -8060000.0,
+          "Diluted EPS": -0.24,
+          "Diluted Average Shares": 33942768.0,
+          "Research And Development": 458000.0,
+          "Selling And Marketing Expense": 483000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 4920000.0,
@@ -493,31 +514,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling And Marketing Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 9705000.0,
-          "Gross Profit": -65729000.0,
-          "Cost Of Revenue": 75434000.0,
-          "Operating Income": -88870000.0,
-          "Net Income": -1109187000.0,
-          "Research And Development": 1826000.0,
-          "Selling General And Administration": 19621000.0,
-          "Selling And Marketing Expense": 960000.0,
-          "General And Administrative Expense": 18661000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -636,21 +632,29 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 5030000.0,
+          "Gross Profit": -14888000.0,
+          "Cost Of Revenue": 19918000.0,
           "Operating Income": -27720000.0,
           "Net Income": -32212000.0,
           "Diluted EPS": -0.16,
           "Diluted Average Shares": 197443436.0,
           "Research And Development": 535000.0,
-          "Selling And Marketing Expense": 234000.0
+          "Selling General And Administration": 11632000.0,
+          "Selling And Marketing Expense": 234000.0,
+          "General And Administrative Expense": 11398000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling And Marketing Expense": "sec"
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -888,6 +892,7 @@
           "Cash And Cash Equivalents": 12114000.0,
           "Total Assets": 34281000.0,
           "Common Stock Equity": -348551000.0,
+          "Net PPE": 0.0,
           "Accounts Receivable": 887000.0,
           "Total Debt": 62553000.0
         },
@@ -895,6 +900,7 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -941,7 +947,7 @@
   },
   "validation": {
     "ticker": "ILLR",
-    "checked_at": "2026-05-20T14:11:40.481728+00:00",
+    "checked_at": "2026-05-21T14:24:32.787197+00:00",
     "status": "warn",
     "issues": [
       {

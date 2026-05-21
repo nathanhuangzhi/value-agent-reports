@@ -1022,6 +1022,25 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 0.0,
+          "Net Income": -3954000.0,
+          "Diluted EPS": -0.16,
+          "Diluted Average Shares": 24721964.0,
+          "Research And Development": 1433000.0,
+          "Selling General And Administration": 2804000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 0.0,
@@ -1057,27 +1076,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 0.0,
-          "Operating Income": -2996000.0,
-          "Net Income": -1870000.0,
-          "Diluted EPS": -0.07,
-          "Diluted Average Shares": 26238000.0,
-          "Research And Development": 1323000.0,
-          "Selling General And Administration": 1673000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1170,6 +1168,7 @@
           "Total Revenue": 0.0,
           "Operating Income": -3948000.0,
           "Net Income": -2556000.0,
+          "Diluted EPS": -0.04,
           "Diluted Average Shares": 69821593.0,
           "Research And Development": 1650000.0,
           "Selling General And Administration": 2298000.0
@@ -1178,6 +1177,7 @@
           "Total Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
@@ -1453,7 +1453,7 @@
   },
   "validation": {
     "ticker": "TLPH",
-    "checked_at": "2026-05-20T14:11:40.512339+00:00",
+    "checked_at": "2026-05-21T14:24:32.819482+00:00",
     "status": "warn",
     "issues": [
       {

@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 1029750.56,
-    "ttm_pe": 0.031915405547807224,
+    "ttm_pe": 0.03067107166259606,
     "static_pe": 0.031125334300568252,
-    "ev_revenue": -0.010628508805408646,
+    "ev_revenue": -0.01056297716039587,
     "pb": 0.0026058485356897938,
-    "ps": 0.002005169059172658,
-    "p_fcf": -0.13604842911877396,
-    "ttm_pocf": -0.26215645621181266,
+    "ps": 0.0019928058923933786,
+    "p_fcf": 0.022130895336342146,
+    "ttm_pocf": 0.019797184658271655,
     "debt_asset": 0.0,
-    "gross_margin": 0.1502449624962029,
-    "op_margin": 0.07695288463785274,
-    "net_margin": 0.062827622734389,
-    "roe": 0.08164861110056709,
-    "roa": 0.06874957384426565,
+    "gross_margin": 0.1521556545534066,
+    "op_margin": 0.07631005507669324,
+    "net_margin": 0.06497346797385115,
+    "roe": 0.08496111790145482,
+    "roa": 0.07153876312559662,
     "dividend_rate": 0.0
   },
   "annual": {
@@ -1038,27 +1038,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2025-03-30",
-        "items": {
-          "Total Revenue": 103639000.0,
-          "Gross Profit": 18111000.0,
-          "Cost Of Revenue": 85528000.0,
-          "Operating Income": 9070000.0,
-          "Net Income": 7610000.0,
-          "Diluted Average Shares": 7137.0,
-          "Selling General And Administration": 8662000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 103639000.0,
@@ -1189,6 +1168,29 @@
         }
       },
       {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 118649000.0,
+          "Gross Profit": 17478000.0,
+          "Cost Of Revenue": 101171000.0,
+          "Operating Income": 6325000.0,
+          "Net Income": 6626000.0,
+          "Diluted EPS": 0.93,
+          "Diluted Average Shares": 7159000.0,
+          "Selling General And Administration": 10740000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
+        }
+      },
+      {
         "period": "2026-04-05",
         "items": {
           "Total Revenue": 118649000.0,
@@ -1211,19 +1213,6 @@
       }
     ],
     "cash_flow": [
-      {
-        "period": "2025-03-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 12460000.0,
-          "Capital Expenditure": 22983000.0,
-          "Free Cash Flow": -10523000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2025-03-31",
         "items": {
@@ -1300,6 +1289,19 @@
           "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 31347000.0,
+          "Capital Expenditure": -1950000.0,
+          "Free Cash Flow": 29397000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -1454,10 +1456,24 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Common Stock Equity": 395169000.0
+          "Cash And Cash Equivalents": 6488000.0,
+          "Total Assets": 469312000.0,
+          "Common Stock Equity": 395169000.0,
+          "Goodwill": 19433000.0,
+          "Net PPE": 71519000.0,
+          "Inventory": 312862000.0,
+          "Accounts Receivable": 48382000.0,
+          "Total Debt": 508000.0
         },
         "sources": {
-          "Common Stock Equity": "sec"
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "sec",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1523,7 +1539,7 @@
   },
   "validation": {
     "ticker": "NPK",
-    "checked_at": "2026-05-20T14:11:40.492168+00:00",
+    "checked_at": "2026-05-21T14:24:32.798680+00:00",
     "status": "warn",
     "issues": [
       {

@@ -805,22 +805,10 @@
       {
         "period": "2024-12-31",
         "items": {
-          "Total Revenue": 1216000.0,
-          "Gross Profit": 389000.0,
-          "Cost Of Revenue": 827000.0,
-          "Operating Income": -2279000.0,
-          "Net Income": -4064000.0,
-          "Research And Development": 13000.0,
-          "Selling General And Administration": 2655000.0
+          "Research And Development": 13000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Research And Development": "yfinance"
         }
       },
       {
@@ -923,23 +911,23 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 1100000.0,
+          "Gross Profit": 400000.0,
           "Cost Of Revenue": 700000.0,
           "Operating Income": -779000.0,
           "Net Income": -4385000.0,
           "Diluted EPS": -2.11,
           "Diluted Average Shares": 2082887.0,
-          "Selling General And Administration": 1179000.0,
-          "Gross Profit": 400000.0
+          "Selling General And Administration": 1179000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1096,7 +1084,6 @@
           "Common Stock Equity": 6223000.0,
           "Net PPE": 41000.0,
           "Inventory": 904000.0,
-          "Accounts Receivable": 1175000.0,
           "Total Debt": 155000.0
         },
         "sources": {
@@ -1105,7 +1092,6 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       },
@@ -1201,6 +1187,7 @@
           "Common Stock Equity": 2885000.0,
           "Net PPE": 0.0,
           "Inventory": 840000.0,
+          "Accounts Receivable": 425000.0,
           "Total Debt": 0
         },
         "sources": {
@@ -1209,6 +1196,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -1254,7 +1242,7 @@
   },
   "validation": {
     "ticker": "RKDA",
-    "checked_at": "2026-05-20T14:11:40.502549+00:00",
+    "checked_at": "2026-05-21T14:24:32.808885+00:00",
     "status": "warn",
     "issues": [
       {

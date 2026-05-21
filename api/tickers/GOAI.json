@@ -32,7 +32,7 @@
     "p_fcf": -78.75158174434118,
     "ttm_pocf": -79.09027440559026,
     "debt_asset": 0.059913913096916724,
-    "gross_margin": null,
+    "gross_margin": 0.45830581876545967,
     "op_margin": -0.16739628434700218,
     "net_margin": -0.14093814841023303,
     "roe": -0.19691518112145442,
@@ -340,6 +340,25 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 2236950.0,
+          "Operating Income": 196709.0,
+          "Net Income": 196709.0,
+          "Diluted EPS": 0.01,
+          "Diluted Average Shares": 30763338.0,
+          "General And Administrative Expense": 366463.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 2188616.0,
@@ -375,27 +394,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 2923153.0,
-          "Gross Profit": 1928767.0,
-          "Cost Of Revenue": 994386.0,
-          "Operating Income": 1952428.0,
-          "Net Income": 1946429.0,
-          "Selling General And Administration": -23661.0,
-          "General And Administrative Expense": -23661.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -498,18 +496,24 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 3903231.0,
+          "Gross Profit": 173789.0,
+          "Cost Of Revenue": 3729442.0,
           "Operating Income": -9106394.0,
           "Net Income": -8564076.0,
           "Diluted EPS": -0.24,
           "Diluted Average Shares": 36015045.0,
+          "Selling General And Administration": 9279934.0,
           "General And Administrative Expense": 9279934.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -805,7 +809,7 @@
   },
   "validation": {
     "ticker": "GOAI",
-    "checked_at": "2026-05-20T14:11:40.479381+00:00",
+    "checked_at": "2026-05-21T14:24:32.784375+00:00",
     "status": "warn",
     "issues": [
       {

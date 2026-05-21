@@ -535,6 +535,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 8025414.0,
+          "Gross Profit": 706222.0,
+          "Cost Of Revenue": 7319192.0,
+          "Operating Income": -4897099.0,
+          "Net Income": -6609199.0,
+          "Diluted EPS": -0.47,
+          "Diluted Average Shares": 11956137.0,
+          "Selling General And Administration": 3978594.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 7808425.0,
@@ -578,29 +601,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 7405559.0,
-          "Gross Profit": 1833446.0,
-          "Cost Of Revenue": 5572113.0,
-          "Operating Income": -1932125.0,
-          "Net Income": -5519958.0,
-          "Selling General And Administration": 3765571.0,
-          "Selling And Marketing Expense": -34099.0,
-          "General And Administrative Expense": 3799670.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -717,7 +717,9 @@
           "Net Income": -1588906.0,
           "Diluted EPS": -0.04,
           "Diluted Average Shares": 45179343.0,
-          "Selling General And Administration": 2348308.0
+          "Selling General And Administration": 2348308.0,
+          "Selling And Marketing Expense": 12562.0,
+          "General And Administrative Expense": 3255595.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -727,7 +729,9 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1018,7 +1022,7 @@
   },
   "validation": {
     "ticker": "CISO",
-    "checked_at": "2026-05-20T14:11:40.469820+00:00",
+    "checked_at": "2026-05-21T14:24:32.773733+00:00",
     "status": "warn",
     "issues": [
       {

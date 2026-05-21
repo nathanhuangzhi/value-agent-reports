@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 195290855.24,
-    "ttm_pe": -503.576138810958,
+    "ttm_pe": -260.2094767585948,
     "static_pe": -503.576138810958,
     "ev_revenue": null,
-    "pb": 85.28696290389286,
+    "pb": 101.3390852694433,
     "ps": null,
     "p_fcf": null,
     "ttm_pocf": null,
-    "debt_asset": 0.143583933592875,
+    "debt_asset": 0.27879451574425973,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -0.16936259749175586,
-    "roa": -0.143583933592875,
+    "roe": -0.3894519389985901,
+    "roa": -0.27879451574425973,
     "dividend_rate": 0.0
   },
   "annual": {
@@ -219,23 +219,6 @@
         }
       },
       {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 0.0,
-          "Operating Income": -12949.0,
-          "Net Income": 0.0,
-          "Selling General And Administration": -48272.0,
-          "General And Administrative Expense": -48272.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 0.0,
@@ -314,27 +297,31 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 0.0,
+          "Operating Income": -362907.0,
+          "Net Income": -362706.0,
+          "Diluted EPS": -0.007782,
+          "Diluted Average Shares": 46608796.0,
+          "Selling General And Administration": 371825.0,
+          "General And Administrative Expense": 371825.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
       }
     ],
     "cash_flow": [],
     "balance_sheet": [
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Cash And Cash Equivalents": 760920.0,
-          "Total Assets": 3438537.0,
-          "Common Stock Equity": 2677617.0,
-          "Net PPE": 2677617.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Total Debt": "yfinance"
-        }
-      },
       {
         "period": "2025-03-31",
         "items": {
@@ -402,6 +389,23 @@
           "Net PPE": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 14380.0,
+          "Total Assets": 2691997.0,
+          "Common Stock Equity": 1927103.0,
+          "Net PPE": 2677617.0,
+          "Total Debt": 750514.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -445,7 +449,7 @@
   },
   "validation": {
     "ticker": "SJT",
-    "checked_at": "2026-05-20T14:11:40.507801+00:00",
+    "checked_at": "2026-05-21T14:24:32.814479+00:00",
     "status": "error",
     "issues": [
       {

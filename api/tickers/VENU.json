@@ -32,7 +32,7 @@
     "p_fcf": -0.9213130639005774,
     "ttm_pocf": 19.998093065267845,
     "debt_asset": 0.14006483024293453,
-    "gross_margin": null,
+    "gross_margin": 0.2771355845681483,
     "op_margin": -2.5125202947062686,
     "net_margin": -2.174295956972627,
     "roe": -0.15308329479894825,
@@ -280,6 +280,21 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 3939743.0,
+          "Operating Income": -12966785.0,
+          "Net Income": -15598938.0,
+          "General And Administrative Expense": 4174817.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 4175238.0,
@@ -300,7 +315,6 @@
           "Net Income": -3932221.0,
           "Diluted EPS": -0.13,
           "Diluted Average Shares": 3282150.0,
-          "Selling General And Administration": 5449396.0,
           "General And Administrative Expense": 4777577.0
         },
         "sources": {
@@ -309,25 +323,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 4267427.0,
-          "Gross Profit": 1521924.0,
-          "Cost Of Revenue": 2745503.0,
-          "Operating Income": -6382856.0,
-          "Net Income": -6287497.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance"
         }
       },
       {
@@ -430,18 +426,24 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 3900603.0,
+          "Gross Profit": 538740.0,
+          "Cost Of Revenue": 3361863.0,
           "Operating Income": -11486255.0,
           "Net Income": -13756345.0,
           "Diluted EPS": -0.29,
           "Diluted Average Shares": 47074491.0,
+          "Selling General And Administration": 9649203.0,
           "General And Administrative Expense": 7693271.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -741,7 +743,7 @@
   },
   "validation": {
     "ticker": "VENU",
-    "checked_at": "2026-05-20T14:11:40.514968+00:00",
+    "checked_at": "2026-05-21T14:24:32.822167+00:00",
     "status": "warn",
     "issues": [
       {

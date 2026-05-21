@@ -26,12 +26,12 @@
     "market_cap": 85426639.55999999,
     "ttm_pe": -6.495706419322821,
     "static_pe": -5.964389980463986,
-    "ev_revenue": 43.10002116920258,
+    "ev_revenue": 43.12228293650213,
     "pb": 5.5407193749059935,
     "ps": 52.02571458847947,
     "p_fcf": -13.07947060279853,
     "ttm_pocf": -13.23911996295442,
-    "debt_asset": 0.008723396627749961,
+    "debt_asset": 0.01090747224645388,
     "gross_margin": 0.5913740980555515,
     "op_margin": -7.689584947210975,
     "net_margin": -8.009246605375857,
@@ -358,26 +358,10 @@
       {
         "period": "2024-12-31",
         "items": {
-          "Total Revenue": 887779.0,
-          "Gross Profit": 463845.0,
-          "Cost Of Revenue": 423934.0,
-          "Operating Income": -1402236.0,
-          "Net Income": -1384222.0,
-          "Research And Development": 4435.0,
-          "Selling General And Administration": 1761775.0,
-          "Selling And Marketing Expense": 401695.0,
-          "General And Administrative Expense": 1761775.0
+          "Selling And Marketing Expense": 401695.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "yfinance"
         }
       },
       {
@@ -499,7 +483,8 @@
           "Diluted EPS": -0.14,
           "Diluted Average Shares": 20634454.0,
           "Research And Development": 360397.0,
-          "Selling General And Administration": 758610.0
+          "Selling General And Administration": 758610.0,
+          "General And Administrative Expense": 3331530.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -510,7 +495,8 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -545,13 +531,13 @@
         "period": "2024-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1030327.0,
-          "Capital Expenditure": -209992.0,
-          "Free Cash Flow": -1240319.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1030327.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -677,7 +663,7 @@
           "Net PPE": 314881.0,
           "Inventory": 342061.0,
           "Accounts Receivable": 123686.0,
-          "Total Debt": 209115.0
+          "Total Debt": 146000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -687,7 +673,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -791,7 +777,7 @@
           "Net PPE": 307757.0,
           "Inventory": 453815.0,
           "Accounts Receivable": 61723.0,
-          "Total Debt": 146000.0
+          "Total Debt": 182554.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -800,7 +786,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -845,7 +831,7 @@
   },
   "validation": {
     "ticker": "SPAI",
-    "checked_at": "2026-05-20T14:11:40.509120+00:00",
+    "checked_at": "2026-05-21T14:24:32.816134+00:00",
     "status": "ok",
     "issues": []
   },

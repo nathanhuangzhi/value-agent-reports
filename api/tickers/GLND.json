@@ -49,10 +49,16 @@
       {
         "period": "2026-03-31",
         "items": {
+          "Total Revenue": 0.0,
+          "Operating Income": -818679.0,
+          "Net Income": -818679.0,
           "Diluted EPS": -0.04,
           "Diluted Average Shares": 20078162.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec"
         }
@@ -63,17 +69,30 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2540977.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -2540977.0
+          "Capital Expenditure": -624157.0,
+          "Free Cash Flow": -3165134.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
     "balance_sheet": [
+      {
+        "period": "2025-09-30",
+        "items": {
+          "Total Assets": 0.0,
+          "Common Stock Equity": -473.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
       {
         "period": "2025-12-31",
         "items": {
@@ -148,7 +167,7 @@
   },
   "validation": {
     "ticker": "GLND",
-    "checked_at": "2026-05-20T14:11:40.479277+00:00",
+    "checked_at": "2026-05-21T14:24:32.784277+00:00",
     "status": "error",
     "issues": [
       {

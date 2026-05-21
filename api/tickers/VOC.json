@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 54151800.0,
-    "ttm_pe": 7.3227586206896556,
+    "ttm_pe": 7.239545454545454,
     "static_pe": 7.3227586206896556,
-    "ev_revenue": 6.047041720920693,
-    "pb": 5.206907350803024,
-    "ps": 6.282152181035051,
+    "ev_revenue": 6.305419917643003,
+    "pb": 5.571703068450444,
+    "ps": 6.518620847722374,
     "p_fcf": null,
     "ttm_pocf": null,
     "debt_asset": 0.0,
     "gross_margin": null,
-    "op_margin": 0.8578942044171053,
-    "net_margin": 0.8578942044171053,
-    "roe": 0.7110581709045382,
-    "roa": 0.7110581709045382,
+    "op_margin": 0.9004185260870988,
+    "net_margin": 0.9004185260870988,
+    "roe": 0.7696205657431391,
+    "roa": 0.7696205657431391,
     "dividend_rate": 0.0
   },
   "annual": {
@@ -204,23 +204,6 @@
         }
       },
       {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 3242523.0,
-          "Operating Income": 3060000.0,
-          "Net Income": 3060000.0,
-          "Selling General And Administration": 217558.0,
-          "General And Administrative Expense": 217558.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 1898820.0,
@@ -299,25 +282,31 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 1586124.0,
+          "Operating Income": 1530000.0,
+          "Net Income": 1530000.0,
+          "Diluted EPS": 0.09,
+          "Diluted Average Shares": 17000000.0,
+          "Selling General And Administration": 311650.0,
+          "General And Administrative Expense": 311650.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
       }
     ],
     "cash_flow": [],
     "balance_sheet": [
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Cash And Cash Equivalents": 1744677.0,
-          "Total Assets": 11871877.0,
-          "Common Stock Equity": 11871877.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Total Debt": "yfinance"
-        }
-      },
       {
         "period": "2025-03-31",
         "items": {
@@ -377,6 +366,21 @@
           "Common Stock Equity": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 1771113.0,
+          "Total Assets": 9719075.0,
+          "Common Stock Equity": 9719075.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -420,7 +424,7 @@
   },
   "validation": {
     "ticker": "VOC",
-    "checked_at": "2026-05-20T14:11:40.515522+00:00",
+    "checked_at": "2026-05-21T14:24:32.822740+00:00",
     "status": "error",
     "issues": [
       {

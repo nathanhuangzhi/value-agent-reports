@@ -31,7 +31,7 @@
     "ps": null,
     "p_fcf": null,
     "ttm_pocf": null,
-    "debt_asset": 0.0,
+    "debt_asset": 0.0028912296692235884,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
@@ -74,6 +74,8 @@
           "Cost Of Revenue": 182163.0,
           "Operating Income": -5116107.0,
           "Net Income": -8529263.0,
+          "Diluted EPS": -0.99,
+          "Diluted Average Shares": 5097353.0,
           "Research And Development": 2578860.0,
           "Selling General And Administration": 2665004.0
         },
@@ -83,6 +85,8 @@
           "Cost Of Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
           "Research And Development": "yfinance",
           "Selling General And Administration": "yfinance"
         }
@@ -215,13 +219,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -681797.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -681797.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -285,14 +289,14 @@
           "Total Assets": 24927110.0,
           "Common Stock Equity": 23520591.0,
           "Net PPE": 309457.0,
-          "Total Debt": 0
+          "Total Debt": 72070.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -337,7 +341,7 @@
   },
   "validation": {
     "ticker": "SWMR",
-    "checked_at": "2026-05-20T14:11:40.510913+00:00",
+    "checked_at": "2026-05-21T14:24:32.818030+00:00",
     "status": "error",
     "issues": [
       {
