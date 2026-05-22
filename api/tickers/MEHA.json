@@ -26,12 +26,12 @@
     "market_cap": 1606716.364,
     "ttm_pe": -0.2631575578205332,
     "static_pe": 2.118342739011547,
-    "ev_revenue": 0.20497984235197061,
+    "ev_revenue": 0.25538281231484605,
     "pb": -0.3561960599135756,
     "ps": 0.24100444204447447,
     "p_fcf": -1.1404485401527207,
     "ttm_pocf": -1.1473816327973418,
-    "debt_asset": 0.1161360652247201,
+    "debt_asset": 0.16271580404194538,
     "gross_margin": 0.5367427907151161,
     "op_margin": -0.30738800764990437,
     "net_margin": -0.9158180522743465,
@@ -329,29 +329,6 @@
         }
       },
       {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 1680124.0,
-          "Gross Profit": 993076.0,
-          "Cost Of Revenue": 687048.0,
-          "Operating Income": -139194.0,
-          "Net Income": -283718.0,
-          "Selling General And Administration": 1132270.0,
-          "Selling And Marketing Expense": 121601.0,
-          "General And Administrative Expense": 1010669.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 1590256.0,
@@ -361,7 +338,7 @@
           "Net Income": -126782.0,
           "Diluted EPS": -0.02,
           "Diluted Average Shares": 6917226.0,
-          "Selling General And Administration": 898868.0,
+          "Selling General And Administration": 898867.0,
           "Selling And Marketing Expense": 178630.0,
           "General And Administrative Expense": 720234.0
         },
@@ -465,6 +442,7 @@
           "Net Income": -6990789.0,
           "Diluted EPS": -0.36,
           "Diluted Average Shares": 19594102.0,
+          "Selling General And Administration": 1643938.0,
           "Selling And Marketing Expense": 263707.0,
           "General And Administrative Expense": 1380231.0
         },
@@ -476,6 +454,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -485,14 +464,10 @@
       {
         "period": "2024-12-31",
         "items": {
-          "Cash Flow From Continuing Operating Activities": 59436.0,
-          "Capital Expenditure": 0.0,
-          "Free Cash Flow": 59436.0
+          "Capital Expenditure": 0.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "yfinance"
         }
       },
       {
@@ -707,7 +682,7 @@
           "Net PPE": 32797.0,
           "Inventory": 1591548.0,
           "Accounts Receivable": 372712.0,
-          "Total Debt": 837800.0
+          "Total Debt": 1173824.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -717,7 +692,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -762,7 +737,7 @@
   },
   "validation": {
     "ticker": "MEHA",
-    "checked_at": "2026-05-22T02:20:50.132085+00:00",
+    "checked_at": "2026-05-22T13:56:27.482397+00:00",
     "status": "info",
     "issues": [
       {

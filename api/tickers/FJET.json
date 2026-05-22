@@ -23,23 +23,23 @@
     "logic_summary": "Operates a fleet of F-104 aircraft and provides pilot training, testing, and launch services primarily to the US government and defense sector."
   },
   "snapshot": {
-    "market_cap": 114075635.52000001,
+    "market_cap": 232279354.56,
     "ttm_pe": null,
-    "static_pe": -6.895447495879982,
+    "static_pe": -14.040422272857397,
     "ev_revenue": null,
-    "pb": 4.581249263871741,
+    "pb": 10.356578162442409,
     "ps": null,
-    "p_fcf": null,
-    "ttm_pocf": null,
-    "debt_asset": 0.0,
+    "p_fcf": -21.651353200285456,
+    "ttm_pocf": -21.651353200285456,
+    "debt_asset": 0.05793814630246956,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
     "roe": null,
     "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": -10282297.0,
-    "latest_q_ocf": -3234799.0
+    "latest_q_ni": -4269131.0,
+    "latest_q_ocf": -3963542.0
   },
   "annual": {
     "income_statement": [
@@ -223,25 +223,17 @@
       {
         "period": "2024-09-30",
         "items": {
-          "Total Revenue": 0.0,
-          "Operating Income": -825583.0,
           "Net Income": -2434774.0,
           "Diluted EPS": -0.15,
           "Diluted Average Shares": 16720200.0,
           "Research And Development": 0.0,
-          "Selling General And Administration": 649706.0,
-          "Selling And Marketing Expense": 41625.0,
           "General And Administrative Expense": 54464.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -259,6 +251,31 @@
           "Total Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
+      },
+      {
+        "period": "2025-03-31",
+        "items": {
+          "Total Revenue": 0.0,
+          "Operating Income": -1832477.0,
+          "Net Income": -2653107.0,
+          "Diluted EPS": -0.095222,
+          "Diluted Average Shares": 27862261.0,
+          "Research And Development": 255479.0,
+          "Selling General And Administration": 1093745.0,
+          "Selling And Marketing Expense": 81173.0,
+          "General And Administrative Expense": 1012572.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
           "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "yfinance"
@@ -320,6 +337,31 @@
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 0.0,
+          "Operating Income": -3794247.0,
+          "Net Income": -4269131.0,
+          "Diluted EPS": -0.1,
+          "Diluted Average Shares": 43992302.0,
+          "Research And Development": 83263.0,
+          "Selling General And Administration": 3724089.0,
+          "Selling And Marketing Expense": 508462.0,
+          "General And Administrative Expense": 3215627.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
       }
     ],
     "cash_flow": [
@@ -337,11 +379,37 @@
         }
       },
       {
+        "period": "2025-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -1669732.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1669732.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "yfinance"
+        }
+      },
+      {
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3234799.0,
           "Capital Expenditure": 0,
           "Free Cash Flow": -3234799.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "yfinance"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -3963542.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -3963542.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "yfinance",
@@ -447,6 +515,25 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 1402025.0,
+          "Total Assets": 26340608.0,
+          "Common Stock Equity": 22428195.0,
+          "Net PPE": 2766602.0,
+          "Accounts Receivable": 1532959.0,
+          "Total Debt": 1526126.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -490,7 +577,7 @@
   },
   "validation": {
     "ticker": "FJET",
-    "checked_at": "2026-05-22T02:20:50.118564+00:00",
+    "checked_at": "2026-05-22T13:56:27.469478+00:00",
     "status": "error",
     "issues": [
       {
