@@ -23,21 +23,23 @@
     "logic_summary": "Provides integrated payment processing and business management solutions for small merchants, along with cryptocurrency mining."
   },
   "snapshot": {
-    "market_cap": 3755156.89,
-    "ttm_pe": -0.6392789047967068,
-    "static_pe": -0.6392789047967068,
-    "ev_revenue": 0.4559301937891002,
-    "pb": 0.8153237307915692,
-    "ps": 0.4327759753561955,
-    "p_fcf": -2.8226134053126057,
-    "ttm_pocf": -2.8226134053126057,
-    "debt_asset": 0.017621466368773854,
-    "gross_margin": -0.21265642238645638,
-    "op_margin": -0.5952999150503745,
-    "net_margin": -0.6769752170906062,
-    "roe": -1.2753803147170097,
-    "roa": -0.47769744025845207,
-    "dividend_rate": 0.0
+    "market_cap": 5542967.46,
+    "ttm_pe": -0.945473743461771,
+    "static_pe": -0.9436362503492053,
+    "ev_revenue": 0.42749242328265546,
+    "pb": 0.6842754914486048,
+    "ps": 0.6918577932440183,
+    "p_fcf": -2.2059384625915532,
+    "ttm_pocf": -2.2059384625915532,
+    "debt_asset": 0.01400138128961493,
+    "gross_margin": -0.2896895358858871,
+    "op_margin": -0.6973002659230889,
+    "net_margin": -0.7317578071611384,
+    "roe": -0.7237382277197765,
+    "roa": -0.391434495438032,
+    "dividend_rate": 0.0,
+    "latest_q_ni": -1077582.0,
+    "latest_q_ocf": -1338207.0
   },
   "annual": {
     "income_statement": [
@@ -942,27 +944,6 @@
         }
       },
       {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 2737730.0,
-          "Gross Profit": -223450.0,
-          "Cost Of Revenue": 2961180.0,
-          "Operating Income": -1581076.0,
-          "Net Income": -4546023.0,
-          "Selling General And Administration": 878199.0,
-          "General And Administrative Expense": 878199.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 2321536.0,
@@ -1057,22 +1038,34 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 1656344.0,
+          "Gross Profit": -494344.0,
+          "Cost Of Revenue": 2150688.0,
+          "Operating Income": -1269888.0,
+          "Net Income": -1077582.0,
+          "Diluted EPS": -0.08,
+          "Diluted Average Shares": 12890622.0,
+          "Selling General And Administration": 772134.0,
+          "General And Administrative Expense": 772134.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -424700.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -424700.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1163,30 +1156,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -1338207.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1338207.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "yfinance"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-03-31",
-        "items": {
-          "Cash And Cash Equivalents": 3319.0,
-          "Total Assets": 18280541.0,
-          "Common Stock Equity": 11134432.0,
-          "Goodwill": 8139889.0,
-          "Net PPE": 5122231.0,
-          "Accounts Receivable": 207274.0,
-          "Total Debt": 371196.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1333,6 +1318,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 2327723.0,
+          "Total Assets": 14977308.0,
+          "Common Stock Equity": 8100491.0,
+          "Goodwill": 8139889.0,
+          "Net PPE": 2721710.0,
+          "Accounts Receivable": 16139.0,
+          "Total Debt": 209703.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -1376,13 +1382,13 @@
   },
   "validation": {
     "ticker": "OLB",
-    "checked_at": "2026-05-21T16:38:56.161881+00:00",
+    "checked_at": "2026-05-22T02:20:50.138276+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 233 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 234 days old (>180)"
       },
       {
         "severity": "info",

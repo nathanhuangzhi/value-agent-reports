@@ -37,7 +37,9 @@
     "net_margin": null,
     "roe": -1.651032539740433,
     "roa": -1.2330377774598413,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": -1919241.0,
+    "latest_q_ocf": -1589200.0
   },
   "annual": {
     "income_statement": [
@@ -862,13 +864,13 @@
   },
   "validation": {
     "ticker": "BJDX",
-    "checked_at": "2026-05-21T16:38:56.131634+00:00",
+    "checked_at": "2026-05-22T02:20:50.102526+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2022-06-30 is 1421 days old (>180)"
+        "detail": "latest quarterly period 2022-06-30 is 1422 days old (>180)"
       },
       {
         "severity": "info",

@@ -37,7 +37,9 @@
     "net_margin": -0.819652769576001,
     "roe": 1.5754824063564132,
     "roa": -0.7826773429570317,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": -3412000.0,
+    "latest_q_ocf": -3728000.0
   },
   "annual": {
     "income_statement": [
@@ -863,13 +865,13 @@
   },
   "validation": {
     "ticker": "MDAI",
-    "checked_at": "2026-05-21T16:38:56.156390+00:00",
+    "checked_at": "2026-05-22T02:20:50.132031+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 233 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 234 days old (>180)"
       }
     ]
   },

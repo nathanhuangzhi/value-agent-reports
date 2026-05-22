@@ -37,7 +37,9 @@
     "net_margin": -0.7156645491702369,
     "roe": -1.542699432089592,
     "roa": -0.3111458422540036,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": -9552000.0,
+    "latest_q_ocf": -7967000.0
   },
   "annual": {
     "income_statement": [
@@ -1568,13 +1570,13 @@
   },
   "validation": {
     "ticker": "CLPT",
-    "checked_at": "2026-05-21T16:38:56.136795+00:00",
+    "checked_at": "2026-05-22T02:20:50.108783+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 233 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 234 days old (>180)"
       }
     ]
   },

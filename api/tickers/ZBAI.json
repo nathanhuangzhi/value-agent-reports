@@ -37,7 +37,9 @@
     "net_margin": -3.831665,
     "roe": -0.4758120655354311,
     "roa": -0.44044577576587357,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": -738427.0,
+    "latest_q_ocf": -322628.0
   },
   "annual": {
     "income_statement": [
@@ -799,13 +801,13 @@
   },
   "validation": {
     "ticker": "ZBAI",
-    "checked_at": "2026-05-21T16:38:56.184385+00:00",
+    "checked_at": "2026-05-22T02:20:50.164211+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-04-30 is 386 days old (>180)"
+        "detail": "latest quarterly period 2025-04-30 is 387 days old (>180)"
       }
     ]
   },

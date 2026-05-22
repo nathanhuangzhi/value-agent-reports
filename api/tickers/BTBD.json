@@ -24,20 +24,22 @@
   },
   "snapshot": {
     "market_cap": 6954838.119999999,
-    "ttm_pe": -27.924684389517257,
+    "ttm_pe": -3.6316877062290502,
     "static_pe": -10.111142462116861,
-    "ev_revenue": 0.6064071778557375,
+    "ev_revenue": 0.6567642944655546,
     "pb": 1.2236350424860196,
-    "ps": 0.527954302916334,
-    "p_fcf": 27.486871284937394,
-    "ttm_pocf": 15.996223653341918,
+    "ps": 0.5717965550654954,
+    "p_fcf": -47.46843749786711,
+    "ttm_pocf": 581.8487509411863,
     "debt_asset": 0.2052798510454079,
     "gross_margin": null,
-    "op_margin": 0.03626549758441051,
-    "net_margin": -0.018906365979001884,
-    "roe": -0.04381911807552476,
-    "roa": -0.02495841216649564,
-    "dividend_rate": 0.0
+    "op_margin": -0.040295617889270975,
+    "net_margin": -0.15744651008531188,
+    "roe": -0.33693289221626843,
+    "roa": -0.19190961310287327,
+    "dividend_rate": 0.0,
+    "latest_q_ni": -751011.0,
+    "latest_q_ocf": -97650.0
   },
   "annual": {
     "income_statement": [
@@ -513,25 +515,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2025-03-30",
-        "items": {
-          "Total Revenue": 3231073.0,
-          "Operating Income": -292196.0,
-          "Net Income": -329849.0,
-          "Diluted EPS": -0.05,
-          "Diluted Average Shares": 6154724.0,
-          "General And Administrative Expense": 451034.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 3231073.0,
@@ -679,22 +662,34 @@
           "Diluted Average Shares": "sec",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 2843634.0,
+          "Gross Profit": 769287.0,
+          "Cost Of Revenue": 2074347.0,
+          "Operating Income": -232811.0,
+          "Net Income": -751011.0,
+          "Diluted EPS": -0.12,
+          "Diluted Average Shares": 6154724.0,
+          "Selling General And Administration": 652924.0,
+          "General And Administrative Expense": 652924.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2025-03-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -306739.0,
-          "Capital Expenditure": 124365.0,
-          "Free Cash Flow": -431104.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2025-03-31",
         "items": {
@@ -785,32 +780,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -97650.0,
+          "Capital Expenditure": -40113.0,
+          "Free Cash Flow": -137763.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2025-03-31",
-        "items": {
-          "Cash And Cash Equivalents": 1070101.0,
-          "Total Assets": 11003980.0,
-          "Common Stock Equity": 6666378.0,
-          "Goodwill": 796220.0,
-          "Net PPE": 4709481.0,
-          "Inventory": 238247.0,
-          "Accounts Receivable": 35431.0,
-          "Total Debt": 2230824.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
-        }
-      },
       {
         "period": "2025-06-29",
         "items": {
@@ -971,6 +956,29 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 1014989.0,
+          "Total Assets": 9978880.0,
+          "Common Stock Equity": 5683752.0,
+          "Goodwill": 796220.0,
+          "Net PPE": 3577491.0,
+          "Inventory": 802385.0,
+          "Accounts Receivable": 17033.0,
+          "Total Debt": 2048463.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -1014,7 +1022,7 @@
   },
   "validation": {
     "ticker": "BTBD",
-    "checked_at": "2026-05-21T16:38:56.133858+00:00",
+    "checked_at": "2026-05-22T02:20:50.105180+00:00",
     "status": "warn",
     "issues": [
       {

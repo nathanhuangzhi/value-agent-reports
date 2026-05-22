@@ -37,7 +37,9 @@
     "net_margin": -0.09056955594950644,
     "roe": -1.4554815034797772,
     "roa": -0.2323185322828593,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": -3677203.0,
+    "latest_q_ocf": -199615.0
   },
   "annual": {
     "income_statement": [
@@ -297,6 +299,27 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 15894358.0,
+          "Gross Profit": 6054377.0,
+          "Cost Of Revenue": 9839981.0,
+          "Operating Income": -601746.0,
+          "Net Income": -701463.0,
+          "Diluted EPS": -0.08,
+          "Diluted Average Shares": 9226860.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 15594575.0,
@@ -338,25 +361,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 19652407.0,
-          "Gross Profit": 8112657.0,
-          "Cost Of Revenue": 11539750.0,
-          "Operating Income": -321750.0,
-          "Net Income": -550788.0,
-          "Selling General And Administration": 8434407.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -796,7 +800,7 @@
   },
   "validation": {
     "ticker": "HCWC",
-    "checked_at": "2026-05-21T16:38:56.147414+00:00",
+    "checked_at": "2026-05-22T02:20:50.121407+00:00",
     "status": "info",
     "issues": [
       {

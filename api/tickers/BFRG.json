@@ -37,7 +37,9 @@
     "net_margin": -52.05859261163967,
     "roe": -2.4294704,
     "roa": -1.0965564593310937,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": -1593161.0,
+    "latest_q_ocf": -1694088.0
   },
   "annual": {
     "income_statement": [
@@ -811,13 +813,13 @@
   },
   "validation": {
     "ticker": "BFRG",
-    "checked_at": "2026-05-21T16:38:56.130836+00:00",
+    "checked_at": "2026-05-22T02:20:50.101626+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 233 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 234 days old (>180)"
       },
       {
         "severity": "info",

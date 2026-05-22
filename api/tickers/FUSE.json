@@ -24,7 +24,7 @@
   },
   "snapshot": {
     "market_cap": 42250595.44,
-    "ttm_pe": null,
+    "ttm_pe": -1.8387672938522845,
     "static_pe": -45.52865887931034,
     "ev_revenue": null,
     "pb": -2.810523211601144,
@@ -35,9 +35,11 @@
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": null,
-    "roa": null,
-    "dividend_rate": 0.0
+    "roe": 1.5284822723341982,
+    "roa": -4.647587783171521,
+    "dividend_rate": 0.0,
+    "latest_q_ni": -872000.0,
+    "latest_q_ocf": -2224000.0
   },
   "annual": {
     "income_statement": [
@@ -415,9 +417,11 @@
           "Gross Profit": 948000.0,
           "Cost Of Revenue": 931000.0,
           "Operating Income": -3035000.0,
+          "Net Income": -872000.0,
           "Diluted EPS": -0.03,
           "Diluted Average Shares": 28938764.0,
           "Research And Development": 298000.0,
+          "Selling General And Administration": 3685000.0,
           "Selling And Marketing Expense": 412000.0,
           "General And Administrative Expense": 3273000.0
         },
@@ -426,9 +430,11 @@
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
+          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -672,7 +678,7 @@
   },
   "validation": {
     "ticker": "FUSE",
-    "checked_at": "2026-05-21T16:38:56.145794+00:00",
+    "checked_at": "2026-05-22T02:20:50.119093+00:00",
     "status": "info",
     "issues": [
       {

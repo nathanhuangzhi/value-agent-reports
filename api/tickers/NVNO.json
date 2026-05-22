@@ -37,7 +37,9 @@
     "net_margin": null,
     "roe": -0.792436939402872,
     "roa": -0.7210790512319424,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": -3849000.0,
+    "latest_q_ocf": -3238000.0
   },
   "annual": {
     "income_statement": [
@@ -983,13 +985,13 @@
   },
   "validation": {
     "ticker": "NVNO",
-    "checked_at": "2026-05-21T16:38:56.161045+00:00",
+    "checked_at": "2026-05-22T02:20:50.137280+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2019-03-31 is 2608 days old (>180)"
+        "detail": "latest quarterly period 2019-03-31 is 2609 days old (>180)"
       },
       {
         "severity": "info",

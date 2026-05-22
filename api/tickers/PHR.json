@@ -37,7 +37,9 @@
     "net_margin": 0.004798258810506231,
     "roe": 0.006838529449270033,
     "roa": 0.003473990268006448,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": 1295000.0,
+    "latest_q_ocf": 33662000.0
   },
   "annual": {
     "income_statement": [
@@ -1143,13 +1145,13 @@
   },
   "validation": {
     "ticker": "PHR",
-    "checked_at": "2026-05-21T16:38:56.165129+00:00",
+    "checked_at": "2026-05-22T02:20:50.141841+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-10-31 is 202 days old (>180)"
+        "detail": "latest quarterly period 2025-10-31 is 203 days old (>180)"
       },
       {
         "severity": "info",

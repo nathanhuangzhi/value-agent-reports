@@ -37,7 +37,9 @@
     "net_margin": -0.39301221056503016,
     "roe": -0.7891283688620622,
     "roa": -0.387212977583499,
-    "dividend_rate": 0.0
+    "dividend_rate": 0.0,
+    "latest_q_ni": 907048.0,
+    "latest_q_ocf": -4418532.0
   },
   "annual": {
     "income_statement": [
@@ -1486,6 +1488,7 @@
           "Goodwill": 7686141.0,
           "Net PPE": 16540949.0,
           "Inventory": 6740579.0,
+          "Accounts Receivable": 13874113.0,
           "Total Debt": 17526344.0
         },
         "sources": {
@@ -1495,6 +1498,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -1540,7 +1544,7 @@
   },
   "validation": {
     "ticker": "CETX",
-    "checked_at": "2026-05-21T16:38:56.136140+00:00",
+    "checked_at": "2026-05-22T02:20:50.108035+00:00",
     "status": "warn",
     "issues": [
       {
