@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Valueland — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+         max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.55; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  .meta { color: #777; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 18px; margin-top: 32px; }
+  ul { padding-left: 20px; }
+  a { color: #166534; }
+  code { background: #f4f4f4; padding: 1px 6px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>Valueland Privacy Policy</h1>
+<p class="meta">Last updated: May 2026</p>
+
+<p>
+Valueland is a value-investing research app. This page describes what data
+the app handles and what it does not.
+</p>
+
+<h2>Information we collect</h2>
+<p>
+<b>None.</b> Valueland does not require an account, does not ask for
+personal information, and does not track usage. The app makes anonymous
+HTTPS requests to its public data CDN
+(<code>value-agent-reports.vercel.app</code>) to fetch the daily
+research payloads. No identifiers about you or your device are sent
+beyond what your network stack adds by default (e.g. IP address visible
+to the CDN, which is not stored).
+</p>
+
+<h2>Where the data comes from</h2>
+<ul>
+  <li><b>SEC EDGAR</b> — annual and quarterly financial statements
+      (10-K / 10-Q XBRL filings), public domain.</li>
+  <li><b>Yahoo Finance (yfinance)</b> — price history and supplementary
+      financial statement data.</li>
+  <li><b>Exa</b> — public web articles cited as sources in the
+      narrative.</li>
+  <li><b>DeepSeek</b> — large language model that writes the per-ticker
+      Munger-style analysis narrative.</li>
+</ul>
+<p>
+All four are queried from our backend pipeline, not from the app
+itself. The app only reads the resulting static JSON files.
+</p>
+
+<h2>Third-party services</h2>
+<p>
+The app contacts only the Valueland data CDN. It does not embed
+analytics, advertising, crash reporting, or any other third-party SDK
+that would communicate with external servers.
+</p>
+
+<h2>Not investment advice</h2>
+<p>
+The information in Valueland is provided for research and educational
+purposes only. It is not a recommendation, solicitation, or
+endorsement to buy, sell, or hold any security. Consult a qualified
+financial professional before making investment decisions. We make no
+guarantee about the accuracy or timeliness of the data shown.
+</p>
+
+<h2>Children</h2>
+<p>
+Valueland is not directed to children under 13. We do not knowingly
+collect any information from anyone of any age.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+If we change this policy we will update the "Last updated" date at the
+top of this page. Material changes will also be highlighted in a
+future app release.
+</p>
+
+<h2>Contact</h2>
+<p>
+Questions about this policy: <a href="mailto:nathanhz2013@gmail.com">nathanhz2013@gmail.com</a>.
+</p>
+
+</body>
+</html>
