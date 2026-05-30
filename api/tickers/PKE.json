@@ -23,22 +23,22 @@
     "logic_summary": "Develops and manufactures advanced composite materials for the aerospace industry, selling directly to aircraft and engine manufacturers."
   },
   "snapshot": {
-    "market_cap": 673986300.0,
-    "ttm_pe": 70.84152827412234,
-    "static_pe": 114.58454607276437,
-    "ev_revenue": 9.665054096785195,
-    "pb": 6.323047695887121,
-    "ps": 10.447132405369377,
-    "p_fcf": 160.9327363896848,
-    "ttm_pocf": 109.21832766164317,
+    "market_cap": 684819720.0,
+    "ttm_pe": null,
+    "static_pe": 116.42633798027882,
+    "ev_revenue": null,
+    "pb": 6.424682152506755,
+    "ps": null,
+    "p_fcf": 163.5195128939828,
+    "ttm_pocf": 110.97386485172582,
     "debt_asset": 0.0003641013048374669,
-    "gross_margin": 0.3170629630777816,
-    "op_margin": 0.1755742939517004,
-    "net_margin": 0.14747186657159686,
-    "roe": 0.08925622936055239,
-    "roa": 0.08055953056334092,
+    "gross_margin": null,
+    "op_margin": null,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": 2950000.0,
+    "latest_q_ni": null,
     "latest_q_ocf": 5108000.0
   },
   "annual": {
@@ -989,29 +989,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-09-01",
-        "items": {
-          "Total Revenue": 16709000.0,
-          "Gross Profit": 4757000.0,
-          "Cost Of Revenue": 11952000.0,
-          "Operating Income": 2617000.0,
-          "Net Income": 2066000.0,
-          "Diluted EPS": 0.1,
-          "Diluted Average Shares": 20291000.0,
-          "Selling General And Administration": 2140000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-11-30",
         "items": {
           "Total Revenue": 14408000.0,
@@ -1019,8 +996,6 @@
           "Cost Of Revenue": 10580000.0,
           "Operating Income": 1846000.0,
           "Net Income": 1577000.0,
-          "Diluted EPS": 0.08,
-          "Diluted Average Shares": 20077000.0,
           "Selling General And Administration": 1982000.0
         },
         "sources": {
@@ -1029,8 +1004,6 @@
           "Cost Of Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "yfinance"
         }
       },
@@ -1170,6 +1143,17 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2026-02-28",
+        "items": {
+          "Diluted EPS": 0.19,
+          "Diluted Average Shares": 20418000.0
+        },
+        "sources": {
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -1492,13 +1476,18 @@
   },
   "validation": {
     "ticker": "PKE",
-    "checked_at": "2026-05-29T14:20:51.044816+00:00",
+    "checked_at": "2026-05-30T13:47:51.575825+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "ni_exceeds_revenue",
         "detail": "FY2018 |Net Income| 114M > 1.5× Revenue 51M — heavy cash burn"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-11-30 is 181 days old (>180)"
       },
       {
         "severity": "warn",
