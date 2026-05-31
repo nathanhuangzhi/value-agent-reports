@@ -1163,9 +1163,6 @@
         "period": "2025-07-31",
         "items": {
           "Total Revenue": 82149000.0,
-          "Gross Profit": 16837000.0,
-          "Cost Of Revenue": 65312000.0,
-          "Operating Income": -4401000.0,
           "Net Income": -3277000.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 10612000.0,
@@ -1173,9 +1170,6 @@
         },
         "sources": {
           "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
@@ -1277,16 +1271,16 @@
     ],
     "cash_flow": [
       {
-        "period": "2024-10-27",
+        "period": "2024-10-31",
         "items": {
-          "Cash Flow From Continuing Operating Activities": -17648000.0,
-          "Capital Expenditure": 1235000.0,
-          "Free Cash Flow": -18883000.0
+          "Cash Flow From Continuing Operating Activities": -17184000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -17184000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -1413,7 +1407,6 @@
           "Common Stock Equity": 193120000.0,
           "Goodwill": 15036000.0,
           "Net PPE": 70019000.0,
-          "Inventory": 58532000.0,
           "Accounts Receivable": 41316000.0,
           "Total Debt": 13023000.0
         },
@@ -1423,7 +1416,6 @@
           "Common Stock Equity": "yfinance",
           "Goodwill": "yfinance",
           "Net PPE": "yfinance",
-          "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
@@ -1555,7 +1547,7 @@
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** Demand remains under pressure from softer hospitality project activity, a sluggish housing cycle, and cautious discretionary spending, compounded by one‑off weather disruptions and a shorter fiscal period. Despite slumping volumes, the business returned to profitability, helped by a pronounced margin expansion that hints at favorable mix shifts and tighter cost control. Market commentary frames HOFT as a restructuring story, not a growth company, tightly linked to the housing and consumer cycle. The stock’s technical move above its 200‑day average sits alongside cautious analyst ratings — ranging from hold to sell — reflecting a mixed but incrementally stabilizing demand picture.\n\n**Management strategy and execution:** Leadership is executing a portfolio‑simplification and cost‑discipline plan, with the return to operating profitability from continuing operations demonstrating early traction. Management has avoided aggressive guidance, focusing instead on stabilizing the earnings base and repairing margins in a difficult revenue environment. The narrative has edged from deep downturn toward tentative stabilization, supported by an upgrade from “strong sell” to “hold,” though persistent sell ratings indicate skepticism that the restructuring can generate durable earnings improvement beyond cycle‑related cost takeouts. Overall, execution is showing green shoots, but credibility hinges on sustaining progress against uncertain end‑market demand.",
+    "text": "**Business & market dynamics:** Demand remains under pressure from soft housing activity, muted consumer discretionary spending, and project delays in hospitality, compounded by weather-related disruptions. The core branded residential segment is holding steady, but overall revenue momentum is challenged as the company navigates a sluggish macro environment. The recent technical break above the 200-day moving average and mixed analyst ratings suggest cautious optimism that the cycle may be finding a floor, though no clear growth catalysts have emerged.\n\n**Management strategy and execution:** Leadership is driving a restructuring and portfolio-simplification plan, delivering a return to operating profitability despite lower sales through strict cost control and gross-margin improvement. The focus is on stabilizing the business rather than growth, and early signs of credibility are building as the company meets a key profitability milestone. Analyst sentiment remains divided, with some upgrading from deeply bearish to neutral, while others remain cautious, reflecting a wait-and-see posture as the turnaround progresses.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
@@ -1594,13 +1586,13 @@
   },
   "validation": {
     "ticker": "HOFT",
-    "checked_at": "2026-05-30T13:47:51.553492+00:00",
+    "checked_at": "2026-05-31T13:48:24.750027+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-11-02 is 209 days old (>180)"
+        "detail": "latest quarterly period 2025-11-02 is 210 days old (>180)"
       },
       {
         "severity": "info",
@@ -1619,5 +1611,5 @@
       }
     ]
   },
-  "analyzed_date": "2026-05-30"
+  "analyzed_date": "2026-05-31"
 }

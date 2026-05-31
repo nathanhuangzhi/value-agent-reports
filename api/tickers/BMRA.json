@@ -1188,13 +1188,13 @@
         "period": "2024-08-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1344000.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -1344000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1487,7 +1487,7 @@
   },
   "validation": {
     "ticker": "BMRA",
-    "checked_at": "2026-05-30T13:47:51.532291+00:00",
+    "checked_at": "2026-05-31T13:48:24.726244+00:00",
     "status": "ok",
     "issues": []
   },
