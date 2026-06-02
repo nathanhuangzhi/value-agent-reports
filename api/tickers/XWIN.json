@@ -23,14 +23,14 @@
     "logic_summary": "XMax designs, manufactures, and sells residential and commercial furniture, and also develops AI software and hardware."
   },
   "snapshot": {
-    "market_cap": 376121233.34000003,
-    "ttm_pe": -130.22718126524094,
-    "static_pe": -110.02271509967011,
-    "ev_revenue": 23.425585510248915,
-    "pb": 9.321246912186,
-    "ps": 23.702073334776006,
-    "p_fcf": -491.6842382854118,
-    "ttm_pocf": -491.6842382854118,
+    "market_cap": 524719200,
+    "ttm_pe": null,
+    "static_pe": null,
+    "ev_revenue": null,
+    "pb": null,
+    "ps": null,
+    "p_fcf": null,
+    "ttm_pocf": null,
     "debt_asset": 0.11717756002878829,
     "gross_margin": 0.24341827241616298,
     "op_margin": -0.14306301975725053,
@@ -1533,7 +1533,7 @@
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** The company is pivoting from its legacy furniture design operations toward an AI platform model, with early enterprise adoption generating a meaningful backlog of contracted AI work and a growing near-term pipeline. Legacy product lines faced revenue pressure, but the narrative centers on AI momentum and the opportunistic holding of an indirect SpaceX stake, which ties the story to a highly anticipated IPO in the space economy.\n\n**Management strategy and execution:** Leadership has executed a deliberate transformation, establishing a dedicated AI subsidiary and securing cloud and technology partnerships to commercialize the platform. They have restored profitability in the core business while redirecting resources toward the AI pipeline, and the SpaceX-linked investment reflects an opportunistic capital allocation stance. This repositioning has attracted analyst initiation coverage, signaling that the strategic shift is beginning to build market credibility.",
+    "text": "**Business & market dynamics:** XMax is undergoing a visible pivot from legacy furniture design into an AI platform company. Early AI commercialization is gaining traction, evidenced by contracted recurring revenue and a sizable enterprise pipeline that signals demand for its cloud and AI offerings. The core furniture segment provides a stable but secondary base; the market narrative is now dominated by the AI transformation. An indirect stake in SpaceX via a fund investment adds a speculative, event-driven catalyst tied to the widely anticipated IPO.\n\n**Management strategy and execution:** Leadership has moved decisively to form XMax AI, signing cloud and platform partnerships that accelerate commercialization. The board‑approved expansion coincided with a swing to profitability and a strengthening cash position, reflecting controlled execution of the pivot. Ambitious pipeline targets and the opportunistic SpaceX‑linked investment highlight an opportunistic capital‑allocation stance. Early analyst coverage initiated with a Buy rating points to emerging, though still promotion‑heavy, credibility for this early‑stage story.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
@@ -1572,9 +1572,14 @@
   },
   "validation": {
     "ticker": "XWIN",
-    "checked_at": "2026-06-01T15:22:09.036770+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-02T14:42:04.467077+00:00",
+    "status": "error",
     "issues": [
+      {
+        "severity": "error",
+        "rule": "no_price_history",
+        "detail": "no price_history in analyzed row"
+      },
       {
         "severity": "warn",
         "rule": "gross_margin_out_of_range",
@@ -1609,13 +1614,8 @@
         "severity": "info",
         "rule": "eps_mismatch",
         "detail": "FY2019 reported EPS -1.08 vs NI/shares -1.52 (-41%)"
-      },
-      {
-        "severity": "info",
-        "rule": "mcap_reconciliation",
-        "detail": "Stage-1 mcap 0.52B vs price×shares 0.17B (-67%)"
       }
     ]
   },
-  "analyzed_date": "2026-06-01"
+  "analyzed_date": "2026-06-02"
 }
