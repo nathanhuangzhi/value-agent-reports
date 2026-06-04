@@ -44,17 +44,6 @@
   "annual": {
     "income_statement": [
       {
-        "period": "2021-12-31",
-        "items": {
-          "Diluted EPS": 0.985,
-          "Diluted Average Shares": 11500000.0
-        },
-        "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
-        }
-      },
-      {
         "period": "2022-12-31",
         "items": {
           "Total Revenue": 27204590.0,
@@ -123,6 +112,8 @@
           "Total Revenue": 11306573.0,
           "Operating Income": 10407500.0,
           "Net Income": 10407500.0,
+          "Diluted EPS": 0.905,
+          "Diluted Average Shares": 11500000.0,
           "Selling General And Administration": 1012363.0,
           "General And Administrative Expense": 1012363.0
         },
@@ -130,6 +121,8 @@
           "Total Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
@@ -557,7 +550,7 @@
   },
   "validation": {
     "ticker": "MVO",
-    "checked_at": "2026-06-03T14:49:58.961212+00:00",
+    "checked_at": "2026-06-04T14:18:01.432525+00:00",
     "status": "error",
     "issues": [
       {
