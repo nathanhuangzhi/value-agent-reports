@@ -48,7 +48,6 @@
         "items": {
           "Operating Income": -555362.0,
           "Net Income": -585840.0,
-          "Diluted EPS": -0.103681,
           "Diluted Average Shares": 4116336.0,
           "Research And Development": 25000.0,
           "General And Administrative Expense": 327329.0,
@@ -57,7 +56,6 @@
         "sources": {
           "Operating Income": "sec",
           "Net Income": "sec",
-          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "General And Administrative Expense": "sec",
@@ -813,13 +811,13 @@
   },
   "validation": {
     "ticker": "BFRG",
-    "checked_at": "2026-06-05T14:14:28.814236+00:00",
+    "checked_at": "2026-06-06T13:47:39.780622+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 248 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 249 days old (>180)"
       },
       {
         "severity": "info",

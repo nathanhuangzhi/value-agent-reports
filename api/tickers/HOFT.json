@@ -23,14 +23,14 @@
     "logic_summary": "Designs, manufactures, imports, and markets residential and hospitality furniture and décor products through retailers in North America."
   },
   "snapshot": {
-    "market_cap": 131884252.50000001,
-    "ttm_pe": -2.9249762137106616,
-    "static_pe": -4.890579319167872,
-    "ev_revenue": 0.4611128785819244,
-    "pb": 0.7792643226858582,
-    "ps": 0.45384837279888235,
-    "p_fcf": 8.711556410595152,
-    "ttm_pocf": 7.206002212872911,
+    "market_cap": 137816250.0,
+    "ttm_pe": -3.0565381800439133,
+    "static_pe": -5.11055178551563,
+    "ev_revenue": 0.48152644094276836,
+    "pb": 0.8143147091147588,
+    "ps": 0.4742619351597262,
+    "p_fcf": 9.103391901710813,
+    "ttm_pocf": 7.530119659053655,
     "debt_asset": 0.014267943388625488,
     "gross_margin": 0.25386883970941976,
     "op_margin": -0.07054932878168974,
@@ -1163,9 +1163,6 @@
         "period": "2025-07-31",
         "items": {
           "Total Revenue": 82149000.0,
-          "Gross Profit": 16837000.0,
-          "Cost Of Revenue": 65312000.0,
-          "Operating Income": -4401000.0,
           "Net Income": -3277000.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 10612000.0,
@@ -1173,9 +1170,6 @@
         },
         "sources": {
           "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
@@ -1277,16 +1271,16 @@
     ],
     "cash_flow": [
       {
-        "period": "2024-10-27",
+        "period": "2024-10-31",
         "items": {
-          "Cash Flow From Continuing Operating Activities": -17648000.0,
-          "Capital Expenditure": 1235000.0,
-          "Free Cash Flow": -18883000.0
+          "Cash Flow From Continuing Operating Activities": -17184000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -17184000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -1413,7 +1407,6 @@
           "Common Stock Equity": 193120000.0,
           "Goodwill": 15036000.0,
           "Net PPE": 70019000.0,
-          "Inventory": 58532000.0,
           "Accounts Receivable": 41316000.0,
           "Total Debt": 13023000.0
         },
@@ -1423,7 +1416,6 @@
           "Common Stock Equity": "yfinance",
           "Goodwill": "yfinance",
           "Net PPE": "yfinance",
-          "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
@@ -1555,10 +1547,16 @@
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** Subdued housing activity and cautious consumer spending continue to pressure demand, with hospitality project shipments contracting and weather adding to the revenue shortfall. Yet Hooker’s core branded residential business held stable, and a shift toward higher-margin mix supported improved profitability. The result is a mixed picture of soft top-line momentum against strengthening unit economics, as the company navigates a tough macro backdrop while early internal simplification efforts begin to show.\n\n**Management strategy and execution:** Management is driving a portfolio-simplification and cost-restructuring plan. Returning continuing operations to operating profitability despite revenue headwinds signals initial traction. A large non-cash impairment charge cleared legacy asset drag, while margin gains reflect tighter operational discipline. External analysts acknowledge the progress—one notably upgraded from a deep sell to hold—but remain cautious. Credibility is gradually being rebuilt, though the turnaround is still in its early stages and not yet proven.",
+    "text": "**Business & market dynamics:** The narrative is mixed, with hospitality project pullback, weather disruptions, and a shorter quarter masking a more stable core residential business. The branded segment shows resilience while hospitality remains a drag. External factors like housing and consumer spending weigh on demand, but the story is less about growth and more about offsetting revenue softness with margin recovery.\n\n**Management strategy and execution:** Leadership is restructuring and simplifying the portfolio to return to profitability, even amid lower sales. The return to operating income signals early execution, though revenue misses persist. Mixed analyst sentiment—one upgrade to hold and a 200-day moving average cross—suggest tentative market acknowledgment, but a sell rating reflects lingering doubt.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
+      {
+        "title": "Hooker Furnishings Reports Fiscal 2026 Fourth Quarter Net Income and Full Year Results",
+        "url": "https://finviz.com/news/345020/hooker-furnishings-reports-fiscal-2026-fourth-quarter-net-income-and-full-year-results",
+        "snippet": "Hooker Furnishings Reports Fiscal 2026 Fourth Quarter Net Income and Full Year Results\n\n# Hooker Furnishings Reports Fiscal 2026 Fourth Quarter Net Income and Full Year Results\n\nBy Hooker Furnishings Corporation| April 16, 2026, 6:00 AM\n\nHOFT -0.08% Hooker Furnishings Corp\n\nMARTINSVILLE, Va., April 16, 2026(GLOBE NEWSWIRE)-- Hooker Furnishings Corporation (NASDAQ-GS: HOFT) (“Hooker” or the “Company”), a global leader in home furnishings, today reported its operating results for its fiscal 2026 fourth quarter and full-year ended February 1, 2026. The fiscal 2026 fourth quarter and full year comprised 13 weeks and 52 weeks, respectively, in contrast to 14 weeks and 53 weeks in the corresponding periods of the previous year.\n\nKey Results for the Fourth Quarter Fiscal 2026:\n\n- Continuing operations returned to profitability with operating income of $0.6 million despite lower sales volume.\n- Net sales of $67.0 million, down 20.5% year-over-year, primarily due to lower hospitality project sh",
+        "published_date": null
+      },
       {
         "title": "Hooker Furnishings Corporation (NASDAQ: HOFT) – Q4 2026 Earnings",
         "url": "https://deltasheets.substack.com/p/hoft-fy2026-q4",
@@ -1566,9 +1564,9 @@
         "published_date": "2026-04-18T01:23:57.000Z"
       },
       {
-        "title": "Hooker Furnishings Reports Fiscal 2026 Fourth Quarter Net Income and Full Year Results",
-        "url": "https://finviz.com/news/345020/hooker-furnishings-reports-fiscal-2026-fourth-quarter-net-income-and-full-year-results",
-        "snippet": "Hooker Furnishings Reports Fiscal 2026 Fourth Quarter Net Income and Full Year Results\n\n# Hooker Furnishings Reports Fiscal 2026 Fourth Quarter Net Income and Full Year Results\n\nBy Hooker Furnishings Corporation| April 16, 2026, 6:00 AM\n\nHOFT -0.08% Hooker Furnishings Corp\n\nMARTINSVILLE, Va., April 16, 2026(GLOBE NEWSWIRE)-- Hooker Furnishings Corporation (NASDAQ-GS: HOFT) (“Hooker” or the “Company”), a global leader in home furnishings, today reported its operating results for its fiscal 2026 fourth quarter and full-year ended February 1, 2026. The fiscal 2026 fourth quarter and full year comprised 13 weeks and 52 weeks, respectively, in contrast to 14 weeks and 53 weeks in the corresponding periods of the previous year.\n\nKey Results for the Fourth Quarter Fiscal 2026:\n\n- Continuing operations returned to profitability with operating income of $0.6 million despite lower sales volume.\n- Net sales of $67.0 million, down 20.5% year-over-year, primarily due to lower hospitality project sh",
+        "title": "Stonegate Updates Coverage on Hooker Furniture Corporation (HOFT) 4Q26",
+        "url": "https://www.newsfilecorp.com/release/293361/Stonegate-Updates-Coverage-on-Hooker-Furniture-Corporation-HOFT-4Q26",
+        "snippet": "Stonegate Updates Coverage on Hooker Furniture Corporation (HOFT) 4Q26\n\n# Stonegate Updates Coverage on Hooker Furniture Corporation (HOFT) 4Q26\n\nApril 20, 2026 9:40 AM EDT | Source: Reportable, Inc.\n\nDallas, Texas--(Newsfile Corp. - April 20, 2026) - Hooker Furniture Corporation (NASDAQ: HOFT): Stonegate Capital Partners updates their coverage on Hooker Furniture Corporation (NASDAQ: HOFT). HOFT reported revenue, operating income, and adj EPS of $67.0M, $0.6M, and $0.05, respectively. This compares to our/consensus estimates of $77.1M/$74.1M, $1.6M/$1.0M, and $0.09/$0.05. For the quarter, HOFT reported revenue of $67.0M, down 20.5% y/y, driven by a one-week shorter period, lower hospitality shipments, and an estimated $3M-$4M of January weather disruption. Despite the weaker top line, profitability improved, with gross margin up 380bps y/y to 30.0% and continuing ops operating income improving to $0.6M from a loss last year. Within the quarter, Hooker Branded held operating income ess",
         "published_date": null
       },
       {
@@ -1578,29 +1576,23 @@
         "published_date": "2026-05-19T03:33:56.000Z"
       },
       {
-        "title": "Stonegate Updates Coverage on Hooker Furniture Corporation (HOFT) 4Q26",
-        "url": "https://www.newsfilecorp.com/release/293361/Stonegate-Updates-Coverage-on-Hooker-Furniture-Corporation-HOFT-4Q26",
-        "snippet": "Stonegate Updates Coverage on Hooker Furniture Corporation (HOFT) 4Q26\n\n# Stonegate Updates Coverage on Hooker Furniture Corporation (HOFT) 4Q26\n\nApril 20, 2026 9:40 AM EDT | Source: Reportable, Inc.\n\nDallas, Texas--(Newsfile Corp. - April 20, 2026) - Hooker Furniture Corporation (NASDAQ: HOFT): Stonegate Capital Partners updates their coverage on Hooker Furniture Corporation (NASDAQ: HOFT). HOFT reported revenue, operating income, and adj EPS of $67.0M, $0.6M, and $0.05, respectively. This compares to our/consensus estimates of $77.1M/$74.1M, $1.6M/$1.0M, and $0.09/$0.05. For the quarter, HOFT reported revenue of $67.0M, down 20.5% y/y, driven by a one-week shorter period, lower hospitality shipments, and an estimated $3M-$4M of January weather disruption. Despite the weaker top line, profitability improved, with gross margin up 380bps y/y to 30.0% and continuing ops operating income improving to $0.6M from a loss last year. Within the quarter, Hooker Branded held operating income ess",
-        "published_date": null
-      },
-      {
-        "title": "Hooker Furnishings Corp (HOFT) Q4 2026 Earnings Call Highlights: Navigating Challenges with ...",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hooker-furnishings-corp-hoft-q4-070226132.html",
-        "snippet": "Hooker Furnishings Corp (HOFT) Q4 2026 Earnings Call Highlights: Navigating Challenges with ...\n\nOops, something went wrong\n\n# Hooker Furnishings Corp (HOFT) Q4 2026 Earnings Call Highlights: Navigating Challenges with ...\n\nThis article first appeared on GuruFocus.\n\nConsolidated Net Sales: $67 million for Q4, a decrease of $17.2 million or 21% year-over-year.\n\nOperating Income: $629,000 for Q4, driven by $1.2 million in Hooker Branded and $617,000 in All Other, offset by a $1.2 million loss in Domestic Upholstery.\n\nNet Income from Continuing Operations: $874,000 or $0.08 per diluted share for Q4.\n\nConsolidated Net Income: $536,000 or $0.05 per diluted share for Q4.\n\nFull Year Net Sales from Continuing Operations: $278.1 million, a decrease of $39.2 million or 12.4% year-over-year.\n\nGross Margin Improvement: 180 basis points for the fiscal year.\n\nOperating Loss from Continuing Operations: $16.5 million for fiscal '26, primarily due to $15.6 million in non-cash intangible asset impairmen",
-        "published_date": "2026-04-17T07:02:26.000Z"
+        "title": "Hooker Furnishings Corporation (HOFT) Q4 2026 Earnings Call Transcript | Seeking Alpha",
+        "url": "https://seekingalpha.com/article/4891261-hooker-furnishings-corporation-hoft-q4-2026-earnings-call-transcript",
+        "snippet": "Hooker Furnishings Corporation (HOFT) Q4 2026 Earnings Call Transcript | Seeking Alpha\n\n160.21K Followers\n\n5\n\nShare\n\n### Q4: 2026-04-16 Earnings Summary\n\nPlay Call\n\nEPS of $0.08 beats by $0.03\n\n| Revenue of $66.98M (-35.88% Y/Y) misses by $7.11M\n\nHooker Furnishings Corporation (HOFT) Q4 2026 Earnings Call April 16, 2026 9:00 AM EDT\n\nCompany Participants\n\nEarl Armstrong - CFO, Principal Financial & Accounting Officer, Senior VP of Finance & Corporate SecretaryJeremy Hoff - CEO & Director\n\nConference Call Participants\n\nAnthony Lebiedzinski - Sidoti & Company, LLCDavid Storms - Stonegate Capital Partners, Inc., Research DivisionJohn Deysher - Bertolet Capital Trust - Pinnacle Value Fund\n\nPresentation\n\nOperator\n\nGood day, and thank you for standing by. Welcome to the Hooker Furnishings Corp. Fourth Quarter 2026 Earnings Webcast. [Operator Instructions]\n\nPlease be advised that today's conference is being recorded. I would now like to hand the conference over to your first speaker today, Ear",
+        "published_date": "2026-04-16T14:51:53.000Z"
       }
     ],
     "rerun_at": null
   },
   "validation": {
     "ticker": "HOFT",
-    "checked_at": "2026-06-05T14:14:28.837923+00:00",
+    "checked_at": "2026-06-06T13:47:39.806260+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-11-02 is 215 days old (>180)"
+        "detail": "latest quarterly period 2025-11-02 is 216 days old (>180)"
       },
       {
         "severity": "info",
@@ -1619,5 +1611,5 @@
       }
     ]
   },
-  "analyzed_date": "2026-06-05"
+  "analyzed_date": "2026-06-06"
 }
