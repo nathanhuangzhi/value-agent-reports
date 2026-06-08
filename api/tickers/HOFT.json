@@ -23,14 +23,14 @@
     "logic_summary": "Designs, manufactures, imports, and markets residential and hospitality furniture and décor products through retailers in North America."
   },
   "snapshot": {
-    "market_cap": 137816250.0,
-    "ttm_pe": -3.0565381800439133,
-    "static_pe": -5.11055178551563,
-    "ev_revenue": 0.48152644094276836,
-    "pb": 0.8143147091147588,
-    "ps": 0.4742619351597262,
-    "p_fcf": 9.103391901710813,
-    "ttm_pocf": 7.530119659053655,
+    "market_cap": 136207500.0,
+    "ttm_pe": -3.0208587460356187,
+    "static_pe": -5.050895538992101,
+    "ev_revenue": 0.4759903094039389,
+    "pb": 0.8048090899422129,
+    "ps": 0.4687258036208967,
+    "p_fcf": 8.997126626593566,
+    "ttm_pocf": 7.442219429570539,
     "debt_asset": 0.014267943388625488,
     "gross_margin": 0.25386883970941976,
     "op_margin": -0.07054932878168974,
@@ -1163,6 +1163,9 @@
         "period": "2025-07-31",
         "items": {
           "Total Revenue": 82149000.0,
+          "Gross Profit": 16837000.0,
+          "Cost Of Revenue": 65312000.0,
+          "Operating Income": -4401000.0,
           "Net Income": -3277000.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 10612000.0,
@@ -1170,6 +1173,9 @@
         },
         "sources": {
           "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
@@ -1271,16 +1277,16 @@
     ],
     "cash_flow": [
       {
-        "period": "2024-10-31",
+        "period": "2024-10-27",
         "items": {
-          "Cash Flow From Continuing Operating Activities": -17184000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -17184000.0
+          "Cash Flow From Continuing Operating Activities": -17648000.0,
+          "Capital Expenditure": 1235000.0,
+          "Free Cash Flow": -18883000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1407,6 +1413,7 @@
           "Common Stock Equity": 193120000.0,
           "Goodwill": 15036000.0,
           "Net PPE": 70019000.0,
+          "Inventory": 58532000.0,
           "Accounts Receivable": 41316000.0,
           "Total Debt": 13023000.0
         },
@@ -1416,6 +1423,7 @@
           "Common Stock Equity": "yfinance",
           "Goodwill": "yfinance",
           "Net PPE": "yfinance",
+          "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
@@ -1547,7 +1555,7 @@
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** Demand remains subdued, pressured by a sluggish housing market, cautious discretionary spending, and lumpy hospitality project shipments. The core Hooker Branded residential business is holding relatively steady, but overall top-line momentum is soft, exacerbated in the recent quarter by severe weather and a shorter fiscal period. The story is less about growth and more about early-stage margin stabilization as the company navigates a cyclical trough.\n\n**Management strategy and execution:** Leadership is driving a portfolio simplification and restructuring narrative, emphasizing cost discipline and a shift toward profitable operations over chasing volume. Returning to operating income from continuing operations—and beating earnings expectations despite a revenue miss—signals initial traction on margin recovery. Analyst ratings remain mixed, but the stock’s crossing of its 200-day moving average suggests improving, though tentative, market confidence in the turnaround’s early execution.",
+    "text": "**Business & market dynamics:** Demand remains uneven, with hospitality project shipments softening and a shorter fiscal quarter and weather disruptions weighing on the top line. The broader backdrop of muted housing activity and cautious consumer discretionary spending continues to pressure revenue. However, the core residential branded and domestic custom upholstery segments are showing relative stability, and a favorable product mix shift is supporting profitability, signaling that underlying operations are stabilizing even as top-line headwinds persist.\n\n**Management strategy and execution:** Leadership is executing a restructuring and portfolio-simplification effort that has restored continuing operations to profitability. Cost discipline and operational efficiencies drove a clear margin recovery, enabling the company to surpass earnings expectations despite the revenue shortfall. The market narrative is shifting cautiously, with some analyst ratings improving from deeply bearish levels and the stock reclaiming its 200-day moving average, reflecting early but fragile confidence in management’s turnaround execution.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
@@ -1586,13 +1594,13 @@
   },
   "validation": {
     "ticker": "HOFT",
-    "checked_at": "2026-06-07T13:50:29.112324+00:00",
+    "checked_at": "2026-06-08T14:43:01.330338+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-11-02 is 217 days old (>180)"
+        "detail": "latest quarterly period 2025-11-02 is 218 days old (>180)"
       },
       {
         "severity": "info",
@@ -1611,5 +1619,5 @@
       }
     ]
   },
-  "analyzed_date": "2026-06-07"
+  "analyzed_date": "2026-06-08"
 }
