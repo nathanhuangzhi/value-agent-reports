@@ -24,21 +24,21 @@
   },
   "snapshot": {
     "market_cap": 75087120.3,
-    "ttm_pe": 7.8228193484526125,
+    "ttm_pe": 7.997114186747286,
     "static_pe": 9.458102651242234,
-    "ev_revenue": 6.862996620356604,
-    "pb": 40.38755048637426,
-    "ps": 7.2370651703001965,
+    "ev_revenue": 6.918750371813052,
+    "pb": 39.74871974992655,
+    "ps": 7.2989206145598295,
     "p_fcf": null,
     "ttm_pocf": null,
     "debt_asset": 0.0,
     "gross_margin": null,
-    "op_margin": 0.9177152010702284,
-    "net_margin": 0.9251223693068815,
-    "roe": 5.162787057630711,
-    "roa": 2.473135287850465,
+    "op_margin": 0.9054579045413489,
+    "net_margin": 0.9126943099869083,
+    "roe": 4.970382918352924,
+    "roa": 2.400750963634388,
     "dividend_rate": 0.0,
-    "latest_q_ni": 1945021.0,
+    "latest_q_ni": 2051810.0,
     "latest_q_ocf": null
   },
   "annual": {
@@ -190,14 +190,12 @@
         "period": "2025-01-31",
         "items": {
           "Total Revenue": 519433.0,
-          "Operating Income": 273685.0,
           "Net Income": 285468.0,
           "Diluted EPS": 0.03,
           "Diluted Average Shares": 9190590.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec"
@@ -266,6 +264,23 @@
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec"
         }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Total Revenue": 2383374.0,
+          "Operating Income": 2036692.0,
+          "Net Income": 2051810.0,
+          "Diluted EPS": 0.22,
+          "Diluted Average Shares": 9190590.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
+        }
       }
     ],
     "cash_flow": [],
@@ -282,18 +297,10 @@
       {
         "period": "2025-01-31",
         "items": {
-          "Cash And Cash Equivalents": 1726999.0,
-          "Total Assets": 1727000.0,
-          "Common Stock Equity": 1359376.0,
-          "Net PPE": 1.0,
-          "Total Debt": 0
+          "Cash And Cash Equivalents": 1726999.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec"
         }
       },
       {
@@ -363,6 +370,23 @@
           "Net PPE": "yfinance",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Cash And Cash Equivalents": 3910974.0,
+          "Total Assets": 3910975.0,
+          "Common Stock Equity": 1889045.0,
+          "Net PPE": 1.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -406,7 +430,7 @@
   },
   "validation": {
     "ticker": "NRT",
-    "checked_at": "2026-06-09T14:09:43.220435+00:00",
+    "checked_at": "2026-06-10T14:24:04.009396+00:00",
     "status": "error",
     "issues": [
       {

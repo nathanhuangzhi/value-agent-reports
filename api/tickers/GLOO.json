@@ -23,22 +23,22 @@
     "logic_summary": "Gloo Holdings operates a vertical technology platform for the faith sector, offering free tools to churches and organizations while generating revenue through advertising, subscriptions, and e-commerce."
   },
   "snapshot": {
-    "market_cap": 388985614.25,
-    "ttm_pe": -2.4755813010329093,
-    "static_pe": -2.4755970562216794,
+    "market_cap": 478965815.35999995,
+    "ttm_pe": null,
+    "static_pe": -3.048252477979736,
     "ev_revenue": null,
-    "pb": 2.523864797921141,
+    "pb": 3.1076855197472146,
     "ps": null,
-    "p_fcf": -5.276098177712069,
-    "ttm_pocf": -6.602600642461893,
+    "p_fcf": -6.496565870384938,
+    "ttm_pocf": -8.129915051770377,
     "debt_asset": 0.1338736777428421,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -1.0195039027270427,
-    "roa": -0.5959553817620487,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": -49329000.0,
+    "latest_q_ni": null,
     "latest_q_ocf": -17545000.0
   },
   "annual": {
@@ -242,15 +242,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-04-30",
-        "items": {
-          "Net Income": -14196000.0
-        },
-        "sources": {
-          "Net Income": "sec"
-        }
-      },
-      {
         "period": "2024-07-31",
         "items": {
           "Net Income": -13198000.0
@@ -387,6 +378,17 @@
           "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "yfinance"
+        }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Diluted EPS": -0.21,
+          "Diluted Average Shares": 80769952.0
+        },
+        "sources": {
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -609,7 +611,7 @@
   },
   "validation": {
     "ticker": "GLOO",
-    "checked_at": "2026-06-09T14:09:43.200463+00:00",
+    "checked_at": "2026-06-10T14:24:03.988509+00:00",
     "status": "warn",
     "issues": [
       {
@@ -630,7 +632,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-10-31 is 221 days old (>180)"
+        "detail": "latest quarterly period 2025-10-31 is 222 days old (>180)"
       },
       {
         "severity": "warn",
