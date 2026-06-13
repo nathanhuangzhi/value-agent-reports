@@ -23,20 +23,20 @@
     "logic_summary": "The Lovesac Company designs, manufactures, and sells furniture including sactionals and sacs primarily through its website and showrooms in the US."
   },
   "snapshot": {
-    "market_cap": 243855882.375,
-    "ttm_pe": null,
-    "static_pe": 59.989146955719555,
-    "ev_revenue": null,
-    "pb": 1.186450331210408,
-    "ps": null,
-    "p_fcf": 2.298900611595569,
-    "ttm_pocf": 1.9261157329884286,
+    "market_cap": 239822176.05,
+    "ttm_pe": -380.0668400158479,
+    "static_pe": 58.99684527675277,
+    "ev_revenue": 0.27100962349763713,
+    "pb": 1.1668248370099352,
+    "ps": 0.35550067306152944,
+    "p_fcf": 3.1728385686502794,
+    "ttm_pocf": 2.4947693337147614,
     "debt_asset": 0.0,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "gross_margin": 0.5517088543797546,
+    "op_margin": -0.008313025122886909,
+    "net_margin": -0.0009353635614375249,
+    "roe": -0.0030700516702832623,
+    "roa": -0.0012595489178059496,
     "dividend_rate": 0.0,
     "latest_q_ni": -11093000.0,
     "latest_q_ocf": -35356000.0
@@ -772,12 +772,28 @@
       {
         "period": "2026-04-30",
         "items": {
+          "Total Revenue": 138196000.0,
+          "Gross Profit": 71974000.0,
+          "Cost Of Revenue": 66222000.0,
+          "Operating Income": -17374000.0,
+          "Net Income": -11093000.0,
           "Diluted EPS": -0.76,
-          "Diluted Average Shares": 14668023.0
+          "Diluted Average Shares": 14668023.0,
+          "Selling General And Administration": 85167000.0,
+          "Selling And Marketing Expense": 16599000.0,
+          "General And Administrative Expense": 68568000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -807,19 +823,6 @@
       }
     ],
     "cash_flow": [
-      {
-        "period": "2025-05-04",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -41377000.0,
-          "Capital Expenditure": 8577000.0,
-          "Free Cash Flow": -49954000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2025-07-31",
         "items": {
@@ -899,6 +902,19 @@
         }
       },
       {
+        "period": "2026-04-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -35356000.0,
+          "Capital Expenditure": -5315000.0,
+          "Free Cash Flow": -40671000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
+      },
+      {
         "period": "2026-05-03",
         "items": {
           "Cash Flow From Continuing Operating Activities": -35356000.0,
@@ -913,27 +929,6 @@
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2025-05-04",
-        "items": {
-          "Cash And Cash Equivalents": 26900000.0,
-          "Total Assets": 483740000.0,
-          "Common Stock Equity": 201214000.0,
-          "Goodwill": 144000.0,
-          "Net PPE": 85267000.0,
-          "Accounts Receivable": 13022000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2025-07-31",
         "items": {
@@ -1067,6 +1062,29 @@
         }
       },
       {
+        "period": "2026-04-30",
+        "items": {
+          "Cash And Cash Equivalents": 56998000.0,
+          "Total Assets": 500973000.0,
+          "Common Stock Equity": 205534000.0,
+          "Goodwill": 144000.0,
+          "Net PPE": 248070000.0,
+          "Inventory": 109267000.0,
+          "Accounts Receivable": 13158000.0,
+          "Total Debt": 24271000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
+      {
         "period": "2026-05-03",
         "items": {
           "Cash And Cash Equivalents": 56998000.0,
@@ -1090,7 +1108,7 @@
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** The home furnishings sector remains under pressure, but Lovesac’s adaptable Sactionals platform is gaining share as the broader category contracts sharply. The company is evolving from a single-product couch brand into a multi-room lifestyle portfolio, backed by a record wave of new product launches. Persistent consumer caution and a challenged high-end segment temper near-term demand, yet the brand’s relative outperformance underscores its product resonance and growing relevance beyond the living room.\n\n**Management strategy and execution:** Leadership is balancing near-term discipline with long-term reinvestment, sharpening marketing efficiency and selectively bringing manufacturing in-house to support the upcoming product cycle. The team entered the year with a guarded outlook, refining guidance to reflect macro uncertainty while signaling conviction in its most ambitious launch slate ever. Investor skepticism persists around whether recent beats reflect durable demand, placing heightened scrutiny on management’s ability to scale the transformed brand without eroding margins.",
+    "text": "**Business & market dynamics:** Lovesac is navigating persistent industry-wide sales headwinds that are pressuring the home furnishings category. Despite a flat-to-down demand environment, the company managed to capture modest market share gains, attributed to continued showroom expansion and product-line momentum. Management characterizes the operating backdrop as challenging but highlights upcoming plans for a record number of new product introductions, aiming to reinvigorate growth when the cycle turns. The overall tone is one of resilience in a soft end-market, with hidden earnings potential waiting for a sector rebound.\n\n**Management strategy and execution:** Leadership is executing with discipline, evidenced by an earnings beat and a refined full-year outlook. Strategic focus remains on cost control, inventory reduction, and building cash reserves, even while investing in the strongest launch pipeline in company history. The guidance posture is constructively specific, providing Q2 and annual EPS ranges that signal a path to profitability. The market perceives management as credible and steady, balancing near-term caution with preparation for an eventual demand recovery, which supports a narrative of underlying strength despite current sluggish results.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
@@ -1101,35 +1119,35 @@
         "published_date": null
       },
       {
+        "title": "Lovesac (NASDAQ:LOVE) Releases Earnings Results, Beats Expectations By $0.27 EPS - Markets Daily",
+        "url": "https://www.themarketsdaily.com/2026/06/12/lovesac-nasdaqlove-releases-earnings-results-beats-expectations-by-0-27-eps.html",
+        "snippet": "Lovesac (NASDAQ:LOVE) Releases Earnings Results, Beats Expectations By $0.27 EPS - Markets Daily\n\n# Lovesac (NASDAQ:LOVE) Releases Earnings Results, Beats Expectations By $0.27 EPS\n\nPosted by Sarita Garza on Jun 12th, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwits\n\nLovesac (NASDAQ:LOVE– Get Free Report) issued its quarterly earnings results on Thursday. The company reported ($0.76) earnings per share for the quarter, beating analysts’ consensus estimates of ($1.03) by $0.27, FiscalAI reports. The business had revenue of $138.20 million during the quarter, compared to analyst estimates of $136.66 million. Lovesac had a net margin of 0.58% and a return on equity of 2.02%. Lovesac’s revenue for the quarter was down .1% compared to the same quarter last year. During the same quarter last year, the business posted ($0.73) earnings per share. Lovesac updated its Q2 2027 guidance to 0.200-0.480 EPS and its FY 2027 guidance to 0.340-0.810 EPS.\n\nHere are the key ",
+        "published_date": "2026-06-12T12:22:45.000Z"
+      },
+      {
         "title": "Lovesac Q1 FY27 sales dip 0.1%, loss $11.1M | LOVE Stock News",
         "url": "https://www.stocktitan.net/news/LOVE/the-lovesac-company-reports-first-quarter-fiscal-2027-financial-49neso4kggb6.html",
         "snippet": "Lovesac Q1 FY27 sales dip 0.1%, loss $11.1M | LOVE Stock News\n\n# The Lovesac Company Reports First Quarter Fiscal 2027 Financial Results\n\nRhea-AI Impact\n\n(High)\n\nRhea-AI Sentiment\n\n(Neutral)\n\nTags\n\n## Rhea-AI Summary\n\n- English\n- Arabic\n- French\n- German\n- Italian\n- Korean\n- Spanish\n\nThe Lovesac Company (Nasdaq: LOVE) reported Q1 fiscal 2027 net sales of $138.2 million, down 0.1% year over year, with omni-channel comparable net sales down 1.0% and 281 ending showrooms.\n\nAccording to the company, gross margin was 52.1%, net loss was $11.1 million ($0.76 per share), and adjusted EBITDA was $(10.5) million. Cash rose to $57.0 million and inventory declined to $109.3 million. Fiscal 2027 guidance calls for net sales of $700–$740 million, adjusted EBITDA of $35–$46 million, and net income of $5–$12 million.\n\nLoading translation...\n\nAI-generated analysis. Not financial advice.\n\n### Positive\n\n- Q1 cash balance increased to $57.0 million from $26.9 million year over year\n- Total merchandise in",
         "published_date": "2026-06-11T11:00:00.000Z"
       },
       {
-        "title": "Lovesac Q1 Earnings Call Highlights - BBNS",
-        "url": "https://baseballnewssource.com/2026/06/11/lovesac-q1-earnings-call-highlights/11151871.html",
-        "snippet": "Lovesac Q1 Earnings Call Highlights - BBNS\n\n# Lovesac Q1 Earnings Call Highlights\n\nPosted by Grant Hamersma on Jun 11th, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwits\n\nLovesac (NASDAQ:LOVE) reported nearly flat first-quarter fiscal 2027 revenue as management said the company continued to gain share in a pressured furniture market while investing in product expansion, marketing efficiency and domestic manufacturing.\n\nGet alerts:\n\nChief Executive Officer Shawn Nelson said net sales decreased approximately $0.2 million, or 0.1%, from the prior-year period, compared with a 2.2% decline in the overall furniture category and a 5% decline in high-end furniture. He said the company’s results were in line with guidance and reflected continued traction for its “Designed for Life” product strategy.\n\n“We are evolving from a product-driven company into a multi-platform, multi-room lifestyle brand,” Nelson said, adding that Lovesac is not trying to compete through “e",
-        "published_date": "2026-06-11T10:06:45.000Z"
-      },
-      {
-        "title": "Lovesac (LOVE) Reports Q1: Everything You Need To Know Ahead Of Earnings",
-        "url": "https://www.barchart.com/story/news/2391170/lovesac-love-reports-q1-everything-you-need-to-know-ahead-of-earnings",
-        "snippet": "Lovesac (LOVE) Reports Q1: Everything You Need To Know Ahead Of Earnings\n\n[[ type === 'moc' ? 'MARKET ON CLOSE' : 'FREE WEBINAR' ]]\n\n[[ timeLabel ]] WATCH LIVE:\n\nYour browser of choice has not been tested for use with Barchart.com. If you have issues, please download one of the browsers listed here.\n\nJoin Barchart Premier to attend LIVE \"Market on Close\" program each Friday with John Rowland. FREE 30 Day Trial\n\nStocks| Futures| Watchlist| News| More\n\nAdvanced search\n\nor\n\nSelect a Commodity Wheat Corn Soybeans Soybean Meal Soybean Oil Oats Rough Rice Hard Red Winter Wheat Spring Wheat Canola Crude Oil WTI ULSD NY Harbor Gasoline RBOB Natural Gas Crude Oil Brent Ethanol Gold Silver High Grade Copper Platinum Palladium Aluminum Live Cattle Feeder Cattle Lean Hogs Pork Cutout Class III Milk Nonfat Dry Milk Dry Whey Butter Cash-Settled Cheese Cash-Settled Cotton #2 Orange Juice Coffee Sugar #11 Cocoa Lumber S&P 500 E-Mini Nasdaq 100 E-Mini Dow Futures E-Mini Russell 2000 E-Mini S&P Midcap E",
-        "published_date": "2026-06-10T03:01:12.000Z"
-      },
-      {
-        "title": "Lovesac Head Into June 11 Earnings With a Simple Test: Real Demand or Just Another Beat?",
-        "url": "https://www.ainvest.com/news/lovesac-head-june-11-earnings-simple-test-real-demand-beat-2606/",
-        "snippet": "Lovesac Head Into June 11 Earnings With a Simple Test: Real Demand or Just Another Beat?\n\nSymbols\n\nSymbols\n\nAInvest★★★★★3-DAY FREE\n\nCatch pre-market movers with AI signals.\n\nClaim Trial\n\n# Lovesac Head Into June 11 Earnings With a Simple Test: Real Demand or Just Another Beat?\n\nGenerated by AI Agent Edwin Foster Reviewed by Tianhao Xu\n\nTuesday, Jun 9, 2026 11:27 pm ET3min read\n\nAI Podcast:Your News, Now Playing\n\nLoading Failed\n\nAime Summary\n\nOverviewThe 5 WsOpposite SidesInfobox\n\n- Lovesac's Q4 2026 beat ($2.19 EPS vs $2.00) sets a higher bar for June 11 earnings, requiring proof of durable demand beyond narrow accounting wins.\n\n- Bulls highlight platform expansion (EverCouch) and 275+ showrooms as demand validation, while bears warn 55x valuation risks if growth lacks macro resilience.\n\n- Key metrics to watch: operating leverage, sell-through rates, product mix authenticity, and management's clarity on repeat customer value and macro sensitivity.\n\n- The June 11 report becomes a valuat",
+        "title": "The Lovesac Company Reports First Quarter Fiscal 2027 Financial Results - The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/LOVE-Q/pressreleases/2417704/the-lovesac-company-reports-first-quarter-fiscal-2027-financial-results/",
+        "snippet": "The Lovesac Company Reports First Quarter Fiscal 2027 Financial Results - The Globe and Mail\n\nThis section contains press releases and other materials from third parties (including paid content). The Globe and Mail has not reviewed this content. Please see disclaimer.\n\n# The Lovesac Company Reports First Quarter Fiscal 2027 Financial Results\n\nQ1 Net Sales of $138.2MAdvances Strategic Growth Initiatives with Record Product Launches Ahead; Refines FY27 Outlook\n\nSTAMFORD, Conn., June 11, 2026 (GLOBE NEWSWIRE) -- The Lovesac Company (Nasdaq: LOVE) (“Lovesac” or the “Company”), the Designed for Life home and technology brand best known for its Sactionals, The World's Most Adaptable Couch, today announced financial results for the first quarter of fiscal 2027, which ended May 3, 2026.\n\nShawn David Nelson, Chief Executive Officer, stated, “Lovesac’s solid first quarter performance reflects disciplined execution, including modest market share gains, as we navigate continued industry headwinds ",
         "published_date": null
+      },
+      {
+        "title": "Lovesac: Potential Remains Hidden, For Now (NASDAQ:LOVE) | Seeking Alpha",
+        "url": "https://seekingalpha.com/article/4914537-lovesac-potential-remains-hidden-for-now",
+        "snippet": "Lovesac: Potential Remains Hidden, For Now (NASDAQ:LOVE) | Seeking Alpha\n\n2.05K Followers\n\n5\n\nShare\n\nPlay(9min)\n\n## Summary\n\n- The Lovesac Company reported sluggish earnings in Q1, reflecting a continued sector-wide sales decline.\n- LOVE still managed to gain market share through showroom and product expansion. The underlying performance is strong, as LOVE eyes additional growth.\n- The sector's rebound is still on an uncertain timeline but should ultimately reveal LOVE's significant earnings potential.\n- I estimate LOVE stock to have a 45% base scenario upside to $23.6.\n\nTony Anderson/DigitalVision via Getty Images\n\nThe Lovesac Company (LOVE) reported the company’s fiscal Q1 results from the February-April period on the 11th of June. The furnishings company reported sluggish growth due to a sector-wide sales decline, but the\n\nThis article was written by\n\n2.05K Followers\n\nI am an avid investor with a major focus on small cap companies with experience in investing in US, Canadian, and Eu",
+        "published_date": "2026-06-12T13:31:37.000Z"
       }
     ],
     "rerun_at": null
   },
   "validation": {
     "ticker": "LOVE",
-    "checked_at": "2026-06-12T14:15:55.314283+00:00",
+    "checked_at": "2026-06-13T13:48:15.258675+00:00",
     "status": "info",
     "issues": [
       {
@@ -1144,5 +1162,5 @@
       }
     ]
   },
-  "analyzed_date": "2026-06-12"
+  "analyzed_date": "2026-06-13"
 }
