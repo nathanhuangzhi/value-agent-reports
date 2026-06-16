@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 169106820.0,
-    "ttm_pe": null,
+    "ttm_pe": -9.13301036941024,
     "static_pe": -6.270879964400934,
-    "ev_revenue": null,
+    "ev_revenue": 0.5729560835237296,
     "pb": 1.0000758158184204,
-    "ps": null,
+    "ps": 0.6113414263816989,
     "p_fcf": null,
     "ttm_pocf": null,
     "debt_asset": 0.0,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "gross_margin": 0.2893216589062093,
+    "op_margin": -0.04412253810336351,
+    "net_margin": -0.06693755964947798,
+    "roe": -0.10950122417117107,
+    "roa": -0.08295067131983674,
     "dividend_rate": 0.0,
     "latest_q_ni": 1061000.0,
     "latest_q_ocf": null
@@ -1117,17 +1117,21 @@
         "period": "2025-07-31",
         "items": {
           "Total Revenue": 82149000.0,
+          "Cost Of Revenue": 63575000.0,
           "Net Income": -3277000.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 10612000.0,
-          "Selling General And Administration": 20366000.0
+          "Selling General And Administration": 20366000.0,
+          "Gross Profit": 18574000.0
         },
         "sources": {
           "Total Revenue": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Selling General And Administration": "yfinance",
+          "Gross Profit": "yfinance"
         }
       },
       {
@@ -1225,12 +1229,24 @@
       {
         "period": "2026-04-30",
         "items": {
+          "Total Revenue": 69452000.0,
+          "Gross Profit": 20592000.0,
+          "Cost Of Revenue": 48860000.0,
+          "Operating Income": 1578000.0,
+          "Net Income": 1061000.0,
           "Diluted EPS": 0.1,
-          "Diluted Average Shares": 10778000.0
+          "Diluted Average Shares": 10778000.0,
+          "Selling General And Administration": 18469000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1259,24 +1275,11 @@
     ],
     "cash_flow": [
       {
-        "period": "2025-05-04",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 14663000.0,
-          "Capital Expenditure": 851000.0,
-          "Free Cash Flow": 13812000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
-      {
         "period": "2025-07-31",
         "items": {
-          "Cash Flow From Continuing Operating Activities": 3444000.0,
-          "Capital Expenditure": -844000.0,
-          "Free Cash Flow": 2600000.0
+          "Cash Flow From Continuing Operating Activities": -1109000.0,
+          "Capital Expenditure": -968000.0,
+          "Free Cash Flow": -2077000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "yfinance",
@@ -1338,6 +1341,19 @@
         }
       },
       {
+        "period": "2026-04-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 14409000.0,
+          "Capital Expenditure": -403000.0,
+          "Free Cash Flow": 14006000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
+      },
+      {
         "period": "2026-05-03",
         "items": {
           "Capital Expenditure": 403000.0
@@ -1348,27 +1364,6 @@
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2025-07-31",
-        "items": {
-          "Cash And Cash Equivalents": 821000.0,
-          "Total Assets": 278043000.0,
-          "Common Stock Equity": 193120000.0,
-          "Goodwill": 15036000.0,
-          "Net PPE": 70019000.0,
-          "Accounts Receivable": 41316000.0,
-          "Total Debt": 13023000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
-        }
-      },
       {
         "period": "2025-08-02",
         "items": {
@@ -1494,6 +1489,29 @@
         }
       },
       {
+        "period": "2026-04-30",
+        "items": {
+          "Cash And Cash Equivalents": 10618000.0,
+          "Total Assets": 223217000.0,
+          "Common Stock Equity": 169094000.0,
+          "Goodwill": 575000.0,
+          "Net PPE": 43861000.0,
+          "Inventory": 45032000.0,
+          "Accounts Receivable": 30933000.0,
+          "Total Debt": 5359000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
+      {
         "period": "2026-05-03",
         "items": {
           "Cash And Cash Equivalents": 10618000.0,
@@ -1519,21 +1537,21 @@
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** Demand remains soft in core Hooker Branded and Domestic Upholstery lines, though hospitality shipments provide a partial offset. While the top‑line trajectory is still pressured, the company has shifted into a markedly more profitable position. A sharp turnaround in gross margin, led by the Hooker Branded segment, signals that internal pricing, mix, or cost actions are delivering real traction even as revenue volumes lag. The overall picture is one of a business stabilizing profitability amid a subdued consumer and home‑furnishings backdrop.\n\n**Management strategy and execution:** Leadership has executed a credible profitability turnaround, swinging from prior‑period losses to positive net income and beating cautious analyst expectations. The recent earnings surprise, with a profit when the market anticipated a loss, underscores disciplined cost and mix management. While the stock’s muted response suggests lingering skepticism about broader demand, management’s ability to deliver on the bottom line with improving operating income is rebuilding credibility and indicates that internal levers are offsetting macro headwinds.",
+    "text": "**Business & market dynamics:** The near‑term demand backdrop remains pressured by weak housing activity and a cautious consumer, pressuring Hooker Branded and Domestic Upholstery sales. However, the narrative shows pockets of resilience: hospitality shipments are providing an offset, and retailer commitments around the Margaritaville licensing program are fueling a brighter May order trend, suggesting an inflection in product‑line momentum even as broader end‑market conditions stay soft.\n\n**Management strategy and execution:** Leadership is emphasizing a return to profitability through a disciplined reset—tight cost‑structure management, gross‑margin recovery, and a leaner operating model—while investing behind the Margaritaville launch as a growth catalyst. The tone in the call is cautiously constructive: they are highlighting sequential improvement and operational traction, yet maintaining a guarded near‑term outlook, which reinforces a message of credible, controlled execution rather than premature optimism.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
       {
-        "title": "Hooker (HOFT) Q1 2027 Earnings Transcript | The Motley Fool",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/06/11/hooker-hoft-q1-2027-earnings-transcript/",
-        "snippet": "Hooker (HOFT) Q1 2027 Earnings Transcript | The Motley Fool\n\nAccessibility Menu\n\n▲ S&P 500 +---%|▲ Stock Advisor +---%Join The Motley Fool\n\nImage source: The Motley Fool.\n\nThursday, June 11, 2026 at 9 a.m. ET\n\n## CALL PARTICIPANTS\n\n- Chief Executive Officer — Jeremy R. Hoff\n- Chief Financial Officer — C. Earl Armstrong\n\n## TAKEAWAYS\n\n- Net Sales -- $67.3 million, down $1.7 million or 2.4% primarily due to lower sales in the Hooker Branded and Domestic Upholstery segments, partially offset by higher hospitality shipments.\n- Net Income -- $1.1 million, a $4.1 million improvement versus the prior year period.\n- Operating Income -- $1.6 million versus an operating loss of $498 thousand, reflecting a $2.1 million improvement.\n- Gross Profit -- Up $2.7 million; gross margin increased 440 basis points, led by stronger profitability in Hooker Branded.\n- Hooker Branded Segment -- Net sales decreased $1.8 million or 4.8%; gross profit increased $2.9 million with gross margin up 960 basis points;",
-        "published_date": "2026-06-11T13:39:28.000Z"
+        "title": "HOFT Q1 Earnings Call Flags Cautious Demand, Margaritaville Lift — TradingView News",
+        "url": "https://www.tradingview.com/news/zacks:ddafb68d5094b:0-hoft-q1-earnings-call-flags-cautious-demand-margaritaville-lift/",
+        "snippet": "HOFT Q1 Earnings Call Flags Cautious Demand, Margaritaville Lift — TradingView News\n\nSearch\n\nEN\n\n# HOFT Q1 Earnings Call Flags Cautious Demand, Margaritaville Lift\n\n4 min read\n\nHooker Furnishings Corporation HOFT used its first-quarter call to make a simple case: the business is operating better even though the market is not. Management pointed to a return to profitability, better gross margin and a leaner cost structure as proof that the reset is gaining traction.\n\nThe more important message was forward-looking. Executives leaned on retailer commitments to Margaritaville, a stronger May order trend and tighter operating discipline, while still framing the near-term demand backdrop as pressured.\n\nHOFT Leans on Margin Recovery\n\nCEO Jeremy R. Hoff said first-quarter net income reached $1.1 million, a $4.1 million improvement from the prior-year period, despite weak housing activity and cautious consumers.\n\nChief financial officer C. Earl Armstrong said operating income improved to $1.6 m",
+        "published_date": "2026-06-12T08:38:00.000Z"
       },
       {
-        "title": "Hooker Furnishings (NASDAQ:HOFT) Trades Lower Despite Q1 Earnings Surprise | ChartMill.com",
-        "url": "https://www.chartmill.com/news/HOFT/Chartmill-49736-Hooker-Furnishings-NASDAQHOFT-Trades-Lower-Despite-Q1-Earnings-Surprise",
-        "snippet": "Hooker Furnishings (NASDAQ:HOFT) Trades Lower Despite Q1 Earnings Surprise | ChartMill.com\n\n### Article Mentions:\n\nHOFT (15.35 ▼ -1.29%)\n\n### Earnings Recap: Hooker Furnishings Surprises on Profit, But Market Stays Cautious\n\nHooker Furnishings Corp (NASDAQ:HOFT) reported its fiscal 2027 first-quarter results on June 11, 2026, showcasing a notable earnings surprise that defied analyst expectations of a loss. However, the stock’s reaction—down roughly 1.8% in pre-market trading—suggests investors are weighing mixed signals from the broader financial picture.\n\n#### Revenue and EPS: A Profit Surprise, Sales Inline\n\nFor the quarter ended May 3, 2026, Hooker posted revenue of $69.45 million, slightly ahead of the $67.64 million analysts had penciled in. This represents a beat of approximately 2.7%, but given the modest margin, it’s best described as a solid but not dramatic improvement over expectations. On the bottom line, the company reported non-GAAP earnings per share (EPS) of $0.10, swi",
-        "published_date": "2026-06-11T11:20:18.000Z"
+        "title": "Hooker Furnishings (NASDAQ:HOFT) Issues Earnings Results - Stock Observer",
+        "url": "https://www.thestockobserver.com/2026/06/12/hooker-furnishings-nasdaqhoft-issues-earnings-results.html",
+        "snippet": "Hooker Furnishings (NASDAQ:HOFT) Issues Earnings Results - Stock Observer\n\n# Hooker Furnishings (NASDAQ:HOFT) Issues Earnings Results\n\nPosted by George Bondi on Jun 12th, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwits\n\nHooker Furnishings (NASDAQ:HOFT– Get Free Report) released its earnings results on Thursday. The company reported $0.10 earnings per share for the quarter, topping analysts’ consensus estimates of ($0.07) by $0.17, FiscalAI reports. The firm had revenue of $69.45 million during the quarter, compared to the consensus estimate of $66.31 million. Hooker Furnishings had a negative return on equity of 0.71% and a negative net margin of 8.84%.\n\nHere are the key takeaways from Hooker Furnishings’ conference call:\n\nGet Hooker Furnishings alerts:\n\n- Hooker Furnishings reported net income of $1.1 million and operating income of $1.6 million, a meaningful improvement from the prior year, as gross margin expanded 440 basis points and cost cuts flowed ",
+        "published_date": "2026-06-12T07:52:46.000Z"
       },
       {
         "title": "Hooker Furnishings Reports Fiscal 2026 Fourth Quarter Net Income and Full Year Results",
@@ -1542,17 +1560,17 @@
         "published_date": null
       },
       {
-        "title": "Hooker Furnishings Corporation (HOFT) Q1 2027 Earnings Call Transcript | Seeking Alpha",
-        "url": "https://seekingalpha.com/article/4914287-hooker-furnishings-corporation-hoft-q1-2027-earnings-call-transcript",
-        "snippet": "Hooker Furnishings Corporation (HOFT) Q1 2027 Earnings Call Transcript | Seeking Alpha\n\n160.7K Followers\n\n5\n\nShare\n\n### Q1: 2026-06-11 Earnings Summary\n\nPlay Call\n\nEPS of $0.10 beats by $0.17\n\n| Revenue of $69.45M (-18.59% Y/Y) beats by $3.14M\n\nHooker Furnishings Corporation (HOFT) Q1 2027 Earnings Call June 11, 2026 9:00 AM EDT\n\nCompany Participants\n\nEarl Armstrong - CFO, Principal Financial & Accounting Officer and Senior VP of FinanceJeremy Hoff - CEO & Director\n\nConference Call Participants\n\nAnthony Lebiedzinski - Sidoti & Company, LLCDavid Storms - Stonegate Capital Partners, Inc., Research DivisionJohn Deysher - Bertolet Capital Trust - Pinnacle Value Fund\n\nPresentation\n\nOperator\n\nGood day, and thank you for standing by. Welcome to the Hooker Furnishings Corp. First Quarter 2027 Earnings Conference Call. [Operator Instructions] Please be advised that today's conference is being recorded.\n\nI would now like to hand the conference over to your speaker today, Earl Armstrong, Senior V",
-        "published_date": "2026-06-11T16:12:17.000Z"
+        "title": "Hooker (HOFT) Q1 2027 Earnings Transcript | The Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/06/11/hooker-hoft-q1-2027-earnings-transcript/",
+        "snippet": "Hooker (HOFT) Q1 2027 Earnings Transcript | The Motley Fool\n\nAccessibility Menu\n\n▲ S&P 500 +---%|▲ Stock Advisor +---%Join The Motley Fool\n\nImage source: The Motley Fool.\n\nThursday, June 11, 2026 at 9 a.m. ET\n\n## CALL PARTICIPANTS\n\n- Chief Executive Officer — Jeremy R. Hoff\n- Chief Financial Officer — C. Earl Armstrong\n\n## TAKEAWAYS\n\n- Net Sales -- $67.3 million, down $1.7 million or 2.4% primarily due to lower sales in the Hooker Branded and Domestic Upholstery segments, partially offset by higher hospitality shipments.\n- Net Income -- $1.1 million, a $4.1 million improvement versus the prior year period.\n- Operating Income -- $1.6 million versus an operating loss of $498 thousand, reflecting a $2.1 million improvement.\n- Gross Profit -- Up $2.7 million; gross margin increased 440 basis points, led by stronger profitability in Hooker Branded.\n- Hooker Branded Segment -- Net sales decreased $1.8 million or 4.8%; gross profit increased $2.9 million with gross margin up 960 basis points;",
+        "published_date": "2026-06-11T13:39:28.000Z"
       }
     ],
     "rerun_at": null
   },
   "validation": {
     "ticker": "HOFT",
-    "checked_at": "2026-06-15T15:17:50.937910+00:00",
+    "checked_at": "2026-06-16T14:53:32.508637+00:00",
     "status": "info",
     "issues": [
       {
@@ -1572,5 +1590,5 @@
       }
     ]
   },
-  "analyzed_date": "2026-06-15"
+  "analyzed_date": "2026-06-16"
 }
