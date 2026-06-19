@@ -26,7 +26,7 @@
     "market_cap": 3780689.331,
     "ttm_pe": -1.270025483554657,
     "static_pe": -1.04523069979536,
-    "ev_revenue": 9.196362230806853,
+    "ev_revenue": 8.903482431605244,
     "pb": 2.9028990919728743,
     "ps": 11.072875321069478,
     "p_fcf": -1.7043551999502309,
@@ -569,15 +569,15 @@
           "General And Administrative Expense": 549803.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -681,7 +681,7 @@
           "Free Cash Flow": -524658.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
@@ -820,7 +820,7 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Cash And Cash Equivalents": 640711.0,
+          "Cash And Cash Equivalents": 740711.0,
           "Total Assets": 1492366.0,
           "Common Stock Equity": 1302384.0,
           "Net PPE": 20425.0,
@@ -828,12 +828,12 @@
           "Total Debt": 0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -878,7 +878,7 @@
   },
   "validation": {
     "ticker": "AMST",
-    "checked_at": "2026-06-18T14:15:39.129251+00:00",
+    "checked_at": "2026-06-19T14:20:32.386584+00:00",
     "status": "warn",
     "issues": [
       {

@@ -26,7 +26,7 @@
     "market_cap": 83453292.0,
     "ttm_pe": -85.76323908141893,
     "static_pe": -612.5461832061069,
-    "ev_revenue": 4.08571080399731,
+    "ev_revenue": 4.037562194654989,
     "pb": 1.6141196885299338,
     "ps": 3.8979018858561862,
     "p_fcf": -27.738764000127638,
@@ -1053,15 +1053,15 @@
           "General And Administrative Expense": 1164625.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Gross Profit": "yfinance",
           "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
           "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1161,13 +1161,13 @@
         "period": "2026-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 1441134.0,
-          "Capital Expenditure": -2750542.0,
+          "Capital Expenditure": 2750542.0,
           "Free Cash Flow": -1309408.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1308,19 +1308,19 @@
       {
         "period": "2026-04-30",
         "items": {
-          "Cash And Cash Equivalents": 2110713.0,
+          "Cash And Cash Equivalents": 3141565.0,
           "Total Assets": 90221176.0,
           "Common Stock Equity": 51702047.0,
-          "Net PPE": 26917308.0,
+          "Net PPE": 51317096.0,
           "Accounts Receivable": 3947460.0,
           "Total Debt": 6131664.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -1366,7 +1366,7 @@
   },
   "validation": {
     "ticker": "MAYS",
-    "checked_at": "2026-06-18T14:15:39.170375+00:00",
+    "checked_at": "2026-06-19T14:20:32.428488+00:00",
     "status": "ok",
     "issues": []
   },

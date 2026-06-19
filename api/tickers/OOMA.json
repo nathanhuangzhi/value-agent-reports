@@ -1078,17 +1078,17 @@
           "General And Administrative Expense": 9866000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1188,13 +1188,13 @@
         "period": "2026-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 6401000.0,
-          "Capital Expenditure": -1471000.0,
+          "Capital Expenditure": 1471000.0,
           "Free Cash Flow": 4930000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1367,19 +1367,19 @@
           "Total Assets": 226859000.0,
           "Common Stock Equity": 95884000.0,
           "Goodwill": 50427000.0,
-          "Net PPE": 28069000.0,
+          "Net PPE": 14165000.0,
           "Inventory": 18000000.0,
           "Accounts Receivable": 12343000.0,
           "Total Debt": 52918000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -1425,14 +1425,9 @@
   },
   "validation": {
     "ticker": "OOMA",
-    "checked_at": "2026-06-18T14:15:39.180658+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-19T14:20:32.436916+00:00",
+    "status": "info",
     "issues": [
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-10-31 is 230 days old (>180)"
-      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

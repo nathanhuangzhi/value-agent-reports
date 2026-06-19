@@ -366,7 +366,7 @@
           "Selling General And Administration": 3485000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
@@ -466,15 +466,15 @@
           "Selling General And Administration": 2459000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Gross Profit": "yfinance",
           "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -561,13 +561,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -4126000.0,
-          "Capital Expenditure": -2000.0,
+          "Capital Expenditure": 2000.0,
           "Free Cash Flow": -4128000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -726,17 +726,17 @@
           "Total Assets": 39308000.0,
           "Common Stock Equity": 5725000.0,
           "Goodwill": 13967000.0,
-          "Net PPE": 2516000.0,
+          "Net PPE": 1325000.0,
           "Inventory": 1604000.0,
           "Total Debt": 23097000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -782,18 +782,13 @@
   },
   "validation": {
     "ticker": "ADGM",
-    "checked_at": "2026-06-18T14:15:39.126282+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-19T14:20:32.383442+00:00",
+    "status": "info",
     "issues": [
       {
         "severity": "info",
         "rule": "zero_annual_revenue",
         "detail": "FY2025 reported revenue is 0 — pre-revenue stage"
-      },
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 261 days old (>180)"
       }
     ]
   },

@@ -26,12 +26,12 @@
     "market_cap": 1819438.9130999998,
     "ttm_pe": -0.12655205627738747,
     "static_pe": -0.10588598691148227,
-    "ev_revenue": 10.595161473916967,
+    "ev_revenue": 10.047327538898918,
     "pb": 0.1901388769045877,
     "ps": 1.6420928818592055,
-    "p_fcf": -0.2051227635963923,
+    "p_fcf": -0.2075326694536329,
     "ttm_pocf": -0.20784086281699793,
-    "debt_asset": 0.29531138663246403,
+    "debt_asset": 0.27801054581730084,
     "gross_margin": 0.9151624548736462,
     "op_margin": -11.634476534296029,
     "net_margin": -12.975631768953068,
@@ -677,7 +677,7 @@
           "Operating Income": -3575000.0,
           "Net Income": -4045000.0,
           "Diluted EPS": -6.81,
-          "Diluted Average Shares": 11283929.0,
+          "Diluted Average Shares": 593890.0,
           "Research And Development": 103000.0,
           "Selling General And Administration": 3485000.0
         },
@@ -778,15 +778,15 @@
           "Selling General And Administration": 2559000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -886,13 +886,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2796000.0,
-          "Capital Expenditure": -109000.0,
-          "Free Cash Flow": -2905000.0
+          "Capital Expenditure": 6000.0,
+          "Free Cash Flow": -2802000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1029,6 +1029,7 @@
           "Cash And Cash Equivalents": 88000.0,
           "Total Assets": 15860000.0,
           "Common Stock Equity": 7054000.0,
+          "Goodwill": 0.0,
           "Net PPE": 64000.0,
           "Inventory": 86000.0,
           "Accounts Receivable": 155000.0,
@@ -1038,6 +1039,7 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
@@ -1051,19 +1053,19 @@
           "Total Assets": 35085000.0,
           "Common Stock Equity": 9569000.0,
           "Goodwill": 9725000.0,
-          "Net PPE": 1760000.0,
+          "Net PPE": 129000.0,
           "Inventory": 62000.0,
           "Accounts Receivable": 261000.0,
-          "Total Debt": 10361000.0
+          "Total Debt": 9754000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -1109,18 +1111,13 @@
   },
   "validation": {
     "ticker": "VTAK",
-    "checked_at": "2026-06-18T14:15:39.206549+00:00",
+    "checked_at": "2026-06-19T14:20:32.464201+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "gross_margin_out_of_range",
         "detail": "FY2019 Gross Margin -23% outside expected [0, 100%]"
-      },
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 261 days old (>180)"
       },
       {
         "severity": "info",

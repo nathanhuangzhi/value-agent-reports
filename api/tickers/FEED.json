@@ -26,7 +26,7 @@
     "market_cap": 3913968.31,
     "ttm_pe": -0.19438630792152967,
     "static_pe": -0.21523059169645312,
-    "ev_revenue": 1.2650015176524532,
+    "ev_revenue": 1.2512463594681342,
     "pb": 0.12225420302982977,
     "ps": 1.794575107748739,
     "p_fcf": -0.3153120365745589,
@@ -886,9 +886,9 @@
           "Gross Profit": 369000.0,
           "Cost Of Revenue": 656000.0,
           "Operating Income": -1852000.0,
-          "Net Income": -2495000.0,
-          "Diluted EPS": 3.98,
-          "Diluted Average Shares": 626150.0,
+          "Net Income": -1872000.0,
+          "Diluted EPS": -29.9,
+          "Diluted Average Shares": 62615.0,
           "Research And Development": 530000.0,
           "Selling General And Administration": 1691000.0,
           "Selling And Marketing Expense": 349000.0,
@@ -1007,17 +1007,17 @@
           "General And Administrative Expense": 2416000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1117,13 +1117,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -4312000.0,
-          "Capital Expenditure": -17000.0,
+          "Capital Expenditure": 17000.0,
           "Free Cash Flow": -4329000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1286,24 +1286,24 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Cash And Cash Equivalents": 2235000.0,
+          "Cash And Cash Equivalents": 2265000.0,
           "Total Assets": 39871000.0,
           "Common Stock Equity": 32015000.0,
           "Goodwill": 29082000.0,
-          "Net PPE": 275000.0,
+          "Net PPE": 127000.0,
           "Inventory": 2266000.0,
           "Accounts Receivable": 332000.0,
           "Total Debt": 1080000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1348,14 +1348,9 @@
   },
   "validation": {
     "ticker": "FEED",
-    "checked_at": "2026-06-18T14:15:39.153495+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-19T14:20:32.411278+00:00",
+    "status": "info",
     "issues": [
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 261 days old (>180)"
-      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

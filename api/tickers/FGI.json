@@ -23,14 +23,14 @@
     "logic_summary": "FGI Industries supplies bath and kitchen products to retail, wholesale, and commercial customers across multiple geographies."
   },
   "snapshot": {
-    "market_cap": 9392018.971900001,
-    "ttm_pe": -1.449421655676939,
-    "static_pe": -1.5297628793981817,
-    "ev_revenue": 0.15518766240843082,
-    "pb": 0.5811425784462004,
-    "ps": 0.073479877709921,
-    "p_fcf": 6.7880929428405,
-    "ttm_pocf": 4.697905090654079,
+    "market_cap": 8988496.92,
+    "ttm_pe": -1.3871481868608155,
+    "static_pe": -1.4640376015998628,
+    "ev_revenue": 0.1520306467427278,
+    "pb": 0.5561741614953105,
+    "ps": 0.07032286204421796,
+    "p_fcf": 6.496446897301391,
+    "ttm_pocf": 4.496062621267681,
     "debt_asset": 0.19286241961589715,
     "gross_margin": 0.27000612372803473,
     "op_margin": -0.014181196568571749,
@@ -880,7 +880,7 @@
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** The operating backdrop remains tough, with sluggish housing and remodeling activity weighing on core sanitaryware demand and softening order patterns from certain homebuilder customers. Yet beneath the headline pressure, the company’s Brands, Products and Channels (BPC) strategy is beginning to produce encouraging signs, suggesting that newer growth initiatives are gaining selective momentum even as broad end‑market headwinds persist.\n\n**Management strategy and execution:** Leadership is pressing ahead with the BPC framework and reaffirmed its full‑year fiscal 2026 guidance despite a quarter of losses, signaling confidence in the strategic trajectory. The micro‑cap profile and a mostly flat stock price ahead of a routine shareholder vote on directors and auditor underscore limited market attention, but steady governance and a maintained outlook lend a cautious stability to the narrative.",
+    "text": "**Business & market dynamics:** Overall demand remained pressured by a challenging housing and remodeling backdrop, with particular weakness in sanitaryware and softer orders from certain homebuilder accounts weighing on top-line results. Despite this, gross margin held steady, and the company’s diversified growth initiatives under its Brands, Products, and Channels (BPC) strategy began showing positive momentum. The firm is seeing early traction in newer product lines and channels, offsetting some of the broad market softness, suggesting that pockets of resilience are emerging even as end-market conditions remain difficult.\n\n**Management strategy and execution:** Leadership reaffirmed full‑year guidance, signaling confidence in the trajectory of the BPC strategy and ongoing cost discipline. The narrower‑than‑expected quarterly loss and the subsequent market reaction indicate that management’s turnaround efforts are gaining credibility, as operational improvements start to outpace low expectations. There is no mention of shifts in capital allocation or organizational changes, but the steady margin performance and the tone of the commentary point to a team focused on weathering macro headwinds while advancing strategic diversification.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
@@ -903,10 +903,10 @@
         "published_date": null
       },
       {
-        "title": "FGI Stock Alert: Tiny Kitchen-and-Bath Supplier Near Flat Before Wednesday Shareholder Vote",
-        "url": "https://www.bez-kabli.pl/fgi-stock-alert-tiny-kitchen-and-bath-supplier-near-flat-before-wednesday-shareholder-vote/",
-        "snippet": "FGI Stock Alert: Tiny Kitchen-and-Bath Supplier Near Flat Before Wednesday Shareholder Vote\n\nbez-kabli.pl\n\n- RSS\n\nBusiness News· Finance· NASDAQ:FGI· News· Stock Market\n\n# FGI Stock Alert: Tiny Kitchen-and-Bath Supplier Near Flat Before Wednesday Shareholder Vote\n\nJune 2, 2026\n\nby Artur Ślesik\n\nNew York, June 2, 2026, 14:12 (EDT)\n\nFGI Industries Ltd. shares were little changed in Nasdaq trading on Tuesday afternoon, last changing hands at $5.86, up 3 cents, or about 0.5%, in a quote timestamped 11:48 a.m. EDT. The company’s market value was about $11.3 million, putting it in micro-cap territory — a small public-market value where modest trades can move the price.\n\nThe timing matters because shareholders vote on Wednesday. FGI’s proxy sets a June 3 virtual annual meeting at 9 a.m. Eastern time to elect five directors and ratify Marcum Asia CPAs LLP as auditor for fiscal 2026. OTC Markets\n\nFGI said it had 1,927,326 ordinary shares outstanding at the April 24 record date. That small share",
-        "published_date": "2026-06-02T18:25:33.000Z"
+        "title": "FGI Q1 2026 Earnings: EPS Surprises to the Upside, Stock Rises 7.6% - Revenue Guidance Range",
+        "url": "https://action.alz.org/expert-time/FGI-Q1-2026-Earnings-EPS-Surprises-to-the-Upside-Stock-Rises-76-30-4681",
+        "snippet": "FGI Q1 2026 Earnings: EPS Surprises to the Upside, Stock Rises 7.6% - Revenue Guidance Range\n\nEarnings Report\n\nFGI - Earnings Report\n\n### Earnings Highlights\n\nEPS Actual -0.39\n\nEPS Estimate -0.61\n\nRevenue Actual\n\nRevenue Estimate ***\n\nFGI (FGI) quarterly results | financial metrics and trading activity remain in focus. FGI Industries Ltd. (FGI) reported its first-quarter 2026 results with an earnings per share (EPS) of -$0.39, significantly beating the consensus estimate of -$0.606 by 35.64%. Revenue figures were not provided in the earnings release. Following the announcement, the company's stock rose 7.61%, reflecting positive investor reaction to the narrower-than-expected loss.\n\n## Management Commentary\n\nFGI (FGI) quarterly results | financial metrics and trading activity remain in focus. Investors often experiment with different analytical methods before finding the approach that suits them best. What works for one trader may not work for another, highlighting the importance of pe",
+        "published_date": "2026-05-31T03:47:33.000Z"
       },
       {
         "title": "Q1 2026 Earnings Presentation (05/14/2026 00:00 | MarketScreener",
@@ -919,15 +919,20 @@
   },
   "validation": {
     "ticker": "FGI",
-    "checked_at": "2026-06-18T14:15:39.153633+00:00",
+    "checked_at": "2026-06-19T14:20:32.411432+00:00",
     "status": "info",
     "issues": [
       {
         "severity": "info",
         "rule": "eps_mismatch",
         "detail": "FY2023 reported EPS 0.07 vs NI/shares 0.07 (+7%)"
+      },
+      {
+        "severity": "info",
+        "rule": "mcap_reconciliation",
+        "detail": "Stage-1 mcap 0.01B vs price×shares 0.01B (-31%)"
       }
     ]
   },
-  "analyzed_date": "2026-06-18"
+  "analyzed_date": "2026-06-19"
 }

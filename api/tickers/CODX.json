@@ -761,8 +761,8 @@
           "Cost Of Revenue": 21590.0,
           "Operating Income": -8551956.0,
           "Net Income": -7533271.0,
-          "Diluted EPS": -0.24,
-          "Diluted Average Shares": 32048953.0,
+          "Diluted EPS": -7.05,
+          "Diluted Average Shares": 1068299.0,
           "Research And Development": 4870019.0,
           "Selling General And Administration": 3430179.0,
           "Selling And Marketing Expense": 657030.0,
@@ -881,17 +881,17 @@
           "General And Administrative Expense": 2503126.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -991,13 +991,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -7846276.0,
-          "Capital Expenditure": -142017.0,
+          "Capital Expenditure": 142017.0,
           "Free Cash Flow": -7988293.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1070,7 +1070,7 @@
         "items": {
           "Cash And Cash Equivalents": 1903034.0,
           "Total Assets": 55149342.0,
-          "Common Stock Equity": 47920831.0,
+          "Common Stock Equity": 47484070.0,
           "Net PPE": 2593808.0,
           "Inventory": 1083309.0,
           "Accounts Receivable": 136391.0,
@@ -1155,18 +1155,18 @@
           "Cash And Cash Equivalents": 8230984.0,
           "Total Assets": 21499726.0,
           "Common Stock Equity": 16042410.0,
-          "Net PPE": 4161267.0,
+          "Net PPE": 2158670.0,
           "Inventory": 846119.0,
           "Accounts Receivable": 82339.0,
           "Total Debt": 857638.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -1212,14 +1212,9 @@
   },
   "validation": {
     "ticker": "CODX",
-    "checked_at": "2026-06-18T14:15:39.142823+00:00",
+    "checked_at": "2026-06-19T14:20:32.400240+00:00",
     "status": "warn",
     "issues": [
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 261 days old (>180)"
-      },
       {
         "severity": "warn",
         "rule": "yoy_revenue_jump",
