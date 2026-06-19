@@ -29,8 +29,8 @@
     "ev_revenue": 2.9406382508686075,
     "pb": -29.214984180552626,
     "ps": 2.781718202936195,
-    "p_fcf": 25.33069495245062,
-    "ttm_pocf": 25.043678881388622,
+    "p_fcf": 17.388154161610245,
+    "ttm_pocf": 17.16476867151355,
     "debt_asset": 0.8973364895342119,
     "gross_margin": 0.2859074690213353,
     "op_margin": 0.15021054111409388,
@@ -412,11 +412,11 @@
         }
       },
       {
-        "period": "2026-03-29",
+        "period": "2026-03-31",
         "items": {
           "Total Revenue": 162063000.0,
-          "Gross Profit": 55544000.0,
-          "Cost Of Revenue": 106519000.0,
+          "Gross Profit": 48930000.0,
+          "Cost Of Revenue": 113133000.0,
           "Operating Income": 30102000.0,
           "Net Income": 20020000.0,
           "Diluted EPS": 4.85,
@@ -425,15 +425,15 @@
           "General And Administrative Expense": 17903000.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -647,16 +647,16 @@
         }
       },
       {
-        "period": "2026-03-29",
+        "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 18234000.0,
-          "Capital Expenditure": 370000.0,
+          "Capital Expenditure": -370000.0,
           "Free Cash Flow": 17864000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1011,20 +1011,20 @@
           "Total Assets": 53651000.0,
           "Common Stock Equity": -14223000.0,
           "Goodwill": 95000.0,
-          "Net PPE": 1733000.0,
+          "Net PPE": 5405000.0,
           "Inventory": 891000.0,
           "Accounts Receivable": 20427000.0,
           "Total Debt": 48143000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1226,6 +1226,19 @@
     ],
     "cash_flow": [
       {
+        "period": "2025-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 6790000.0,
+          "Capital Expenditure": -54000.0,
+          "Free Cash Flow": 6736000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
+      },
+      {
         "period": "2025-06-29",
         "items": {
           "Cash Flow From Continuing Operating Activities": -220000.0,
@@ -1304,19 +1317,6 @@
         }
       },
       {
-        "period": "2026-03-29",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 2542000.0,
-          "Capital Expenditure": 38000.0,
-          "Free Cash Flow": 2504000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
-      {
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 2542000.0,
@@ -1331,6 +1331,29 @@
       }
     ],
     "balance_sheet": [
+      {
+        "period": "2025-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 27802000.0,
+          "Total Assets": 53476000.0,
+          "Common Stock Equity": -16513000.0,
+          "Goodwill": 95000.0,
+          "Net PPE": 2114000.0,
+          "Inventory": 1221000.0,
+          "Accounts Receivable": 14436000.0,
+          "Total Debt": 50473000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "sec"
+        }
+      },
       {
         "period": "2025-06-29",
         "items": {
@@ -1464,27 +1487,6 @@
         }
       },
       {
-        "period": "2026-03-29",
-        "items": {
-          "Cash And Cash Equivalents": 24404000.0,
-          "Total Assets": 53651000.0,
-          "Common Stock Equity": -14223000.0,
-          "Goodwill": 95000.0,
-          "Net PPE": 1733000.0,
-          "Inventory": 891000.0,
-          "Total Debt": 48143000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Total Debt": "sec"
-        }
-      },
-      {
         "period": "2026-03-31",
         "items": {
           "Cash And Cash Equivalents": 24404000.0,
@@ -1549,7 +1551,7 @@
   },
   "validation": {
     "ticker": "NATH",
-    "checked_at": "2026-06-19T14:20:32.431414+00:00",
+    "checked_at": "2026-06-19T15:59:12.535417+00:00",
     "status": "ok",
     "issues": []
   },

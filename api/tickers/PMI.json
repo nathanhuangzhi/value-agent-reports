@@ -359,20 +359,20 @@
           "Operating Income": -3246000.0,
           "Net Income": -5561000.0,
           "Diluted EPS": -0.088001,
-          "Diluted Average Shares": 7963188.0,
+          "Diluted Average Shares": 72056144.0,
           "Research And Development": 808000.0,
           "Selling General And Administration": 2080000.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -460,15 +460,15 @@
           "Selling General And Administration": 2891000.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -499,9 +499,9 @@
           "Free Cash Flow": -2241000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -512,9 +512,9 @@
           "Free Cash Flow": -2541000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
+          "Cash Flow From Continuing Operating Activities": "yfinance",
           "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -525,9 +525,9 @@
           "Free Cash Flow": -6514000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
+          "Cash Flow From Continuing Operating Activities": "yfinance",
           "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -538,22 +538,22 @@
           "Free Cash Flow": -4377000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
+          "Cash Flow From Continuing Operating Activities": "yfinance",
           "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Free Cash Flow": "yfinance"
         }
       },
       {
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3800000.0,
-          "Capital Expenditure": 26000.0,
+          "Capital Expenditure": -26000.0,
           "Free Cash Flow": -3826000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -603,7 +603,7 @@
           "Total Debt": 21977000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
+          "Cash And Cash Equivalents": "yfinance",
           "Total Assets": "yfinance",
           "Common Stock Equity": "sec",
           "Goodwill": "yfinance",
@@ -698,18 +698,18 @@
           "Total Assets": 11220000.0,
           "Common Stock Equity": -1448000.0,
           "Goodwill": 615000.0,
-          "Net PPE": 184000.0,
+          "Net PPE": 609000.0,
           "Inventory": 7445000.0,
           "Accounts Receivable": 596000.0,
           "Total Debt": 2857000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
@@ -756,9 +756,14 @@
   },
   "validation": {
     "ticker": "PMI",
-    "checked_at": "2026-06-19T14:20:32.441105+00:00",
-    "status": "info",
+    "checked_at": "2026-06-19T15:59:12.548826+00:00",
+    "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
+      },
       {
         "severity": "info",
         "rule": "mcap_reconciliation",

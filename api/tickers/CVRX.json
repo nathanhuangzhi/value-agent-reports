@@ -605,15 +605,15 @@
           "Selling General And Administration": 21958000.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -713,13 +713,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -12164000.0,
-          "Capital Expenditure": 122000.0,
+          "Capital Expenditure": -122000.0,
           "Free Cash Flow": -12286000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -792,7 +792,7 @@
         "items": {
           "Cash And Cash Equivalents": 102668000.0,
           "Total Assets": 129589000.0,
-          "Common Stock Equity": 69360000.0,
+          "Common Stock Equity": 71055000.0,
           "Net PPE": 2435000.0,
           "Inventory": 11672000.0,
           "Accounts Receivable": 9012000.0,
@@ -877,18 +877,18 @@
           "Cash And Cash Equivalents": 72303000.0,
           "Total Assets": 99728000.0,
           "Common Stock Equity": 29109000.0,
-          "Net PPE": 2159000.0,
+          "Net PPE": 2952000.0,
           "Inventory": 12403000.0,
           "Accounts Receivable": 9104000.0,
           "Total Debt": 58851000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       }
@@ -934,7 +934,7 @@
   },
   "validation": {
     "ticker": "CVRX",
-    "checked_at": "2026-06-19T14:20:32.403014+00:00",
+    "checked_at": "2026-06-19T15:59:12.486894+00:00",
     "status": "warn",
     "issues": [
       {
@@ -946,6 +946,11 @@
         "severity": "warn",
         "rule": "ni_exceeds_revenue",
         "detail": "FY2022 |Net Income| -41M > 1.5× Revenue 22M — heavy cash burn"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
       }
     ]
   },

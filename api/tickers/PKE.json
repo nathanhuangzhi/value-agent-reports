@@ -26,12 +26,12 @@
     "market_cap": 684819720.0,
     "ttm_pe": 60.75405606813343,
     "static_pe": 60.75405606813343,
-    "ev_revenue": 8.271725078784737,
+    "ev_revenue": 8.272325343446884,
     "pb": 5.269870873412851,
     "ps": 9.342569951296708,
-    "p_fcf": 46.47887335414687,
-    "ttm_pocf": 40.697671599215546,
-    "debt_asset": 0.0,
+    "p_fcf": 72.3834393827291,
+    "ttm_pocf": 59.55471954082964,
+    "debt_asset": 0.0003093624321511939,
     "gross_margin": 0.3093000095496651,
     "op_margin": 0.18417211224949182,
     "net_margin": 0.1537768925389831,
@@ -412,7 +412,7 @@
         }
       },
       {
-        "period": "2026-03-01",
+        "period": "2026-02-28",
         "items": {
           "Total Revenue": 73301000.0,
           "Gross Profit": 22672000.0,
@@ -424,14 +424,14 @@
           "Selling General And Administration": 9172000.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -645,16 +645,16 @@
         }
       },
       {
-        "period": "2026-03-01",
+        "period": "2026-02-28",
         "items": {
           "Cash Flow From Continuing Operating Activities": 11499000.0,
-          "Capital Expenditure": 2038000.0,
+          "Capital Expenditure": -2038000.0,
           "Free Cash Flow": 9461000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1021,25 +1021,25 @@
         }
       },
       {
-        "period": "2026-03-01",
+        "period": "2026-02-28",
         "items": {
           "Cash And Cash Equivalents": 78494000.0,
           "Total Assets": 142228000.0,
           "Common Stock Equity": 129950000.0,
           "Goodwill": 9776000.0,
-          "Net PPE": 21828000.0,
+          "Net PPE": 22084000.0,
           "Inventory": 7411000.0,
           "Accounts Receivable": 10974000.0,
           "Total Debt": 44000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
           "Goodwill": "yfinance",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       }
@@ -1234,6 +1234,19 @@
     ],
     "cash_flow": [
       {
+        "period": "2024-12-01",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 2725000.0,
+          "Capital Expenditure": 52000.0,
+          "Free Cash Flow": 2673000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
+      {
         "period": "2025-02-28",
         "items": {
           "Cash Flow From Continuing Operating Activities": 969000.0,
@@ -1323,22 +1336,30 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
-      },
-      {
-        "period": "2026-03-01",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 6918000.0,
-          "Capital Expenditure": 536000.0,
-          "Free Cash Flow": 6382000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
       }
     ],
     "balance_sheet": [
+      {
+        "period": "2024-12-01",
+        "items": {
+          "Cash And Cash Equivalents": 12754000.0,
+          "Total Assets": 124222000.0,
+          "Common Stock Equity": 107358000.0,
+          "Net PPE": 21479000.0,
+          "Inventory": 10592000.0,
+          "Accounts Receivable": 9687000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
       {
         "period": "2025-02-28",
         "items": {
@@ -1489,27 +1510,6 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
-      },
-      {
-        "period": "2026-03-01",
-        "items": {
-          "Cash And Cash Equivalents": 78494000.0,
-          "Total Assets": 142228000.0,
-          "Common Stock Equity": 129950000.0,
-          "Net PPE": 21828000.0,
-          "Inventory": 7411000.0,
-          "Accounts Receivable": 10974000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
       }
     ]
   },
@@ -1553,7 +1553,7 @@
   },
   "validation": {
     "ticker": "PKE",
-    "checked_at": "2026-06-19T14:20:32.441074+00:00",
+    "checked_at": "2026-06-19T15:59:12.548787+00:00",
     "status": "warn",
     "issues": [
       {

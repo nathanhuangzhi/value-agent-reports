@@ -26,10 +26,10 @@
     "market_cap": 525654360.0,
     "ttm_pe": 2.82886674057411,
     "static_pe": 3.031927462753716,
-    "ev_revenue": 1.4528250706895574,
+    "ev_revenue": 1.4550105730512772,
     "pb": 2.4276171079429734,
     "ps": 1.064706992797362,
-    "p_fcf": 4.205066677332907,
+    "p_fcf": 4.277820945808478,
     "ttm_pocf": 4.0916506577411065,
     "debt_asset": 0.42876300459538413,
     "gross_margin": 0.8501583932202841,
@@ -820,17 +820,17 @@
           "General And Administrative Expense": 23166000.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -930,13 +930,13 @@
         "period": "2026-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 44283000.0,
-          "Capital Expenditure": 965000.0,
-          "Free Cash Flow": 43318000.0
+          "Capital Expenditure": -3091000.0,
+          "Free Cash Flow": 41192000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1091,21 +1091,21 @@
       {
         "period": "2026-04-30",
         "items": {
-          "Cash And Cash Equivalents": 209959000.0,
+          "Cash And Cash Equivalents": 208880000.0,
           "Total Assets": 936592000.0,
           "Common Stock Equity": 216531000.0,
           "Goodwill": 137401000.0,
-          "Net PPE": 31938000.0,
+          "Net PPE": 43454000.0,
           "Accounts Receivable": 76025000.0,
           "Total Debt": 401576000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       }
@@ -1151,9 +1151,14 @@
   },
   "validation": {
     "ticker": "PD",
-    "checked_at": "2026-06-19T14:20:32.439917+00:00",
-    "status": "info",
+    "checked_at": "2026-06-19T15:59:12.547223+00:00",
+    "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-10-31 is 231 days old (>180)"
+      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

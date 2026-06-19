@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 17830330.0,
-    "ttm_pe": -6.356623885918004,
+    "ttm_pe": -4.626447846393358,
     "static_pe": -4.018555330178049,
-    "ev_revenue": 0.3346126441758847,
-    "pb": 3.7680325443786984,
-    "ps": 0.35094929732708735,
-    "p_fcf": -9.3548426023085,
-    "ttm_pocf": -11.950623324396783,
-    "debt_asset": 0.13316120817712385,
-    "gross_margin": 0.37342046215013974,
-    "op_margin": -0.04082195016336653,
-    "net_margin": -0.05521001456520883,
-    "roe": -0.5927726120033813,
-    "roa": -0.09920775270566598,
+    "ev_revenue": 0.33839564195684685,
+    "pb": -14.061774447949526,
+    "ps": 0.34628051504146357,
+    "p_fcf": -10.865527117611213,
+    "ttm_pocf": -13.559186311787073,
+    "debt_asset": 0.14815731767701776,
+    "gross_margin": 0.35431434619642266,
+    "op_margin": -0.06138936901594454,
+    "net_margin": -0.07484803169485929,
+    "roe": 3.0394321766561516,
+    "roa": -0.13630897644479026,
     "dividend_rate": 0.0,
     "latest_q_ni": -524000.0,
     "latest_q_ocf": -1335000.0
@@ -1126,6 +1126,33 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2025-03-29",
+        "items": {
+          "Total Revenue": 11896000.0,
+          "Gross Profit": 5055000.0,
+          "Cost Of Revenue": 6841000.0,
+          "Operating Income": -205000.0,
+          "Net Income": -1686000.0,
+          "Diluted EPS": -0.1,
+          "Diluted Average Shares": 16727000.0,
+          "Research And Development": 876000.0,
+          "Selling And Marketing Expense": 2453000.0,
+          "General And Administrative Expense": 1931000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 11896000.0,
@@ -1323,36 +1350,22 @@
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
-      },
-      {
-        "period": "2026-04-04",
-        "items": {
-          "Total Revenue": 11799000.0,
-          "Gross Profit": 4741000.0,
-          "Cost Of Revenue": 7058000.0,
-          "Operating Income": -324000.0,
-          "Net Income": -524000.0,
-          "Diluted EPS": -0.03,
-          "Diluted Average Shares": 17311000.0,
-          "Research And Development": 905000.0,
-          "Selling And Marketing Expense": 2537000.0,
-          "General And Administrative Expense": 1623000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
-        }
       }
     ],
     "cash_flow": [
+      {
+        "period": "2025-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -1149000.0,
+          "Capital Expenditure": -11000.0,
+          "Free Cash Flow": -1160000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
+      },
       {
         "period": "2025-06-28",
         "items": {
@@ -1443,22 +1456,32 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
-      },
-      {
-        "period": "2026-04-04",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -1335000.0,
-          "Capital Expenditure": 101000.0,
-          "Free Cash Flow": -1436000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
       }
     ],
     "balance_sheet": [
+      {
+        "period": "2025-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 7244000.0,
+          "Total Assets": 34236000.0,
+          "Common Stock Equity": 852000.0,
+          "Goodwill": 965000.0,
+          "Net PPE": 1621000.0,
+          "Inventory": 10142000.0,
+          "Accounts Receivable": 6680000.0,
+          "Total Debt": 4764000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
       {
         "period": "2025-06-28",
         "items": {
@@ -1619,29 +1642,6 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
-      },
-      {
-        "period": "2026-04-04",
-        "items": {
-          "Cash And Cash Equivalents": 4595000.0,
-          "Total Assets": 28274000.0,
-          "Common Stock Equity": 4732000.0,
-          "Goodwill": 965000.0,
-          "Net PPE": 139000.0,
-          "Inventory": 9325000.0,
-          "Accounts Receivable": 6844000.0,
-          "Total Debt": 3765000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
       }
     ]
   },
@@ -1685,9 +1685,14 @@
   },
   "validation": {
     "ticker": "IRIX",
-    "checked_at": "2026-06-19T14:20:32.421113+00:00",
-    "status": "info",
+    "checked_at": "2026-06-19T15:59:12.519285+00:00",
+    "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-09-27 is 265 days old (>180)"
+      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

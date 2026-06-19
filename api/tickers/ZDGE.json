@@ -29,7 +29,7 @@
     "ev_revenue": 0.6427102774175181,
     "pb": 1.621304666503787,
     "ps": 1.259481858729004,
-    "p_fcf": 11.317794201250711,
+    "p_fcf": 11.451251078515963,
     "ttm_pocf": 11.12800447177194,
     "debt_asset": 0.005655317164179104,
     "gross_margin": 0.9330022459114921,
@@ -836,14 +836,14 @@
           "Selling General And Administration": 6235000.0
         },
         "sources": {
-          "Total Revenue": "sec",
+          "Total Revenue": "yfinance",
           "Gross Profit": "yfinance",
           "Cost Of Revenue": "yfinance",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -943,13 +943,13 @@
         "period": "2026-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 1221000.0,
-          "Capital Expenditure": 6000.0,
-          "Free Cash Flow": 1215000.0
+          "Capital Expenditure": -47000.0,
+          "Free Cash Flow": 1174000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1113,12 +1113,12 @@
           "Total Debt": 194000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       }
@@ -1164,7 +1164,7 @@
   },
   "validation": {
     "ticker": "ZDGE",
-    "checked_at": "2026-06-19T14:20:32.467004+00:00",
+    "checked_at": "2026-06-19T15:59:12.589298+00:00",
     "status": "warn",
     "issues": [
       {

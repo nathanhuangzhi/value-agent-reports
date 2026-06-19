@@ -452,18 +452,18 @@
           "Diluted EPS": -0.05,
           "Diluted Average Shares": 28062953.0,
           "Selling General And Administration": 1266392.0,
-          "General And Administrative Expense": 1225302.0
+          "General And Administrative Expense": 1266392.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -511,13 +511,13 @@
         "period": "2025-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -739984.0,
-          "Capital Expenditure": 319272.0,
+          "Capital Expenditure": -319272.0,
           "Free Cash Flow": -1059256.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -563,13 +563,13 @@
         "period": "2026-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1620268.0,
-          "Capital Expenditure": 142.0,
+          "Capital Expenditure": -142.0,
           "Free Cash Flow": -1620410.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -701,17 +701,17 @@
           "Cash And Cash Equivalents": 22098186.0,
           "Total Assets": 35724147.0,
           "Common Stock Equity": 34553215.0,
-          "Net PPE": 93003.0,
+          "Net PPE": 13265947.0,
           "Accounts Receivable": 107016.0,
           "Total Debt": 0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -756,7 +756,7 @@
   },
   "validation": {
     "ticker": "TPET",
-    "checked_at": "2026-06-19T14:20:32.459486+00:00",
+    "checked_at": "2026-06-19T15:59:12.577218+00:00",
     "status": "info",
     "issues": [
       {

@@ -432,15 +432,15 @@
           "Selling General And Administration": 7605000.0
         },
         "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -624,13 +624,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3933000.0,
-          "Capital Expenditure": 192000.0,
+          "Capital Expenditure": -192000.0,
           "Free Cash Flow": -4125000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -967,19 +967,19 @@
           "Cash And Cash Equivalents": 2399000.0,
           "Total Assets": 13960000.0,
           "Common Stock Equity": 3095000.0,
-          "Net PPE": 310000.0,
+          "Net PPE": 912000.0,
           "Inventory": 3651000.0,
           "Accounts Receivable": 2527000.0,
           "Total Debt": 222000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1275,13 +1275,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -519000.0,
-          "Capital Expenditure": 29000.0,
+          "Capital Expenditure": -29000.0,
           "Free Cash Flow": -548000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1439,19 +1439,19 @@
           "Cash And Cash Equivalents": 2399000.0,
           "Total Assets": 13960000.0,
           "Common Stock Equity": 3095000.0,
-          "Net PPE": 310000.0,
+          "Net PPE": 912000.0,
           "Inventory": 3651000.0,
           "Accounts Receivable": 2527000.0,
           "Total Debt": 222000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1496,7 +1496,7 @@
   },
   "validation": {
     "ticker": "SNOA",
-    "checked_at": "2026-06-19T14:20:32.453803+00:00",
+    "checked_at": "2026-06-19T15:59:12.567352+00:00",
     "status": "info",
     "issues": [
       {
@@ -1507,7 +1507,7 @@
       {
         "severity": "info",
         "rule": "mcap_reconciliation",
-        "detail": "Stage-1 mcap 0.00B vs price×shares 0.00B (-60%)"
+        "detail": "Stage-1 mcap 0.00B vs price×shares 0.00B (-71%)"
       }
     ]
   },
