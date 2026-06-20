@@ -26,12 +26,12 @@
     "market_cap": 133763395.86,
     "ttm_pe": 8.971989795425582,
     "static_pe": 11.323406066198256,
-    "ev_revenue": 3.2598586611258717,
+    "ev_revenue": 3.258541586847424,
     "pb": 72.77660275299239,
     "ps": 3.037522898017576,
-    "p_fcf": 34.72569985981308,
+    "p_fcf": 33.54988609480812,
     "ttm_pocf": 23.10248633160622,
-    "debt_asset": 0.5544922770035313,
+    "debt_asset": 0.552928808259428,
     "gross_margin": 0.7658332765628902,
     "op_margin": 0.04160138065717465,
     "net_margin": 0.33855621409269476,
@@ -1235,17 +1235,17 @@
           "General And Administrative Expense": 5250000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1345,13 +1345,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 397000.0,
-          "Capital Expenditure": -158000.0,
-          "Free Cash Flow": 239000.0
+          "Capital Expenditure": 23000.0,
+          "Free Cash Flow": 374000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1504,7 +1504,7 @@
           "Net PPE": 1972000.0,
           "Inventory": 5934000.0,
           "Accounts Receivable": 5422000.0,
-          "Total Debt": 21892000.0
+          "Total Debt": 21305000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1524,20 +1524,20 @@
           "Total Assets": 37097000.0,
           "Common Stock Equity": 1838000.0,
           "Goodwill": 7260000.0,
-          "Net PPE": 2904000.0,
+          "Net PPE": 1913000.0,
           "Inventory": 5903000.0,
           "Accounts Receivable": 6000000.0,
-          "Total Debt": 20570000.0
+          "Total Debt": 20512000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1582,18 +1582,13 @@
   },
   "validation": {
     "ticker": "SNWV",
-    "checked_at": "2026-06-19T15:59:12.567723+00:00",
+    "checked_at": "2026-06-20T13:56:11.811621+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "ni_exceeds_revenue",
         "detail": "FY2021 |Net Income| -27M > 1.5× Revenue 13M — heavy cash burn"
-      },
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
       },
       {
         "severity": "warn",

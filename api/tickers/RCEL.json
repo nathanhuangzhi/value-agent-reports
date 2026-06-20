@@ -26,10 +26,10 @@
     "market_cap": 125522983.92000002,
     "ttm_pe": -2.768543283266063,
     "static_pe": -2.5834684981579437,
-    "ev_revenue": 2.257940783457275,
+    "ev_revenue": 2.2331847499516218,
     "pb": -5.418414224294225,
     "ps": 1.7350369601636582,
-    "p_fcf": -3.7908608335346705,
+    "p_fcf": -3.7912043226917156,
     "ttm_pocf": -4.054621872213968,
     "debt_asset": 0.8951381344094366,
     "gross_margin": 0.8136317142620186,
@@ -761,17 +761,17 @@
           "General And Administrative Expense": 6061000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -871,13 +871,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -10072000.0,
-          "Capital Expenditure": -22000.0,
-          "Free Cash Flow": -10094000.0
+          "Capital Expenditure": 19000.0,
+          "Free Cash Flow": -10091000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -953,7 +953,7 @@
           "Common Stock Equity": -4571000.0,
           "Net PPE": 9894000.0,
           "Inventory": 8395000.0,
-          "Accounts Receivable": 12045000.0,
+          "Accounts Receivable": 9100000.0,
           "Total Debt": 41464000.0
         },
         "sources": {
@@ -1032,22 +1032,22 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Cash And Cash Equivalents": 8309000.0,
+          "Cash And Cash Equivalents": 10100000.0,
           "Total Assets": 51544000.0,
           "Common Stock Equity": -23166000.0,
-          "Net PPE": 10877000.0,
+          "Net PPE": 8211000.0,
           "Inventory": 6117000.0,
           "Accounts Receivable": 9885000.0,
           "Total Debt": 46139000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1092,18 +1092,13 @@
   },
   "validation": {
     "ticker": "RCEL",
-    "checked_at": "2026-06-19T15:59:12.552713+00:00",
+    "checked_at": "2026-06-20T13:56:11.800555+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "ni_exceeds_revenue",
         "detail": "FY2020 |Net Income| -42M > 1.5× Revenue 14M — heavy cash burn"
-      },
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
       },
       {
         "severity": "info",

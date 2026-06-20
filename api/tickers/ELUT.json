@@ -33,7 +33,7 @@
     "ttm_pocf": -0.9924243382084095,
     "debt_asset": 0.009491206143925809,
     "gross_margin": 0.540166551875274,
-    "op_margin": -1.6477365224469351,
+    "op_margin": -1.6856802955356585,
     "net_margin": 3.1209066432909647,
     "roe": 2.212633728414791,
     "roa": 0.9028238149577061,
@@ -581,17 +581,17 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 6030000.0,
-          "Gross Profit": 2457000.0,
-          "Cost Of Revenue": 3573000.0,
-          "Operating Income": -7922000.0,
+          "Total Revenue": 2951000.0,
+          "Gross Profit": 1382000.0,
+          "Cost Of Revenue": 1569000.0,
+          "Operating Income": -6777000.0,
           "Net Income": -3933000.0,
-          "Diluted EPS": -0.21,
+          "Diluted EPS": -0.17,
           "Diluted Average Shares": 42913111.0,
-          "Research And Development": 905000.0,
+          "Research And Development": 871000.0,
           "Selling General And Administration": 4716000.0,
-          "Selling And Marketing Expense": 3031000.0,
-          "General And Administrative Expense": 3871000.0
+          "Selling And Marketing Expense": 995000.0,
+          "General And Administrative Expense": 3721000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -700,7 +700,7 @@
           "Total Revenue": 3114000.0,
           "Gross Profit": 1802000.0,
           "Cost Of Revenue": 1312000.0,
-          "Operating Income": -5742000.0,
+          "Operating Income": -6348000.0,
           "Net Income": -7469000.0,
           "Diluted EPS": -0.17,
           "Diluted Average Shares": 42998504.0,
@@ -710,17 +710,17 @@
           "General And Administrative Expense": 4091000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -820,13 +820,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -7831000.0,
-          "Capital Expenditure": -459000.0,
+          "Capital Expenditure": 459000.0,
           "Free Cash Flow": -8290000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -984,18 +984,18 @@
           "Cash And Cash Equivalents": 28488000.0,
           "Total Assets": 55209000.0,
           "Common Stock Equity": 22527000.0,
-          "Net PPE": 5358000.0,
+          "Net PPE": 2909000.0,
           "Inventory": 2657000.0,
           "Accounts Receivable": 2068000.0,
           "Total Debt": 524000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -1041,7 +1041,7 @@
   },
   "validation": {
     "ticker": "ELUT",
-    "checked_at": "2026-06-19T15:59:12.498311+00:00",
+    "checked_at": "2026-06-20T13:56:11.763840+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1058,11 +1058,6 @@
         "severity": "warn",
         "rule": "ni_exceeds_revenue",
         "detail": "FY2025 |Net Income| 53M > 1.5× Revenue 12M — heavy cash burn"
-      },
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
       },
       {
         "severity": "info",

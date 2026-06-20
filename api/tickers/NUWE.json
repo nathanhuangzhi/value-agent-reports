@@ -26,10 +26,10 @@
     "market_cap": 2261684.6,
     "ttm_pe": -0.11873606677866443,
     "static_pe": -0.12908421893727529,
-    "ev_revenue": 0.05059694377922227,
+    "ev_revenue": 0.03850890637472917,
     "pb": 0.849937842916197,
     "ps": 0.2579181890751511,
-    "p_fcf": -0.19463722891566265,
+    "p_fcf": -0.19615651344319168,
     "ttm_pocf": -0.1986373265413666,
     "debt_asset": 0.03806924292486712,
     "gross_margin": 0.6546926673508952,
@@ -966,8 +966,8 @@
           "Cost Of Revenue": 837000.0,
           "Operating Income": -3060000.0,
           "Net Income": -3014000.0,
-          "Diluted EPS": -0.69,
-          "Diluted Average Shares": 4373968.0,
+          "Diluted EPS": -28.93,
+          "Diluted Average Shares": 104142.0,
           "Research And Development": 550000.0,
           "Selling General And Administration": 3577000.0
         },
@@ -1066,21 +1066,21 @@
           "Cost Of Revenue": 719000.0,
           "Operating Income": -4568000.0,
           "Net Income": -4541000.0,
-          "Diluted EPS": -2.09,
+          "Diluted EPS": -2.19,
           "Diluted Average Shares": 2074940.0,
           "Research And Development": 1728000.0,
           "Selling General And Administration": 4524000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1180,13 +1180,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3112000.0,
-          "Capital Expenditure": -120000.0,
-          "Free Cash Flow": -3232000.0
+          "Capital Expenditure": 30000.0,
+          "Free Cash Flow": -3142000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1341,21 +1341,21 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Cash And Cash Equivalents": 2083000.0,
+          "Cash And Cash Equivalents": 2189000.0,
           "Total Assets": 6961000.0,
           "Common Stock Equity": 2661000.0,
-          "Net PPE": 602000.0,
+          "Net PPE": 365000.0,
           "Inventory": 1779000.0,
           "Accounts Receivable": 1559000.0,
           "Total Debt": 265000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -1401,14 +1401,9 @@
   },
   "validation": {
     "ticker": "NUWE",
-    "checked_at": "2026-06-19T15:59:12.540586+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-20T13:56:11.791706+00:00",
+    "status": "info",
     "issues": [
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
-      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

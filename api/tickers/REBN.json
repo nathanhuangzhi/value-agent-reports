@@ -26,16 +26,16 @@
     "market_cap": 17412524.6,
     "ttm_pe": -2.0145186981779175,
     "static_pe": -1.9048317952487848,
-    "ev_revenue": 1.9043481278525602,
-    "pb": 5.849536069036691,
+    "ev_revenue": 1.7943049462430039,
+    "pb": 5.054119889214429,
     "ps": 1.499423361125047,
     "p_fcf": -2.535999431412618,
     "ttm_pocf": -2.6351542166493993,
-    "debt_asset": 0.3511081353710479,
+    "debt_asset": 0.2608058170614724,
     "gross_margin": 0.5512896357420346,
     "op_margin": -0.42790446828822026,
     "net_margin": -0.7443084854368631,
-    "roe": -2.9036891413951387,
+    "roe": -2.5088473459123293,
     "roa": -0.6107855188240096,
     "dividend_rate": 0.0,
     "latest_q_ni": -1827569.0,
@@ -500,7 +500,7 @@
           "Diluted EPS": -0.47,
           "Diluted Average Shares": 4616591.0,
           "Selling General And Administration": 2466254.0,
-          "General And Administrative Expense": 2466254.0
+          "General And Administrative Expense": 1876295.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -590,24 +590,24 @@
         "items": {
           "Total Revenue": 5211447.0,
           "Gross Profit": 2102603.0,
-          "Cost Of Revenue": 3108844.0,
+          "Cost Of Revenue": 2591308.0,
           "Operating Income": -872685.0,
           "Net Income": -1827569.0,
           "Diluted EPS": -0.222509,
           "Diluted Average Shares": 8213455.0,
           "Selling General And Administration": 2975288.0,
-          "General And Administrative Expense": 2975288.0
+          "General And Administrative Expense": 2436695.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -707,13 +707,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 362250.0,
-          "Capital Expenditure": -138554.0,
+          "Capital Expenditure": 138554.0,
           "Free Cash Flow": 223696.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -870,20 +870,20 @@
         "items": {
           "Cash And Cash Equivalents": 266382.0,
           "Total Assets": 14151475.0,
-          "Common Stock Equity": 2976736.0,
-          "Net PPE": 6110973.0,
+          "Common Stock Equity": 3445214.0,
+          "Net PPE": 2651527.0,
           "Inventory": 119209.0,
-          "Accounts Receivable": 1882535.0,
-          "Total Debt": 4968698.0
+          "Accounts Receivable": 1218784.0,
+          "Total Debt": 3690787.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -928,14 +928,9 @@
   },
   "validation": {
     "ticker": "REBN",
-    "checked_at": "2026-06-19T15:59:12.553062+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-20T13:56:11.800795+00:00",
+    "status": "info",
     "issues": [
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
-      },
       {
         "severity": "info",
         "rule": "mcap_reconciliation",

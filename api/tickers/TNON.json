@@ -27,7 +27,7 @@
     "ttm_pe": -0.6631384987113402,
     "static_pe": -0.6557444727620262,
     "ev_revenue": 1.5459055035892977,
-    "pb": -6.98348396946565,
+    "pb": 4.34486944591029,
     "ps": 1.791065390472047,
     "p_fcf": -0.6993567994563833,
     "ttm_pocf": -0.7336952058456604,
@@ -35,7 +35,7 @@
     "gross_margin": 0.6482488579508375,
     "op_margin": -2.696323689362628,
     "net_margin": -2.700891886012617,
-    "roe": 10.530958439355386,
+    "roe": -6.55197889182058,
     "roa": -0.9671288362673314,
     "dividend_rate": 0.0,
     "latest_q_ni": -3476000.0,
@@ -468,7 +468,7 @@
           "Cost Of Revenue": 403000.0,
           "Operating Income": -3677000.0,
           "Net Income": -3616000.0,
-          "Diluted EPS": -1.01,
+          "Diluted EPS": 1.01,
           "Diluted Average Shares": 3597000.0,
           "Research And Development": 691000.0,
           "Selling General And Administration": 3309000.0,
@@ -580,7 +580,7 @@
           "Cost Of Revenue": 434000.0,
           "Operating Income": -3280000.0,
           "Net Income": -3476000.0,
-          "Diluted EPS": -0.31,
+          "Diluted EPS": 0.31,
           "Diluted Average Shares": 11268000.0,
           "Research And Development": 662000.0,
           "Selling General And Administration": 3563000.0,
@@ -588,17 +588,17 @@
           "General And Administrative Expense": 1705000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -698,13 +698,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2960000.0,
-          "Capital Expenditure": -56000.0,
+          "Capital Expenditure": 56000.0,
           "Free Cash Flow": -3016000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -867,22 +867,22 @@
         "items": {
           "Cash And Cash Equivalents": 4607000.0,
           "Total Assets": 12838000.0,
-          "Common Stock Equity": -1179000.0,
+          "Common Stock Equity": 1895000.0,
           "Goodwill": 2407000.0,
-          "Net PPE": 2290000.0,
+          "Net PPE": 901000.0,
           "Inventory": 806000.0,
           "Accounts Receivable": 1969000.0,
           "Total Debt": 3480000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -927,14 +927,9 @@
   },
   "validation": {
     "ticker": "TNON",
-    "checked_at": "2026-06-19T15:59:12.576976+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-20T13:56:11.818088+00:00",
+    "status": "info",
     "issues": [
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
-      },
       {
         "severity": "info",
         "rule": "mcap_reconciliation",

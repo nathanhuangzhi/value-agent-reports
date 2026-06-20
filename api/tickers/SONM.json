@@ -26,8 +26,8 @@
     "market_cap": 6413889.69,
     "ttm_pe": -0.4341042091370559,
     "static_pe": -0.3104947325361863,
-    "ev_revenue": -0.37622688176544467,
-    "pb": -77.27577939759037,
+    "ev_revenue": -0.23562524310746968,
+    "pb": -6.524811485249238,
     "ps": -0.3835829011422762,
     "p_fcf": -0.36891117508340043,
     "ttm_pocf": -0.36891117508340043,
@@ -35,7 +35,7 @@
     "gross_margin": null,
     "op_margin": 0.578254889061659,
     "net_margin": 0.8836194007535434,
-    "roe": 178.0120481927711,
+    "roe": 15.030518819938962,
     "roa": -3.0539479123604796,
     "dividend_rate": 0.0,
     "latest_q_ni": 6340000.0,
@@ -623,14 +623,14 @@
           "Total Revenue": 16721000.0,
           "Gross Profit": 8356000.0,
           "Cost Of Revenue": 8365000.0,
-          "Operating Income": 645000.0,
+          "Operating Income": -870000.0,
           "Net Income": 458000.0,
-          "Diluted EPS": 0.08,
-          "Diluted Average Shares": 5868429.0,
+          "Diluted EPS": 1.41,
+          "Diluted Average Shares": 324431.0,
           "Research And Development": 1633000.0,
           "Selling General And Administration": 870000.0,
           "Selling And Marketing Expense": 3239000.0,
-          "General And Administrative Expense": 2839000.0
+          "General And Administrative Expense": 870000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -738,12 +738,12 @@
         },
         "sources": {
           "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
           "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -847,9 +847,9 @@
           "Free Cash Flow": -3466000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "derived",
-          "Free Cash Flow": "yfinance"
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -998,18 +998,18 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Cash And Cash Equivalents": 1195000.0,
+          "Cash And Cash Equivalents": 3546000.0,
           "Total Assets": 4838000.0,
-          "Common Stock Equity": -83000.0,
+          "Common Stock Equity": -983000.0,
           "Accounts Receivable": 1500000.0,
           "Total Debt": 1072000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1054,13 +1054,13 @@
   },
   "validation": {
     "ticker": "SONM",
-    "checked_at": "2026-06-19T15:59:12.567864+00:00",
+    "checked_at": "2026-06-20T13:56:11.811715+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 263 days old (>180)"
       },
       {
         "severity": "info",

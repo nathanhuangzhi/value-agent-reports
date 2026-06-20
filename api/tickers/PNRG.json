@@ -26,15 +26,15 @@
     "market_cap": 606553273.11,
     "ttm_pe": 28.18949077984849,
     "static_pe": 23.05234391570386,
-    "ev_revenue": 3.306845368624149,
+    "ev_revenue": 3.3424262941607488,
     "pb": 2.790007787922834,
-    "ps": 3.3823490517986494,
-    "p_fcf": 23.53079385149552,
+    "ps": 3.4187423802840717,
+    "p_fcf": -80.66940724963426,
     "ttm_pocf": 8.130196007104082,
     "debt_asset": 0.018098326067732977,
-    "gross_margin": 0.2518109173641742,
-    "op_margin": 0.14338450557355475,
-    "net_margin": 0.1199861706695515,
+    "gross_margin": 0.25452034719873745,
+    "op_margin": 0.14492729117348666,
+    "net_margin": 0.12127719535565325,
     "roe": 0.0989733305121388,
     "roa": 0.06676181758947548,
     "dividend_rate": 0.0,
@@ -1059,9 +1059,9 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Total Revenue": 41313000.0,
+          "Total Revenue": 39404000.0,
           "Gross Profit": 10514000.0,
-          "Cost Of Revenue": 30799000.0,
+          "Cost Of Revenue": 1181000.0,
           "Operating Income": 7410000.0,
           "Net Income": 4339000.0,
           "Diluted EPS": 1.82,
@@ -1070,15 +1070,15 @@
           "General And Administrative Expense": 2839000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
+          "Cost Of Revenue": "sec",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
           "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1126,13 +1126,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 38186000.0,
-          "Capital Expenditure": -34660000.0,
+          "Capital Expenditure": 34660000.0,
           "Free Cash Flow": 3526000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1165,26 +1165,26 @@
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 12192000.0,
-          "Capital Expenditure": -7998000.0,
-          "Free Cash Flow": 4194000.0
+          "Capital Expenditure": 41294000.0,
+          "Free Cash Flow": -29102000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 16057000.0,
-          "Capital Expenditure": -1503000.0,
+          "Capital Expenditure": 1503000.0,
           "Free Cash Flow": 14554000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1318,16 +1318,16 @@
           "Cash And Cash Equivalents": 19373000.0,
           "Total Assets": 322295000.0,
           "Common Stock Equity": 217402000.0,
-          "Net PPE": 280239000.0,
-          "Accounts Receivable": 19762000.0,
+          "Net PPE": 1781000.0,
+          "Accounts Receivable": 20584000.0,
           "Total Debt": 5833000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       }
@@ -1373,14 +1373,9 @@
   },
   "validation": {
     "ticker": "PNRG",
-    "checked_at": "2026-06-19T15:59:12.549213+00:00",
-    "status": "warn",
+    "checked_at": "2026-06-20T13:56:11.797790+00:00",
+    "status": "info",
     "issues": [
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 262 days old (>180)"
-      },
       {
         "severity": "info",
         "rule": "mcap_reconciliation",
