@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Computer Hardware — Equity Research Archive</title>
+<style>
+body { margin:0; padding:24px 0; background:#ebe6da; font-family:Georgia,serif; color:#2c2c2c; }
+.card { max-width:1024px; margin:0 auto; background:#ffffff; border:1px solid #d8c9ad; }
+.band { background:#1a3a5c; color:#ffffff; padding:24px 28px; }
+.band h1 { margin:0; font-size:24px; font-weight:bold; line-height:1.1; font-family:Helvetica,Arial,sans-serif; }
+.band .sub { font-size:12px; opacity:0.85; margin-top:6px; font-family:Helvetica,Arial,sans-serif; }
+.band a.back { color:#ffffff; opacity:0.8; text-decoration:none; font-size:12px; font-family:Helvetica,Arial,sans-serif; }
+.band a.back:hover { opacity:1; text-decoration:underline; }
+.toolbar { padding:16px 28px; border-bottom:1px solid #d8c9ad; background:#f4ede0;
+  display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.toolbar input { flex:1; min-width:200px; padding:8px 12px; font-size:14px;
+  border:1px solid #d8c9ad; border-radius:3px; font-family:Helvetica,Arial,sans-serif; }
+.toolbar .count { font-size:12px; color:#6c6c6c; font-family:Helvetica,Arial,sans-serif; }
+.scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+table { width:100%; border-collapse:collapse; min-width:600px; }
+th, td { padding:8px 12px; border-bottom:1px solid #d8c9ad; text-align:left; font-size:13px; }
+th { background:#fafaf2; color:#1a3a5c; font-size:11px; letter-spacing:1px;
+  font-family:Helvetica,Arial,sans-serif; cursor:pointer; user-select:none; position:sticky; top:0; }
+th:hover { background:#f2eee0; }
+th.asc::after  { content:' ▲'; color:#c75c2c; }
+th.desc::after { content:' ▼'; color:#c75c2c; }
+tbody tr:hover { background:#fafaf2; }
+.foot { background:#f5f1e8; padding:14px 28px; font-size:11px; color:#6c6c6c;
+  font-family:Helvetica,Arial,sans-serif; border-top:1px solid #d8c9ad; }
+@media (max-width: 599px) {
+  .band { padding:18px 16px; }
+  .band h1 { font-size:20px; }
+  .toolbar { padding:12px 16px; }
+  .foot { padding:12px 16px; }
+}
+</style>
+</head>
+<body>
+<div class='card'>
+  <div class='band'>
+    <a class='back' href='index.html'>← All industries</a>
+    <h1 style='margin-top:6px;'>Computer Hardware</h1>
+    <div class='sub'>17 tickers &middot; last updated 2026-06-21 13:55 UTC</div>
+  </div>
+  <div class='toolbar'>
+    <input id='q' type='search' placeholder='Search ticker, company...' oninput='filterRows()' autocomplete='off'>
+    <span class='count' id='count'>17 of 17</span>
+  </div>
+  <div class='scroll'>
+    <table>
+      <thead><tr>
+        <th onclick='sortBy(0,"str")'>Ticker</th>
+        <th onclick='sortBy(1,"str")'>Company</th>
+        <th onclick='sortBy(2,"num")' style='text-align:right;'>Market Cap</th>
+        <th onclick='sortBy(3,"num")' style='text-align:right;'>TTM P/E</th>
+        <th onclick='sortBy(4,"num")' style='text-align:right;'>TTM P/OCF</th>
+        <th onclick='sortBy(5,"num")' style='text-align:right;'>P/S</th>
+        <th onclick='sortBy(6,"num")' style='text-align:right;'>P/B</th>
+        <th onclick='sortBy(7,"str")'>Analyzed</th>
+        <th onclick='sortBy(8,"str")'>Data Quality</th>
+      </tr></thead>
+      <tbody><tr><td><a href='ALOT.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>ALOT</a></td><td>AstroNova, Inc.</td><td data-sort='222112180' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$222M</td><td data-sort='-165.0165' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-165.0x</td><td data-sort='21.4311' style='text-align:right;font-family:Menlo,Consolas,monospace;'>21.4x</td><td data-sort='1.4596' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.5x</td><td data-sort='2.8652' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.9x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='AMCI.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>AMCI</a></td><td>AMC Robotics Corporation</td><td data-sort='107429703' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$107M</td><td data-sort='-41.9720' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-42.0x</td><td data-sort='-17.4643' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-17.5x</td><td data-sort='36.0849' style='text-align:right;font-family:Menlo,Consolas,monospace;'>36.1x</td><td data-sort='10.2486' style='text-align:right;font-family:Menlo,Consolas,monospace;'>10.2x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='CRCT.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>CRCT</a></td><td>Cricut, Inc.</td><td data-sort='947963714' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$948M</td><td data-sort='12.9664' style='text-align:right;font-family:Menlo,Consolas,monospace;'>13.0x</td><td data-sort='5.7135' style='text-align:right;font-family:Menlo,Consolas,monospace;'>5.7x</td><td data-sort='1.3435' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.3x</td><td data-sort='2.6517' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.7x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#e6f0e6;color:#5d8a5b;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>OK</span></td></tr>
+<tr><td><a href='CRSR.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>CRSR</a></td><td>Corsair Gaming, Inc.</td><td data-sort='964577300' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$965M</td><td data-sort='136.1628' style='text-align:right;font-family:Menlo,Consolas,monospace;'>136.2x</td><td data-sort='15.7871' style='text-align:right;font-family:Menlo,Consolas,monospace;'>15.8x</td><td data-sort='0.6619' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.7x</td><td data-sort='1.4894' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.5x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='DDD.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>DDD</a></td><td>3D Systems Corporation</td><td data-sort='511441770' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$511M</td><td data-sort='8.1903' style='text-align:right;font-family:Menlo,Consolas,monospace;'>8.2x</td><td data-sort='-8.3495' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-8.3x</td><td data-sort='1.3185' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.3x</td><td data-sort='2.1824' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.2x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='KTCC.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>KTCC</a></td><td>Key Tronic Corporation</td><td data-sort='40829840' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$41M</td><td data-sort='-1.8236' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-1.8x</td><td data-sort='8.6248' style='text-align:right;font-family:Menlo,Consolas,monospace;'>8.6x</td><td data-sort='0.1098' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='0.3961' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.4x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='NNDM.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>NNDM</a></td><td>Nano Dimension Ltd.</td><td data-sort='280130400' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$280M</td><td data-sort='-0.8297' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.8x</td><td data-sort='-2.7768' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.8x</td><td data-sort='2.3788' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.4x</td><td data-sort='0.5771' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.6x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='OSS.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>OSS</a></td><td>One Stop Systems, Inc.</td><td data-sort='455115538' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$455M</td><td data-sort='69.1091' style='text-align:right;font-family:Menlo,Consolas,monospace;'>69.1x</td><td data-sort='-331.3346' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-331.3x</td><td data-sort='16.2390' style='text-align:right;font-family:Menlo,Consolas,monospace;'>16.2x</td><td data-sort='10.0382' style='text-align:right;font-family:Menlo,Consolas,monospace;'>10.0x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#e6f0e6;color:#5d8a5b;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>OK</span></td></tr>
+<tr><td><a href='QCLS.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>QCLS</a></td><td>Q/C Technologies, Inc.</td><td data-sort='32399431' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$32M</td><td data-sort='-2.7585' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.8x</td><td data-sort='-3.3360' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-3.3x</td><td data-sort='' style='text-align:right;font-family:Menlo,Consolas,monospace;'>—</td><td data-sort='1.5637' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.6x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='QMCO.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>QMCO</a></td><td>Quantum Corporation</td><td data-sort='213548400' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$214M</td><td data-sort='-2.1182' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.1x</td><td data-sort='-5.2461' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-5.2x</td><td data-sort='0.8173' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.8x</td><td data-sort='-1.1591' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-1.2x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='SCKT.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>SCKT</a></td><td>Socket Mobile, Inc.</td><td data-sort='5722671' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$6M</td><td data-sort='-0.4006' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.4x</td><td data-sort='-4.4510' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-4.5x</td><td data-sort='0.3863' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.4x</td><td data-sort='1.6124' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.6x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='SSYS.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>SSYS</a></td><td>Stratasys, Ltd.</td><td data-sort='770304440' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$770M</td><td data-sort='-6.6950' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-6.7x</td><td data-sort='59.3089' style='text-align:right;font-family:Menlo,Consolas,monospace;'>59.3x</td><td data-sort='1.4063' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.4x</td><td data-sort='0.9330' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.9x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#f8d7da;color:#721c24;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>ERROR</span></td></tr>
+<tr><td><a href='TACT.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>TACT</a></td><td>TransAct Technologies Incorpora</td><td data-sort='55872180' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$56M</td><td data-sort='-113.3310' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-113.3x</td><td data-sort='8.1115' style='text-align:right;font-family:Menlo,Consolas,monospace;'>8.1x</td><td data-sort='1.0573' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.1x</td><td data-sort='1.7304' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.7x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='UAVS.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>UAVS</a></td><td>AgEagle Aerial Systems, Inc.</td><td data-sort='53943443' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$54M</td><td data-sort='-4.9401' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-4.9x</td><td data-sort='-4.8932' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-4.9x</td><td data-sort='5.1069' style='text-align:right;font-family:Menlo,Consolas,monospace;'>5.1x</td><td data-sort='1.3203' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.3x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='UMAC.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>UMAC</a></td><td>Unusual Machines, Inc.</td><td data-sort='1202396013' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$1.2B</td><td data-sort='-213.0267' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-213.0x</td><td data-sort='-32.1522' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-32.2x</td><td data-sort='69.6930' style='text-align:right;font-family:Menlo,Consolas,monospace;'>69.7x</td><td data-sort='3.6256' style='text-align:right;font-family:Menlo,Consolas,monospace;'>3.6x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='VELO.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>VELO</a></td><td>Velo3D, Inc.</td><td data-sort='747129001' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$747M</td><td data-sort='-14.4181' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-14.4x</td><td data-sort='-22.6705' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-22.7x</td><td data-sort='14.8037' style='text-align:right;font-family:Menlo,Consolas,monospace;'>14.8x</td><td data-sort='14.4961' style='text-align:right;font-family:Menlo,Consolas,monospace;'>14.5x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='VTIX.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>VTIX</a></td><td>Virtuix Holdings Inc.</td><td data-sort='112871611' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$113M</td><td data-sort='-11.8600' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-11.9x</td><td data-sort='-15.9347' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-15.9x</td><td data-sort='25.3058' style='text-align:right;font-family:Menlo,Consolas,monospace;'>25.3x</td><td data-sort='-38.2249' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-38.2x</td><td>2026-06-21</td><td><span style='display:inline-block;background:#f8d7da;color:#721c24;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>ERROR</span></td></tr></tbody>
+    </table>
+  </div>
+  <div class='foot'>For research and educational purposes only. Not investment advice.</div>
+</div>
+<script>
+function sortBy(col, type) {
+  var tbody = document.querySelector('table tbody');
+  var rows = Array.from(tbody.querySelectorAll('tr'));
+  var header = document.querySelectorAll('table th')[col];
+  var asc = !header.classList.contains('asc');
+  document.querySelectorAll('table th').forEach(function(h){h.classList.remove('asc','desc');});
+  header.classList.add(asc ? 'asc' : 'desc');
+  rows.sort(function(a, b) {
+    var ca = a.children[col]; var cb = b.children[col];
+    var va = ca.dataset.sort != null ? ca.dataset.sort : ca.textContent.trim();
+    var vb = cb.dataset.sort != null ? cb.dataset.sort : cb.textContent.trim();
+    if (type === 'num') { va = parseFloat(va) || 0; vb = parseFloat(vb) || 0; }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  rows.forEach(function(r){tbody.appendChild(r);});
+}
+function filterRows() {
+  var q = document.getElementById('q').value.toLowerCase();
+  var rows = document.querySelectorAll('table tbody tr');
+  var shown = 0;
+  rows.forEach(function(r){
+    var txt = r.textContent.toLowerCase();
+    var match = q === '' || txt.indexOf(q) !== -1;
+    r.style.display = match ? '' : 'none';
+    if (match) shown++;
+  });
+  document.getElementById('count').textContent = shown + ' of ' + rows.length;
+}
+</script>
+</body></html>
