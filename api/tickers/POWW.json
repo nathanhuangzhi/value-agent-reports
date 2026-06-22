@@ -25,21 +25,21 @@
   "snapshot": {
     "market_cap": 244528097.59,
     "ttm_pe": -3.0436664364823893,
-    "static_pe": -1.8690007581385821,
-    "ev_revenue": -37.509277004469894,
-    "pb": 1.0305991173462907,
+    "static_pe": -69.12179545352397,
+    "ev_revenue": -37.87596862237669,
+    "pb": 1.0407439313629208,
     "ps": -49.671201750581716,
-    "p_fcf": 89.4577789838252,
-    "ttm_pocf": 42.266287389482905,
-    "debt_asset": 0.036757757280971595,
+    "p_fcf": null,
+    "ttm_pocf": null,
+    "debt_asset": 0.03752088958518866,
     "gross_margin": -10.274202279737596,
     "op_margin": 2.8559718948147803,
     "net_margin": 16.319528695788183,
-    "roe": -0.33860448865000115,
-    "roa": -0.29574456697780754,
+    "roe": -0.3419375786019851,
+    "roa": -0.3003545934768304,
     "dividend_rate": 0.0,
     "latest_q_ni": 2230250.0,
-    "latest_q_ocf": 5680650.0
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -333,6 +333,31 @@
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 51125398.0,
+          "Gross Profit": 44600961.0,
+          "Cost Of Revenue": 6524437.0,
+          "Operating Income": -6292435.0,
+          "Net Income": -3537641.0,
+          "Diluted EPS": -0.05,
+          "Diluted Average Shares": 117095850.0,
+          "Selling And Marketing Expense": 550333.0,
+          "General And Administrative Expense": 22674572.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
@@ -477,6 +502,15 @@
           "Cash Flow From Continuing Operating Activities": "yfinance",
           "Capital Expenditure": "sec",
           "Free Cash Flow": "yfinance"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Capital Expenditure": 2890973.0
+        },
+        "sources": {
+          "Capital Expenditure": "sec"
         }
       }
     ],
@@ -728,6 +762,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 68103395.0,
+          "Total Assets": 267483770.0,
+          "Common Stock Equity": 234955103.0,
+          "Goodwill": 90870094.0,
+          "Net PPE": 6927868.0,
+          "Accounts Receivable": 10361158.0,
+          "Total Debt": 10036229.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -944,19 +999,6 @@
     ],
     "cash_flow": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 4312051.0,
-          "Capital Expenditure": -2909672.0,
-          "Free Cash Flow": 1402379.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -547489.0,
@@ -1046,32 +1088,18 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Capital Expenditure": 655348.0
+        },
+        "sources": {
+          "Capital Expenditure": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-03-31",
-        "items": {
-          "Cash And Cash Equivalents": 55586441.0,
-          "Total Assets": 403039335.0,
-          "Common Stock Equity": 358049851.0,
-          "Goodwill": 90870094.0,
-          "Net PPE": 4538038.0,
-          "Inventory": 45563334.0,
-          "Accounts Receivable": 10796433.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1224,6 +1252,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 68103395.0,
+          "Total Assets": 267483770.0,
+          "Common Stock Equity": 234955103.0,
+          "Goodwill": 90870094.0,
+          "Net PPE": 6927868.0,
+          "Accounts Receivable": 10361158.0,
+          "Total Debt": 10036229.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1267,7 +1316,7 @@
   },
   "validation": {
     "ticker": "POWW",
-    "checked_at": "2026-06-21T13:55:19.152499+00:00",
+    "checked_at": "2026-06-22T15:16:17.091019+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1319,6 +1368,11 @@
         "severity": "info",
         "rule": "eps_mismatch",
         "detail": "FY2024 reported EPS -0.58 vs NI/shares -1.11 (-92%)"
+      },
+      {
+        "severity": "info",
+        "rule": "eps_mismatch",
+        "detail": "FY2025 reported EPS -0.05 vs NI/shares -0.03 (+40%)"
       }
     ]
   },
