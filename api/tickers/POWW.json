@@ -23,23 +23,23 @@
     "logic_summary": "Operates GunBroker, an online auction marketplace for firearms and accessories, with revenue from transaction fees and advertising."
   },
   "snapshot": {
-    "market_cap": 244528097.59,
-    "ttm_pe": -3.0436664364823893,
-    "static_pe": -69.12179545352397,
-    "ev_revenue": -37.87596862237669,
-    "pb": 1.0407439313629208,
-    "ps": -49.671201750581716,
-    "p_fcf": null,
-    "ttm_pocf": null,
+    "market_cap": 233287389.56,
+    "ttm_pe": -65.94433679392567,
+    "static_pe": -65.94433679392567,
+    "ev_revenue": 3.4272537002439565,
+    "pb": 0.9929019909816558,
+    "ps": 4.56302961407866,
+    "p_fcf": -121.05455977450359,
+    "ttm_pocf": 242.03778147361564,
     "debt_asset": 0.03752088958518866,
-    "gross_margin": -10.274202279737596,
-    "op_margin": 2.8559718948147803,
-    "net_margin": 16.319528695788183,
-    "roe": -0.3419375786019851,
-    "roa": -0.3003545934768304,
+    "gross_margin": 0.8723810843064215,
+    "op_margin": -0.12307809395021056,
+    "net_margin": -0.06919517028942164,
+    "roe": -0.015056668081816466,
+    "roa": -0.013225628605429033,
     "dividend_rate": 0.0,
-    "latest_q_ni": 2230250.0,
-    "latest_q_ocf": null
+    "latest_q_ni": -714392.0,
+    "latest_q_ocf": -1264368.0
   },
   "annual": {
     "income_statement": [
@@ -344,6 +344,7 @@
           "Net Income": -3537641.0,
           "Diluted EPS": -0.05,
           "Diluted Average Shares": 117095850.0,
+          "Selling General And Administration": 36496583.0,
           "Selling And Marketing Expense": 550333.0,
           "General And Administrative Expense": 22674572.0
         },
@@ -355,6 +356,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -507,10 +509,14 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Capital Expenditure": 2890973.0
+          "Cash Flow From Continuing Operating Activities": 963847.0,
+          "Capital Expenditure": 2890973.0,
+          "Free Cash Flow": -1927126.0
         },
         "sources": {
-          "Capital Expenditure": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -789,29 +795,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 40421147.0,
-          "Gross Profit": 9387766.0,
-          "Cost Of Revenue": 31033381.0,
-          "Operating Income": -6033811.0,
-          "Net Income": -5217802.0,
-          "Diluted EPS": -0.05,
-          "Selling And Marketing Expense": 547981.0,
-          "General And Administrative Expense": 7976832.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 12281991.0,
@@ -995,6 +978,33 @@
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 13889393.0,
+          "Gross Profit": 12161194.0,
+          "Cost Of Revenue": 1728199.0,
+          "Operating Income": -2954567.0,
+          "Net Income": -714392.0,
+          "Diluted EPS": -0.01,
+          "Diluted Average Shares": 117229844.0,
+          "Selling General And Administration": 11438282.0,
+          "Selling And Marketing Expense": 401559.0,
+          "General And Administrative Expense": 11036723.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
       }
     ],
     "cash_flow": [
@@ -1092,10 +1102,14 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Capital Expenditure": 655348.0
+          "Cash Flow From Continuing Operating Activities": -1264368.0,
+          "Capital Expenditure": 655348.0,
+          "Free Cash Flow": -1919716.0
         },
         "sources": {
-          "Capital Expenditure": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1133,7 +1147,7 @@
           "Net PPE": 57860444.0,
           "Inventory": 51838785.0,
           "Accounts Receivable": 19684059.0,
-          "Total Debt": 11903698.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1143,7 +1157,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1316,7 +1330,7 @@
   },
   "validation": {
     "ticker": "POWW",
-    "checked_at": "2026-06-23T14:16:07.769875+00:00",
+    "checked_at": "2026-06-24T14:06:18.413251+00:00",
     "status": "warn",
     "issues": [
       {

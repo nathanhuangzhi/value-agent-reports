@@ -32,7 +32,7 @@
     "p_fcf": -0.5203117159633917,
     "ttm_pocf": -0.5230904984954116,
     "debt_asset": 0.07717069499950661,
-    "gross_margin": 0.5466367191233487,
+    "gross_margin": 0.36902271553019755,
     "op_margin": -1.0567242762099873,
     "net_margin": -1.4605180010776684,
     "roe": -0.7018205168039768,
@@ -996,26 +996,14 @@
       {
         "period": "2024-12-31",
         "items": {
-          "Total Revenue": 1685966.0,
-          "Gross Profit": 728547.0,
-          "Cost Of Revenue": 957419.0,
-          "Operating Income": -3464144.0,
-          "Net Income": -3623493.0,
           "Diluted EPS": -1084.799521,
           "Diluted Average Shares": 3341.0,
-          "Research And Development": 484780.0,
-          "Selling General And Administration": 3476101.0
+          "Research And Development": 484780.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Research And Development": "yfinance"
         }
       },
       {
@@ -1122,23 +1110,23 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 2015225.0,
+          "Gross Profit": 727826.0,
           "Cost Of Revenue": 5152.0,
           "Operating Income": -1590971.0,
           "Net Income": -5539351.0,
           "Diluted EPS": -3.38,
           "Diluted Average Shares": 1637859.0,
-          "Selling General And Administration": 2176099.0,
-          "Gross Profit": 2010073.0
+          "Selling General And Administration": 2176099.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1238,13 +1226,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1916575.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -1916575.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1475,7 +1463,7 @@
   },
   "validation": {
     "ticker": "IVF",
-    "checked_at": "2026-06-23T14:16:07.742396+00:00",
+    "checked_at": "2026-06-24T14:06:18.384030+00:00",
     "status": "info",
     "issues": [
       {
