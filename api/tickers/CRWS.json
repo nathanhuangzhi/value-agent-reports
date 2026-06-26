@@ -24,21 +24,21 @@
   },
   "snapshot": {
     "market_cap": 29534759.999999996,
-    "ttm_pe": 5.537075365579302,
+    "ttm_pe": 6.626600852591428,
     "static_pe": 16.025371676614213,
-    "ev_revenue": 0.4892569575790327,
+    "ev_revenue": 0.49663173532940974,
     "pb": 0.7609501970989101,
-    "ps": 0.33250878141042955,
-    "p_fcf": 6.441605234460195,
-    "ttm_pocf": 5.164322433991956,
+    "ps": 0.33752082738129247,
+    "p_fcf": 4.522934150076569,
+    "ttm_pocf": 3.816846730421297,
     "debt_asset": 0.19989243202694862,
-    "gross_margin": 0.25743042420967305,
-    "op_margin": 0.0395613798072593,
-    "net_margin": 0.06005133747635774,
-    "roe": 0.1374281812794682,
-    "roa": 0.0754957326652796,
+    "gross_margin": 0.24480886806468202,
+    "op_margin": 0.0250499971430204,
+    "net_margin": 0.050934232329581164,
+    "roe": 0.11483265916059053,
+    "roa": 0.06308295472237556,
     "dividend_rate": 0.0,
-    "latest_q_ni": 1510000.0,
+    "latest_q_ni": 280000.0,
     "latest_q_ocf": 1174000.0
   },
   "annual": {
@@ -1005,29 +1005,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 23351000.0,
-          "Gross Profit": 6098000.0,
-          "Cost Of Revenue": 17253000.0,
-          "Operating Income": 1701000.0,
-          "Net Income": 893000.0,
-          "Diluted EPS": 0.09,
-          "Diluted Average Shares": 10394000.0,
-          "Selling General And Administration": 4397000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "yfinance"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 23227000.0,
@@ -1183,22 +1160,32 @@
           "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 22376000.0,
+          "Gross Profit": 5127000.0,
+          "Cost Of Revenue": 17249000.0,
+          "Operating Income": 541000.0,
+          "Net Income": 280000.0,
+          "Diluted EPS": 0.03,
+          "Diluted Average Shares": 10701000.0,
+          "Selling General And Administration": 4586000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2025-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 2827000.0,
-          "Capital Expenditure": -213000.0,
-          "Free Cash Flow": 2614000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
-      },
       {
         "period": "2025-06-29",
         "items": {
@@ -1288,6 +1275,19 @@
           "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 1174000.0,
+          "Capital Expenditure": -248000.0,
+          "Free Cash Flow": 926000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1510,7 +1510,7 @@
   },
   "validation": {
     "ticker": "CRWS",
-    "checked_at": "2026-06-25T14:10:46.704731+00:00",
+    "checked_at": "2026-06-26T14:04:30.285191+00:00",
     "status": "ok",
     "issues": []
   },
