@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 112871611.08,
-    "ttm_pe": -11.859966661854239,
+    "ttm_pe": -6.718847027305321,
     "static_pe": -6.718847027305321,
-    "ev_revenue": 25.09152967257462,
+    "ev_revenue": 26.316834279294078,
     "pb": 37.03011711874566,
-    "ps": 25.305754500692103,
-    "p_fcf": -15.734699917194309,
-    "ttm_pocf": -15.934748943404426,
+    "ps": 26.541520433292895,
+    "p_fcf": -11.755714498629109,
+    "ttm_pocf": -11.87574687459887,
     "debt_asset": 0.5768961824004141,
-    "gross_margin": 0.2244848681056984,
-    "op_margin": -1.7696041130736535,
-    "net_margin": -2.1337121108513886,
-    "roe": -3.1222783482054246,
-    "roa": -0.6447251169776247,
+    "gross_margin": 0.2461109479446076,
+    "op_margin": -2.426573780117447,
+    "net_margin": -3.9503087844429925,
+    "roe": -5.511379700751582,
+    "roa": -1.138055139868454,
     "dividend_rate": 0.0,
-    "latest_q_ni": -2730944.0,
-    "latest_q_ocf": -1899105.0
+    "latest_q_ni": -9906951.0,
+    "latest_q_ocf": -3968586.0
   },
   "annual": {
     "income_statement": [
@@ -112,6 +112,8 @@
           "Diluted EPS": -0.73,
           "Diluted Average Shares": 23046654.0,
           "Research And Development": 845994.0,
+          "Selling General And Administration": 10519980.0,
+          "Selling And Marketing Expense": 2579748.0,
           "General And Administrative Expense": 7940232.0
         },
         "sources": {
@@ -123,6 +125,8 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -158,13 +162,13 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -9504380.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -9504380.0
+          "Capital Expenditure": -97045.0,
+          "Free Cash Flow": -9601425.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -219,6 +223,7 @@
           "Common Stock Equity": 3048103.0,
           "Net PPE": 378310.0,
           "Inventory": 1188623.0,
+          "Accounts Receivable": 372436.0,
           "Total Debt": 8515778.0
         },
         "sources": {
@@ -227,6 +232,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -263,8 +269,6 @@
           "Diluted EPS": -0.24,
           "Diluted Average Shares": 8250643.0,
           "Research And Development": 306738.0,
-          "Selling General And Administration": 1508802.0,
-          "Selling And Marketing Expense": 245512.0,
           "General And Administrative Expense": 1263290.0
         },
         "sources": {
@@ -276,8 +280,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -388,22 +390,34 @@
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 1271878.0,
+          "Gross Profit": 173575.0,
+          "Cost Of Revenue": 1098303.0,
+          "Operating Income": -4899751.0,
+          "Net Income": -9906951.0,
+          "Research And Development": 221235.0,
+          "Selling General And Administration": 4852091.0,
+          "Selling And Marketing Expense": 450637.0,
+          "General And Administrative Expense": 4401454.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -1134563.0,
-          "Capital Expenditure": -2948.0,
-          "Free Cash Flow": -1137511.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
-      },
       {
         "period": "2025-03-31",
         "items": {
@@ -449,6 +463,19 @@
           "Cash Flow From Continuing Operating Activities": -1899105.0,
           "Capital Expenditure": -64654.0,
           "Free Cash Flow": -1963759.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -3968586.0,
+          "Capital Expenditure": -9811.0,
+          "Free Cash Flow": -3978397.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "yfinance",
@@ -579,6 +606,7 @@
           "Common Stock Equity": 3048103.0,
           "Net PPE": 378310.0,
           "Inventory": 1188623.0,
+          "Accounts Receivable": 372436.0,
           "Total Debt": 8515778.0
         },
         "sources": {
@@ -587,6 +615,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -620,7 +649,7 @@
   },
   "validation": {
     "ticker": "VTIX",
-    "checked_at": "2026-06-26T14:04:30.354126+00:00",
+    "checked_at": "2026-06-27T13:55:30.043599+00:00",
     "status": "warn",
     "issues": [
       {
