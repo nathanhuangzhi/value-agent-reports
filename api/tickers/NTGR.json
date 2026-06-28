@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 638994680.0,
-    "ttm_pe": -20.259176310199422,
+    "ttm_pe": -25.632583737815395,
     "static_pe": -35.65221670479272,
-    "ev_revenue": 0.6798862512725165,
+    "ev_revenue": 0.665435078549068,
     "pb": 1.356230285150322,
-    "ps": 0.9332926517562552,
-    "p_fcf": -81.73377845996419,
-    "ttm_pocf": 41.45547424419359,
+    "ps": 0.9175948189207042,
+    "p_fcf": -58.37167077738193,
+    "ttm_pocf": 53.27619476404869,
     "debt_asset": 0.012441220005212418,
-    "gross_margin": 0.4009116840741558,
-    "op_margin": -0.04570104883103757,
-    "net_margin": -0.046067650405233494,
-    "roe": -0.06694399932081799,
-    "roa": -0.03933131404073418,
+    "gross_margin": 0.39370315057870703,
+    "op_margin": -0.04914845343059824,
+    "net_margin": -0.035797983859387116,
+    "roe": -0.05291040103575256,
+    "roa": -0.031086215646982097,
     "dividend_rate": 0.0,
     "latest_q_ni": -13040000.0,
     "latest_q_ocf": 1644000.0
@@ -1132,12 +1132,93 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2025-03-31",
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 164586000.0,
+          "Gross Profit": 48237000.0,
+          "Cost Of Revenue": 116349000.0,
+          "Operating Income": -21648000.0,
+          "Net Income": -18650000.0,
+          "Diluted EPS": -0.63,
+          "Diluted Average Shares": 29395000.0,
+          "Research And Development": 20227000.0,
+          "Selling And Marketing Expense": 30529000.0,
+          "General And Administrative Expense": 18067000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2024-06-30",
+        "items": {
+          "Total Revenue": 143900000.0,
+          "Gross Profit": 31823000.0,
+          "Cost Of Revenue": 112077000.0,
+          "Operating Income": -46859000.0,
+          "Net Income": -45175000.0,
+          "Diluted EPS": -1.56,
+          "Diluted Average Shares": 28883000.0,
+          "Research And Development": 19851000.0,
+          "Selling And Marketing Expense": 29757000.0,
+          "General And Administrative Expense": 19186000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2024-09-29",
+        "items": {
+          "Total Revenue": 182854000.0,
+          "Gross Profit": 56483000.0,
+          "Cost Of Revenue": 126371000.0,
+          "Operating Income": 95808000.0,
+          "Net Income": 85074000.0,
+          "Diluted EPS": 2.9,
+          "Diluted Average Shares": 29364000.0,
+          "Research And Development": 20905000.0,
+          "Selling And Marketing Expense": 31196000.0,
+          "General And Administrative Expense": 8357000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2025-03-30",
         "items": {
           "Total Revenue": 162060000.0,
           "Gross Profit": 56326000.0,
           "Cost Of Revenue": 105734000.0,
-          "Operating Income": -8094000.0,
+          "Operating Income": -12799000.0,
           "Net Income": -6034000.0,
           "Diluted EPS": -0.21,
           "Diluted Average Shares": 28717000.0,
@@ -1147,17 +1228,17 @@
           "General And Administrative Expense": 18070000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       },
       {
@@ -1171,6 +1252,7 @@
           "Diluted EPS": -0.22,
           "Diluted Average Shares": 28911000.0,
           "Research And Development": 20845000.0,
+          "Selling General And Administration": 51736000.0,
           "Selling And Marketing Expense": 31053000.0,
           "General And Administrative Expense": 20683000.0
         },
@@ -1183,37 +1265,9 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2025-06-30",
-        "items": {
-          "Total Revenue": 170532000.0,
-          "Gross Profit": 63978000.0,
-          "Cost Of Revenue": 106554000.0,
-          "Operating Income": -8603000.0,
-          "Net Income": -6428000.0,
-          "Diluted EPS": -0.22,
-          "Diluted Average Shares": 28911000.0,
-          "Research And Development": 20845000.0,
-          "Selling General And Administration": 51736000.0,
-          "Selling And Marketing Expense": 31053000.0,
-          "General And Administrative Expense": 20683000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -1227,6 +1281,7 @@
           "Diluted EPS": -0.17,
           "Diluted Average Shares": 28638000.0,
           "Research And Development": 23328000.0,
+          "Selling General And Administration": 54381000.0,
           "Selling And Marketing Expense": 33762000.0,
           "General And Administrative Expense": 20619000.0
         },
@@ -1239,37 +1294,9 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2025-09-30",
-        "items": {
-          "Total Revenue": 184561000.0,
-          "Gross Profit": 72252000.0,
-          "Cost Of Revenue": 112309000.0,
-          "Operating Income": -5457000.0,
-          "Net Income": -4777000.0,
-          "Diluted EPS": -0.17,
-          "Diluted Average Shares": 28638000.0,
-          "Research And Development": 23328000.0,
-          "Selling General And Administration": 54381000.0,
-          "Selling And Marketing Expense": 33762000.0,
-          "General And Administrative Expense": 20619000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -1312,6 +1339,7 @@
           "Diluted EPS": -0.47,
           "Diluted Average Shares": 27977000.0,
           "Research And Development": 21665000.0,
+          "Selling General And Administration": 50853000.0,
           "Selling And Marketing Expense": 31670000.0,
           "General And Administrative Expense": 19183000.0
         },
@@ -1324,52 +1352,63 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2026-03-31",
-        "items": {
-          "Total Revenue": 158819000.0,
-          "Gross Profit": 64302000.0,
-          "Cost Of Revenue": 94517000.0,
-          "Operating Income": -8216000.0,
-          "Net Income": -13040000.0,
-          "Diluted EPS": -0.47,
-          "Diluted Average Shares": 27977000.0,
-          "Research And Development": 21665000.0,
-          "Selling General And Administration": 50853000.0,
-          "Selling And Marketing Expense": 31670000.0,
-          "General And Administrative Expense": 19183000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       }
     ],
     "cash_flow": [
       {
-        "period": "2025-03-31",
+        "period": "2024-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 18445000.0,
+          "Capital Expenditure": 2307000.0,
+          "Free Cash Flow": 16138000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2024-09-29",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 107680000.0,
+          "Capital Expenditure": 1685000.0,
+          "Free Cash Flow": 105995000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2024-12-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 21482000.0,
+          "Capital Expenditure": 2492000.0,
+          "Free Cash Flow": 18990000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2025-03-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -8744000.0,
-          "Capital Expenditure": -1396000.0,
+          "Capital Expenditure": 1396000.0,
           "Free Cash Flow": -10140000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1386,19 +1425,6 @@
         }
       },
       {
-        "period": "2025-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -1776000.0,
-          "Capital Expenditure": -3531000.0,
-          "Free Cash Flow": -5307000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
-      },
-      {
         "period": "2025-09-28",
         "items": {
           "Cash Flow From Continuing Operating Activities": -7382000.0,
@@ -1409,19 +1435,6 @@
           "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
-        }
-      },
-      {
-        "period": "2025-09-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -7382000.0,
-          "Capital Expenditure": -9704000.0,
-          "Free Cash Flow": -17086000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -1449,42 +1462,98 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
-      },
-      {
-        "period": "2026-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 1644000.0,
-          "Capital Expenditure": -3822000.0,
-          "Free Cash Flow": -2178000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
       }
     ],
     "balance_sheet": [
       {
-        "period": "2025-03-31",
+        "period": "2024-06-30",
         "items": {
-          "Cash And Cash Equivalents": 269811000.0,
+          "Cash And Cash Equivalents": 177104000.0,
+          "Total Assets": 754086000.0,
+          "Common Stock Equity": 459399000.0,
+          "Goodwill": 36279000.0,
+          "Net PPE": 11041000.0,
+          "Inventory": 188936000.0,
+          "Accounts Receivable": 147069000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2024-09-29",
+        "items": {
+          "Cash And Cash Equivalents": 273767000.0,
+          "Total Assets": 862636000.0,
+          "Common Stock Equity": 550330000.0,
+          "Goodwill": 36279000.0,
+          "Net PPE": 10640000.0,
+          "Inventory": 161976000.0,
+          "Accounts Receivable": 177326000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2024-12-31",
+        "items": {
+          "Cash And Cash Equivalents": 288551000.0,
+          "Total Assets": 850230000.0,
+          "Common Stock Equity": 541066000.0,
+          "Goodwill": 36279000.0,
+          "Net PPE": 11288000.0,
+          "Inventory": 162539000.0,
+          "Accounts Receivable": 156210000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2025-03-30",
+        "items": {
+          "Cash And Cash Equivalents": 271923000.0,
           "Total Assets": 814196000.0,
           "Common Stock Equity": 534243000.0,
           "Goodwill": 36279000.0,
-          "Net PPE": 37115000.0,
+          "Net PPE": 11302000.0,
           "Inventory": 157898000.0,
           "Accounts Receivable": 142706000.0,
           "Total Debt": 10288000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
       },
@@ -1498,7 +1567,7 @@
           "Net PPE": 13677000.0,
           "Inventory": 157305000.0,
           "Accounts Receivable": 144871000.0,
-          "Total Debt": 0
+          "Total Debt": 9426000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1508,29 +1577,6 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
-      {
-        "period": "2025-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 241020000.0,
-          "Total Assets": 803550000.0,
-          "Common Stock Equity": 523158000.0,
-          "Goodwill": 45790000.0,
-          "Net PPE": 36841000.0,
-          "Inventory": 157305000.0,
-          "Accounts Receivable": 144871000.0,
-          "Total Debt": 9426000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       },
@@ -1544,7 +1590,7 @@
           "Net PPE": 23137000.0,
           "Inventory": 166561000.0,
           "Accounts Receivable": 159880000.0,
-          "Total Debt": 0
+          "Total Debt": 3589000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1554,29 +1600,6 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
-      {
-        "period": "2025-09-30",
-        "items": {
-          "Cash And Cash Equivalents": 203480000.0,
-          "Total Assets": 810806000.0,
-          "Common Stock Equity": 506848000.0,
-          "Goodwill": 45803000.0,
-          "Net PPE": 61826000.0,
-          "Inventory": 166561000.0,
-          "Accounts Receivable": 159880000.0,
-          "Total Debt": 3589000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       },
@@ -1613,7 +1636,7 @@
           "Net PPE": 26182000.0,
           "Inventory": 169305000.0,
           "Accounts Receivable": 142155000.0,
-          "Total Debt": 0
+          "Total Debt": 9977000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1623,36 +1646,13 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
-      {
-        "period": "2026-03-31",
-        "items": {
-          "Cash And Cash Equivalents": 183476000.0,
-          "Total Assets": 801931000.0,
-          "Common Stock Equity": 471155000.0,
-          "Goodwill": 45022000.0,
-          "Net PPE": 60490000.0,
-          "Inventory": 169305000.0,
-          "Accounts Receivable": 142155000.0,
-          "Total Debt": 9977000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
       }
     ]
   },
   "narrative": {
-    "text": "**Business & market dynamics:** The narrative shows a stabilising top-line with pockets of demand softness, yet product mix is shifting favourably toward higher-value enterprise offerings. Record gross margins reflect that premiumisation, while a growing base of subscription and services recurring revenue adds a stickier, more predictable income stream. Near-term market sentiment is positive, supported by results beating expectations, but commentary flags a cautious long-term outlook — suggesting doubts about sustained growth or competitive threats in a maturing hardware environment.\n\n**Management strategy and execution:** Leadership is demonstrating operational discipline, with margins exceeding the high end of guidance and non-GAAP profitability restored. Capital allocation leans decisively toward returning cash to shareholders through buybacks, executed at prices management views as attractive, signalling internal confidence. The push into subscription-based recurring revenue reveals a deliberate pivot toward a more durable business model. Current execution is credible, though the market may still question whether near-term margin gains can offset the broader growth challenge over time.",
+    "text": "**Business & market dynamics:** Netgear’s top line remains under pressure as legacy consumer hardware sales gradually erode, but a deliberate pivot toward higher-margin enterprise solutions and subscription services is materially lifting profitability. Record gross margins underscore the traction of this mix shift. Near-term market sentiment has strengthened following operational beats, yet a longer-term narrative of transformation carries persistent uncertainty — whether the company can reignite revenue growth and fend off stiff networking competition remains an open question, leaving the overall tone cautiously optimistic but with a growth-overhang.\n\n**Management strategy and execution:** Leadership has executed a disciplined, margin-first strategy, delivering operating profits above guidance through cost controls and an improving product mix. Aggressive share repurchases and the build-out of a growing subscription and services recurring-revenue stream signal confidence and a push toward stickier income. These moves have bolstered credibility, but some observers now question whether the stock has priced in the improved earnings power, introducing a valuation-debate element to what is otherwise viewed as a solid execution story.",
     "model": "deepseek-v4-pro",
     "provider": "deepseek",
     "sources": [
@@ -1661,12 +1661,6 @@
         "url": "https://wszen.com/stocks/us/nasdaq/ntgr",
         "snippet": "Netgear Stock Price Today (NASDAQ: NTGR) Quote, Market Cap, Chart | WallStreetZen\n\n# NASDAQ: NTGRNetgear Inc Stock\n\nAdd to Watchlist Buy NTGR*\n\n*Your capital is at risk. Other fees apply.\n\nOverview Forecast Earnings Revenue Dividend Ownership\n\n$23.23-0.26 (-1.11%)\n\nUpdated Jun 23, 2026\n\n3M+5.3%1W-4.56%1M-10.96%3M+5.3%1Y-16.83%All\n\n1W-4.56%1M-10.96%3M+5.3%1Y-16.83%All\n\nNTGR Price﻿\n\n$23.23\n\nFair Value Price\n\n$52.10\n\nMarket Cap﻿\n\n$623.49M\n\n52 Week Low﻿\n\n$19.00\n\n52 Week High﻿\n\n$36.86\n\nP/E﻿\n\n-26.1x\n\nP/B﻿\n\n1.32x\n\nP/S﻿\n\n0.87x\n\nPEG﻿\n\nN/A\n\nDividend Yield﻿\n\nN/A\n\nRevenue﻿\n\n$696.38M\n\nEarnings﻿\n\n-$24.93M\n\nGross Margin﻿\n\n39.4%\n\nOperating Margin﻿\n\n-3.47%\n\nProfit Margin﻿\n\n-3.6%\n\nDebt to Equity﻿\n\n0.7\n\nOperating Cash Flow\n\n$12M\n\nBeta﻿\n\n1.1\n\nNext Earnings﻿\n\nJul 29, 2026\n\nEx-Dividend﻿\n\nN/A\n\nNext Dividend﻿\n\nN/A\n\nShow more\n\n### NTGR Overview\n\nNETGEAR, Inc. specializes in the conceptualization, engineering, and distribution of a broad spectrum of networking and internet-enabled devices. The company caters to",
         "published_date": "2026-06-23T17:08:56.000Z"
-      },
-      {
-        "title": "Trading the Move, Not the Narrative: (NTGR) Edition | I3investor",
-        "url": "https://i3investor.com/web/blog/detail/stocktradersdaily/2026-04-07-story-h1508911014-Trading_the_Move_Not_the_Narrative_NTGR_Edition",
-        "snippet": "Trading the Move, Not the Narrative: (NTGR) Edition | I3investor\n\nSign In Sign Up\n\n### Trading the Move, Not the Narrative: (NTGR) Edition\n\n###### Stock Traders Daily\n\n###### Publish date: Tue, 07 Apr 2026, 05:00 PM\n\n###### Stock Traders Daily\n\n0 369,760\n\nHOW TO TRADE THE MARKETWe have been offering proactive trading strategies to our clients through the internet since January 2, 2000, arguably longer than any other firm on the web today. We have withstood the Internet Debacle, the Great Recession, and we are prepared for what lies ahead too.Find out why our strategies are changing the way people manage their wealth.\n\nStock Symbol: NTGR\n\n### Key findings for Netgear Inc. (NASDAQ: NTGR)\n\n- Near and Mid-Term Strong Sentiment Could Shift Weak Long-Term Outlook\n- A mid-channel oscillation pattern is in play.\n- Exceptional 63.6:1 risk-reward setup targets 19.4% gain vs 0.3% risk\n- Signals: 18.99 · 22.98 · 24.20 · 27.43 (bold = current price)\n- Positive Sentiment is prevailing thus far — See",
-        "published_date": "2026-06-17T01:50:00.000Z"
       },
       {
         "title": "Is Netgear (NTGR) 64.1% Overvalued After Q1 2026 Beats? EPS -$0.",
@@ -1681,6 +1675,12 @@
         "published_date": "2026-04-29T00:00:00.000Z"
       },
       {
+        "title": "Trading the Move, Not the Narrative: (NTGR) Edition | I3investor",
+        "url": "https://i3investor.com/web/blog/detail/stocktradersdaily/2026-04-07-story-h1508911014-Trading_the_Move_Not_the_Narrative_NTGR_Edition",
+        "snippet": "Trading the Move, Not the Narrative: (NTGR) Edition | I3investor\n\nSign In Sign Up\n\n### Trading the Move, Not the Narrative: (NTGR) Edition\n\n###### Stock Traders Daily\n\n###### Publish date: Tue, 07 Apr 2026, 05:00 PM\n\n###### Stock Traders Daily\n\n0 369,760\n\nHOW TO TRADE THE MARKETWe have been offering proactive trading strategies to our clients through the internet since January 2, 2000, arguably longer than any other firm on the web today. We have withstood the Internet Debacle, the Great Recession, and we are prepared for what lies ahead too.Find out why our strategies are changing the way people manage their wealth.\n\nStock Symbol: NTGR\n\n### Key findings for Netgear Inc. (NASDAQ: NTGR)\n\n- Near and Mid-Term Strong Sentiment Could Shift Weak Long-Term Outlook\n- A mid-channel oscillation pattern is in play.\n- Exceptional 63.6:1 risk-reward setup targets 19.4% gain vs 0.3% risk\n- Signals: 18.99 · 22.98 · 24.20 · 27.43 (bold = current price)\n- Positive Sentiment is prevailing thus far — See",
+        "published_date": "2026-06-17T01:50:00.000Z"
+      },
+      {
         "title": "Netgear, Inc (NTGR) 10-Q Quarterly Report May 2026",
         "url": "https://last10k.com/sec-filings/ntgr/0001193125-26-201463.htm",
         "snippet": "Netgear, Inc (NTGR) 10-Q Quarterly Report May 2026\n\n# Netgear, Inc. (NTGR) SEC Filing 10-Q Quarterly Report for the period ending Sunday, March 29, 2026\n\n##### SEC Filings\n\n---\n\n##### Last10K.com | 10-Q Quarterly Report Fri May 01 2026\n\n## Netgear, Inc\n\nHISTORY TOOLS\n\nCIK: 1122904 Ticker: NTGR\n\nExhibit 99.1\n\nNEWS RELEASE\n\nNETGEAR® REPORTS FIRST QUARTER 2026 RESULTS\n\nOperating margin above the high end of guidance\n\nRecord high GAAP gross margin of 40.5% and non-GAAP gross margin of 41.7%\n\nShare repurchases of $20 million at an average price of $21.53\n\nARR from subscription and services of approximately $40 million\n\nSAN JOSE, California – April 29, 2026 -\n\nNETGEAR, Inc. (NASDAQ: NTGR), a global leader in intelligent networking solutions designed to power extraordinary experiences, today reported financial results for the first quarter ended March 29, 2026.\n\nQ1 2026\n\n•\n\nNet revenue of $158.8 million, down 2.0% as compared to Q1 prior year\n\n•\n\nGAAP gross margin of 40.5%, up 570 basis point",
@@ -1691,7 +1691,7 @@
   },
   "validation": {
     "ticker": "NTGR",
-    "checked_at": "2026-06-27T13:55:30.002532+00:00",
+    "checked_at": "2026-06-28T00:22:22.937793+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1706,5 +1706,5 @@
       }
     ]
   },
-  "analyzed_date": "2026-06-27"
+  "analyzed_date": "2026-06-28"
 }
