@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Specialty Retail — Equity Research Archive</title>
+<style>
+body { margin:0; padding:24px 0; background:#ebe6da; font-family:Georgia,serif; color:#2c2c2c; }
+.card { max-width:1024px; margin:0 auto; background:#ffffff; border:1px solid #d8c9ad; }
+.band { background:#1a3a5c; color:#ffffff; padding:24px 28px; }
+.band h1 { margin:0; font-size:24px; font-weight:bold; line-height:1.1; font-family:Helvetica,Arial,sans-serif; }
+.band .sub { font-size:12px; opacity:0.85; margin-top:6px; font-family:Helvetica,Arial,sans-serif; }
+.band a.back { color:#ffffff; opacity:0.8; text-decoration:none; font-size:12px; font-family:Helvetica,Arial,sans-serif; }
+.band a.back:hover { opacity:1; text-decoration:underline; }
+.toolbar { padding:16px 28px; border-bottom:1px solid #d8c9ad; background:#f4ede0;
+  display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.toolbar input { flex:1; min-width:200px; padding:8px 12px; font-size:14px;
+  border:1px solid #d8c9ad; border-radius:3px; font-family:Helvetica,Arial,sans-serif; }
+.toolbar .count { font-size:12px; color:#6c6c6c; font-family:Helvetica,Arial,sans-serif; }
+.scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+table { width:100%; border-collapse:collapse; min-width:600px; }
+th, td { padding:8px 12px; border-bottom:1px solid #d8c9ad; text-align:left; font-size:13px; }
+th { background:#fafaf2; color:#1a3a5c; font-size:11px; letter-spacing:1px;
+  font-family:Helvetica,Arial,sans-serif; cursor:pointer; user-select:none; position:sticky; top:0; }
+th:hover { background:#f2eee0; }
+th.asc::after  { content:' ▲'; color:#c75c2c; }
+th.desc::after { content:' ▼'; color:#c75c2c; }
+tbody tr:hover { background:#fafaf2; }
+.foot { background:#f5f1e8; padding:14px 28px; font-size:11px; color:#6c6c6c;
+  font-family:Helvetica,Arial,sans-serif; border-top:1px solid #d8c9ad; }
+@media (max-width: 599px) {
+  .band { padding:18px 16px; }
+  .band h1 { font-size:20px; }
+  .toolbar { padding:12px 16px; }
+  .foot { padding:12px 16px; }
+}
+</style>
+</head>
+<body>
+<div class='card'>
+  <div class='band'>
+    <a class='back' href='index.html'>← All industries</a>
+    <h1 style='margin-top:6px;'>Specialty Retail</h1>
+    <div class='sub'>15 tickers &middot; last updated 2026-06-29 14:47 UTC</div>
+  </div>
+  <div class='toolbar'>
+    <input id='q' type='search' placeholder='Search ticker, company...' oninput='filterRows()' autocomplete='off'>
+    <span class='count' id='count'>15 of 15</span>
+  </div>
+  <div class='scroll'>
+    <table>
+      <thead><tr>
+        <th onclick='sortBy(0,"str")'>Ticker</th>
+        <th onclick='sortBy(1,"str")'>Company</th>
+        <th onclick='sortBy(2,"num")' style='text-align:right;'>Market Cap</th>
+        <th onclick='sortBy(3,"num")' style='text-align:right;'>TTM P/E</th>
+        <th onclick='sortBy(4,"num")' style='text-align:right;'>TTM P/OCF</th>
+        <th onclick='sortBy(5,"num")' style='text-align:right;'>P/S</th>
+        <th onclick='sortBy(6,"num")' style='text-align:right;'>P/B</th>
+        <th onclick='sortBy(7,"str")'>Analyzed</th>
+        <th onclick='sortBy(8,"str")'>Data Quality</th>
+      </tr></thead>
+      <tbody><tr><td><a href='ARKO.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>ARKO</a></td><td>ARKO Corp.</td><td data-sort='872780160' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$873M</td><td data-sort='30.3312' style='text-align:right;font-family:Menlo,Consolas,monospace;'>30.3x</td><td data-sort='5.1997' style='text-align:right;font-family:Menlo,Consolas,monospace;'>5.2x</td><td data-sort='0.1150' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='1.8971' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.9x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='BARK.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>BARK</a></td><td>BARK, Inc.</td><td data-sort='77755185' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$78M</td><td data-sort='-1.9933' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.0x</td><td data-sort='-3.3576' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-3.4x</td><td data-sort='0.1969' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.2x</td><td data-sort='1.0797' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.1x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#e6f0e6;color:#5d8a5b;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>OK</span></td></tr>
+<tr><td><a href='BBW.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>BBW</a></td><td>Build-A-Bear Workshop, Inc.</td><td data-sort='386997300' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$387M</td><td data-sort='7.0130' style='text-align:right;font-family:Menlo,Consolas,monospace;'>7.0x</td><td data-sort='6.6184' style='text-align:right;font-family:Menlo,Consolas,monospace;'>6.6x</td><td data-sort='0.7347' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.7x</td><td data-sort='2.4337' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.4x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#f8d7da;color:#721c24;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>ERROR</span></td></tr>
+<tr><td><a href='BNED.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>BNED</a></td><td>Barnes &amp; Noble Education, Inc</td><td data-sort='480439755' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$480M</td><td data-sort='-49.9625' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-50.0x</td><td data-sort='21.9660' style='text-align:right;font-family:Menlo,Consolas,monospace;'>22.0x</td><td data-sort='0.2778' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.3x</td><td data-sort='1.6568' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.7x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='CHPT.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>CHPT</a></td><td>ChargePoint Holdings, Inc.</td><td data-sort='140145423' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$140M</td><td data-sort='-0.6794' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.7x</td><td data-sort='-2.1098' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.1x</td><td data-sort='0.3374' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.3x</td><td data-sort='-15.3972' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-15.4x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='EVGO.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>EVGO</a></td><td>EVgo Inc.</td><td data-sort='249564600' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$250M</td><td data-sort='-5.3518' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-5.4x</td><td data-sort='-7.5971' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-7.6x</td><td data-sort='0.5966' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.6x</td><td data-sort='6.4429' style='text-align:right;font-family:Menlo,Consolas,monospace;'>6.4x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='FLWS.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>FLWS</a></td><td>1-800-FLOWERS.COM, Inc.</td><td data-sort='227441400' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$227M</td><td data-sort='-1.6926' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-1.7x</td><td data-sort='14.4032' style='text-align:right;font-family:Menlo,Consolas,monospace;'>14.4x</td><td data-sort='0.1470' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='1.1816' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.2x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='GRWG.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>GRWG</a></td><td>GrowGeneration Corp.</td><td data-sort='86831358' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$87M</td><td data-sort='-4.4322' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-4.4x</td><td data-sort='-8.1409' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-8.1x</td><td data-sort='0.5281' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.5x</td><td data-sort='0.9354' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.9x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='HZO.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>HZO</a></td><td>MarineMax, Inc.  (FL)</td><td data-sort='812371434' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$812M</td><td data-sort='-12.7890' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-12.8x</td><td data-sort='3.7139' style='text-align:right;font-family:Menlo,Consolas,monospace;'>3.7x</td><td data-sort='0.3624' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.4x</td><td data-sort='0.8611' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.9x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='LESL.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>LESL</a></td><td>Leslie&#x27;s, Inc.</td><td data-sort='99099375' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$99M</td><td data-sort='-0.3583' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.4x</td><td data-sort='3.7286' style='text-align:right;font-family:Menlo,Consolas,monospace;'>3.7x</td><td data-sort='0.0811' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='-0.1831' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.2x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='NVVE.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>NVVE</a></td><td>Nuvve Holding Corp.</td><td data-sort='314120' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$314K</td><td data-sort='-0.0102' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.0x</td><td data-sort='-0.0189' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.0x</td><td data-sort='0.0682' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='-0.1878' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.2x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='ONEW.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>ONEW</a></td><td>OneWater Marine Inc.</td><td data-sort='190977930' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$191M</td><td data-sort='-1.5545' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-1.6x</td><td data-sort='2.4838' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.5x</td><td data-sort='0.1040' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='0.7089' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.7x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='SPWH.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>SPWH</a></td><td>Sportsman&#x27;s Warehouse Holdings,</td><td data-sort='50199380' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$50M</td><td data-sort='-0.9910' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-1.0x</td><td data-sort='1.3871' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.4x</td><td data-sort='0.0413' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.0x</td><td data-sort='0.3002' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.3x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#e6f0e6;color:#5d8a5b;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>OK</span></td></tr>
+<tr><td><a href='TLF.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>TLF</a></td><td>Tandy Leather Factory, Inc.</td><td data-sort='19203709' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$19M</td><td data-sort='-8.5010' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-8.5x</td><td data-sort='21.6746' style='text-align:right;font-family:Menlo,Consolas,monospace;'>21.7x</td><td data-sort='0.2496' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.2x</td><td data-sort='0.4130' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.4x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#e6f0e6;color:#5d8a5b;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>OK</span></td></tr>
+<tr><td><a href='WOOF.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>WOOF</a></td><td>Petco Health and Wellness Compa</td><td data-sort='758854700' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$759M</td><td data-sort='135.9711' style='text-align:right;font-family:Menlo,Consolas,monospace;'>136.0x</td><td data-sort='2.5419' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.5x</td><td data-sort='0.1272' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='0.6568' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.7x</td><td>2026-06-29</td><td><span style='display:inline-block;background:#e6f0e6;color:#5d8a5b;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>OK</span></td></tr></tbody>
+    </table>
+  </div>
+  <div class='foot'>For research and educational purposes only. Not investment advice.</div>
+</div>
+<script>
+function sortBy(col, type) {
+  var tbody = document.querySelector('table tbody');
+  var rows = Array.from(tbody.querySelectorAll('tr'));
+  var header = document.querySelectorAll('table th')[col];
+  var asc = !header.classList.contains('asc');
+  document.querySelectorAll('table th').forEach(function(h){h.classList.remove('asc','desc');});
+  header.classList.add(asc ? 'asc' : 'desc');
+  rows.sort(function(a, b) {
+    var ca = a.children[col]; var cb = b.children[col];
+    var va = ca.dataset.sort != null ? ca.dataset.sort : ca.textContent.trim();
+    var vb = cb.dataset.sort != null ? cb.dataset.sort : cb.textContent.trim();
+    if (type === 'num') { va = parseFloat(va) || 0; vb = parseFloat(vb) || 0; }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  rows.forEach(function(r){tbody.appendChild(r);});
+}
+function filterRows() {
+  var q = document.getElementById('q').value.toLowerCase();
+  var rows = document.querySelectorAll('table tbody tr');
+  var shown = 0;
+  rows.forEach(function(r){
+    var txt = r.textContent.toLowerCase();
+    var match = q === '' || txt.indexOf(q) !== -1;
+    r.style.display = match ? '' : 'none';
+    if (match) shown++;
+  });
+  document.getElementById('count').textContent = shown + ' of ' + rows.length;
+}
+</script>
+</body></html>
