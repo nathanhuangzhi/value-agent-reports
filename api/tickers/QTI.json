@@ -538,13 +538,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1851321.0,
-          "Capital Expenditure": -7613.0,
-          "Free Cash Flow": -1858934.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1851321.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -837,13 +837,13 @@
   },
   "validation": {
     "ticker": "QTI",
-    "checked_at": "2026-06-29T14:47:15.250649+00:00",
+    "checked_at": "2026-06-30T14:00:08.347523+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 272 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 273 days old (>180)"
       },
       {
         "severity": "warn",

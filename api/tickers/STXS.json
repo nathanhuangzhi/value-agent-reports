@@ -1319,13 +1319,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -4329000.0,
-          "Capital Expenditure": -10000.0,
-          "Free Cash Flow": -4339000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -4329000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1632,7 +1632,7 @@
   },
   "validation": {
     "ticker": "STXS",
-    "checked_at": "2026-06-29T14:47:15.267910+00:00",
+    "checked_at": "2026-06-30T14:00:08.365956+00:00",
     "status": "warn",
     "issues": [
       {

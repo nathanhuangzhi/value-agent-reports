@@ -1455,7 +1455,7 @@
           "Goodwill": 12969000.0,
           "Net PPE": 11334000.0,
           "Accounts Receivable": 51073000.0,
-          "Total Debt": 124625000.0
+          "Total Debt": 1579000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1464,7 +1464,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1645,9 +1645,14 @@
   },
   "validation": {
     "ticker": "QMCO",
-    "checked_at": "2026-06-29T14:47:15.250281+00:00",
-    "status": "info",
+    "checked_at": "2026-06-30T14:00:08.347152+00:00",
+    "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-12-31 is 181 days old (>180)"
+      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

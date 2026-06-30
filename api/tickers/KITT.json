@@ -578,13 +578,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -5077229.0,
-          "Capital Expenditure": -114770.0,
-          "Free Cash Flow": -5191999.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -5077229.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -875,7 +875,7 @@
   },
   "validation": {
     "ticker": "KITT",
-    "checked_at": "2026-06-29T14:47:15.220675+00:00",
+    "checked_at": "2026-06-30T14:00:08.314906+00:00",
     "status": "warn",
     "issues": [
       {

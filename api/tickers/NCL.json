@@ -558,13 +558,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 169728.0,
-          "Capital Expenditure": -21966.0,
-          "Free Cash Flow": 147762.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 169728.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -857,7 +857,7 @@
   },
   "validation": {
     "ticker": "NCL",
-    "checked_at": "2026-06-29T14:47:15.233343+00:00",
+    "checked_at": "2026-06-30T14:00:08.328490+00:00",
     "status": "info",
     "issues": [
       {

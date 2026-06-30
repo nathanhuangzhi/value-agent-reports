@@ -778,8 +778,6 @@
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 660000.0,
-          "Gross Profit": 660000.0,
-          "Cost Of Revenue": 0.0,
           "Operating Income": -10320000.0,
           "Net Income": -2808000.0,
           "Diluted EPS": -0.06,
@@ -789,8 +787,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1040,13 +1036,13 @@
           "Cash And Cash Equivalents": 29274000.0,
           "Total Assets": 99038000.0,
           "Common Stock Equity": 58529000.0,
-          "Total Debt": 13225000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1201,7 +1197,7 @@
   },
   "validation": {
     "ticker": "SCYX",
-    "checked_at": "2026-06-29T14:47:15.257949+00:00",
+    "checked_at": "2026-06-30T14:00:08.355576+00:00",
     "status": "warn",
     "issues": [
       {

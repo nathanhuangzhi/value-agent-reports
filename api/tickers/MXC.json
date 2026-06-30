@@ -1419,13 +1419,18 @@
   },
   "validation": {
     "ticker": "MXC",
-    "checked_at": "2026-06-29T14:47:15.231595+00:00",
+    "checked_at": "2026-06-30T14:00:08.326613+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "no_gross_profit_source",
         "detail": "neither Gross Profit nor Cost of Revenue fetched — Gross Margin will show n/a"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-12-31 is 181 days old (>180)"
       },
       {
         "severity": "info",

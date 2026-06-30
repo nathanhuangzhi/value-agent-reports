@@ -527,13 +527,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2135820.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -2135820.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -826,7 +826,7 @@
   },
   "validation": {
     "ticker": "STI",
-    "checked_at": "2026-06-29T14:47:15.266885+00:00",
+    "checked_at": "2026-06-30T14:00:08.364660+00:00",
     "status": "info",
     "issues": [
       {

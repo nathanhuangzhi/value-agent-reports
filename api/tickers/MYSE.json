@@ -611,13 +611,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -956818.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -956818.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -727,7 +727,7 @@
           "Common Stock Equity": 4285195.0,
           "Net PPE": 39218.0,
           "Accounts Receivable": 196.0,
-          "Total Debt": 22851.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -735,7 +735,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -894,7 +894,7 @@
   },
   "validation": {
     "ticker": "MYSE",
-    "checked_at": "2026-06-29T14:47:15.232224+00:00",
+    "checked_at": "2026-06-30T14:00:08.327255+00:00",
     "status": "warn",
     "issues": [
       {

@@ -521,13 +521,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1165834.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -1165834.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -618,7 +618,7 @@
           "Common Stock Equity": 13829199.0,
           "Net PPE": 3061.0,
           "Inventory": 13213.0,
-          "Total Debt": 187500.0
+          "Total Debt": 0.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -626,7 +626,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -792,7 +792,7 @@
   },
   "validation": {
     "ticker": "MGRX",
-    "checked_at": "2026-06-29T14:47:15.227900+00:00",
+    "checked_at": "2026-06-30T14:00:08.322849+00:00",
     "status": "info",
     "issues": [
       {

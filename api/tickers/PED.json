@@ -1069,13 +1069,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 8252000.0,
-          "Capital Expenditure": -36000.0,
-          "Free Cash Flow": 8216000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 8252000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1352,7 +1352,7 @@
   },
   "validation": {
     "ticker": "PED",
-    "checked_at": "2026-06-29T14:47:15.245676+00:00",
+    "checked_at": "2026-06-30T14:00:08.341553+00:00",
     "status": "info",
     "issues": [
       {

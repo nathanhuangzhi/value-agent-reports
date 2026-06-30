@@ -1494,9 +1494,14 @@
   },
   "validation": {
     "ticker": "FARM",
-    "checked_at": "2026-06-29T14:47:15.201875+00:00",
+    "checked_at": "2026-06-30T14:00:08.294803+00:00",
     "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-12-31 is 181 days old (>180)"
+      },
       {
         "severity": "warn",
         "rule": "q_sum_vs_annual",

@@ -32,7 +32,7 @@
     "p_fcf": -0.38974332810047096,
     "ttm_pocf": -0.5481386943102746,
     "debt_asset": 0.2524723074607406,
-    "gross_margin": 0.05412332037269164,
+    "gross_margin": null,
     "op_margin": -0.2741834935989074,
     "net_margin": -0.2383469848400268,
     "roe": -0.706906088957353,
@@ -384,26 +384,18 @@
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 3015525.0,
-          "Gross Profit": -41063.0,
-          "Cost Of Revenue": 3056588.0,
           "Operating Income": -1049045.0,
           "Net Income": -1222116.0,
           "Diluted EPS": -0.91,
           "Diluted Average Shares": 1343537.0,
-          "Selling General And Administration": 957982.0,
-          "Selling And Marketing Expense": 22391.0,
           "General And Administrative Expense": 935591.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -674,7 +666,7 @@
           "Net PPE": 5031361.0,
           "Inventory": 89462.0,
           "Accounts Receivable": 36397.0,
-          "Total Debt": 5166159.0
+          "Total Debt": 119939.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -684,7 +676,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -798,7 +790,7 @@
   },
   "validation": {
     "ticker": "VSTD",
-    "checked_at": "2026-06-29T14:47:15.280201+00:00",
+    "checked_at": "2026-06-30T14:00:08.379069+00:00",
     "status": "warn",
     "issues": [
       {
@@ -809,7 +801,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-06-30 is 364 days old (>180)"
+        "detail": "latest quarterly period 2025-06-30 is 365 days old (>180)"
       },
       {
         "severity": "info",

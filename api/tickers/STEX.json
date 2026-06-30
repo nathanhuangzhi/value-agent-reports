@@ -964,13 +964,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1489000.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -1489000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1061,7 +1061,7 @@
           "Common Stock Equity": -388000.0,
           "Net PPE": 111000.0,
           "Accounts Receivable": 81000.0,
-          "Total Debt": 145000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1069,7 +1069,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1249,13 +1249,13 @@
   },
   "validation": {
     "ticker": "STEX",
-    "checked_at": "2026-06-29T14:47:15.266790+00:00",
+    "checked_at": "2026-06-30T14:00:08.364562+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2024-06-30 is 729 days old (>180)"
+        "detail": "latest quarterly period 2024-06-30 is 730 days old (>180)"
       },
       {
         "severity": "info",

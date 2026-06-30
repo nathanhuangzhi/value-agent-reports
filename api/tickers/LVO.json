@@ -25,13 +25,13 @@
   "snapshot": {
     "market_cap": 74980031.36,
     "ttm_pe": null,
-    "static_pe": -4.007698506601101,
+    "static_pe": -3.5764384145003576,
     "ev_revenue": null,
-    "pb": -7.110481873873874,
+    "pb": -6.0506803873466755,
     "ps": null,
-    "p_fcf": -4.626683411082315,
-    "ttm_pocf": -5.864228950414516,
-    "debt_asset": 0.28534251817833906,
+    "p_fcf": -5.464618567159828,
+    "ttm_pocf": -7.110481873873874,
+    "debt_asset": 0.311232,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
@@ -39,7 +39,7 @@
     "roa": null,
     "dividend_rate": 0.0,
     "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ocf": -2029000.0
   },
   "annual": {
     "income_statement": [
@@ -378,7 +378,7 @@
           "Operating Income": -18057000.0,
           "Net Income": -18709000.0,
           "Diluted EPS": -1.7,
-          "Diluted Average Shares": 95041241.0,
+          "Diluted Average Shares": 9504124.0,
           "Research And Development": 4475000.0,
           "Selling General And Administration": 29142000.0,
           "Selling And Marketing Expense": 6396000.0,
@@ -401,12 +401,28 @@
       {
         "period": "2026-03-31",
         "items": {
+          "Total Revenue": 77144000.0,
+          "Cost Of Revenue": 64865000.0,
+          "Operating Income": -15480000.0,
+          "Net Income": -20965000.0,
           "Diluted EPS": -1.91,
-          "Diluted Average Shares": 10983850.0
+          "Diluted Average Shares": 10983850.0,
+          "Research And Development": 2402000.0,
+          "Selling And Marketing Expense": 4040000.0,
+          "General And Administrative Expense": 20664000.0,
+          "Gross Profit": 12279000.0
         },
         "sources": {
+          "Total Revenue": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       }
     ],
@@ -587,6 +603,19 @@
           "Cash Flow From Continuing Operating Activities": 6368000.0,
           "Capital Expenditure": 3053000.0,
           "Free Cash Flow": 3315000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -10545000.0,
+          "Capital Expenditure": 3176000.0,
+          "Free Cash Flow": -13721000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
@@ -897,7 +926,30 @@
           "Net PPE": 893000.0,
           "Inventory": 1586000.0,
           "Accounts Receivable": 8299000.0,
-          "Total Debt": 773000.0
+          "Total Debt": 623000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 5383000.0,
+          "Total Assets": 46875000.0,
+          "Common Stock Equity": -12392000.0,
+          "Goodwill": 21712000.0,
+          "Net PPE": 3297000.0,
+          "Inventory": 685000.0,
+          "Accounts Receivable": 8437000.0,
+          "Total Debt": 14589000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1121,19 +1173,6 @@
     ],
     "cash_flow": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 3044000.0,
-          "Capital Expenditure": 944000.0,
-          "Free Cash Flow": 2100000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 1342000.0,
@@ -1223,32 +1262,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -2029000.0,
+          "Capital Expenditure": 681000.0,
+          "Free Cash Flow": -2710000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-03-31",
-        "items": {
-          "Cash And Cash Equivalents": 7142000.0,
-          "Total Assets": 63863000.0,
-          "Common Stock Equity": 1595000.0,
-          "Goodwill": 23379000.0,
-          "Net PPE": 3646000.0,
-          "Inventory": 1801000.0,
-          "Accounts Receivable": 13205000.0,
-          "Total Debt": 1463000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1328,7 +1357,7 @@
           "Net PPE": 893000.0,
           "Inventory": 1586000.0,
           "Accounts Receivable": 8299000.0,
-          "Total Debt": 773000.0
+          "Total Debt": 623000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1409,6 +1438,29 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 5383000.0,
+          "Total Assets": 46875000.0,
+          "Common Stock Equity": -12392000.0,
+          "Goodwill": 21712000.0,
+          "Net PPE": 3297000.0,
+          "Inventory": 685000.0,
+          "Accounts Receivable": 8437000.0,
+          "Total Debt": 14589000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1452,9 +1504,14 @@
   },
   "validation": {
     "ticker": "LVO",
-    "checked_at": "2026-06-29T14:47:15.226187+00:00",
+    "checked_at": "2026-06-30T14:00:08.320687+00:00",
     "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-12-31 is 181 days old (>180)"
+      },
       {
         "severity": "warn",
         "rule": "yoy_revenue_jump",
@@ -1464,11 +1521,6 @@
         "severity": "info",
         "rule": "eps_mismatch",
         "detail": "FY2016 reported EPS -0.44 vs NI/shares -0.00 (+100%)"
-      },
-      {
-        "severity": "info",
-        "rule": "mcap_reconciliation",
-        "detail": "Stage-1 mcap 0.07B vs price×shares 0.61B (+746%)"
       }
     ]
   },

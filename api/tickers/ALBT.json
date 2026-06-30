@@ -686,8 +686,6 @@
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 345159.0,
-          "Gross Profit": 99631.0,
-          "Cost Of Revenue": 245528.0,
           "Operating Income": -1269961.0,
           "Net Income": -1679200.0,
           "Diluted EPS": -1.82,
@@ -695,8 +693,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -856,13 +852,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1893377.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -1893377.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1149,13 +1145,13 @@
   },
   "validation": {
     "ticker": "ALBT",
-    "checked_at": "2026-06-29T14:47:15.164622+00:00",
+    "checked_at": "2026-06-30T14:00:08.255655+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 272 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 273 days old (>180)"
       },
       {
         "severity": "info",

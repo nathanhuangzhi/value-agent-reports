@@ -1105,13 +1105,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2346000.0,
-          "Capital Expenditure": -27000.0,
-          "Free Cash Flow": -2373000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -2346000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1404,7 +1404,7 @@
   },
   "validation": {
     "ticker": "AREN",
-    "checked_at": "2026-06-29T14:47:15.169366+00:00",
+    "checked_at": "2026-06-30T14:00:08.260520+00:00",
     "status": "warn",
     "issues": [
       {

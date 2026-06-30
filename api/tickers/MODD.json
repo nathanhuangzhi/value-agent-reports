@@ -25,18 +25,18 @@
   "snapshot": {
     "market_cap": 249215400.0,
     "ttm_pe": -9.30637439784906,
-    "static_pe": -13.239237144071398,
+    "static_pe": -8.824282982791587,
     "ev_revenue": null,
-    "pb": 42.376364563849684,
+    "pb": 19.23106721197623,
     "ps": null,
-    "p_fcf": -9.540075795276193,
-    "ttm_pocf": -11.201699029126214,
-    "debt_asset": 0.04522857978360464,
+    "p_fcf": -9.001820480404552,
+    "ttm_pocf": -10.491954700458889,
+    "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -4.553477299778949,
-    "roa": -2.6102934009162686,
+    "roe": -2.06644031175245,
+    "roa": -1.8054881337648327,
     "dividend_rate": 0.0,
     "latest_q_ni": -7360000.0,
     "latest_q_ocf": -7155000.0
@@ -441,8 +441,8 @@
           "Total Revenue": 0.0,
           "Operating Income": -19048000.0,
           "Net Income": -18824000.0,
-          "Diluted EPS": -0.51,
-          "Diluted Average Shares": 37007000.0,
+          "Diluted EPS": -15.26,
+          "Diluted Average Shares": 1233000.0,
           "Research And Development": 14697000.0,
           "Selling General And Administration": 4351000.0,
           "General And Administrative Expense": 4351000.0
@@ -456,6 +456,27 @@
           "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Operating Income": -27560000.0,
+          "Net Income": -28242000.0,
+          "Diluted EPS": -12.36,
+          "Diluted Average Shares": 2285000.0,
+          "Research And Development": 19973000.0,
+          "General And Administrative Expense": 7587000.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
         }
       }
     ],
@@ -635,6 +656,19 @@
           "Cash Flow From Continuing Operating Activities": -15720000.0,
           "Capital Expenditure": 2493000.0,
           "Free Cash Flow": -18213000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -23753000.0,
+          "Capital Expenditure": 3932000.0,
+          "Free Cash Flow": -27685000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
@@ -998,6 +1032,23 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 6942000.0,
+          "Total Assets": 14832000.0,
+          "Common Stock Equity": 12959000.0,
+          "Net PPE": 6866000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1180,19 +1231,6 @@
     ],
     "cash_flow": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -3503000.0,
-          "Capital Expenditure": 483000.0,
-          "Free Cash Flow": -3986000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3548000.0,
@@ -1282,28 +1320,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -5815000.0,
+          "Capital Expenditure": 1005000.0,
+          "Free Cash Flow": -6820000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-03-31",
-        "items": {
-          "Cash And Cash Equivalents": 9232000.0,
-          "Total Assets": 13807000.0,
-          "Common Stock Equity": 11535000.0,
-          "Net PPE": 2975000.0,
-          "Accounts Receivable": 142000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1430,6 +1462,23 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Cash And Cash Equivalents": 6942000.0,
+          "Total Assets": 14832000.0,
+          "Common Stock Equity": 12959000.0,
+          "Net PPE": 6866000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1473,7 +1522,7 @@
   },
   "validation": {
     "ticker": "MODD",
-    "checked_at": "2026-06-29T14:47:15.230333+00:00",
+    "checked_at": "2026-06-30T14:00:08.325334+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1484,12 +1533,12 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2018-12-31 is 2737 days old (>180)"
+        "detail": "latest quarterly period 2018-12-31 is 2738 days old (>180)"
       },
       {
         "severity": "info",
         "rule": "mcap_reconciliation",
-        "detail": "Stage-1 mcap 0.02B vs price×shares 0.14B (+554%)"
+        "detail": "Stage-1 mcap 0.02B vs price×shares 0.01B (-60%)"
       }
     ]
   },

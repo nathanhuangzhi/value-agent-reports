@@ -1083,13 +1083,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -376662.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -376662.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1382,7 +1382,7 @@
   },
   "validation": {
     "ticker": "OLB",
-    "checked_at": "2026-06-29T14:47:15.240687+00:00",
+    "checked_at": "2026-06-30T14:00:08.336322+00:00",
     "status": "info",
     "issues": [
       {

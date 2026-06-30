@@ -560,13 +560,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -135100.0,
-          "Capital Expenditure": -1.0,
-          "Free Cash Flow": -135101.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -135100.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -843,7 +843,7 @@
   },
   "validation": {
     "ticker": "JTAI",
-    "checked_at": "2026-06-29T14:47:15.219320+00:00",
+    "checked_at": "2026-06-30T14:00:08.313523+00:00",
     "status": "warn",
     "issues": [
       {

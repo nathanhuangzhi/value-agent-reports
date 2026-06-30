@@ -568,13 +568,13 @@
         "period": "2024-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 3016000.0,
-          "Capital Expenditure": -7000.0,
-          "Free Cash Flow": 3009000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 3016000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -867,7 +867,7 @@
   },
   "validation": {
     "ticker": "DRCT",
-    "checked_at": "2026-06-29T14:47:15.194221+00:00",
+    "checked_at": "2026-06-30T14:00:08.287023+00:00",
     "status": "info",
     "issues": [
       {

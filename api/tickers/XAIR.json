@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 4420449.18,
-    "ttm_pe": -0.1425905351440276,
+    "ttm_pe": -0.1329498384913832,
     "static_pe": -0.1329498384913832,
-    "ev_revenue": 2.0361711698440206,
+    "ev_revenue": 1.8359746295090507,
     "pb": 0.7118275652173912,
-    "ps": 0.6384242027729635,
+    "ps": 0.5756542752962625,
     "p_fcf": -0.23060405759298866,
     "ttm_pocf": -0.24363145833333333,
     "debt_asset": 0.6228627949696199,
-    "gross_margin": 0.018197573656845753,
-    "op_margin": -4.19526285384171,
-    "net_margin": -4.477325245522819,
-    "roe": -4.992109500805153,
-    "roa": -0.8761056945033207,
+    "gross_margin": 0.032816773017319965,
+    "op_margin": -3.782263315535877,
+    "net_margin": -4.329860658939966,
+    "roe": -5.354106280193236,
+    "roa": -0.939635438745231,
     "dividend_rate": 0.0,
-    "latest_q_ni": -7336000.0,
-    "latest_q_ocf": -4219000.0
+    "latest_q_ni": -10282000.0,
+    "latest_q_ocf": -4946000.0
   },
   "annual": {
     "income_statement": [
@@ -151,28 +151,20 @@
       {
         "period": "2022-03-31",
         "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 0.0,
-          "Cost Of Revenue": 0.0,
           "Operating Income": -40710000.0,
           "Net Income": -43177000.0,
-          "Diluted EPS": -33.6,
           "Diluted Average Shares": 25668230.0,
           "Research And Development": 11802000.0,
-          "Selling General And Administration": 18408000.0,
-          "General And Administrative Expense": 18408000.0
+          "General And Administrative Expense": 18408000.0,
+          "Total Revenue": 0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
-          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
         }
       },
       {
@@ -267,7 +259,8 @@
           "Diluted EPS": -4.01,
           "Diluted Average Shares": 8300916.0,
           "Research And Development": 10241000.0,
-          "Selling General And Administration": 19055000.0
+          "Selling General And Administration": 19055000.0,
+          "General And Administrative Expense": 19055000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -278,7 +271,8 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -636,33 +630,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2023-12-31",
-        "items": {
-          "Total Revenue": 391000.0,
-          "Gross Profit": -356000.0,
-          "Cost Of Revenue": 748000.0,
-          "Operating Income": -16963000.0,
-          "Net Income": -16220000.0,
-          "Diluted EPS": -0.5,
-          "Diluted Average Shares": 32462476.0,
-          "Research And Development": 6838000.0,
-          "Selling General And Administration": 9768000.0,
-          "General And Administrative Expense": 9768000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 683000.0,
@@ -723,8 +690,7 @@
           "Diluted EPS": -2.96,
           "Diluted Average Shares": 4403726.0,
           "Research And Development": 3005000.0,
-          "Selling General And Administration": 7732000.0,
-          "General And Administrative Expense": 7732000.0
+          "Selling General And Administration": 7732000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -735,8 +701,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance"
+          "Selling General And Administration": "sec"
         }
       },
       {
@@ -844,6 +809,29 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
+          "General And Administrative Expense": "yfinance"
+        }
+      },
+      {
+        "period": "2026-03-31",
+        "items": {
+          "Total Revenue": 1907000.0,
+          "Gross Profit": 94000.0,
+          "Cost Of Revenue": 1813000.0,
+          "Operating Income": -7170000.0,
+          "Net Income": -10282000.0,
+          "Research And Development": 2276000.0,
+          "Selling General And Administration": 4988000.0,
+          "General And Administrative Expense": 4988000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
       }
@@ -1165,7 +1153,7 @@
   },
   "validation": {
     "ticker": "XAIR",
-    "checked_at": "2026-06-29T14:47:15.282629+00:00",
+    "checked_at": "2026-06-30T14:00:08.381924+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1177,6 +1165,11 @@
         "severity": "warn",
         "rule": "gross_margin_out_of_range",
         "detail": "FY2024 Gross Margin -45% outside expected [0, 100%]"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2025-12-31 is 181 days old (>180)"
       },
       {
         "severity": "warn",
