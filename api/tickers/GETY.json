@@ -894,13 +894,18 @@
   },
   "validation": {
     "ticker": "GETY",
-    "checked_at": "2026-06-30T14:00:08.301041+00:00",
+    "checked_at": "2026-07-01T14:10:34.098937+00:00",
     "status": "error",
     "issues": [
       {
         "severity": "error",
         "rule": "missing_annual_net_income",
         "detail": "no annual Net Income concept"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
       }
     ]
   },

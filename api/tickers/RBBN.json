@@ -1299,9 +1299,15 @@
   },
   "validation": {
     "ticker": "RBBN",
-    "checked_at": "2026-06-30T14:00:08.348176+00:00",
-    "status": "ok",
-    "issues": []
+    "checked_at": "2026-07-01T14:10:34.148738+00:00",
+    "status": "warn",
+    "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
+      }
+    ]
   },
   "analyzed_date": "2026-05-13"
 }

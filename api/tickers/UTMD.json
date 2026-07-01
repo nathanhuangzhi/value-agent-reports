@@ -1623,7 +1623,7 @@
   },
   "validation": {
     "ticker": "UTMD",
-    "checked_at": "2026-06-30T14:00:08.377116+00:00",
+    "checked_at": "2026-07-01T14:10:34.178248+00:00",
     "status": "error",
     "issues": [
       {
@@ -1635,6 +1635,11 @@
         "severity": "warn",
         "rule": "missing_quarterly_net_income",
         "detail": "no quarterly Net Income — TTM metrics will be n/a"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
       }
     ]
   },

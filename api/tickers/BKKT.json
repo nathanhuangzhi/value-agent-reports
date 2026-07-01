@@ -838,13 +838,18 @@
   },
   "validation": {
     "ticker": "BKKT",
-    "checked_at": "2026-06-30T14:00:08.266058+00:00",
+    "checked_at": "2026-07-01T14:10:34.061695+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "no_gross_profit_source",
         "detail": "neither Gross Profit nor Cost of Revenue fetched — Gross Margin will show n/a"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
       },
       {
         "severity": "warn",
@@ -859,7 +864,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-06-30 is 365 days old (>180)"
+        "detail": "latest quarterly period 2025-06-30 is 366 days old (>180)"
       },
       {
         "severity": "warn",

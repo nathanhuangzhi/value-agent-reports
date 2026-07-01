@@ -1504,9 +1504,14 @@
   },
   "validation": {
     "ticker": "MLSS",
-    "checked_at": "2026-06-30T14:00:08.325030+00:00",
-    "status": "info",
+    "checked_at": "2026-07-01T14:10:34.124641+00:00",
+    "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
+      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

@@ -1613,9 +1613,14 @@
   },
   "validation": {
     "ticker": "RVP",
-    "checked_at": "2026-06-30T14:00:08.353464+00:00",
-    "status": "info",
+    "checked_at": "2026-07-01T14:10:34.154638+00:00",
+    "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
+      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

@@ -1019,13 +1019,18 @@
   },
   "validation": {
     "ticker": "AMPL",
-    "checked_at": "2026-06-30T14:00:08.257010+00:00",
+    "checked_at": "2026-07-01T14:10:34.052717+00:00",
     "status": "error",
     "issues": [
       {
         "severity": "error",
         "rule": "missing_operating_income",
         "detail": "no annual Operating Income — margins won't compute"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
       }
     ]
   },

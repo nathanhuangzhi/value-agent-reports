@@ -1577,9 +1577,14 @@
   },
   "validation": {
     "ticker": "HAIN",
-    "checked_at": "2026-06-30T14:00:08.303422+00:00",
+    "checked_at": "2026-07-01T14:10:34.101298+00:00",
     "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
+      },
       {
         "severity": "warn",
         "rule": "q_sum_vs_annual",

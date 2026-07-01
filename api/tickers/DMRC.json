@@ -1625,9 +1625,14 @@
   },
   "validation": {
     "ticker": "DMRC",
-    "checked_at": "2026-06-30T14:00:08.286535+00:00",
+    "checked_at": "2026-07-01T14:10:34.083278+00:00",
     "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-01 is 61 days old"
+      },
       {
         "severity": "warn",
         "rule": "ni_exceeds_revenue",
