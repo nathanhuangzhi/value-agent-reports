@@ -26,8 +26,8 @@
     "market_cap": 154355646.95,
     "ttm_pe": -33.570185752581885,
     "static_pe": -33.570185752581885,
-    "ev_revenue": 121.17072995833333,
-    "pb": 15.973099423344086,
+    "ev_revenue": 127.39215412499999,
+    "pb": 3.9882591328955597,
     "ps": 128.62970579166665,
     "p_fcf": -62.81268747487177,
     "ttm_pocf": -62.81268747487177,
@@ -35,8 +35,8 @@
     "gross_margin": null,
     "op_margin": -0.7019575,
     "net_margin": -3.831665,
-    "roe": -0.4758120655354311,
-    "roa": -0.44044577576587357,
+    "roe": -0.1188036063395575,
+    "roa": -0.11378366177759655,
     "dividend_rate": 0.0,
     "latest_q_ni": -738427.0,
     "latest_q_ocf": -322628.0
@@ -610,25 +610,6 @@
     ],
     "balance_sheet": [
       {
-        "period": "2023-10-31",
-        "items": {
-          "Cash And Cash Equivalents": 361225.0,
-          "Total Assets": 3040594.0,
-          "Common Stock Equity": 913890.0,
-          "Net PPE": 88300.0,
-          "Accounts Receivable": 653600.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
-      {
         "period": "2024-01-31",
         "items": {
           "Cash And Cash Equivalents": 139152.0,
@@ -758,6 +739,25 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-01-31",
+        "items": {
+          "Cash And Cash Equivalents": 1485062.0,
+          "Total Assets": 40410002.0,
+          "Common Stock Equity": 38702512.0,
+          "Net PPE": 0.0,
+          "Accounts Receivable": 2350000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -801,18 +801,18 @@
   },
   "validation": {
     "ticker": "ZBAI",
-    "checked_at": "2026-07-04T15:02:02.614493+00:00",
+    "checked_at": "2026-07-05T15:06:08.774609+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 64 days old"
+        "detail": "latest close 2026-05-01 is 65 days old"
       },
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-04-30 is 430 days old (>180)"
+        "detail": "latest quarterly period 2025-04-30 is 431 days old (>180)"
       }
     ]
   },

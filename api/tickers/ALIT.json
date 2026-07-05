@@ -366,6 +366,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 559000000.0,
+          "Gross Profit": 182000000.0,
+          "Cost Of Revenue": 356000000.0,
+          "Operating Income": -40000000.0,
+          "Net Income": -114000000.0,
+          "Diluted EPS": -0.21,
+          "Diluted Average Shares": 541969471.0,
+          "Selling General And Administration": 146000000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 538000000.0,
@@ -409,17 +432,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Diluted EPS": 0.01,
-          "Diluted Average Shares": 534080703.0
-        },
-        "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
         }
       },
       {
@@ -499,6 +511,8 @@
           "Cost Of Revenue": 413000000.0,
           "Operating Income": 53000000.0,
           "Net Income": -932000000.0,
+          "Diluted EPS": -35.640294,
+          "Diluted Average Shares": 26150177.0,
           "Selling General And Administration": 114000000.0
         },
         "sources": {
@@ -507,6 +521,8 @@
           "Cost Of Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "yfinance"
         }
       },
@@ -849,13 +865,13 @@
   },
   "validation": {
     "ticker": "ALIT",
-    "checked_at": "2026-07-04T15:02:02.462937+00:00",
+    "checked_at": "2026-07-05T15:06:08.617058+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 64 days old"
+        "detail": "latest close 2026-05-01 is 65 days old"
       },
       {
         "severity": "info",

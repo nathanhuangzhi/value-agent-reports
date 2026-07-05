@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Staffing &amp; Employment Services — Equity Research Archive</title>
+<style>
+body { margin:0; padding:24px 0; background:#ebe6da; font-family:Georgia,serif; color:#2c2c2c; }
+.card { max-width:1024px; margin:0 auto; background:#ffffff; border:1px solid #d8c9ad; }
+.band { background:#1a3a5c; color:#ffffff; padding:24px 28px; }
+.band h1 { margin:0; font-size:24px; font-weight:bold; line-height:1.1; font-family:Helvetica,Arial,sans-serif; }
+.band .sub { font-size:12px; opacity:0.85; margin-top:6px; font-family:Helvetica,Arial,sans-serif; }
+.band a.back { color:#ffffff; opacity:0.8; text-decoration:none; font-size:12px; font-family:Helvetica,Arial,sans-serif; }
+.band a.back:hover { opacity:1; text-decoration:underline; }
+.toolbar { padding:16px 28px; border-bottom:1px solid #d8c9ad; background:#f4ede0;
+  display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+.toolbar input { flex:1; min-width:200px; padding:8px 12px; font-size:14px;
+  border:1px solid #d8c9ad; border-radius:3px; font-family:Helvetica,Arial,sans-serif; }
+.toolbar .count { font-size:12px; color:#6c6c6c; font-family:Helvetica,Arial,sans-serif; }
+.scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+table { width:100%; border-collapse:collapse; min-width:600px; }
+th, td { padding:8px 12px; border-bottom:1px solid #d8c9ad; text-align:left; font-size:13px; }
+th { background:#fafaf2; color:#1a3a5c; font-size:11px; letter-spacing:1px;
+  font-family:Helvetica,Arial,sans-serif; cursor:pointer; user-select:none; position:sticky; top:0; }
+th:hover { background:#f2eee0; }
+th.asc::after  { content:' ▲'; color:#c75c2c; }
+th.desc::after { content:' ▼'; color:#c75c2c; }
+tbody tr:hover { background:#fafaf2; }
+.foot { background:#f5f1e8; padding:14px 28px; font-size:11px; color:#6c6c6c;
+  font-family:Helvetica,Arial,sans-serif; border-top:1px solid #d8c9ad; }
+@media (max-width: 599px) {
+  .band { padding:18px 16px; }
+  .band h1 { font-size:20px; }
+  .toolbar { padding:12px 16px; }
+  .foot { padding:12px 16px; }
+}
+</style>
+</head>
+<body>
+<div class='card'>
+  <div class='band'>
+    <a class='back' href='index.html'>← All industries</a>
+    <h1 style='margin-top:6px;'>Staffing &amp; Employment Services</h1>
+    <div class='sub'>12 tickers &middot; last updated 2026-07-05 15:06 UTC</div>
+  </div>
+  <div class='toolbar'>
+    <input id='q' type='search' placeholder='Search ticker, company...' oninput='filterRows()' autocomplete='off'>
+    <span class='count' id='count'>12 of 12</span>
+  </div>
+  <div class='scroll'>
+    <table>
+      <thead><tr>
+        <th onclick='sortBy(0,"str")'>Ticker</th>
+        <th onclick='sortBy(1,"str")'>Company</th>
+        <th onclick='sortBy(2,"num")' style='text-align:right;'>Market Cap</th>
+        <th onclick='sortBy(3,"num")' style='text-align:right;'>TTM P/E</th>
+        <th onclick='sortBy(4,"num")' style='text-align:right;'>TTM P/OCF</th>
+        <th onclick='sortBy(5,"num")' style='text-align:right;'>P/S</th>
+        <th onclick='sortBy(6,"num")' style='text-align:right;'>P/B</th>
+        <th onclick='sortBy(7,"str")'>Analyzed</th>
+        <th onclick='sortBy(8,"str")'>Data Quality</th>
+      </tr></thead>
+      <tbody><tr><td><a href='ATLN.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>ATLN</a></td><td>Atlantic International Corp.</td><td data-sort='61248686' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$61M</td><td data-sort='-0.7711' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.8x</td><td data-sort='-2.1229' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.1x</td><td data-sort='0.1051' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='1.4437' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.4x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='BBSI.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>BBSI</a></td><td>Barrett Business Services, Inc.</td><td data-sort='948925210' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$949M</td><td data-sort='23.3346' style='text-align:right;font-family:Menlo,Consolas,monospace;'>23.3x</td><td data-sort='24.5416' style='text-align:right;font-family:Menlo,Consolas,monospace;'>24.5x</td><td data-sort='0.7563' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.8x</td><td data-sort='4.6139' style='text-align:right;font-family:Menlo,Consolas,monospace;'>4.6x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='BGSF.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>BGSF</a></td><td>BGSF, Inc.</td><td data-sort='60898800' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$61M</td><td data-sort='-5.4476' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-5.4x</td><td data-sort='-66.3386' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-66.3x</td><td data-sort='0.6527' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.7x</td><td data-sort='1.2960' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.3x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='HQI.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>HQI</a></td><td>HireQuest, Inc.</td><td data-sort='177451920' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$177M</td><td data-sort='27.1874' style='text-align:right;font-family:Menlo,Consolas,monospace;'>27.2x</td><td data-sort='16.9941' style='text-align:right;font-family:Menlo,Consolas,monospace;'>17.0x</td><td data-sort='5.9768' style='text-align:right;font-family:Menlo,Consolas,monospace;'>6.0x</td><td data-sort='2.6354' style='text-align:right;font-family:Menlo,Consolas,monospace;'>2.6x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='IPDN.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>IPDN</a></td><td>Professional Diversity Network,</td><td data-sort='6001639' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$6M</td><td data-sort='-0.7914' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-0.8x</td><td data-sort='-2.7711' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.8x</td><td data-sort='0.9107' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.9x</td><td data-sort='0.4312' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.4x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='JOB.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>JOB</a></td><td>GEE Group Inc.</td><td data-sort='23955094' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$24M</td><td data-sort='-22.3462' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-22.3x</td><td data-sort='28.9313' style='text-align:right;font-family:Menlo,Consolas,monospace;'>28.9x</td><td data-sort='0.2723' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.3x</td><td data-sort='0.4787' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.5x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='KELYA.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>KELYA</a></td><td>Kelly Services, Inc.</td><td data-sort='449952000' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$450M</td><td data-sort='-1.6928' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-1.7x</td><td data-sort='6.1385' style='text-align:right;font-family:Menlo,Consolas,monospace;'>6.1x</td><td data-sort='0.1090' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='0.4646' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.5x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='KELYB.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>KELYB</a></td><td>Kelly Services, Inc.</td><td data-sort='756800000' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$757M</td><td data-sort='-2.8473' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-2.8x</td><td data-sort='10.3247' style='text-align:right;font-family:Menlo,Consolas,monospace;'>10.3x</td><td data-sort='0.1834' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.2x</td><td data-sort='0.7814' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.8x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#eef2f7;color:#1a3a5c;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>INFO</span></td></tr>
+<tr><td><a href='KFRC.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>KFRC</a></td><td>Kforce, Inc.</td><td data-sort='875843210' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$876M</td><td data-sort='25.3097' style='text-align:right;font-family:Menlo,Consolas,monospace;'>25.3x</td><td data-sort='15.2743' style='text-align:right;font-family:Menlo,Consolas,monospace;'>15.3x</td><td data-sort='0.6589' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.7x</td><td data-sort='7.4632' style='text-align:right;font-family:Menlo,Consolas,monospace;'>7.5x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='MHH.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>MHH</a></td><td>Mastech Digital, Inc</td><td data-sort='93843660' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$94M</td><td data-sort='40.5898' style='text-align:right;font-family:Menlo,Consolas,monospace;'>40.6x</td><td data-sort='8.6135' style='text-align:right;font-family:Menlo,Consolas,monospace;'>8.6x</td><td data-sort='0.5096' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.5x</td><td data-sort='1.0306' style='text-align:right;font-family:Menlo,Consolas,monospace;'>1.0x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='NIXX.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>NIXX</a></td><td>Nixxy, Inc.</td><td data-sort='39766322' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$40M</td><td data-sort='-4.0220' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-4.0x</td><td data-sort='-12.7743' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-12.8x</td><td data-sort='0.3166' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.3x</td><td data-sort='3.9388' style='text-align:right;font-family:Menlo,Consolas,monospace;'>3.9x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#fff3cd;color:#856404;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>WARN</span></td></tr>
+<tr><td><a href='TBI.html' style='color:#1a3a5c;text-decoration:none;font-weight:bold;'>TBI</a></td><td>TrueBlue, Inc.</td><td data-sort='203478750' style='text-align:right;font-family:Menlo,Consolas,monospace;'>$203M</td><td data-sort='-3.8100' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-3.8x</td><td data-sort='-4.4519' style='text-align:right;font-family:Menlo,Consolas,monospace;'>-4.5x</td><td data-sort='0.1237' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.1x</td><td data-sort='0.7946' style='text-align:right;font-family:Menlo,Consolas,monospace;'>0.8x</td><td>2026-07-05</td><td><span style='display:inline-block;background:#e6f0e6;color:#5d8a5b;font-size:10px;letter-spacing:1px;padding:2px 8px;border-radius:3px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;'>OK</span></td></tr></tbody>
+    </table>
+  </div>
+  <div class='foot'>For research and educational purposes only. Not investment advice.</div>
+</div>
+<script>
+function sortBy(col, type) {
+  var tbody = document.querySelector('table tbody');
+  var rows = Array.from(tbody.querySelectorAll('tr'));
+  var header = document.querySelectorAll('table th')[col];
+  var asc = !header.classList.contains('asc');
+  document.querySelectorAll('table th').forEach(function(h){h.classList.remove('asc','desc');});
+  header.classList.add(asc ? 'asc' : 'desc');
+  rows.sort(function(a, b) {
+    var ca = a.children[col]; var cb = b.children[col];
+    var va = ca.dataset.sort != null ? ca.dataset.sort : ca.textContent.trim();
+    var vb = cb.dataset.sort != null ? cb.dataset.sort : cb.textContent.trim();
+    if (type === 'num') { va = parseFloat(va) || 0; vb = parseFloat(vb) || 0; }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  rows.forEach(function(r){tbody.appendChild(r);});
+}
+function filterRows() {
+  var q = document.getElementById('q').value.toLowerCase();
+  var rows = document.querySelectorAll('table tbody tr');
+  var shown = 0;
+  rows.forEach(function(r){
+    var txt = r.textContent.toLowerCase();
+    var match = q === '' || txt.indexOf(q) !== -1;
+    r.style.display = match ? '' : 'none';
+    if (match) shown++;
+  });
+  document.getElementById('count').textContent = shown + ' of ' + rows.length;
+}
+</script>
+</body></html>
