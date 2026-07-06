@@ -1119,29 +1119,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 167262000.0,
-          "Cost Of Revenue": 131951000.0,
-          "Operating Income": -11177000.0,
-          "Net Income": -13374000.0,
-          "Diluted EPS": -0.21,
-          "Diluted Average Shares": 62503000.0,
-          "Selling General And Administration": 22496000.0,
-          "Gross Profit": 35311000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 186383000.0,
@@ -1185,6 +1162,15 @@
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
           "Gross Profit": "sec"
+        }
+      },
+      {
+        "period": "2024-12-31",
+        "items": {
+          "Diluted EPS": 0.24
+        },
+        "sources": {
+          "Diluted EPS": "yfinance"
         }
       },
       {
@@ -1636,7 +1622,7 @@
   },
   "validation": {
     "ticker": "OIS",
-    "checked_at": "2026-07-05T15:06:08.719329+00:00",
+    "checked_at": "2026-07-06T16:43:46.822803+00:00",
     "status": "warn",
     "issues": [
       {
