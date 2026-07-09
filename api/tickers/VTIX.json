@@ -177,7 +177,6 @@
         "period": "2024-03-31",
         "items": {
           "Cash And Cash Equivalents": 270029.0,
-          "Total Assets": 4842312.0,
           "Common Stock Equity": 1398861.0,
           "Net PPE": 818560.0,
           "Inventory": 970490.0,
@@ -186,7 +185,6 @@
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
-          "Total Assets": "yfinance",
           "Common Stock Equity": "sec",
           "Net PPE": "yfinance",
           "Inventory": "yfinance",
@@ -649,7 +647,7 @@
   },
   "validation": {
     "ticker": "VTIX",
-    "checked_at": "2026-07-08T15:46:52.482692+00:00",
+    "checked_at": "2026-07-09T16:44:55.283916+00:00",
     "status": "warn",
     "issues": [
       {
@@ -660,7 +658,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-12-31 is 189 days old (>180)"
+        "detail": "latest quarterly period 2025-12-31 is 190 days old (>180)"
       },
       {
         "severity": "info",
