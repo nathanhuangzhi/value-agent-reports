@@ -26,13 +26,13 @@
     "market_cap": 652802380.0,
     "ttm_pe": -314.45201348747594,
     "static_pe": -342.85839285714286,
-    "ev_revenue": 1.9709712303547513,
+    "ev_revenue": 2.0201709932474605,
     "pb": 2.827869575387921,
     "ps": 2.0474101046596602,
     "p_fcf": -26.191718022789278,
     "ttm_pocf": 23.4821,
-    "debt_asset": 0.0,
-    "gross_margin": null,
+    "debt_asset": 0.03326491057682928,
+    "gross_margin": 0.1129364608914105,
     "op_margin": -0.01406021145203125,
     "net_margin": -0.006511041484366914,
     "roe": -0.008993008325896919,
@@ -542,24 +542,18 @@
         "period": "2025-02-28",
         "items": {
           "Total Revenue": 64894000.0,
-          "Gross Profit": 6506000.0,
-          "Cost Of Revenue": 58388000.0,
           "Operating Income": -4589000.0,
           "Net Income": -3781000.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 12073000.0,
-          "Selling General And Administration": 10985000.0,
           "General And Administrative Expense": 10985000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -663,18 +657,24 @@
         "period": "2026-05-31",
         "items": {
           "Total Revenue": 85922000.0,
+          "Gross Profit": 10263000.0,
+          "Cost Of Revenue": 75659000.0,
           "Operating Income": -39000.0,
           "Net Income": 423000.0,
           "Diluted EPS": 0.03,
           "Diluted Average Shares": 12359000.0,
+          "Selling General And Administration": 10193000.0,
           "General And Administrative Expense": 10193000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -832,8 +832,7 @@
           "Common Stock Equity": 225045000.0,
           "Net PPE": 154077000.0,
           "Inventory": 2354000.0,
-          "Accounts Receivable": 3718000.0,
-          "Total Debt": 12569000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -841,8 +840,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -937,7 +935,8 @@
           "Common Stock Equity": 230846000.0,
           "Net PPE": 203765000.0,
           "Inventory": 2560000.0,
-          "Total Debt": 0
+          "Accounts Receivable": 7079000.0,
+          "Total Debt": 15687000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -945,7 +944,8 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -990,7 +990,7 @@
   },
   "validation": {
     "ticker": "KRUS",
-    "checked_at": "2026-07-09T16:44:55.201790+00:00",
+    "checked_at": "2026-07-10T16:28:42.610325+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1001,7 +1001,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 69 days old"
+        "detail": "latest close 2026-05-01 is 70 days old"
       }
     ]
   },

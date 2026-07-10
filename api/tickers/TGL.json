@@ -311,7 +311,7 @@
           "Net PPE": 279600.0,
           "Inventory": 400543.0,
           "Accounts Receivable": 163169.0,
-          "Total Debt": 4791716.0
+          "Total Debt": 4799815.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -320,7 +320,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -883,13 +883,13 @@
   },
   "validation": {
     "ticker": "TGL",
-    "checked_at": "2026-07-09T16:44:55.270475+00:00",
+    "checked_at": "2026-07-10T16:28:42.680610+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 69 days old"
+        "detail": "latest close 2026-05-01 is 70 days old"
       },
       {
         "severity": "warn",

@@ -26,17 +26,17 @@
     "market_cap": 301341846.89,
     "ttm_pe": -197.86070051871306,
     "static_pe": 2.9865988115720827,
-    "ev_revenue": 3.832792576170942,
-    "pb": 2.0183106071505117,
+    "ev_revenue": -4.521895445183746,
+    "pb": null,
     "ps": 1.9715260809175188,
     "p_fcf": -3.5617498598191593,
     "ttm_pocf": -3.706222673201569,
-    "debt_asset": 0.3679089471196968,
+    "debt_asset": null,
     "gross_margin": 0.5113544917466486,
     "op_margin": 0.14759203648092536,
     "net_margin": -0.009964212578591664,
-    "roe": -0.010200664416224615,
-    "roa": -0.001836054664519178,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
     "latest_q_ni": -25419000.0,
     "latest_q_ocf": -87138000.0
@@ -348,60 +348,12 @@
     ],
     "balance_sheet": [
       {
-        "period": "2024-12-31",
-        "items": {
-          "Cash And Cash Equivalents": 88815000.0,
-          "Total Assets": 502063000.0,
-          "Common Stock Equity": -27858000.0,
-          "Net PPE": 361950000.0,
-          "Accounts Receivable": 31313000.0,
-          "Total Debt": 309684000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
-        }
-      },
-      {
         "period": "2025-07-02",
         "items": {
-          "Cash And Cash Equivalents": 7682000.0,
-          "Total Assets": 404977000.0,
-          "Common Stock Equity": -80938000.0,
-          "Net PPE": 348094000.0,
-          "Accounts Receivable": 29656000.0,
-          "Total Debt": 286123000.0
+          "Total Debt": 7500000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
-        }
-      },
-      {
-        "period": "2025-09-30",
-        "items": {
-          "Cash And Cash Equivalents": 7895000.0,
-          "Total Assets": 391833000.0,
-          "Common Stock Equity": -63962000.0,
-          "Net PPE": 344204000.0,
-          "Accounts Receivable": 23502000.0,
-          "Total Debt": 279142000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -425,20 +377,10 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Cash And Cash Equivalents": 20690000.0,
-          "Total Assets": 829496000.0,
-          "Common Stock Equity": 149304000.0,
-          "Net PPE": 5020000.0,
-          "Accounts Receivable": 32885000.0,
-          "Total Debt": 305179000.0
+          "Net PPE": 5020000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "yfinance",
-          "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Net PPE": "sec"
         }
       }
     ]
@@ -483,7 +425,7 @@
   },
   "validation": {
     "ticker": "FTW",
-    "checked_at": "2026-07-09T16:44:55.176179+00:00",
+    "checked_at": "2026-07-10T16:28:42.584784+00:00",
     "status": "error",
     "issues": [
       {
@@ -529,7 +471,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 69 days old"
+        "detail": "latest close 2026-05-01 is 70 days old"
       }
     ]
   },

@@ -23,14 +23,14 @@
     "logic_summary": "Roadzen is an insurtech company providing AI-powered insurance and underwriting solutions via a subscription platform."
   },
   "snapshot": {
-    "market_cap": 134662249.8596,
-    "ttm_pe": -5.980676947473693,
-    "static_pe": -5.980676947473693,
-    "ev_revenue": 2.786231565228402,
-    "pb": -5.078033195875014,
-    "ps": 2.4474348692066386,
-    "p_fcf": -6.327797747471331,
-    "ttm_pocf": -6.642967097321,
+    "market_cap": 136178111.9924,
+    "ttm_pe": -6.048000059352763,
+    "static_pe": -6.048000059352763,
+    "ev_revenue": 2.813781779520772,
+    "pb": -5.135195453588321,
+    "ps": 2.4749850834990084,
+    "p_fcf": -6.399028318766625,
+    "ttm_pocf": -6.717745457869438,
     "debt_asset": 0.48314690938857974,
     "gross_margin": 0.6132881425106645,
     "op_margin": -0.2543911011548134,
@@ -43,17 +43,6 @@
   },
   "annual": {
     "income_statement": [
-      {
-        "period": "2022-03-31",
-        "items": {
-          "Diluted EPS": -0.142339,
-          "Diluted Average Shares": 68440829.0
-        },
-        "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
-        }
-      },
       {
         "period": "2023-03-31",
         "items": {
@@ -551,6 +540,8 @@
           "Cost Of Revenue": 5537522.0,
           "Operating Income": -5777036.0,
           "Net Income": -7253911.0,
+          "Diluted EPS": -0.09,
+          "Diluted Average Shares": 79673597.0,
           "Research And Development": -115664.0,
           "Selling General And Administration": 15419020.0,
           "Selling And Marketing Expense": 9349677.0,
@@ -562,6 +553,8 @@
           "Cost Of Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
           "Research And Development": "yfinance",
           "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "yfinance",
@@ -902,13 +895,13 @@
   },
   "validation": {
     "ticker": "RDZN",
-    "checked_at": "2026-07-09T16:44:55.245497+00:00",
+    "checked_at": "2026-07-10T16:28:42.654944+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 69 days old"
+        "detail": "latest close 2026-05-01 is 70 days old"
       },
       {
         "severity": "warn",
@@ -923,7 +916,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-12-31 is 190 days old (>180)"
+        "detail": "latest quarterly period 2025-12-31 is 191 days old (>180)"
       },
       {
         "severity": "warn",
