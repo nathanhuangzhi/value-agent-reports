@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 74299731.99,
-    "ttm_pe": -9.300254348479157,
+    "ttm_pe": -5.8411738985849055,
     "static_pe": -4.10223785280477,
-    "ev_revenue": 1.4699139179211167,
+    "ev_revenue": 1.7705733906683683,
     "pb": 24.537560102377807,
-    "ps": 1.2496801276595744,
+    "ps": 1.5052924895155897,
     "p_fcf": -13.28204004111548,
     "ttm_pocf": -13.50904218,
     "debt_asset": 0.2370598734382606,
-    "gross_margin": 0.49062316037339165,
-    "op_margin": -0.061962829030359094,
-    "net_margin": -0.1343705323353797,
-    "roe": -2.6383751651254954,
-    "roa": -0.12962842771377575,
+    "gross_margin": 0.47020806742438054,
+    "op_margin": -0.22792195952105998,
+    "net_margin": -0.25770376223181185,
+    "roe": -4.200792602377807,
+    "roa": -0.20639299042674022,
     "dividend_rate": 0.0,
     "latest_q_ni": 723000.0,
     "latest_q_ocf": -9313000.0
@@ -951,7 +951,7 @@
           "Net PPE": 1551000.0,
           "Inventory": 6501000.0,
           "Accounts Receivable": 5952000.0,
-          "Total Debt": 1008000.0
+          "Total Debt": 0.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -961,7 +961,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1014,6 +1014,31 @@
   },
   "quarterly": {
     "income_statement": [
+      {
+        "period": "2023-12-31",
+        "items": {
+          "Total Revenue": 4361000.0,
+          "Gross Profit": 1479000.0,
+          "Cost Of Revenue": 2882000.0,
+          "Operating Income": -7230000.0,
+          "Net Income": -6724000.0,
+          "Diluted EPS": -0.15,
+          "Diluted Average Shares": 43729240.0,
+          "Research And Development": 2191000.0,
+          "Selling General And Administration": 6518000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
       {
         "period": "2024-03-31",
         "items": {
@@ -1137,31 +1162,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-09-30",
-        "items": {
-          "Total Revenue": 17028000.0,
-          "Gross Profit": 8571000.0,
-          "Cost Of Revenue": 8457000.0,
-          "Operating Income": 1311000.0,
-          "Net Income": -1408000.0,
-          "Diluted EPS": -0.03,
-          "Diluted Average Shares": 45154000.0,
-          "Research And Development": 1504000.0,
-          "Selling General And Administration": 5756000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1401,7 +1401,7 @@
           "Net PPE": 1279000.0,
           "Inventory": 8675000.0,
           "Accounts Receivable": 3623000.0,
-          "Total Debt": 13857000.0
+          "Total Debt": 12810000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1411,7 +1411,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1548,7 +1548,7 @@
   },
   "validation": {
     "ticker": "GNSS",
-    "checked_at": "2026-07-10T16:28:42.588979+00:00",
+    "checked_at": "2026-07-11T14:41:58.240514+00:00",
     "status": "ok",
     "issues": []
   },

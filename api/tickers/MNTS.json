@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 26970461.37,
-    "ttm_pe": -0.7957531457823149,
+    "ttm_pe": -0.8129509696768749,
     "static_pe": -0.8852061628593935,
-    "ev_revenue": 1.3188761853609796,
+    "ev_revenue": 1.3325243235739528,
     "pb": 0.9928386294864716,
-    "ps": 6.737562170871846,
+    "ps": 6.8072845456839985,
     "p_fcf": -1.0735366544600566,
     "ttm_pocf": -1.0825424006582645,
     "debt_asset": 0.04136231820857772,
-    "gross_margin": 0.6502623032725456,
-    "op_margin": -7.434923807144641,
-    "net_margin": -8.466899825131152,
-    "roe": -1.2476716362967053,
-    "roa": -0.7390052983886793,
+    "gross_margin": 0.6466431095406361,
+    "op_margin": -6.831650681474003,
+    "net_margin": -8.373548712771328,
+    "roe": -1.2212773789803055,
+    "roa": -0.7233717811743672,
     "dividend_rate": 0.0,
     "latest_q_ni": -9480000.0,
     "latest_q_ocf": -5814000.0
@@ -333,7 +333,6 @@
           "Total Assets": 92423000.0,
           "Common Stock Equity": 38607000.0,
           "Net PPE": 4016000.0,
-          "Accounts Receivable": 4000000.0,
           "Total Debt": 14031000.0
         },
         "sources": {
@@ -341,7 +340,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -406,6 +404,31 @@
   },
   "quarterly": {
     "income_statement": [
+      {
+        "period": "2023-09-30",
+        "items": {
+          "Total Revenue": 339000.0,
+          "Gross Profit": 220000.0,
+          "Cost Of Revenue": 119000.0,
+          "Operating Income": -15066000.0,
+          "Net Income": -15159000.0,
+          "Diluted EPS": -7.2,
+          "Diluted Average Shares": 2106707.0,
+          "Research And Development": 5992000.0,
+          "Selling General And Administration": 9294000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
       {
         "period": "2024-03-31",
         "items": {
@@ -552,27 +575,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 363000.0,
-          "Gross Profit": 363000.0,
-          "Cost Of Revenue": 0.0,
-          "Operating Income": -8880000.0,
-          "Net Income": -6889000.0,
-          "Research And Development": 2754000.0,
-          "Selling General And Administration": 6489000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -900,13 +902,13 @@
   },
   "validation": {
     "ticker": "MNTS",
-    "checked_at": "2026-07-10T16:28:42.624223+00:00",
+    "checked_at": "2026-07-11T14:41:58.276796+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 70 days old"
+        "detail": "latest close 2026-05-01 is 71 days old"
       },
       {
         "severity": "info",

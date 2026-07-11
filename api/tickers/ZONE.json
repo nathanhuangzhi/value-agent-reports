@@ -44,29 +44,6 @@
   "annual": {
     "income_statement": [
       {
-        "period": "2022-06-30",
-        "items": {
-          "Total Revenue": 2647995.0,
-          "Gross Profit": 710900.0,
-          "Cost Of Revenue": 1937105.0,
-          "Operating Income": -266550.0,
-          "Net Income": -541611.0,
-          "Selling General And Administration": 959133.0,
-          "Selling And Marketing Expense": 30882.0,
-          "General And Administrative Expense": 928251.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 1604973.0,
@@ -107,19 +84,6 @@
     ],
     "cash_flow": [
       {
-        "period": "2022-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -504304.0,
-          "Capital Expenditure": -35033.0,
-          "Free Cash Flow": -539337.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1547880.0,
@@ -148,26 +112,14 @@
     ],
     "balance_sheet": [
       {
-        "period": "2022-06-30",
+        "period": "2022-10-17",
         "items": {
-          "Cash And Cash Equivalents": 263506.0,
-          "Total Assets": 1764307.0,
           "Common Stock Equity": -6009017.0,
-          "Goodwill": 2237910.0,
-          "Net PPE": 13035.0,
-          "Inventory": 1000874.0,
-          "Accounts Receivable": 302638.0,
-          "Total Debt": 0.0
+          "Goodwill": 2237910.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
           "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Goodwill": "sec"
         }
       },
       {
@@ -721,7 +673,7 @@
   },
   "validation": {
     "ticker": "ZONE",
-    "checked_at": "2026-07-10T16:28:42.701127+00:00",
+    "checked_at": "2026-07-11T14:41:58.356699+00:00",
     "status": "error",
     "issues": [
       {

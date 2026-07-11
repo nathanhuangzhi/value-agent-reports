@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 186265763.3522,
-    "ttm_pe": -2.615615787172359,
+    "ttm_pe": -4.070647152820557,
     "static_pe": -3.0091505548791755,
-    "ev_revenue": 9.887290017776602,
+    "ev_revenue": 9.838082123540445,
     "pb": 1.969485813386536,
-    "ps": 10.031423749869939,
+    "ps": 10.260952266464928,
     "p_fcf": -3.96290859879028,
     "ttm_pocf": -4.236933070179693,
-    "debt_asset": 0.047389393652802994,
-    "gross_margin": 0.10673711029399251,
-    "op_margin": -2.226156798591659,
-    "net_margin": -3.835205384164822,
-    "roe": -0.752972138738951,
-    "roa": -0.6749478747472925,
+    "debt_asset": 0.0,
+    "gross_margin": 0.16340261951923532,
+    "op_margin": -1.929093978677645,
+    "net_margin": -2.5207176847433463,
+    "roe": -0.48382621717086843,
+    "roa": -0.43369131502449165,
     "dividend_rate": 0.0,
     "latest_q_ni": -28119844.0,
     "latest_q_ocf": -8704916.0
@@ -560,7 +560,6 @@
           "Common Stock Equity": 10493733.0,
           "Net PPE": 3193041.0,
           "Inventory": 1962035.0,
-          "Accounts Receivable": 1542118.0,
           "Total Debt": 0.0
         },
         "sources": {
@@ -569,7 +568,6 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -582,7 +580,7 @@
           "Net PPE": 4698144.0,
           "Inventory": 1149047.0,
           "Accounts Receivable": 901672.0,
-          "Total Debt": 352186.0
+          "Total Debt": 250000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -591,7 +589,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -603,7 +601,7 @@
           "Net PPE": 3676544.0,
           "Inventory": 545467.0,
           "Accounts Receivable": 2645190.0,
-          "Total Debt": 505762.0
+          "Total Debt": 494796.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -612,7 +610,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -624,7 +622,7 @@
           "Net PPE": 5482743.0,
           "Inventory": 581156.0,
           "Accounts Receivable": 2076556.0,
-          "Total Debt": 366937.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -633,13 +631,38 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       }
     ]
   },
   "quarterly": {
     "income_statement": [
+      {
+        "period": "2023-09-30",
+        "items": {
+          "Total Revenue": 3041007.0,
+          "Gross Profit": 1337454.0,
+          "Cost Of Revenue": 1703553.0,
+          "Operating Income": -5097028.0,
+          "Net Income": -5562274.0,
+          "Diluted EPS": -0.05,
+          "Diluted Average Shares": 117144452.0,
+          "Research And Development": 1821658.0,
+          "Selling General And Administration": 4612824.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
       {
         "period": "2024-03-31",
         "items": {
@@ -788,27 +811,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 2863961.0,
-          "Gross Profit": -777963.0,
-          "Cost Of Revenue": 3641924.0,
-          "Operating Income": -15760994.0,
-          "Net Income": -44261358.0,
-          "Research And Development": 3545372.0,
-          "Selling General And Administration": 7860094.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -974,7 +976,7 @@
           "Net PPE": 3676544.0,
           "Inventory": 545467.0,
           "Accounts Receivable": 2645190.0,
-          "Total Debt": 505762.0
+          "Total Debt": 494796.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -983,7 +985,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -995,7 +997,7 @@
           "Net PPE": 3654320.0,
           "Inventory": 485791.0,
           "Accounts Receivable": 2943151.0,
-          "Total Debt": 421711.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1004,7 +1006,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1016,7 +1018,7 @@
           "Net PPE": 3519508.0,
           "Inventory": 772123.0,
           "Accounts Receivable": 3872267.0,
-          "Total Debt": 493061.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1025,7 +1027,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1037,7 +1039,7 @@
           "Net PPE": 3461267.0,
           "Inventory": 784609.0,
           "Accounts Receivable": 2956726.0,
-          "Total Debt": 3800000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1046,7 +1048,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1069,7 +1071,7 @@
           "Net PPE": 5482743.0,
           "Inventory": 581156.0,
           "Accounts Receivable": 2076556.0,
-          "Total Debt": 366937.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1078,7 +1080,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1090,7 +1092,7 @@
           "Net PPE": 5450057.0,
           "Inventory": 1398310.0,
           "Accounts Receivable": 2047160.0,
-          "Total Debt": 5000000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1099,7 +1101,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1144,7 +1146,7 @@
   },
   "validation": {
     "ticker": "KULR",
-    "checked_at": "2026-07-10T16:28:42.610903+00:00",
+    "checked_at": "2026-07-11T14:41:58.262813+00:00",
     "status": "warn",
     "issues": [
       {

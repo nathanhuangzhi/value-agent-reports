@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 297595121.58000004,
-    "ttm_pe": 17.456019265520087,
+    "ttm_pe": 19.484650157388927,
     "static_pe": 19.042845927029386,
-    "ev_revenue": 3.8177603810553635,
+    "ev_revenue": 3.830911629485586,
     "pb": 4.126849587373453,
-    "ps": 3.2860179650960433,
+    "ps": 3.297337491282023,
     "p_fcf": 22.552940909265214,
     "ttm_pocf": 14.428934831879065,
     "debt_asset": 0.39721068399228787,
-    "gross_margin": 0.5074138351883482,
-    "op_margin": 0.2537394360133465,
-    "net_margin": 0.18824555101097612,
-    "roe": 0.23641412882288645,
-    "roa": 0.12330020758037587,
+    "gross_margin": 0.47830695298218817,
+    "op_margin": 0.24081675901024982,
+    "net_margin": 0.1692274413267622,
+    "roe": 0.21180003510653117,
+    "roa": 0.11046289163931766,
     "dividend_rate": 0.0,
     "latest_q_ni": 3434092.0,
     "latest_q_ocf": 2291339.0
@@ -927,21 +927,19 @@
           "Cash And Cash Equivalents": 17250546.0,
           "Total Assets": 34705323.0,
           "Common Stock Equity": 30749955.0,
-          "Goodwill": 0.0,
           "Net PPE": 6292189.0,
           "Inventory": 5349104.0,
           "Accounts Receivable": 4297457.0,
-          "Total Debt": 13615.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Goodwill": "yfinance",
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -977,7 +975,7 @@
           "Net PPE": 13372298.0,
           "Inventory": 12732381.0,
           "Accounts Receivable": 12612482.0,
-          "Total Debt": 28029102.0
+          "Total Debt": 28027002.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -987,7 +985,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1017,6 +1015,31 @@
   },
   "quarterly": {
     "income_statement": [
+      {
+        "period": "2023-12-31",
+        "items": {
+          "Total Revenue": 9308063.0,
+          "Gross Profit": 5523162.0,
+          "Cost Of Revenue": 3784901.0,
+          "Operating Income": 1615199.0,
+          "Net Income": 1057350.0,
+          "Diluted EPS": 0.06,
+          "Diluted Average Shares": 17474906.0,
+          "Research And Development": 901144.0,
+          "Selling General And Administration": 3006819.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
       {
         "period": "2024-03-31",
         "items": {
@@ -1140,31 +1163,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-09-30",
-        "items": {
-          "Total Revenue": 22247114.0,
-          "Gross Profit": 14051966.0,
-          "Cost Of Revenue": 8195148.0,
-          "Operating Income": 8229520.0,
-          "Net Income": 7111312.0,
-          "Diluted EPS": 0.39,
-          "Diluted Average Shares": 18183344.0,
-          "Research And Development": 1100293.0,
-          "Selling General And Administration": 4722153.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1551,13 +1549,13 @@
   },
   "validation": {
     "ticker": "ISSC",
-    "checked_at": "2026-07-10T16:28:42.603399+00:00",
+    "checked_at": "2026-07-11T14:41:58.255121+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 70 days old"
+        "detail": "latest close 2026-05-01 is 71 days old"
       }
     ]
   },

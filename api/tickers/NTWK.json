@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 52200861.300000004,
-    "ttm_pe": 29.55973221136559,
+    "ttm_pe": 84.96220107063628,
     "static_pe": 17.857235909693138,
-    "ev_revenue": 0.6058604034997761,
+    "ev_revenue": 0.5894466326612241,
     "pb": 1.1790880595519093,
-    "ps": 0.6883943454955442,
+    "ps": 0.6697445922384426,
     "p_fcf": -23.63434080972089,
     "ttm_pocf": -151.5713253270925,
     "debt_asset": 0.11798463131096627,
-    "gross_margin": 0.47894088083825426,
-    "op_margin": 0.0746751138907893,
-    "net_margin": 0.023288247017030132,
-    "roe": 0.03988832006734334,
-    "roa": 0.024553143890242303,
+    "gross_margin": 0.44535352148013163,
+    "op_margin": 0.051584558125654455,
+    "net_margin": 0.007882853596055346,
+    "roe": 0.013877795592555722,
+    "roa": 0.008542438274866296,
     "dividend_rate": 0.0,
     "latest_q_ni": 1300964.0,
     "latest_q_ocf": -1340231.0
@@ -343,7 +343,6 @@
           "Diluted EPS": -0.08,
           "Diluted Average Shares": 11250219.0,
           "Research And Development": 1342154.0,
-          "Selling General And Administration": 23473343.0,
           "Selling And Marketing Expense": 23473343.0,
           "General And Administrative Expense": 15390141.0
         },
@@ -356,7 +355,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -372,7 +370,6 @@
           "Diluted EPS": -0.46,
           "Diluted Average Shares": 11279966.0,
           "Research And Development": 1601613.0,
-          "Selling General And Administration": 24093908.0,
           "Selling And Marketing Expense": 24093908.0
         },
         "sources": {
@@ -384,7 +381,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec"
         }
       },
@@ -970,6 +966,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2023-12-31",
+        "items": {
+          "Total Revenue": 15237941.0,
+          "Gross Profit": 7175737.0,
+          "Cost Of Revenue": 8062204.0,
+          "Operating Income": 1026832.0,
+          "Net Income": 408316.0,
+          "Diluted EPS": 0.04,
+          "Diluted Average Shares": 11372819.0,
+          "Research And Development": 341411.0,
+          "Selling And Marketing Expense": 5807494.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec"
+        }
+      },
+      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 15464516.0,
@@ -1060,8 +1081,7 @@
           "Diluted Average Shares": 11683408.0,
           "Research And Development": 304788.0,
           "Selling General And Administration": 6883587.0,
-          "Selling And Marketing Expense": 6883587.0,
-          "General And Administrative Expense": 4457504.0
+          "Selling And Marketing Expense": 6883587.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1073,29 +1093,7 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
-        "period": "2025-06-30",
-        "items": {
-          "Total Revenue": 18409113.0,
-          "Gross Profit": 10348306.0,
-          "Cost Of Revenue": 8060807.0,
-          "Operating Income": 3195428.0,
-          "Net Income": 2575512.0,
-          "Research And Development": 277472.0,
-          "Selling General And Administration": 6875406.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Selling And Marketing Expense": "sec"
         }
       },
       {
@@ -1491,13 +1489,13 @@
   },
   "validation": {
     "ticker": "NTWK",
-    "checked_at": "2026-07-10T16:28:42.635389+00:00",
+    "checked_at": "2026-07-11T14:41:58.288090+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 70 days old"
+        "detail": "latest close 2026-05-01 is 71 days old"
       },
       {
         "severity": "info",

@@ -39,7 +39,7 @@
     "roa": null,
     "dividend_rate": 0.0,
     "latest_q_ni": 152510000.0,
-    "latest_q_ocf": -6996000.0
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [],
@@ -51,15 +51,11 @@
       {
         "period": "2025-09-30",
         "items": {
-          "Total Revenue": 0.0,
-          "Operating Income": -1212921.0,
           "Net Income": -13398000.0,
           "Diluted EPS": -13183.92,
           "Diluted Average Shares": 92.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec"
@@ -72,16 +68,14 @@
           "Operating Income": -287546000.0,
           "Net Income": -304463000.0,
           "Diluted EPS": -7.43,
-          "Diluted Average Shares": 41004125.0,
-          "Selling General And Administration": 3465000.0
+          "Diluted Average Shares": 41004125.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance"
+          "Diluted Average Shares": "sec"
         }
       },
       {
@@ -91,16 +85,14 @@
           "Operating Income": 193814000.0,
           "Net Income": 152510000.0,
           "Diluted EPS": 1.01,
-          "Diluted Average Shares": 124044456.0,
-          "Selling General And Administration": 7247000.0
+          "Diluted Average Shares": 124044456.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance"
+          "Diluted Average Shares": "sec"
         }
       }
     ],
@@ -116,32 +108,6 @@
           "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
-        }
-      },
-      {
-        "period": "2025-12-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -8315000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -8315000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "yfinance"
-        }
-      },
-      {
-        "period": "2026-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -6996000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -6996000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -263,7 +229,7 @@
   },
   "validation": {
     "ticker": "PURR",
-    "checked_at": "2026-07-10T16:28:42.651085+00:00",
+    "checked_at": "2026-07-11T14:41:58.305076+00:00",
     "status": "error",
     "issues": [
       {
@@ -304,7 +270,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 70 days old"
+        "detail": "latest close 2026-05-01 is 71 days old"
       }
     ]
   },

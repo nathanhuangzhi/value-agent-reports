@@ -26,12 +26,12 @@
     "market_cap": 68163780.9,
     "ttm_pe": -4.644832501611905,
     "static_pe": -5.719870361831382,
-    "ev_revenue": 102.8073935328344,
+    "ev_revenue": 102.6447302799272,
     "pb": 3.8776031518341028,
     "ps": 110.87742331647601,
     "p_fcf": -8.52499512241244,
     "ttm_pocf": -8.52499512241244,
-    "debt_asset": 0.01263475407436705,
+    "debt_asset": 0.00758085244462023,
     "gross_margin": 0.7061911260689009,
     "op_margin": -24.350477497978908,
     "net_margin": -23.87113491778186,
@@ -142,7 +142,6 @@
           "Diluted EPS": -16.56,
           "Diluted Average Shares": 1284499.0,
           "Research And Development": 6668244.0,
-          "Selling General And Administration": 60.0,
           "Selling And Marketing Expense": 12710.0,
           "General And Administrative Expense": 1026443.0
         },
@@ -155,7 +154,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -171,7 +169,6 @@
           "Diluted EPS": -5.56,
           "Diluted Average Shares": 1924639.0,
           "Research And Development": 2331548.0,
-          "Selling General And Administration": 60.0,
           "Selling And Marketing Expense": 0.0,
           "General And Administrative Expense": 945641.0
         },
@@ -184,7 +181,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -562,7 +558,6 @@
           "Diluted EPS": -1.1,
           "Diluted Average Shares": 3073074.0,
           "Research And Development": 86659.0,
-          "Selling General And Administration": 3738043.0,
           "Selling And Marketing Expense": 106500.0,
           "General And Administrative Expense": 269072.0
         },
@@ -575,7 +570,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -641,9 +635,7 @@
           "Diluted EPS": -0.65,
           "Diluted Average Shares": 6032193.0,
           "Research And Development": 235529.0,
-          "Selling General And Administration": 3497730.0,
-          "Selling And Marketing Expense": 0.0,
-          "General And Administrative Expense": 3497730.0
+          "Selling And Marketing Expense": 0.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -654,9 +646,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec"
         }
       }
     ],
@@ -899,16 +889,14 @@
           "Total Assets": 19786693.0,
           "Common Stock Equity": 17578844.0,
           "Net PPE": 9727.0,
-          "Accounts Receivable": 15287.0,
-          "Total Debt": 250000.0
+          "Total Debt": 150000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       }
     ]
@@ -953,13 +941,13 @@
   },
   "validation": {
     "ticker": "ZSQR",
-    "checked_at": "2026-07-10T16:28:42.701177+00:00",
+    "checked_at": "2026-07-11T14:41:58.356750+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 70 days old"
+        "detail": "latest close 2026-05-01 is 71 days old"
       },
       {
         "severity": "info",

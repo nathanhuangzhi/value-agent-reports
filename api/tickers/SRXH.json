@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 41450739.1452,
-    "ttm_pe": -0.9132331433871643,
+    "ttm_pe": -1.0291416725476077,
     "static_pe": -0.9210047359285428,
-    "ev_revenue": -2.582244980433106,
+    "ev_revenue": 1.7513173646064704,
     "pb": 2.2668018782237778,
-    "ps": -2.459254769813112,
-    "p_fcf": -1.5806413645973154,
+    "ps": 1.6679035548527281,
+    "p_fcf": -2.3334124715829767,
     "ttm_pocf": -2.3334124715829767,
     "debt_asset": 0.5215386034498662,
-    "gross_margin": 0.17929397804805697,
-    "op_margin": 0.2936220706021952,
-    "net_margin": 2.6929101156926727,
-    "roe": -2.4821721535601005,
-    "roa": -1.0466977216123974,
+    "gross_margin": 0.32717688717205856,
+    "op_margin": -0.970465153709963,
+    "net_margin": -1.620674392403026,
+    "roe": -2.202614021655912,
+    "roa": -0.9288119177197676,
     "dividend_rate": 0.0,
     "latest_q_ni": -6381000.0,
     "latest_q_ocf": -6627000.0
@@ -668,13 +668,13 @@
         "period": "2025-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -8143000.0,
-          "Capital Expenditure": -2076000.0,
-          "Free Cash Flow": -10219000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -8143000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -1009,7 +1009,7 @@
           "Net PPE": 88000.0,
           "Inventory": 2078000.0,
           "Accounts Receivable": 3945000.0,
-          "Total Debt": 4473000.0
+          "Total Debt": 4452000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1018,13 +1018,36 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       }
     ]
   },
   "quarterly": {
     "income_statement": [
+      {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 7903000.0,
+          "Gross Profit": 2614000.0,
+          "Cost Of Revenue": 5289000.0,
+          "Operating Income": -2466000.0,
+          "Net Income": -2830000.0,
+          "Diluted EPS": -3.6,
+          "Diluted Average Shares": 786745.0,
+          "Selling General And Administration": 5080000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1074,24 +1097,14 @@
       {
         "period": "2024-12-31",
         "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 0.0,
-          "Cost Of Revenue": 0.0,
-          "Operating Income": 0.0,
           "Net Income": -3983000.0,
           "Diluted EPS": -0.17,
-          "Diluted Average Shares": 23582701.0,
-          "Selling General And Administration": 0.0
+          "Diluted Average Shares": 23582701.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance"
+          "Diluted Average Shares": "sec"
         }
       },
       {
@@ -1138,25 +1151,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-09-30",
-        "items": {
-          "Total Revenue": -34548000.0,
-          "Gross Profit": -8770000.0,
-          "Cost Of Revenue": -25778000.0,
-          "Operating Income": 18081000.0,
-          "Net Income": -15261000.0,
-          "Selling General And Administration": -26851000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1289,13 +1283,13 @@
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2922000.0,
-          "Capital Expenditure": -8460000.0,
-          "Free Cash Flow": -11382000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -2922000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1412,7 +1406,7 @@
           "Net PPE": 88000.0,
           "Inventory": 2078000.0,
           "Accounts Receivable": 3945000.0,
-          "Total Debt": 4473000.0
+          "Total Debt": 4452000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1421,7 +1415,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1517,13 +1511,13 @@
   },
   "validation": {
     "ticker": "SRXH",
-    "checked_at": "2026-07-10T16:28:42.674582+00:00",
+    "checked_at": "2026-07-11T14:41:58.329290+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 70 days old"
+        "detail": "latest close 2026-05-01 is 71 days old"
       },
       {
         "severity": "warn",
