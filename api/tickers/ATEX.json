@@ -26,12 +26,12 @@
     "market_cap": 1983249091.04,
     "ttm_pe": 21.881713367242234,
     "static_pe": 21.881713367242234,
-    "ev_revenue": 289.18783126288264,
+    "ev_revenue": 288.96878803876325,
     "pb": 7.560390098543388,
     "ps": 305.06831118904785,
     "p_fcf": -91.42767338373594,
     "ttm_pocf": 359.8710018218109,
-    "debt_asset": 0.0030609832118828058,
+    "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": 9.783725580679896,
     "net_margin": 13.941701276726658,
@@ -1230,16 +1230,14 @@
           "Total Assets": 333104000.0,
           "Common Stock Equity": 156601000.0,
           "Net PPE": 1302000.0,
-          "Accounts Receivable": 10033000.0,
-          "Total Debt": 1643000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1249,16 +1247,14 @@
           "Total Assets": 359577000.0,
           "Common Stock Equity": 184771000.0,
           "Net PPE": 1170000.0,
-          "Accounts Receivable": 5330000.0,
-          "Total Debt": 1531000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1268,16 +1264,14 @@
           "Total Assets": 420375000.0,
           "Common Stock Equity": 240347000.0,
           "Net PPE": 1018000.0,
-          "Accounts Receivable": 7549000.0,
-          "Total Debt": 1430000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1287,16 +1281,14 @@
           "Total Assets": 417003000.0,
           "Common Stock Equity": 235951000.0,
           "Net PPE": 922000.0,
-          "Accounts Receivable": 8702000.0,
-          "Total Debt": 1412000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1306,16 +1298,14 @@
           "Total Assets": 465210000.0,
           "Common Stock Equity": 262321000.0,
           "Net PPE": 827000.0,
-          "Accounts Receivable": 10638000.0,
-          "Total Debt": 1424000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1360,7 +1350,7 @@
   },
   "validation": {
     "ticker": "ATEX",
-    "checked_at": "2026-07-11T14:41:58.185717+00:00",
+    "checked_at": "2026-07-12T14:45:54.791387+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1386,7 +1376,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-12-31 is 192 days old (>180)"
+        "detail": "latest quarterly period 2025-12-31 is 193 days old (>180)"
       },
       {
         "severity": "warn",

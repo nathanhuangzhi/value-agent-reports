@@ -26,12 +26,12 @@
     "market_cap": 81832348.7,
     "ttm_pe": -11.084136202420886,
     "static_pe": -28.853545643920164,
-    "ev_revenue": 1.6887368178875322,
+    "ev_revenue": 1.8252636875525055,
     "pb": 3.78213934456385,
     "ps": 1.9511909326565648,
     "p_fcf": 59.69874171533206,
     "ttm_pocf": 57.58664398358937,
-    "debt_asset": 0.0,
+    "debt_asset": 0.0806520654547319,
     "gross_margin": 0.8289119092979531,
     "op_margin": -0.17199057704118148,
     "net_margin": -0.176034550372126,
@@ -1514,7 +1514,7 @@
           "Net PPE": 298740.0,
           "Inventory": 4098859.0,
           "Accounts Receivable": 10487925.0,
-          "Total Debt": 0
+          "Total Debt": 5611827.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1524,7 +1524,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1537,7 +1537,7 @@
           "Net PPE": 297793.0,
           "Inventory": 3222872.0,
           "Accounts Receivable": 10316911.0,
-          "Total Debt": 0
+          "Total Debt": 5626810.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1547,7 +1547,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1560,7 +1560,7 @@
           "Net PPE": 293375.0,
           "Inventory": 2934723.0,
           "Accounts Receivable": 10430602.0,
-          "Total Debt": 0
+          "Total Debt": 5642178.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1570,7 +1570,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1583,7 +1583,7 @@
           "Net PPE": 264724.0,
           "Inventory": 6225518.0,
           "Accounts Receivable": 16944780.0,
-          "Total Debt": 0.0
+          "Total Debt": 5240733.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1593,7 +1593,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1606,7 +1606,7 @@
           "Net PPE": 237375.0,
           "Inventory": 5453836.0,
           "Accounts Receivable": 14261978.0,
-          "Total Debt": 0
+          "Total Debt": 5725895.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1616,7 +1616,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1655,13 +1655,13 @@
   },
   "validation": {
     "ticker": "CPIX",
-    "checked_at": "2026-07-11T14:41:58.209685+00:00",
+    "checked_at": "2026-07-12T14:45:54.815570+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 71 days old"
+        "detail": "latest close 2026-05-01 is 72 days old"
       },
       {
         "severity": "warn",
