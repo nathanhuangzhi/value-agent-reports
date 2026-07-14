@@ -24,27 +24,165 @@
   },
   "snapshot": {
     "market_cap": 75087120.3,
-    "ttm_pe": 11.475411936322699,
-    "static_pe": null,
-    "ev_revenue": 9.316971459044993,
-    "pb": null,
-    "ps": 9.828918719879864,
+    "ttm_pe": 7.997114186747286,
+    "static_pe": 9.458102651242234,
+    "ev_revenue": 6.908597767969199,
+    "pb": 39.74871974992655,
+    "ps": 7.288210147278158,
     "p_fcf": null,
     "ttm_pocf": null,
     "debt_asset": 0.0,
     "gross_margin": null,
-    "op_margin": null,
-    "net_margin": 0.8565199031129114,
-    "roe": null,
-    "roa": 1.673062343788953,
+    "op_margin": 0.9041292317452404,
+    "net_margin": 0.9113550184585442,
+    "roe": 4.970382918352924,
+    "roa": 2.400750963634388,
     "dividend_rate": 0.0,
     "latest_q_ni": 2051810.0,
     "latest_q_ocf": null
   },
   "annual": {
-    "income_statement": [],
+    "income_statement": [
+      {
+        "period": "2022-10-31",
+        "items": {
+          "Total Revenue": 17800119.0,
+          "Operating Income": 17105048.0,
+          "Net Income": 17088446.0,
+          "Diluted EPS": 1.86,
+          "Diluted Average Shares": 9190590.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
+        }
+      },
+      {
+        "period": "2023-10-31",
+        "items": {
+          "Total Revenue": 22016103.0,
+          "Operating Income": 21059036.0,
+          "Net Income": 21173515.0,
+          "Diluted EPS": 2.3,
+          "Diluted Average Shares": 9205876.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
+        }
+      },
+      {
+        "period": "2024-10-31",
+        "items": {
+          "Total Revenue": 5785303.0,
+          "Operating Income": 4995014.0,
+          "Net Income": 5057813.0,
+          "Diluted EPS": 0.55,
+          "Diluted Average Shares": 9190590.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
+        }
+      },
+      {
+        "period": "2025-10-31",
+        "items": {
+          "Total Revenue": 8650094.0,
+          "Operating Income": 7865462.0,
+          "Net Income": 7938920.0,
+          "Diluted EPS": 0.86,
+          "Diluted Average Shares": 9190590.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
+        }
+      }
+    ],
     "cash_flow": [],
-    "balance_sheet": []
+    "balance_sheet": [
+      {
+        "period": "2022-10-31",
+        "items": {
+          "Cash And Cash Equivalents": 7193457.0,
+          "Total Assets": 7193458.0,
+          "Common Stock Equity": 392421.0,
+          "Net PPE": 1.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
+      {
+        "period": "2023-10-31",
+        "items": {
+          "Cash And Cash Equivalents": 795201.0,
+          "Total Assets": 795202.0,
+          "Common Stock Equity": 795202.0,
+          "Net PPE": 1.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
+      {
+        "period": "2024-10-31",
+        "items": {
+          "Cash And Cash Equivalents": 1625343.0,
+          "Total Assets": 1625344.0,
+          "Common Stock Equity": 1441532.0,
+          "Net PPE": 1.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
+      {
+        "period": "2025-10-31",
+        "items": {
+          "Cash And Cash Equivalents": 4785156.0,
+          "Total Assets": 4785157.0,
+          "Common Stock Equity": 1936074.0,
+          "Net PPE": 1.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      }
+    ]
   },
   "quarterly": {
     "income_statement": [
@@ -53,11 +191,13 @@
         "items": {
           "Total Revenue": 519433.0,
           "Net Income": 285468.0,
+          "Diluted EPS": 0.03,
           "Diluted Average Shares": 9190590.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec"
         }
       },
@@ -65,23 +205,63 @@
         "period": "2025-04-30",
         "items": {
           "Total Revenue": 2490525.0,
-          "Net Income": 2261006.0
+          "Operating Income": 2243480.0,
+          "Net Income": 2261006.0,
+          "Diluted EPS": 0.25,
+          "Diluted Average Shares": 9190590.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Net Income": "sec"
+          "Operating Income": "yfinance",
+          "Net Income": "sec",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
+        }
+      },
+      {
+        "period": "2025-07-31",
+        "items": {
+          "Total Revenue": 2617231.0,
+          "Operating Income": 2437053.0,
+          "Net Income": 2459107.0,
+          "Diluted EPS": 0.27,
+          "Diluted Average Shares": 9190590.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
+        }
+      },
+      {
+        "period": "2025-10-31",
+        "items": {
+          "Total Revenue": 3055865.0,
+          "Operating Income": 2911244.0,
+          "Net Income": 2933339.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance"
         }
       },
       {
         "period": "2026-01-31",
         "items": {
           "Total Revenue": 2230958.0,
+          "Operating Income": 1929844.0,
           "Net Income": 1945021.0,
+          "Diluted EPS": 0.21,
           "Diluted Average Shares": 9190590.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec"
         }
       },
@@ -89,11 +269,17 @@
         "period": "2026-04-30",
         "items": {
           "Total Revenue": 2398492.0,
-          "Net Income": 2051810.0
+          "Operating Income": 2036692.0,
+          "Net Income": 2051810.0,
+          "Diluted EPS": 0.22,
+          "Diluted Average Shares": 9190590.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Net Income": "sec"
+          "Operating Income": "yfinance",
+          "Net Income": "sec",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -120,10 +306,35 @@
       {
         "period": "2025-04-30",
         "items": {
-          "Cash And Cash Equivalents": 3620381.0
+          "Cash And Cash Equivalents": 3620381.0,
+          "Total Assets": 3620382.0,
+          "Common Stock Equity": 1782264.0,
+          "Net PPE": 1.0,
+          "Total Debt": 0
         },
         "sources": {
-          "Cash And Cash Equivalents": "sec"
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
+      {
+        "period": "2025-07-31",
+        "items": {
+          "Cash And Cash Equivalents": 4241370.0,
+          "Total Assets": 4241371.0,
+          "Common Stock Equity": 1851818.0,
+          "Net PPE": 1.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -131,11 +342,15 @@
         "items": {
           "Cash And Cash Equivalents": 4785156.0,
           "Total Assets": 4785157.0,
+          "Common Stock Equity": 1936074.0,
+          "Net PPE": 1.0,
           "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -144,11 +359,15 @@
         "items": {
           "Cash And Cash Equivalents": 3881094.0,
           "Total Assets": 3881095.0,
+          "Common Stock Equity": 1859165.0,
+          "Net PPE": 1.0,
           "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -157,11 +376,15 @@
         "items": {
           "Cash And Cash Equivalents": 3910974.0,
           "Total Assets": 3910975.0,
+          "Common Stock Equity": 1889045.0,
+          "Net PPE": 1.0,
           "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
+          "Common Stock Equity": "yfinance",
+          "Net PPE": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -207,7 +430,7 @@
   },
   "validation": {
     "ticker": "NRT",
-    "checked_at": "2026-07-12T14:45:54.896225+00:00",
+    "checked_at": "2026-07-14T15:22:51.014607+00:00",
     "status": "error",
     "issues": [
       {
@@ -248,7 +471,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 72 days old"
+        "detail": "latest close 2026-05-01 is 74 days old"
       }
     ]
   },

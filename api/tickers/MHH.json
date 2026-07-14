@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 93843660.0,
-    "ttm_pe": -947.9157575757575,
+    "ttm_pe": 40.58981833910035,
     "static_pe": 154.09467980295565,
-    "ev_revenue": 0.32243805917868584,
+    "ev_revenue": 0.3345642646507763,
     "pb": 1.0305581972523912,
-    "ps": 0.5018565400843882,
+    "ps": 0.509640430766223,
     "p_fcf": 8.880823317876407,
     "ttm_pocf": 8.61346122074346,
-    "debt_asset": 0.0,
-    "gross_margin": 0.27379634531773916,
-    "op_margin": -0.005107143048135492,
-    "net_margin": -0.0005294315830004332,
-    "roe": -0.0010871833166778313,
-    "roa": -0.0009167175954219679,
+    "debt_asset": 0.012148823082763858,
+    "gross_margin": 0.27799410221737075,
+    "op_margin": 0.010345557926978282,
+    "net_margin": 0.012555868728175218,
+    "roe": 0.025389574021809556,
+    "roa": 0.021408596773894846,
     "dividend_rate": 0.0,
     "latest_q_ni": 264000.0,
     "latest_q_ocf": -3162000.0
@@ -990,7 +990,7 @@
           "Goodwill": 27210000.0,
           "Net PPE": 1998000.0,
           "Accounts Receivable": 23845000.0,
-          "Total Debt": 0
+          "Total Debt": 1265000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -999,7 +999,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1011,7 +1011,7 @@
           "Goodwill": 27210000.0,
           "Net PPE": 1557000.0,
           "Accounts Receivable": 20648000.0,
-          "Total Debt": 0
+          "Total Debt": 1283000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1020,34 +1020,13 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
   },
   "quarterly": {
     "income_statement": [
-      {
-        "period": "2023-09-30",
-        "items": {
-          "Total Revenue": 47779000.0,
-          "Gross Profit": 12566000.0,
-          "Cost Of Revenue": 35213000.0,
-          "Operating Income": -49000.0,
-          "Net Income": 125000.0,
-          "Diluted EPS": 0.01,
-          "Diluted Average Shares": 11968000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
       {
         "period": "2024-03-31",
         "items": {
@@ -1208,6 +1187,27 @@
           "Selling General And Administration": "sec",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 45461000.0,
+          "Gross Profit": 12883000.0,
+          "Cost Of Revenue": 32578000.0,
+          "Operating Income": 1007000.0,
+          "Net Income": 972000.0,
+          "Diluted EPS": 0.08,
+          "Diluted Average Shares": 11823000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       },
       {
@@ -1413,7 +1413,7 @@
           "Goodwill": 27210000.0,
           "Net PPE": 1932000.0,
           "Accounts Receivable": 23809000.0,
-          "Total Debt": 0
+          "Total Debt": 1291000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1422,7 +1422,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1434,7 +1434,7 @@
           "Goodwill": 27210000.0,
           "Net PPE": 1793000.0,
           "Accounts Receivable": 22107000.0,
-          "Total Debt": 0
+          "Total Debt": 1313000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1443,7 +1443,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1455,7 +1455,7 @@
           "Goodwill": 27210000.0,
           "Net PPE": 1740000.0,
           "Accounts Receivable": 20560000.0,
-          "Total Debt": 0
+          "Total Debt": 1287000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1464,7 +1464,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1476,7 +1476,7 @@
           "Goodwill": 27210000.0,
           "Net PPE": 1557000.0,
           "Accounts Receivable": 20648000.0,
-          "Total Debt": 0
+          "Total Debt": 1283000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1485,7 +1485,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1497,7 +1497,7 @@
           "Goodwill": 27210000.0,
           "Net PPE": 1390000.0,
           "Accounts Receivable": 21847000.0,
-          "Total Debt": 0
+          "Total Debt": 1312000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1506,7 +1506,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1551,7 +1551,7 @@
   },
   "validation": {
     "ticker": "MHH",
-    "checked_at": "2026-07-12T14:45:54.883824+00:00",
+    "checked_at": "2026-07-14T15:22:51.001307+00:00",
     "status": "warn",
     "issues": [
       {

@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 383599441.74,
-    "ttm_pe": null,
+    "ttm_pe": -18.622236115345405,
     "static_pe": -24.34933615208836,
-    "ev_revenue": null,
+    "ev_revenue": 22.731801771023306,
     "pb": 1.129276572305011,
-    "ps": null,
+    "ps": 77.730383331307,
     "p_fcf": -31.831336962907642,
     "ttm_pocf": -54.41898733721095,
-    "debt_asset": 0.00032056419297964416,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "debt_asset": 0.0011248368557232157,
+    "gross_margin": 0.5582573454913881,
+    "op_margin": -5.239108409321175,
+    "net_margin": -4.174062816616008,
+    "roe": -0.060641298140046984,
+    "roa": -0.05895805188560438,
     "dividend_rate": 0.0,
     "latest_q_ni": -8402000.0,
     "latest_q_ocf": -1605000.0
@@ -54,6 +54,7 @@
           "Diluted EPS": -0.01,
           "Diluted Average Shares": 40000000.0,
           "Research And Development": 1772000.0,
+          "Selling General And Administration": 2555000.0,
           "Selling And Marketing Expense": 297000.0,
           "General And Administrative Expense": 2258000.0
         },
@@ -66,6 +67,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -81,6 +83,7 @@
           "Diluted EPS": -0.01,
           "Diluted Average Shares": 62166846.0,
           "Research And Development": 1979000.0,
+          "Selling General And Administration": 3747000.0,
           "Selling And Marketing Expense": 238000.0,
           "General And Administrative Expense": 3509000.0
         },
@@ -93,6 +96,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -108,6 +112,7 @@
           "Diluted EPS": -0.12,
           "Diluted Average Shares": 69953723.0,
           "Research And Development": 2021000.0,
+          "Selling General And Administration": 7772000.0,
           "Selling And Marketing Expense": 1315000.0,
           "General And Administrative Expense": 6457000.0
         },
@@ -120,6 +125,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -135,6 +141,7 @@
           "Diluted EPS": -0.13,
           "Diluted Average Shares": 121963786.0,
           "Research And Development": 2432000.0,
+          "Selling General And Administration": 18801000.0,
           "Selling And Marketing Expense": 1262000.0,
           "General And Administrative Expense": 17539000.0
         },
@@ -147,6 +154,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -154,29 +162,38 @@
     ],
     "cash_flow": [
       {
+        "period": "2021-09-30",
+        "items": {
+          "Capital Expenditure": -53000.0
+        },
+        "sources": {
+          "Capital Expenditure": "yfinance"
+        }
+      },
+      {
         "period": "2022-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2646000.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -2646000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
         "period": "2023-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2896000.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -2896000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -227,7 +244,7 @@
           "Net PPE": 41000.0,
           "Inventory": 1373000.0,
           "Accounts Receivable": 1656000.0,
-          "Total Debt": 0
+          "Total Debt": 108000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -236,7 +253,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -290,7 +307,7 @@
           "Net PPE": 5579000.0,
           "Inventory": 1380000.0,
           "Accounts Receivable": 1780000.0,
-          "Total Debt": 118000.0
+          "Total Debt": 419000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -299,7 +316,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -382,6 +399,7 @@
           "Diluted EPS": -0.04,
           "Diluted Average Shares": 95785054.0,
           "Research And Development": 484000.0,
+          "Selling General And Administration": 4548000.0,
           "Selling And Marketing Expense": 245000.0,
           "General And Administrative Expense": 4303000.0
         },
@@ -394,6 +412,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -407,7 +426,9 @@
           "Operating Income": -4939000.0,
           "Net Income": -4540000.0,
           "Diluted EPS": -0.04,
+          "Diluted Average Shares": 113500000.0,
           "Research And Development": 320000.0,
+          "Selling General And Administration": 5332000.0,
           "Selling And Marketing Expense": 370000.0,
           "General And Administrative Expense": 4962000.0
         },
@@ -418,7 +439,9 @@
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
+          "Diluted Average Shares": "yfinance",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -432,7 +455,9 @@
           "Operating Income": -4507000.0,
           "Net Income": -4063000.0,
           "Diluted EPS": -0.04,
+          "Diluted Average Shares": 101575000.0,
           "Research And Development": 533000.0,
+          "Selling General And Administration": 4850000.0,
           "Selling And Marketing Expense": 288000.0,
           "General And Administrative Expense": 4562000.0
         },
@@ -443,7 +468,9 @@
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
+          "Diluted Average Shares": "yfinance",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -451,12 +478,30 @@
       {
         "period": "2025-09-30",
         "items": {
+          "Total Revenue": 1444000.0,
+          "Gross Profit": 566000.0,
+          "Cost Of Revenue": 878000.0,
+          "Operating Income": -4600000.0,
+          "Net Income": -3594000.0,
           "Diluted EPS": -0.04,
-          "Diluted Average Shares": 197731671.0
+          "Diluted Average Shares": 197731671.0,
+          "Research And Development": 1095000.0,
+          "Selling General And Administration": 4071000.0,
+          "Selling And Marketing Expense": 359000.0,
+          "General And Administrative Expense": 3712000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
+          "Diluted Average Shares": "sec",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -470,6 +515,7 @@
           "Diluted EPS": -0.04,
           "Diluted Average Shares": 197731671.0,
           "Research And Development": 448000.0,
+          "Selling General And Administration": 11961000.0,
           "Selling And Marketing Expense": 188000.0,
           "General And Administrative Expense": 11773000.0
         },
@@ -482,6 +528,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -687,7 +734,7 @@
           "Net PPE": 816000.0,
           "Inventory": 1491000.0,
           "Accounts Receivable": 1680000.0,
-          "Total Debt": 129000.0
+          "Total Debt": 393000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -696,7 +743,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -708,7 +755,7 @@
           "Net PPE": 5164000.0,
           "Inventory": 1482000.0,
           "Accounts Receivable": 1694000.0,
-          "Total Debt": 124000.0
+          "Total Debt": 404000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -717,7 +764,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -729,7 +776,7 @@
           "Net PPE": 5579000.0,
           "Inventory": 1380000.0,
           "Accounts Receivable": 1780000.0,
-          "Total Debt": 118000.0
+          "Total Debt": 419000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -738,7 +785,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -750,7 +797,7 @@
           "Net PPE": 5541000.0,
           "Inventory": 1878000.0,
           "Accounts Receivable": 1890000.0,
-          "Total Debt": 112000.0
+          "Total Debt": 393000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -759,7 +806,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -804,13 +851,13 @@
   },
   "validation": {
     "ticker": "RR",
-    "checked_at": "2026-07-12T14:45:54.924755+00:00",
+    "checked_at": "2026-07-14T15:22:51.044562+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-12-31 is 193 days old (>180)"
+        "detail": "latest quarterly period 2025-12-31 is 195 days old (>180)"
       },
       {
         "severity": "info",

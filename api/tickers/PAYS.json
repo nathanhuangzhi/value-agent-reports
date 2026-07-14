@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 355758609.8,
-    "ttm_pe": 30.595221963285937,
+    "ttm_pe": 34.192990448012004,
     "static_pe": 47.110280916143346,
-    "ev_revenue": 2.0891178178740546,
+    "ev_revenue": 1.994171846203015,
     "pb": 6.466761058189171,
-    "ps": 4.074594995631957,
+    "ps": 3.8894132994555686,
     "p_fcf": 4.6888733954424335,
     "ttm_pocf": 4.604109245679186,
     "debt_asset": 0.019635905887444568,
-    "gross_margin": 0.6163608020780424,
-    "op_margin": 0.1394635573607315,
-    "net_margin": 0.13317749420224648,
-    "roe": 0.21136506432112967,
-    "roa": 0.037182478693431546,
+    "gross_margin": 0.6039795076446632,
+    "op_margin": 0.1261845792053481,
+    "net_margin": 0.11374884876972498,
+    "roe": 0.1891253433367116,
+    "roa": 0.03327015782665564,
     "dividend_rate": 0.0,
     "latest_q_ni": 5438918.0,
     "latest_q_ocf": 18785758.0
@@ -856,7 +856,7 @@
           "Common Stock Equity": 16293295.0,
           "Net PPE": 1255292.0,
           "Accounts Receivable": 4680991.0,
-          "Total Debt": 0
+          "Total Debt": 361408.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -864,7 +864,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -875,7 +875,7 @@
           "Common Stock Equity": 24487381.0,
           "Net PPE": 1089649.0,
           "Accounts Receivable": 16222341.0,
-          "Total Debt": 0
+          "Total Debt": 383699.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -883,7 +883,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -932,29 +932,6 @@
   },
   "quarterly": {
     "income_statement": [
-      {
-        "period": "2023-09-30",
-        "items": {
-          "Total Revenue": 12400325.0,
-          "Gross Profit": 6332118.0,
-          "Cost Of Revenue": 6068207.0,
-          "Operating Income": 590432.0,
-          "Net Income": 1100604.0,
-          "Diluted EPS": 0.02,
-          "Diluted Average Shares": 53484674.0,
-          "Selling General And Administration": 4696509.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
       {
         "period": "2024-03-31",
         "items": {
@@ -1091,6 +1068,29 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 22755196.0,
+          "Gross Profit": 13120571.0,
+          "Cost Of Revenue": 9634625.0,
+          "Operating Income": 1854215.0,
+          "Net Income": 1362617.0,
+          "Diluted EPS": 0.02,
+          "Diluted Average Shares": 61624326.0,
+          "Selling General And Administration": 9059079.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1430,13 +1430,13 @@
   },
   "validation": {
     "ticker": "PAYS",
-    "checked_at": "2026-07-12T14:45:54.907491+00:00",
+    "checked_at": "2026-07-14T15:22:51.026880+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 72 days old"
+        "detail": "latest close 2026-05-01 is 74 days old"
       },
       {
         "severity": "info",

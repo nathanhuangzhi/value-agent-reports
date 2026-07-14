@@ -181,18 +181,24 @@
         "period": "2022-12-31",
         "items": {
           "Total Revenue": 593382000.0,
+          "Gross Profit": 96042000.0,
+          "Cost Of Revenue": 497340000.0,
           "Operating Income": 43568000.0,
           "Net Income": 14393000.0,
           "Diluted EPS": 0.45,
           "Diluted Average Shares": 32251398.0,
+          "Selling General And Administration": 51653000.0,
           "General And Administrative Expense": 51653000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -200,18 +206,24 @@
         "period": "2023-12-31",
         "items": {
           "Total Revenue": 609526000.0,
+          "Gross Profit": 78119000.0,
+          "Cost Of Revenue": 531407000.0,
           "Operating Income": 17573000.0,
           "Net Income": -32213000.0,
           "Diluted EPS": -0.97,
           "Diluted Average Shares": 33282234.0,
+          "Selling General And Administration": 59817000.0,
           "General And Administrative Expense": 59817000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -219,18 +231,24 @@
         "period": "2024-12-31",
         "items": {
           "Total Revenue": 554104000.0,
+          "Gross Profit": 60598000.0,
+          "Cost Of Revenue": 493506000.0,
           "Operating Income": 8940000.0,
           "Net Income": -41082000.0,
           "Diluted EPS": -1.11,
           "Diluted Average Shares": 37172635.0,
+          "Selling General And Administration": 51298000.0,
           "General And Administrative Expense": 51298000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -238,18 +256,24 @@
         "period": "2025-12-31",
         "items": {
           "Total Revenue": 561911000.0,
+          "Gross Profit": 60163000.0,
+          "Cost Of Revenue": 501748000.0,
           "Operating Income": 2348000.0,
           "Net Income": -51322000.0,
           "Diluted EPS": -1.25,
           "Diluted Average Shares": 40917960.0,
+          "Selling General And Administration": 59747000.0,
           "General And Administrative Expense": 59747000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1108,13 +1132,13 @@
   },
   "validation": {
     "ticker": "NINE",
-    "checked_at": "2026-07-12T14:45:54.893721+00:00",
+    "checked_at": "2026-07-14T15:22:51.012060+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-09-30 is 285 days old (>180)"
+        "detail": "latest quarterly period 2025-09-30 is 287 days old (>180)"
       }
     ]
   },

@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 232885092.42,
-    "ttm_pe": 23.785628885711365,
+    "ttm_pe": 23.048801704275533,
     "static_pe": 30.898911028260578,
-    "ev_revenue": 3.0823935642391103,
+    "ev_revenue": 3.0089766476195785,
     "pb": 4.736613834889255,
-    "ps": 3.3248874608454804,
+    "ps": 3.245694787880477,
     "p_fcf": 24.90216984816082,
     "ttm_pocf": 22.11634305982906,
     "debt_asset": 0.0,
-    "gross_margin": 0.7836329112116842,
-    "op_margin": 0.17412161101037935,
-    "net_margin": 0.13978556029867367,
-    "roe": 0.19913763296520023,
-    "roa": 0.16462655950499377,
+    "gross_margin": 0.7844101906567065,
+    "op_margin": 0.18251756048611886,
+    "net_margin": 0.14081837440071357,
+    "roe": 0.2055036915003966,
+    "roa": 0.16988936341930927,
     "dividend_rate": 0.0,
     "latest_q_ni": 3003000.0,
     "latest_q_ocf": 3476000.0
@@ -936,31 +936,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2023-12-31",
-        "items": {
-          "Total Revenue": 13689000.0,
-          "Gross Profit": 10545000.0,
-          "Cost Of Revenue": 3144000.0,
-          "Operating Income": 2263000.0,
-          "Net Income": 1674000.0,
-          "Diluted EPS": 0.19,
-          "Diluted Average Shares": 8800172.0,
-          "Research And Development": 107000.0,
-          "Selling General And Administration": 8175000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 13871000.0,
@@ -1058,6 +1033,31 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-06-30",
+        "items": {
+          "Total Revenue": 17393000.0,
+          "Gross Profit": 13624000.0,
+          "Cost Of Revenue": 3769000.0,
+          "Operating Income": 3040000.0,
+          "Net Income": 2204000.0,
+          "Diluted EPS": 0.25,
+          "Diluted Average Shares": 8718900.0,
+          "Research And Development": 302000.0,
+          "Selling General And Administration": 10282000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1453,13 +1453,13 @@
   },
   "validation": {
     "ticker": "ELMD",
-    "checked_at": "2026-07-12T14:45:54.831183+00:00",
+    "checked_at": "2026-07-14T15:22:50.948091+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 72 days old"
+        "detail": "latest close 2026-05-01 is 74 days old"
       }
     ]
   },

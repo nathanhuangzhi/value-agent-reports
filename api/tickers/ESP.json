@@ -33,7 +33,7 @@
     "ttm_pocf": 19.402143949364156,
     "debt_asset": 0.0,
     "gross_margin": 0.3652326887396201,
-    "op_margin": null,
+    "op_margin": 0.2544972821365939,
     "net_margin": 0.25494929681503503,
     "roe": 0.1909276461289146,
     "roa": 0.11219634070571985,
@@ -1006,14 +1006,20 @@
         "items": {
           "Total Revenue": 9596194.0,
           "Gross Profit": 3771652.0,
+          "Cost Of Revenue": 5824542.0,
+          "Operating Income": 2631914.0,
           "Net Income": 2931651.0,
-          "Diluted EPS": 1.05
+          "Diluted EPS": 1.05,
+          "Selling General And Administration": 1139739.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
-          "Diluted EPS": "sec"
+          "Diluted EPS": "sec",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1391,7 +1397,7 @@
   },
   "validation": {
     "ticker": "ESP",
-    "checked_at": "2026-07-12T14:45:54.834244+00:00",
+    "checked_at": "2026-07-14T15:22:50.951118+00:00",
     "status": "info",
     "issues": [
       {

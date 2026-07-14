@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 164900498.4,
-    "ttm_pe": -3.560719880805856,
+    "ttm_pe": -4.033078934624697,
     "static_pe": -4.2591238577369115,
-    "ev_revenue": 1.1888829568923127,
+    "ev_revenue": 2.2812112660841937,
     "pb": -5.798596891483227,
-    "ps": 1.3514218849368957,
+    "ps": 1.3097736171564733,
     "p_fcf": 63.423268615384615,
     "ttm_pocf": 12.67685258302583,
-    "debt_asset": 0.0042660943064049064,
-    "gross_margin": 0.27193902638911654,
-    "op_margin": -0.15347484019013277,
-    "net_margin": -0.37953614161612853,
-    "roe": 1.6284900485266194,
-    "roa": -0.20537119898536135,
+    "debt_asset": 0.634588179991929,
+    "gross_margin": 0.28657664813343925,
+    "op_margin": -0.11015885623510722,
+    "net_margin": -0.3247577442414615,
+    "roe": 1.437759336099585,
+    "roa": -0.18131787724114076,
     "dividend_rate": 0.0,
     "latest_q_ni": -14980000.0,
     "latest_q_ocf": 4700000.0
@@ -607,16 +607,16 @@
         }
       },
       {
-        "period": "2023-05-28",
+        "period": "2023-05-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -17441000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -17441000.0
+          "Capital Expenditure": -21482000.0,
+          "Free Cash Flow": -38923000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -990,7 +990,7 @@
         }
       },
       {
-        "period": "2025-05-25",
+        "period": "2025-05-31",
         "items": {
           "Cash And Cash Equivalents": 8265000.0,
           "Total Assets": 239342000.0,
@@ -998,7 +998,8 @@
           "Goodwill": 13881000.0,
           "Net PPE": 129006000.0,
           "Inventory": 32291000.0,
-          "Total Debt": 3437000.0
+          "Accounts Receivable": 28688000.0,
+          "Total Debt": 130436000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1007,7 +1008,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1019,7 +1021,8 @@
           "Goodwill": 13881000.0,
           "Net PPE": 127304000.0,
           "Inventory": 29085000.0,
-          "Total Debt": 954000.0
+          "Accounts Receivable": 26162000.0,
+          "Total Debt": 136542000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1028,38 +1031,14 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
   },
   "quarterly": {
     "income_statement": [
-      {
-        "period": "2023-08-27",
-        "items": {
-          "Total Revenue": 24522000.0,
-          "Gross Profit": 2728000.0,
-          "Cost Of Revenue": 21794000.0,
-          "Operating Income": -8614000.0,
-          "Net Income": -10754000.0,
-          "Diluted EPS": -0.35,
-          "Diluted Average Shares": 30403392.0,
-          "Research And Development": 2146000.0,
-          "Selling General And Administration": 9196000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
       {
         "period": "2023-11-26",
         "items": {
@@ -1183,6 +1162,31 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-05-25",
+        "items": {
+          "Total Revenue": 36444000.0,
+          "Gross Profit": 13982000.0,
+          "Cost Of Revenue": 22462000.0,
+          "Operating Income": 2899000.0,
+          "Net Income": -1147000.0,
+          "Diluted EPS": -0.06,
+          "Diluted Average Shares": 37007838.0,
+          "Research And Development": 2103000.0,
+          "Selling General And Administration": 8980000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1398,7 +1402,8 @@
           "Goodwill": 13881000.0,
           "Net PPE": 128223000.0,
           "Inventory": 34596000.0,
-          "Total Debt": 930000.0
+          "Accounts Receivable": 27500000.0,
+          "Total Debt": 124939000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1407,7 +1412,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1419,7 +1425,8 @@
           "Goodwill": 13881000.0,
           "Net PPE": 129006000.0,
           "Inventory": 32291000.0,
-          "Total Debt": 3437000.0
+          "Accounts Receivable": 28688000.0,
+          "Total Debt": 130436000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1428,7 +1435,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1451,7 +1459,8 @@
           "Goodwill": 13881000.0,
           "Net PPE": 128575000.0,
           "Inventory": 33801000.0,
-          "Total Debt": 947000.0
+          "Accounts Receivable": 24748000.0,
+          "Total Debt": 135951000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1460,7 +1469,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1493,7 +1503,8 @@
           "Goodwill": 13881000.0,
           "Net PPE": 125513000.0,
           "Inventory": 28155000.0,
-          "Total Debt": 962000.0
+          "Accounts Receivable": 19437000.0,
+          "Total Debt": 143099000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1502,7 +1513,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1547,13 +1559,13 @@
   },
   "validation": {
     "ticker": "LFCR",
-    "checked_at": "2026-07-12T14:45:54.873818+00:00",
+    "checked_at": "2026-07-14T15:22:50.990961+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 72 days old"
+        "detail": "latest close 2026-05-01 is 74 days old"
       },
       {
         "severity": "warn",

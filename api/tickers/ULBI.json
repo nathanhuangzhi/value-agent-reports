@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 107604220.0,
-    "ttm_pe": 100.28352283317801,
+    "ttm_pe": -13.100099829559289,
     "static_pe": -18.244187860291625,
-    "ev_revenue": 0.7697239155704465,
+    "ev_revenue": 0.7790044608161484,
     "pb": 0.829351574241782,
-    "ps": 0.565971607853863,
+    "ps": 0.5727955157619052,
     "p_fcf": 17.550843255586365,
     "ttm_pocf": 10.893320510224742,
     "debt_asset": 0.21587077123898618,
-    "gross_margin": 0.2318236089268526,
-    "op_margin": 0.023611030753775186,
-    "net_margin": 0.005643714858275958,
-    "roe": 0.00827006821072103,
-    "roa": 0.0048633017875920085,
+    "gross_margin": 0.2309510374857605,
+    "op_margin": 0.01418624705894878,
+    "net_margin": -0.04372451532540536,
+    "roe": -0.06330879802689891,
+    "roa": -0.03722941368432503,
     "dividend_rate": 0.0,
     "latest_q_ni": -451000.0,
     "latest_q_ocf": 2256000.0
@@ -1088,31 +1088,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2023-09-30",
-        "items": {
-          "Total Revenue": 39488000.0,
-          "Gross Profit": 9774000.0,
-          "Cost Of Revenue": 29714000.0,
-          "Operating Income": 2135000.0,
-          "Net Income": 1330000.0,
-          "Diluted EPS": 0.08,
-          "Diluted Average Shares": 16303000.0,
-          "Research And Development": 1869000.0,
-          "Selling General And Administration": 5770000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 41927000.0,
@@ -1260,6 +1235,31 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 48481000.0,
+          "Gross Profit": 12056000.0,
+          "Cost Of Revenue": 36425000.0,
+          "Operating Income": 1575000.0,
+          "Net Income": -7422000.0,
+          "Diluted EPS": -0.45,
+          "Diluted Average Shares": 16654000.0,
+          "Research And Development": 2821000.0,
+          "Selling General And Administration": 7660000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1621,7 +1621,7 @@
   },
   "validation": {
     "ticker": "ULBI",
-    "checked_at": "2026-07-12T14:45:54.955541+00:00",
+    "checked_at": "2026-07-14T15:22:51.075707+00:00",
     "status": "info",
     "issues": [
       {

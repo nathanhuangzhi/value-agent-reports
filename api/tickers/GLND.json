@@ -38,7 +38,7 @@
     "roe": null,
     "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
+    "latest_q_ni": -818679.0,
     "latest_q_ocf": -2540977.0
   },
   "annual": {
@@ -51,10 +51,16 @@
       {
         "period": "2026-03-31",
         "items": {
+          "Total Revenue": 0.0,
+          "Operating Income": -818679.0,
+          "Net Income": -818679.0,
           "Diluted EPS": -0.04,
           "Diluted Average Shares": 20078162.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec"
         }
@@ -65,17 +71,30 @@
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2540977.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -2540977.0
+          "Capital Expenditure": -624157.0,
+          "Free Cash Flow": -3165134.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
     "balance_sheet": [
+      {
+        "period": "2025-09-30",
+        "items": {
+          "Total Assets": 0.0,
+          "Common Stock Equity": -473.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Total Debt": "yfinance"
+        }
+      },
       {
         "period": "2025-12-31",
         "items": {
@@ -150,7 +169,7 @@
   },
   "validation": {
     "ticker": "GLND",
-    "checked_at": "2026-07-12T14:45:54.848051+00:00",
+    "checked_at": "2026-07-14T15:22:50.964946+00:00",
     "status": "error",
     "issues": [
       {
@@ -196,7 +215,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 72 days old"
+        "detail": "latest close 2026-05-01 is 74 days old"
       }
     ]
   },
