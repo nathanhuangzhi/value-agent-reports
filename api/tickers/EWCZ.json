@@ -867,7 +867,7 @@
   },
   "validation": {
     "ticker": "EWCZ",
-    "checked_at": "2026-07-14T15:22:50.952567+00:00",
+    "checked_at": "2026-07-15T15:23:02.161299+00:00",
     "status": "error",
     "issues": [
       {
@@ -889,6 +889,11 @@
         "severity": "warn",
         "rule": "no_gross_profit_source",
         "detail": "neither Gross Profit nor Cost of Revenue fetched — Gross Margin will show n/a"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-05-15 is 61 days old"
       }
     ]
   },
