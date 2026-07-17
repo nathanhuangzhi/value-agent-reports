@@ -24,21 +24,21 @@
   },
   "snapshot": {
     "market_cap": 492012800.0,
-    "ttm_pe": null,
+    "ttm_pe": -13.39101845299657,
     "static_pe": -13.39101845299657,
-    "ev_revenue": null,
+    "ev_revenue": 1.3684708939514139,
     "pb": 2.8802154251426897,
-    "ps": null,
+    "ps": 1.5367044169732709,
     "p_fcf": 968.5291338582678,
     "ttm_pocf": 159.27898996438978,
     "debt_asset": 0.0,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "gross_margin": 0.546240481738055,
+    "op_margin": -0.11007764528037879,
+    "net_margin": -0.11475635123401651,
+    "roe": -0.21508561393238695,
+    "roa": -0.1375265287483671,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
+    "latest_q_ni": -11405000.0,
     "latest_q_ocf": 17452000.0
   },
   "annual": {
@@ -378,7 +378,6 @@
           "Diluted EPS": -0.68,
           "Diluted Average Shares": 39009419.0,
           "Research And Development": 30739000.0,
-          "Selling General And Administration": 133752000.0,
           "Selling And Marketing Expense": 95301000.0,
           "General And Administrative Expense": 38451000.0
         },
@@ -391,7 +390,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -494,6 +492,7 @@
           "Diluted EPS": -0.88,
           "Diluted Average Shares": 41525697.0,
           "Research And Development": 29447000.0,
+          "Selling General And Administration": 157092000.0,
           "Selling And Marketing Expense": 113401000.0,
           "General And Administrative Expense": 43691000.0
         },
@@ -506,6 +505,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1190,7 +1190,6 @@
           "Diluted EPS": -0.11,
           "Diluted Average Shares": 40853000.0,
           "Research And Development": 6913000.0,
-          "Selling General And Administration": 35994000.0,
           "Selling And Marketing Expense": 25504000.0,
           "General And Administrative Expense": 10490000.0
         },
@@ -1203,7 +1202,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1327,12 +1325,30 @@
       {
         "period": "2026-05-31",
         "items": {
+          "Total Revenue": 86607000.0,
+          "Gross Profit": 46773000.0,
+          "Cost Of Revenue": 39834000.0,
+          "Operating Income": -5512000.0,
+          "Net Income": -11405000.0,
           "Diluted EPS": -0.27,
-          "Diluted Average Shares": 41696000.0
+          "Diluted Average Shares": 41696000.0,
+          "Research And Development": 8178000.0,
+          "Selling General And Administration": 41389000.0,
+          "Selling And Marketing Expense": 31123000.0,
+          "General And Administrative Expense": 10266000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1653,13 +1669,13 @@
   },
   "validation": {
     "ticker": "ANGO",
-    "checked_at": "2026-07-15T15:23:02.108638+00:00",
+    "checked_at": "2026-07-17T15:14:07.794951+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 75 days old"
+        "detail": "latest close 2026-05-01 is 77 days old"
       },
       {
         "severity": "warn",
