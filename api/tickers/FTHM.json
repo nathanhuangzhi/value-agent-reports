@@ -32,7 +32,7 @@
     "p_fcf": -1.3242589761888925,
     "ttm_pocf": -1.3360779564487988,
     "debt_asset": 0.10195703130417898,
-    "gross_margin": null,
+    "gross_margin": 0.0790297358505159,
     "op_margin": -0.0453034854970356,
     "net_margin": -0.055341117553650454,
     "roe": -0.769854078407639,
@@ -482,6 +482,25 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 70503000.0,
+          "Operating Income": -5653000.0,
+          "Net Income": -5927000.0,
+          "Diluted EPS": -0.31,
+          "Diluted Average Shares": 19178474.0,
+          "General And Administrative Expense": 9000000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 89207000.0,
@@ -517,35 +536,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 91741000.0,
-          "Gross Profit": -1773000.0,
-          "Cost Of Revenue": 93514000.0,
-          "Operating Income": -6027000.0,
-          "Net Income": -6235000.0,
-          "Diluted EPS": -0.29,
-          "Diluted Average Shares": 21588886.0,
-          "Research And Development": 735000.0,
-          "Selling General And Administration": 10077000.0,
-          "Selling And Marketing Expense": 3670000.0,
-          "General And Administrative Expense": 6407000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -668,18 +658,28 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 86401000.0,
+          "Gross Profit": 6590000.0,
+          "Cost Of Revenue": 79811000.0,
           "Operating Income": -7605000.0,
           "Net Income": -8235000.0,
           "Diluted EPS": -0.25,
           "Diluted Average Shares": 32693323.0,
+          "Research And Development": 1443000.0,
+          "Selling General And Administration": 12187000.0,
+          "Selling And Marketing Expense": 1319000.0,
           "General And Administrative Expense": 10868000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1001,13 +1001,13 @@
   },
   "validation": {
     "ticker": "FTHM",
-    "checked_at": "2026-07-17T15:14:07.857624+00:00",
+    "checked_at": "2026-07-18T14:46:49.574466+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 77 days old"
+        "detail": "latest close 2026-05-01 is 78 days old"
       },
       {
         "severity": "info",

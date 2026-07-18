@@ -32,7 +32,7 @@
     "p_fcf": -0.0031899667747843103,
     "ttm_pocf": -0.0031968421951733762,
     "debt_asset": 0.07158848988805422,
-    "gross_margin": null,
+    "gross_margin": 0.2856890151714073,
     "op_margin": -5.718993932305744,
     "net_margin": -5.749106745537084,
     "roe": 61.4506490025977,
@@ -419,6 +419,27 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 779756.0,
+          "Operating Income": -7247375.0,
+          "Net Income": -6714438.0,
+          "Diluted EPS": -16.89,
+          "Diluted Average Shares": 411443.0,
+          "Research And Development": 1589577.0,
+          "Selling General And Administration": 5928110.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 802180.0,
@@ -458,31 +479,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 1699820.0,
-          "Gross Profit": 195509.0,
-          "Cost Of Revenue": 1504311.0,
-          "Operating Income": -5612341.0,
-          "Net Income": -5070008.0,
-          "Diluted EPS": -4139.999997,
-          "Diluted Average Shares": 1223.0,
-          "Research And Development": 767558.0,
-          "Selling General And Administration": 5126547.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -589,6 +585,8 @@
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 1393120.0,
+          "Gross Profit": 405224.0,
+          "Cost Of Revenue": 741968.0,
           "Operating Income": -5844197.0,
           "Net Income": -5170747.0,
           "Diluted EPS": -28.96,
@@ -598,6 +596,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -759,7 +759,6 @@
           "Total Assets": 16797812.0,
           "Common Stock Equity": -1289647.0,
           "Goodwill": 0.0,
-          "Net PPE": 5107318.0,
           "Inventory": 4591902.0,
           "Accounts Receivable": 2148198.0,
           "Total Debt": 5487831.0
@@ -769,7 +768,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -872,6 +870,7 @@
           "Total Assets": 13968726.0,
           "Common Stock Equity": -473881.0,
           "Goodwill": 96000.0,
+          "Net PPE": 4171441.0,
           "Inventory": 786421.0,
           "Accounts Receivable": 1275787.0,
           "Total Debt": 1000000.0
@@ -881,6 +880,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -928,7 +928,7 @@
   },
   "validation": {
     "ticker": "NVVE",
-    "checked_at": "2026-07-17T15:14:07.918905+00:00",
+    "checked_at": "2026-07-18T14:46:49.624091+00:00",
     "status": "info",
     "issues": [
       {
