@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 135871667.9,
-    "ttm_pe": -2.6316776164572295,
+    "ttm_pe": 87.21138047367131,
     "static_pe": -3.313619839527851,
     "ev_revenue": 1401.5595579897952,
     "pb": -16.43226968135309,
     "ps": 1375.5534532680003,
-    "p_fcf": -53.05729504445403,
+    "p_fcf": -58.15709623860425,
     "ttm_pocf": -58.15709623860425,
     "debt_asset": 0.4895422043935282,
-    "gross_margin": 0.9155260387138576,
-    "op_margin": -117.05809103425933,
-    "net_margin": -522.6907143435652,
-    "roe": 6.244028363730301,
-    "roa": -9.69246841973258,
+    "gross_margin": null,
+    "op_margin": -85.41534380821253,
+    "net_margin": 15.772637077832671,
+    "roe": -0.1884188690983273,
+    "roa": 0.2924784821647145,
     "dividend_rate": 0.0,
     "latest_q_ni": -1430668.0,
     "latest_q_ocf": -141863.0
@@ -44,40 +44,13 @@
   "annual": {
     "income_statement": [
       {
-        "period": "2021-12-31",
-        "items": {
-          "Selling And Marketing Expense": 921.0,
-          "General And Administrative Expense": 2366868.0
-        },
-        "sources": {
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
         "period": "2022-12-31",
         "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 16102.0,
-          "Cost Of Revenue": 2934.0,
-          "Operating Income": -904193.0,
           "Net Income": 593905.0,
-          "Diluted EPS": 0.405612,
-          "Diluted Average Shares": 1464220.0,
-          "Selling General And Administration": 904193.0,
-          "Selling And Marketing Expense": 1079.0,
           "General And Administrative Expense": 809193.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -86,51 +59,43 @@
         "items": {
           "Total Revenue": 6944.0,
           "Gross Profit": 6944.0,
-          "Cost Of Revenue": 0.0,
           "Operating Income": -5322679.0,
           "Net Income": -5324624.0,
           "Diluted EPS": -0.08,
           "Diluted Average Shares": 69800000.0,
           "Research And Development": 3023435.0,
-          "Selling General And Administration": 2306188.0,
-          "General And Administrative Expense": 3509621.0
+          "Selling General And Administration": 2306188.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 0.0,
-          "Cost Of Revenue": 0.0,
-          "Operating Income": -13299537.0,
-          "Net Income": -32417033.0,
-          "Diluted EPS": -15.8,
-          "Diluted Average Shares": 2051708.0,
-          "Research And Development": 2375163.0,
-          "Selling General And Administration": 10924374.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2024-12-31",
+        "items": {
+          "Operating Income": -13299537.0,
+          "Net Income": -32417033.0,
+          "Diluted EPS": -15.8,
+          "Diluted Average Shares": 2051708.0,
+          "Research And Development": 2375163.0,
+          "Selling General And Administration": 10924374.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec",
+          "Total Revenue": "derived"
         }
       },
       {
@@ -161,51 +126,42 @@
     ],
     "cash_flow": [
       {
-        "period": "2021-12-31",
-        "items": {
-          "Capital Expenditure": -19755.0
-        },
-        "sources": {
-          "Capital Expenditure": "yfinance"
-        }
-      },
-      {
         "period": "2022-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -725102.0,
-          "Capital Expenditure": -235694.0,
-          "Free Cash Flow": -960796.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -725102.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2023-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -4068302.0,
-          "Capital Expenditure": -376150.0,
-          "Free Cash Flow": -4444452.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -4068302.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2024-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -7377807.0,
-          "Capital Expenditure": -246074.0,
-          "Free Cash Flow": -7623881.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -7377807.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -242,18 +198,12 @@
           "Cash And Cash Equivalents": 621575.0,
           "Total Assets": 128580035.0,
           "Common Stock Equity": 5983426.0,
-          "Net PPE": 2630458.0,
-          "Inventory": 22731.0,
-          "Accounts Receivable": 1037.0,
           "Total Debt": 125341.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -325,6 +275,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2023-09-30",
+        "items": {
+          "Total Revenue": 1315.0,
+          "Gross Profit": 1315.0,
+          "Operating Income": -1438585.0,
+          "Net Income": -1437494.0,
+          "Diluted Average Shares": 69800000.0,
+          "Research And Development": 872038.0,
+          "Selling General And Administration": 567862.0,
+          "General And Administrative Expense": 492289.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-03-31",
         "items": {
           "Operating Income": -3759336.0,
@@ -390,26 +363,22 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 0.0,
-          "Cost Of Revenue": 0.0,
           "Operating Income": -3132669.0,
           "Net Income": 9194630.0,
           "Diluted EPS": -0.3,
           "Diluted Average Shares": 3048833.0,
           "Research And Development": 1353050.0,
-          "Selling General And Administration": 1779619.0
+          "Selling General And Administration": 1779619.0,
+          "Total Revenue": 0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Total Revenue": "derived"
         }
       },
       {
@@ -460,27 +429,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 0.0,
-          "Cost Of Revenue": 0.0,
-          "Operating Income": -6258213.0,
-          "Net Income": -43992626.0,
-          "Research And Development": 1146736.0,
-          "Selling General And Administration": 5111477.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -553,65 +501,65 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2342278.0,
-          "Capital Expenditure": -40156.0,
-          "Free Cash Flow": -2382434.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -2342278.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -913719.0,
-          "Capital Expenditure": -141342.0,
-          "Free Cash Flow": -1055061.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -913719.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -351784.0,
-          "Capital Expenditure": -32384.0,
-          "Free Cash Flow": -384168.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -351784.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -928921.0,
-          "Capital Expenditure": -26860.0,
-          "Free Cash Flow": -955781.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -928921.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -141863.0,
-          "Capital Expenditure": -23975.0,
-          "Free Cash Flow": -165838.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -141863.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -826,7 +774,7 @@
   },
   "validation": {
     "ticker": "STI",
-    "checked_at": "2026-07-19T14:52:02.269310+00:00",
+    "checked_at": "2026-07-20T15:37:52.977264+00:00",
     "status": "info",
     "issues": [
       {

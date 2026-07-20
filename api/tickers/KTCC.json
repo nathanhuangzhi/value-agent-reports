@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 40829840.0,
-    "ttm_pe": -2.350054103833314,
+    "ttm_pe": -2.9052113277358758,
     "static_pe": -4.908612647270979,
-    "ev_revenue": 0.3535425155520011,
+    "ev_revenue": 0.35221610936578135,
     "pb": 0.3960678255471054,
-    "ps": 0.10333372139520051,
+    "ps": 0.10294603821347709,
     "p_fcf": 4.850877985030296,
     "ttm_pocf": 2.1738813757853266,
     "debt_asset": 0.30754530559401355,
-    "gross_margin": 0.05772335913101137,
-    "op_margin": -0.03386767765219196,
-    "net_margin": -0.0439707840030775,
-    "roe": -0.16853562005277045,
-    "roa": -0.05381229809547703,
+    "gross_margin": 0.062035127353043513,
+    "op_margin": -0.029093778837862506,
+    "net_margin": -0.03543495691024522,
+    "roe": -0.13633012571783332,
+    "roa": -0.0435292988047562,
     "dividend_rate": 0.0,
     "latest_q_ni": -2625000.0,
     "latest_q_ocf": -4011000.0
@@ -1013,6 +1013,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-30",
+        "items": {
+          "Total Revenue": 142427000.0,
+          "Gross Profit": 8081000.0,
+          "Cost Of Revenue": 134346000.0,
+          "Operating Income": -575000.0,
+          "Net Income": -2221000.0,
+          "Diluted EPS": -0.21,
+          "Diluted Average Shares": 10762000.0,
+          "Research And Development": 2234000.0,
+          "Selling General And Administration": 6422000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-06-29",
         "items": {
           "Total Revenue": 126556000.0,
@@ -1110,31 +1135,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-06-28",
-        "items": {
-          "Total Revenue": 110486000.0,
-          "Gross Profit": 6811000.0,
-          "Cost Of Revenue": 103675000.0,
-          "Operating Income": -2302000.0,
-          "Net Income": -3924000.0,
-          "Diluted EPS": -0.36,
-          "Diluted Average Shares": 10762000.0,
-          "Research And Development": 2246000.0,
-          "Selling General And Administration": 6867000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1530,7 +1530,7 @@
   },
   "validation": {
     "ticker": "KTCC",
-    "checked_at": "2026-07-19T14:52:02.192174+00:00",
+    "checked_at": "2026-07-20T15:37:52.920084+00:00",
     "status": "warn",
     "issues": [
       {

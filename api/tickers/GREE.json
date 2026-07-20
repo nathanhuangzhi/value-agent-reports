@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 20262850.0,
-    "ttm_pe": 3.2337775295244175,
+    "ttm_pe": -8.77939774696707,
     "static_pe": 3.8333049564888384,
-    "ev_revenue": 0.9187140751047723,
+    "ev_revenue": 0.8137366668133867,
     "pb": -0.4037148094279851,
-    "ps": 0.335649919660753,
-    "p_fcf": -0.9033010877318117,
+    "ps": 0.2972966826591546,
+    "p_fcf": -0.9802549465434667,
     "ttm_pocf": -0.9802549465434667,
     "debt_asset": 0.9161877913910875,
-    "gross_margin": 0.14033692789345525,
-    "op_margin": -0.23942752074740348,
-    "net_margin": 0.10379499411949841,
-    "roe": -0.1248430993604431,
-    "roa": 0.1358776970616936,
+    "gross_margin": null,
+    "op_margin": -0.14717490499875288,
+    "net_margin": -0.033862992796044426,
+    "roe": 0.04598433982188042,
+    "roa": -0.050048791065813725,
     "dividend_rate": 0.0,
     "latest_q_ni": -4584000.0,
     "latest_q_ocf": -11403000.0
@@ -81,8 +81,6 @@
         "period": "2022-12-31",
         "items": {
           "Total Revenue": 89979000.0,
-          "Gross Profit": 28427000.0,
-          "Cost Of Revenue": 61552000.0,
           "Operating Income": -233163000.0,
           "Net Income": -271068000.0,
           "Diluted EPS": -63.66,
@@ -91,8 +89,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -104,8 +100,6 @@
         "period": "2023-12-31",
         "items": {
           "Total Revenue": 70388000.0,
-          "Gross Profit": 19383000.0,
-          "Cost Of Revenue": 51005000.0,
           "Operating Income": -16892000.0,
           "Net Income": -29510000.0,
           "Diluted EPS": -4.36,
@@ -114,8 +108,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -127,8 +119,6 @@
         "period": "2024-12-31",
         "items": {
           "Total Revenue": 59533000.0,
-          "Gross Profit": 18425000.0,
-          "Cost Of Revenue": 41108000.0,
           "Operating Income": -11449000.0,
           "Net Income": -19785000.0,
           "Diluted EPS": -1.88,
@@ -137,8 +127,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -150,8 +138,6 @@
         "period": "2025-12-31",
         "items": {
           "Total Revenue": 58777000.0,
-          "Gross Profit": 9010000.0,
-          "Cost Of Revenue": 49767000.0,
           "Operating Income": -3795000.0,
           "Net Income": 5286000.0,
           "Diluted EPS": 0.34,
@@ -160,8 +146,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -198,55 +182,29 @@
         }
       },
       {
-        "period": "2022-12-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -14485000.0,
-          "Capital Expenditure": -132950000.0,
-          "Free Cash Flow": -147435000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
-      },
-      {
-        "period": "2023-12-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -12155000.0,
-          "Capital Expenditure": -13015000.0,
-          "Free Cash Flow": -25170000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
-      },
-      {
         "period": "2024-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -12044000.0,
-          "Capital Expenditure": -10422000.0,
-          "Free Cash Flow": -22466000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -12044000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -14994000.0,
-          "Capital Expenditure": -2459000.0,
-          "Free Cash Flow": -17453000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -14994000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -385,6 +343,25 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2023-09-30",
+        "items": {
+          "Total Revenue": 20879000.0,
+          "Operating Income": -10121000.0,
+          "Net Income": -14239000.0,
+          "Diluted EPS": -1.81,
+          "Diluted Average Shares": 7262000.0,
+          "Selling General And Administration": 6662000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 19333000.0,
@@ -445,8 +422,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 19242000.0,
-          "Gross Profit": 4244000.0,
-          "Cost Of Revenue": 14998000.0,
           "Operating Income": -2389000.0,
           "Net Income": -5564000.0,
           "Diluted EPS": -0.4,
@@ -455,8 +430,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -468,8 +441,6 @@
         "period": "2025-06-30",
         "items": {
           "Total Revenue": 12861000.0,
-          "Gross Profit": 1010000.0,
-          "Cost Of Revenue": 11851000.0,
           "Operating Income": -3395000.0,
           "Net Income": -4118000.0,
           "Diluted EPS": -0.27,
@@ -478,8 +449,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -491,8 +460,6 @@
         "period": "2025-09-30",
         "items": {
           "Total Revenue": 15220000.0,
-          "Gross Profit": 4197000.0,
-          "Cost Of Revenue": 11023000.0,
           "Operating Income": 304000.0,
           "Net Income": 11958000.0,
           "Diluted EPS": 0.75,
@@ -501,8 +468,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -511,30 +476,9 @@
         }
       },
       {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 11454000.0,
-          "Gross Profit": -441000.0,
-          "Cost Of Revenue": 11895000.0,
-          "Operating Income": -6812000.0,
-          "Net Income": 3010000.0,
-          "Selling General And Administration": 3547000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
-        }
-      },
-      {
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 20834000.0,
-          "Gross Profit": 3706000.0,
-          "Cost Of Revenue": 17128000.0,
           "Operating Income": -4551000.0,
           "Net Income": -4584000.0,
           "Diluted EPS": -0.29,
@@ -543,8 +487,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -584,78 +526,78 @@
         "period": "2024-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3696000.0,
-          "Capital Expenditure": -3484000.0,
-          "Free Cash Flow": -7180000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -3696000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -5726000.0,
-          "Capital Expenditure": -902000.0,
-          "Free Cash Flow": -6628000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -5726000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -4797000.0,
-          "Capital Expenditure": -1558000.0,
-          "Free Cash Flow": -6355000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -4797000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 120000.0,
-          "Capital Expenditure": -17000.0,
-          "Free Cash Flow": 103000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 120000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -4591000.0,
-          "Capital Expenditure": 18000.0,
-          "Free Cash Flow": -4609000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -4591000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2026-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -11403000.0,
-          "Capital Expenditure": -168000.0,
-          "Free Cash Flow": -11571000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -11403000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       }
     ],
@@ -854,7 +796,7 @@
   },
   "validation": {
     "ticker": "GREE",
-    "checked_at": "2026-07-19T14:52:02.167553+00:00",
+    "checked_at": "2026-07-20T15:37:52.902899+00:00",
     "status": "warn",
     "issues": [
       {
@@ -865,7 +807,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 79 days old"
+        "detail": "latest close 2026-05-01 is 80 days old"
       },
       {
         "severity": "warn",

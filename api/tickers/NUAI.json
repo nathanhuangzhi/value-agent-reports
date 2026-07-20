@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 277358840.66,
-    "ttm_pe": -7.866676650187401,
+    "ttm_pe": -12.780735948780997,
     "static_pe": -9.3747271718558,
-    "ev_revenue": 239.09601105709405,
+    "ev_revenue": 217.37377167270074,
     "pb": 27.465722975100025,
-    "ps": 203.7458665626483,
+    "ps": 185.2352420336692,
     "p_fcf": -16.074233448964446,
     "ttm_pocf": -18.167960315653257,
     "debt_asset": 0.5821486792001228,
     "gross_margin": null,
-    "op_margin": -13.207603331526235,
-    "net_margin": -25.899865422559937,
-    "roe": -3.4914010320286564,
-    "roa": -0.40767333809141,
+    "op_margin": -10.515182661438704,
+    "net_margin": -14.493315782127288,
+    "roe": -2.148993851775778,
+    "roa": -0.2509272034505595,
     "dividend_rate": 0.0,
     "latest_q_ni": -8991887.0,
     "latest_q_ocf": -6397454.0
@@ -51,7 +51,6 @@
           "Net Income": 10145.0,
           "Diluted EPS": 0.0,
           "Diluted Average Shares": 6080372.0,
-          "Selling General And Administration": 5852359.0,
           "General And Administrative Expense": 4519811.0
         },
         "sources": {
@@ -60,7 +59,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -72,7 +70,6 @@
           "Net Income": -13782384.0,
           "Diluted EPS": -1.06,
           "Diluted Average Shares": 12985830.0,
-          "Selling General And Administration": 12375138.0,
           "General And Administrative Expense": 11195409.0
         },
         "sources": {
@@ -81,7 +78,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -93,7 +89,6 @@
           "Net Income": -29585804.0,
           "Diluted EPS": -1.04,
           "Diluted Average Shares": 28435950.0,
-          "Selling General And Administration": 12415446.0,
           "General And Administrative Expense": 11186863.0
         },
         "sources": {
@@ -102,7 +97,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -286,7 +280,6 @@
           "Net Income": -3320256.0,
           "Diluted EPS": -0.24,
           "Diluted Average Shares": 13860763.0,
-          "Selling General And Administration": 2197134.0,
           "General And Administrative Expense": 1936654.0
         },
         "sources": {
@@ -295,7 +288,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -307,7 +299,6 @@
           "Net Income": -3606004.0,
           "Diluted EPS": -0.21,
           "Diluted Average Shares": 16904066.0,
-          "Selling General And Administration": 1840905.0,
           "General And Administrative Expense": 1532520.0
         },
         "sources": {
@@ -316,7 +307,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -328,7 +318,6 @@
           "Net Income": -5783173.0,
           "Diluted EPS": -0.2,
           "Diluted Average Shares": 29505958.0,
-          "Selling General And Administration": 4127201.0,
           "General And Administrative Expense": 3718485.0
         },
         "sources": {
@@ -337,25 +326,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 190420.0,
-          "Operating Income": -4303842.0,
-          "Net Income": -16876371.0,
-          "Selling General And Administration": 4250206.0,
-          "General And Administrative Expense": 4250206.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -366,7 +337,6 @@
           "Net Income": -8991887.0,
           "Diluted EPS": -0.16,
           "Diluted Average Shares": 55582934.0,
-          "Selling General And Administration": 7660440.0,
           "General And Administrative Expense": 7364387.0
         },
         "sources": {
@@ -375,7 +345,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -663,7 +632,7 @@
   },
   "validation": {
     "ticker": "NUAI",
-    "checked_at": "2026-07-19T14:52:02.223021+00:00",
+    "checked_at": "2026-07-20T15:37:52.942875+00:00",
     "status": "warn",
     "issues": [
       {
@@ -674,7 +643,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 79 days old"
+        "detail": "latest close 2026-05-01 is 80 days old"
       },
       {
         "severity": "info",
