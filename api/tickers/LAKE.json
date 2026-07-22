@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 113541750.08999999,
-    "ttm_pe": -6.061055361661239,
+    "ttm_pe": -5.39929383660659,
     "static_pe": -4.485865832641934,
-    "ev_revenue": 0.5020371976505955,
+    "ev_revenue": 0.6377381868353539,
     "pb": 0.8698850801762114,
-    "ps": 0.584477407264416,
+    "ps": 0.5872768138887738,
     "p_fcf": -12.787673171528324,
     "ttm_pocf": -22.228220456147216,
-    "debt_asset": 0.006612099577089358,
-    "gross_margin": 0.3267700322245215,
-    "op_margin": -0.04123297402477067,
-    "net_margin": -0.09643162327166405,
-    "roe": -0.1435203983911128,
-    "roa": -0.08822255083875707,
+    "debt_asset": 0.1279799188086918,
+    "gross_margin": 0.32361795009724004,
+    "op_margin": -0.03096164190838747,
+    "net_margin": -0.10876918939049117,
+    "roe": -0.16111089829534572,
+    "roa": -0.09903550000470947,
     "dividend_rate": 0.0,
     "latest_q_ni": 369000.0,
     "latest_q_ocf": 5801000.0
@@ -996,7 +996,7 @@
           "Net PPE": 11640000.0,
           "Inventory": 82542000.0,
           "Accounts Receivable": 32043000.0,
-          "Total Debt": 1891000.0
+          "Total Debt": 32273000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1006,34 +1006,13 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
   },
   "quarterly": {
     "income_statement": [
-      {
-        "period": "2023-10-31",
-        "items": {
-          "Total Revenue": 31678000.0,
-          "Gross Profit": 13361000.0,
-          "Cost Of Revenue": 18317000.0,
-          "Operating Income": 3621000.0,
-          "Net Income": 2618000.0,
-          "Diluted EPS": 0.34,
-          "Diluted Average Shares": 7614404.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
       {
         "period": "2024-04-30",
         "items": {
@@ -1158,6 +1137,23 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec"
+        }
+      },
+      {
+        "period": "2026-01-31",
+        "items": {
+          "Total Revenue": 45820000.0,
+          "Gross Profit": 14732000.0,
+          "Cost Of Revenue": 31088000.0,
+          "Operating Income": -2610000.0,
+          "Net Income": -6209000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance"
         }
       },
       {
@@ -1437,7 +1433,7 @@
           "Net PPE": 11640000.0,
           "Inventory": 82542000.0,
           "Accounts Receivable": 32043000.0,
-          "Total Debt": 1891000.0
+          "Total Debt": 32273000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1447,7 +1443,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1460,7 +1456,7 @@
           "Net PPE": 12334000.0,
           "Inventory": 77715000.0,
           "Accounts Receivable": 31461000.0,
-          "Total Debt": 1404000.0
+          "Total Debt": 27175000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1470,7 +1466,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1515,7 +1511,7 @@
   },
   "validation": {
     "ticker": "LAKE",
-    "checked_at": "2026-07-21T15:29:49.981710+00:00",
+    "checked_at": "2026-07-22T15:31:41.528235+00:00",
     "status": "info",
     "issues": [
       {

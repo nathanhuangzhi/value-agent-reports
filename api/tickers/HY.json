@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 582390280.0,
-    "ttm_pe": -15.285834120734908,
+    "ttm_pe": -5.870869758064516,
     "static_pe": -9.690354076539101,
-    "ev_revenue": 0.177626199434268,
+    "ev_revenue": 0.24572132125557594,
     "pb": 1.3406774401473296,
-    "ps": 0.15994020816741275,
+    "ps": 0.15937995128759475,
     "p_fcf": 20.87420358422939,
     "ttm_pocf": 6.499891517857143,
-    "debt_asset": 0.07466421531076044,
-    "gross_margin": 0.1720813995001785,
-    "op_margin": -0.003542690797242743,
-    "net_margin": -0.010463296075577404,
-    "roe": -0.08770718232044199,
-    "roa": -0.019457637505745366,
+    "debt_asset": 0.20290077115571217,
+    "gross_margin": 0.15869844831832736,
+    "op_margin": -0.01365589338003886,
+    "net_margin": -0.02714758764127966,
+    "roe": -0.2283609576427256,
+    "roa": -0.05066135539553649,
     "dividend_rate": 0.0,
     "latest_q_ni": -30500000.0,
     "latest_q_ocf": -32900000.0
@@ -997,7 +997,7 @@
           "Net PPE": 329000000.0,
           "Inventory": 634300000.0,
           "Accounts Receivable": 489600000.0,
-          "Total Debt": 242400000.0
+          "Total Debt": 481500000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1007,36 +1007,13 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
   },
   "quarterly": {
     "income_statement": [
-      {
-        "period": "2023-09-30",
-        "items": {
-          "Total Revenue": 1001200000.0,
-          "Gross Profit": 203600000.0,
-          "Cost Of Revenue": 797600000.0,
-          "Operating Income": 58600000.0,
-          "Net Income": 35800000.0,
-          "Diluted EPS": 2.06,
-          "Diluted Average Shares": 17413000.0,
-          "Selling General And Administration": 145000000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
       {
         "period": "2024-03-31",
         "items": {
@@ -1173,6 +1150,29 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 923200000.0,
+          "Gross Profit": 131000000.0,
+          "Cost Of Revenue": 792200000.0,
+          "Operating Income": -15700000.0,
+          "Net Income": -52500000.0,
+          "Diluted EPS": -2.96,
+          "Diluted Average Shares": 17731000.0,
+          "Selling General And Administration": 146700000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1385,7 +1385,7 @@
           "Net PPE": 313000000.0,
           "Inventory": 772700000.0,
           "Accounts Receivable": 506100000.0,
-          "Total Debt": 142900000.0
+          "Total Debt": 385500000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1395,7 +1395,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1408,7 +1408,7 @@
           "Net PPE": 316400000.0,
           "Inventory": 776600000.0,
           "Accounts Receivable": 512100000.0,
-          "Total Debt": 134400000.0
+          "Total Debt": 379600000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1418,7 +1418,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1431,7 +1431,7 @@
           "Net PPE": 320600000.0,
           "Inventory": 740300000.0,
           "Accounts Receivable": 520600000.0,
-          "Total Debt": 141200000.0
+          "Total Debt": 393400000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1441,7 +1441,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1454,7 +1454,7 @@
           "Net PPE": 329000000.0,
           "Inventory": 634300000.0,
           "Accounts Receivable": 489600000.0,
-          "Total Debt": 132800000.0
+          "Total Debt": 371900000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1464,7 +1464,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1477,7 +1477,7 @@
           "Net PPE": 327500000.0,
           "Inventory": 643800000.0,
           "Accounts Receivable": 471200000.0,
-          "Total Debt": 146200000.0
+          "Total Debt": 397300000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1487,7 +1487,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1532,7 +1532,7 @@
   },
   "validation": {
     "ticker": "HY",
-    "checked_at": "2026-07-21T15:29:49.963254+00:00",
+    "checked_at": "2026-07-22T15:31:41.509768+00:00",
     "status": "ok",
     "issues": []
   },

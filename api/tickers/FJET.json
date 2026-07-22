@@ -80,7 +80,7 @@
           "General And Administrative Expense": 166196.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -105,7 +105,7 @@
           "General And Administrative Expense": 286033.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -270,7 +270,7 @@
           "General And Administrative Expense": 78125.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -352,7 +352,7 @@
           "General And Administrative Expense": 47320.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
+          "Total Revenue": "sec",
           "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -475,11 +475,15 @@
         "period": "2025-03-31",
         "items": {
           "Cash And Cash Equivalents": 4005376.0,
-          "Common Stock Equity": -4548170.0
+          "Total Assets": 12641612.0,
+          "Common Stock Equity": -4548170.0,
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec"
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Total Debt": "sec"
         }
       },
       {
@@ -590,13 +594,13 @@
   },
   "validation": {
     "ticker": "FJET",
-    "checked_at": "2026-07-21T15:29:49.941510+00:00",
+    "checked_at": "2026-07-22T15:31:41.487678+00:00",
     "status": "error",
     "issues": [
       {
-        "severity": "error",
-        "rule": "missing_annual_revenue",
-        "detail": "no annual Revenue concept in SEC data"
+        "severity": "info",
+        "rule": "zero_annual_revenue",
+        "detail": "FY2025 reported revenue is 0 — pre-revenue stage"
       },
       {
         "severity": "error",
@@ -611,7 +615,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 81 days old"
+        "detail": "latest close 2026-05-01 is 82 days old"
       },
       {
         "severity": "info",

@@ -247,15 +247,6 @@
     "cash_flow": [],
     "balance_sheet": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Debt": 11387209.0
-        },
-        "sources": {
-          "Total Debt": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Debt": 11315810.0
@@ -289,19 +280,46 @@
       {
         "period": "2025-03-31",
         "items": {
+          "Cash And Cash Equivalents": 5787279.0,
+          "Total Assets": 56299473.0,
+          "Accounts Receivable": 107913.0,
           "Total Debt": 11094466.0
         },
         "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
       {
         "period": "2025-06-30",
         "items": {
+          "Cash And Cash Equivalents": 5480958.0,
+          "Total Assets": 60522637.0,
+          "Accounts Receivable": 135780.0,
           "Total Debt": 10945203.0
         },
         "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2025-09-30",
+        "items": {
+          "Cash And Cash Equivalents": 5106711.0,
+          "Total Assets": 60147636.0,
+          "Accounts Receivable": 135026.0,
+          "Total Debt": 10945203.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -309,11 +327,13 @@
         "items": {
           "Cash And Cash Equivalents": 4529597.0,
           "Total Assets": 58690701.0,
+          "Accounts Receivable": 155205.0,
           "Total Debt": 10868531.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -322,11 +342,13 @@
         "items": {
           "Cash And Cash Equivalents": 3950227.0,
           "Total Assets": 58107127.0,
+          "Accounts Receivable": 151001.0,
           "Total Debt": 10790194.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -372,7 +394,7 @@
   },
   "validation": {
     "ticker": "GYRO",
-    "checked_at": "2026-07-21T15:29:49.956986+00:00",
+    "checked_at": "2026-07-22T15:31:41.503168+00:00",
     "status": "error",
     "issues": [
       {
@@ -393,12 +415,12 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 81 days old"
+        "detail": "latest close 2026-05-01 is 82 days old"
       },
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2014-09-30 is 4312 days old (>180)"
+        "detail": "latest quarterly period 2014-09-30 is 4313 days old (>180)"
       },
       {
         "severity": "info",
