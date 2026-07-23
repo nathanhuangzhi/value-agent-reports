@@ -32,8 +32,8 @@
     "p_fcf": -6.098366851304422,
     "ttm_pocf": -6.5060624196254695,
     "debt_asset": 0.04788248143576354,
-    "gross_margin": null,
-    "op_margin": null,
+    "gross_margin": 0.3597792549942095,
+    "op_margin": -0.17424710431354465,
     "net_margin": -0.3663854295906374,
     "roe": -0.1767501515013158,
     "roa": -0.11466795490727037,
@@ -1205,13 +1205,25 @@
         "period": "2025-12-31",
         "items": {
           "Total Revenue": 148451000.0,
+          "Gross Profit": 64025000.0,
+          "Cost Of Revenue": 84425000.0,
+          "Operating Income": -38317000.0,
           "Net Income": -31257000.0,
-          "Diluted EPS": -0.04
+          "Diluted EPS": -0.04,
+          "Diluted Average Shares": 765519363.0,
+          "Research And Development": 32772000.0,
+          "Selling General And Administration": 50515000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
-          "Diluted EPS": "sec"
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1571,7 +1583,7 @@
   },
   "validation": {
     "ticker": "OPK",
-    "checked_at": "2026-07-22T15:31:41.566257+00:00",
+    "checked_at": "2026-07-23T15:33:41.400837+00:00",
     "status": "warn",
     "issues": [
       {

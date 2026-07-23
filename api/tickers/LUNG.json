@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 52791062.94,
-    "ttm_pe": -0.9224046501956946,
+    "ttm_pe": -0.9921453690165197,
     "static_pe": -0.9775579678906727,
-    "ev_revenue": 0.31954639701644344,
+    "ev_revenue": 0.3193298654921226,
     "pb": 1.1536256406110006,
-    "ps": 0.5966103061535853,
+    "ps": 0.5962060301541589,
     "p_fcf": -1.7949428084730201,
     "ttm_pocf": -1.804760963385867,
     "debt_asset": 0.31102979177433604,
-    "gross_margin": 0.741843250268407,
-    "op_margin": -0.6409673956037747,
-    "net_margin": -0.6467988924676499,
-    "roe": -1.2506719695810844,
-    "roa": -0.47706850274244367,
+    "gross_margin": 0.7548816985713479,
+    "op_margin": -0.5879044553616805,
+    "net_margin": -0.6009260827827658,
+    "roe": -1.162758680972881,
+    "roa": -0.44353400130036846,
     "dividend_rate": 0.0,
     "latest_q_ni": -13654000.0,
     "latest_q_ocf": -10097000.0
@@ -539,31 +539,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2023-09-30",
-        "items": {
-          "Total Revenue": 17668000.0,
-          "Gross Profit": 13029000.0,
-          "Cost Of Revenue": 4639000.0,
-          "Operating Income": -15176000.0,
-          "Net Income": -14900000.0,
-          "Diluted EPS": -0.39,
-          "Diluted Average Shares": 38119824.0,
-          "Research And Development": 4220000.0,
-          "Selling General And Administration": 23985000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 18854000.0,
@@ -711,6 +686,31 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 22598000.0,
+          "Gross Profit": 17541000.0,
+          "Cost Of Revenue": 5057000.0,
+          "Operating Income": -9903000.0,
+          "Net Income": -10425000.0,
+          "Diluted EPS": -0.25,
+          "Diluted Average Shares": 41403844.0,
+          "Research And Development": 4583000.0,
+          "Selling General And Administration": 22861000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1072,13 +1072,13 @@
   },
   "validation": {
     "ticker": "LUNG",
-    "checked_at": "2026-07-22T15:31:41.534548+00:00",
+    "checked_at": "2026-07-23T15:33:41.369199+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 82 days old"
+        "detail": "latest close 2026-05-01 is 83 days old"
       }
     ]
   },
