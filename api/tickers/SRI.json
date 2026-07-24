@@ -15,8 +15,8 @@
     "ev_revenue": 0.3704920454601974,
     "pb": 1.3575387227721503,
     "ps": 0.2636381994976499,
-    "p_fcf": null,
-    "ttm_pocf": null,
+    "p_fcf": -42.48960176352705,
+    "ttm_pocf": 18.236978565284705,
     "debt_asset": 0.3056227794152403,
     "gross_margin": 0.19871801248414614,
     "op_margin": -0.02826465395041158,
@@ -25,7 +25,7 @@
     "roa": -0.24133398180756332,
     "dividend_rate": 0.0,
     "latest_q_ni": -27917000.0,
-    "latest_q_ocf": null
+    "latest_q_ocf": -11499000.0
   },
   "annual": {
     "income_statement": [
@@ -1359,10 +1359,14 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Capital Expenditure": 836000.0
+          "Cash Flow From Continuing Operating Activities": -11499000.0,
+          "Capital Expenditure": 836000.0,
+          "Free Cash Flow": -12335000.0
         },
         "sources": {
-          "Capital Expenditure": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1593,7 +1597,7 @@
   },
   "validation": {
     "ticker": "SRI",
-    "checked_at": "2026-07-23T15:33:41.443974+00:00",
+    "checked_at": "2026-07-24T15:24:13.243138+00:00",
     "status": "warn",
     "issues": [
       {

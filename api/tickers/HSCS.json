@@ -25,18 +25,18 @@
   "snapshot": {
     "market_cap": 6103156.01,
     "ttm_pe": -0.7192621699572,
-    "static_pe": -0.696291678175208,
-    "ev_revenue": 718.3536751643788,
-    "pb": 2.3012341471342013,
+    "static_pe": -0.6676044039105763,
+    "ev_revenue": 930.7258057446072,
+    "pb": 26.99794749181633,
     "ps": 704.0207647940939,
-    "p_fcf": -0.8255246857763825,
-    "ttm_pocf": -0.8314021416469787,
-    "debt_asset": 0.46611762547450175,
+    "p_fcf": -0.8168954790013169,
+    "ttm_pocf": -0.8217849458717033,
+    "debt_asset": 0.6882662099659241,
     "gross_margin": 0.5791902180182259,
     "op_margin": -899.3956627061945,
     "net_margin": -978.8096666282155,
-    "roe": -3.199437205589635,
-    "roa": -1.1232110173230456,
+    "roe": -37.53561443864461,
+    "roa": -1.6123557363339884,
     "dividend_rate": 0.0,
     "latest_q_ni": -1985208.0,
     "latest_q_ocf": -1462526.0
@@ -142,6 +142,29 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Total Revenue": 4319.0,
+          "Gross Profit": 2551.0,
+          "Cost Of Revenue": 1768.0,
+          "Operating Income": -8412867.0,
+          "Net Income": -9141875.0,
+          "Diluted Average Shares": 2625421.0,
+          "Research And Development": 2839012.0,
+          "Selling General And Administration": 5576406.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
       }
     ],
     "cash_flow": [
@@ -190,6 +213,19 @@
           "Cash Flow From Continuing Operating Activities": -7412994.0,
           "Capital Expenditure": 3157.0,
           "Free Cash Flow": -7416151.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -7426707.0,
+          "Capital Expenditure": 3554.0,
+          "Free Cash Flow": -7430261.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
@@ -276,13 +312,55 @@
       {
         "period": "2025-04-30",
         "items": {
-          "Cash And Cash Equivalents": 1098098.0,
+          "Cash And Cash Equivalents": 1100000.0,
           "Total Assets": 4222909.0,
           "Common Stock Equity": 205171.0,
           "Net PPE": 63549.0,
           "Inventory": 650267.0,
           "Accounts Receivable": 4350.0,
           "Total Debt": 2551170.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Cash And Cash Equivalents": 1700000.0,
+          "Total Assets": 4222909.0,
+          "Common Stock Equity": 226060.0,
+          "Net PPE": 63549.0,
+          "Inventory": 655629.0,
+          "Accounts Receivable": 4350.0,
+          "Total Debt": 3622120.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 1656814.0,
+          "Total Assets": 5262673.0,
+          "Common Stock Equity": 226060.0,
+          "Net PPE": 39312.0,
+          "Inventory": 655629.0,
+          "Accounts Receivable": 0.0,
+          "Total Debt": 3622120.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -489,19 +567,6 @@
     ],
     "cash_flow": [
       {
-        "period": "2024-04-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -1576763.0,
-          "Capital Expenditure": 48799.0,
-          "Free Cash Flow": -1625562.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
-      {
         "period": "2024-07-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2018720.0,
@@ -591,66 +656,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -1676548.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1676548.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-04-30",
-        "items": {
-          "Cash And Cash Equivalents": 5807648.0,
-          "Total Assets": 9503113.0,
-          "Common Stock Equity": 7317301.0,
-          "Net PPE": 97991.0,
-          "Inventory": 629179.0,
-          "Total Debt": 500000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Total Debt": "sec"
-        }
-      },
-      {
-        "period": "2024-07-31",
-        "items": {
-          "Cash And Cash Equivalents": 4339778.0,
-          "Total Assets": 8191390.0,
-          "Common Stock Equity": 5933958.0,
-          "Net PPE": 86127.0,
-          "Inventory": 643039.0,
-          "Total Debt": 500000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Total Debt": "sec"
-        }
-      },
-      {
-        "period": "2024-10-31",
-        "items": {
-          "Cash And Cash Equivalents": 4052120.0,
-          "Total Assets": 7777241.0,
-          "Common Stock Equity": 4016721.0,
-          "Net PPE": 77069.0,
-          "Inventory": 652907.0,
-          "Total Debt": 2416270.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2025-01-31",
         "items": {
@@ -673,7 +694,7 @@
       {
         "period": "2025-04-30",
         "items": {
-          "Cash And Cash Equivalents": 1098098.0,
+          "Cash And Cash Equivalents": 1100000.0,
           "Total Assets": 4222909.0,
           "Common Stock Equity": 205171.0,
           "Net PPE": 63549.0,
@@ -734,6 +755,27 @@
         }
       },
       {
+        "period": "2025-12-31",
+        "items": {
+          "Cash And Cash Equivalents": 1098098.0,
+          "Total Assets": 4222909.0,
+          "Common Stock Equity": 205171.0,
+          "Net PPE": 63549.0,
+          "Inventory": 650267.0,
+          "Accounts Receivable": 4350.0,
+          "Total Debt": 2551170.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
         "period": "2026-01-31",
         "items": {
           "Cash And Cash Equivalents": 3397035.0,
@@ -743,6 +785,44 @@
           "Inventory": 657285.0,
           "Accounts Receivable": 0.0,
           "Total Debt": 3521287.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Cash And Cash Equivalents": 1700000.0,
+          "Common Stock Equity": 226060.0,
+          "Net PPE": 39312.0,
+          "Inventory": 655629.0,
+          "Total Debt": 3622120.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 1656814.0,
+          "Total Assets": 5262673.0,
+          "Common Stock Equity": 226060.0,
+          "Net PPE": 39312.0,
+          "Inventory": 655629.0,
+          "Accounts Receivable": 0.0,
+          "Total Debt": 3622120.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -796,18 +876,13 @@
   },
   "validation": {
     "ticker": "HSCS",
-    "checked_at": "2026-07-23T15:33:41.343071+00:00",
+    "checked_at": "2026-07-24T15:24:13.141559+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 83 days old"
-      },
-      {
-        "severity": "info",
-        "rule": "mcap_reconciliation",
-        "detail": "Stage-1 mcap 0.01B vs price×shares 0.00B (-71%)"
+        "detail": "latest close 2026-05-01 is 84 days old"
       }
     ]
   },

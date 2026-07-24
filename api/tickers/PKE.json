@@ -26,12 +26,12 @@
     "market_cap": 711987120.0,
     "ttm_pe": 55.95183654223968,
     "static_pe": 63.164222853087296,
-    "ev_revenue": 8.286068256071799,
+    "ev_revenue": 8.286658706519885,
     "pb": 5.435223634489866,
     "ps": 9.342069200792515,
     "p_fcf": 64.968256227758,
     "ttm_pocf": 56.37715733628949,
-    "debt_asset": 0.0,
+    "debt_asset": 0.00031173365476536846,
     "gross_margin": 0.31923687559865116,
     "op_margin": 0.19807644365134558,
     "net_margin": 0.16696626559773267,
@@ -1048,6 +1048,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-06-02",
+        "items": {
+          "Total Revenue": 13970000.0,
+          "Gross Profit": 4099000.0,
+          "Cost Of Revenue": 9871000.0,
+          "Operating Income": 2082000.0,
+          "Net Income": 993000.0,
+          "Diluted EPS": 0.05,
+          "Diluted Average Shares": 20371000.0,
+          "Selling General And Administration": 2017000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-09-01",
         "items": {
           "Total Revenue": 16709000.0,
@@ -1091,29 +1114,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-03-02",
-        "items": {
-          "Total Revenue": 16939000.0,
-          "Gross Profit": 4958000.0,
-          "Cost Of Revenue": 11981000.0,
-          "Operating Income": 2851000.0,
-          "Net Income": 1246000.0,
-          "Diluted EPS": 0.06,
-          "Diluted Average Shares": 20022000.0,
-          "Selling General And Administration": 2107000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1391,7 +1391,7 @@
           "Net PPE": 21650000.0,
           "Inventory": 7213000.0,
           "Accounts Receivable": 12903000.0,
-          "Total Debt": 40000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1401,7 +1401,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1499,7 +1499,7 @@
           "Net PPE": 21472000.0,
           "Inventory": 7801000.0,
           "Accounts Receivable": 10842000.0,
-          "Total Debt": 0
+          "Total Debt": 45000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1508,7 +1508,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1553,13 +1553,13 @@
   },
   "validation": {
     "ticker": "PKE",
-    "checked_at": "2026-07-23T15:33:41.408317+00:00",
+    "checked_at": "2026-07-24T15:24:13.207407+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 83 days old"
+        "detail": "latest close 2026-05-01 is 84 days old"
       },
       {
         "severity": "warn",

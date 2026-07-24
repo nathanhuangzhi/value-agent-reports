@@ -26,12 +26,12 @@
     "market_cap": 475949073.9,
     "ttm_pe": 26.41583336330408,
     "static_pe": 31.314097483452247,
-    "ev_revenue": 15.132545657827572,
+    "ev_revenue": 15.138975726369694,
     "pb": 7.961705350587548,
     "ps": 15.225190876665284,
     "p_fcf": -35.687966956904866,
     "ttm_pocf": 28.374798092604145,
-    "debt_asset": 0.0,
+    "debt_asset": 0.0032359610759963384,
     "gross_margin": 0.7926153186095316,
     "op_margin": 0.6206873111422478,
     "net_margin": 0.5763661008634151,
@@ -1104,26 +1104,12 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 7269715.0,
-          "Gross Profit": 5754305.0,
-          "Cost Of Revenue": 1515410.0,
-          "Operating Income": 4248776.0,
-          "Net Income": 3892374.0,
           "Diluted EPS": 0.8,
-          "Diluted Average Shares": 4839194.0,
-          "Research And Development": 1039711.0,
-          "Selling General And Administration": 465818.0
+          "Diluted Average Shares": 4839194.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Diluted Average Shares": "yfinance"
         }
       },
       {
@@ -1232,7 +1218,8 @@
           "Net Income": 6394191.0,
           "Diluted EPS": 1.32,
           "Diluted Average Shares": 4845745.0,
-          "Research And Development": 946582.0
+          "Research And Development": 946582.0,
+          "Selling General And Administration": 755594.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1242,7 +1229,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Research And Development": "sec"
+          "Research And Development": "sec",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -1397,19 +1385,17 @@
           "Cash And Cash Equivalents": 8036564.0,
           "Total Assets": 64275862.0,
           "Common Stock Equity": 62268771.0,
-          "Net PPE": 2904248.0,
           "Inventory": 7449083.0,
           "Accounts Receivable": 3589268.0,
-          "Total Debt": 83010.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1502,17 +1488,19 @@
           "Cash And Cash Equivalents": 2896148.0,
           "Total Assets": 62116940.0,
           "Common Stock Equity": 59779790.0,
+          "Net PPE": 4303572.0,
           "Inventory": 6673227.0,
           "Accounts Receivable": 6545713.0,
-          "Total Debt": 0
+          "Total Debt": 201008.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1557,7 +1545,7 @@
   },
   "validation": {
     "ticker": "NVEC",
-    "checked_at": "2026-07-23T15:33:41.395464+00:00",
+    "checked_at": "2026-07-24T15:24:13.194472+00:00",
     "status": "ok",
     "issues": []
   },
