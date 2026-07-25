@@ -23,23 +23,23 @@
     "logic_summary": "Manufactures and sells medical devices for healthcare."
   },
   "snapshot": {
-    "market_cap": 207725700.0,
-    "ttm_pe": 19.146990506037422,
-    "static_pe": 18.405608718766615,
-    "ev_revenue": 3.2114705177053637,
-    "pb": 1.7256835004527593,
-    "ps": 5.53477658468999,
-    "p_fcf": 15.954354838709678,
-    "ttm_pocf": 15.57514433530779,
+    "market_cap": 207660480.0,
+    "ttm_pe": null,
+    "static_pe": 18.399829877724613,
+    "ev_revenue": null,
+    "pb": 1.7251416845970442,
+    "ps": null,
+    "p_fcf": 15.949345622119816,
+    "ttm_pocf": 15.570254180100472,
     "debt_asset": 0.0016883471884999437,
-    "gross_margin": 0.5793877061629054,
-    "op_margin": 0.2881084969758333,
-    "net_margin": 0.2890677040313341,
-    "roe": 0.09012818489196082,
-    "roa": 0.08722323165731376,
+    "gross_margin": null,
+    "op_margin": null,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": 2604000.0,
-    "latest_q_ocf": 3109000.0
+    "latest_q_ni": null,
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -1098,29 +1098,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 10400000.0,
-          "Gross Profit": 6253000.0,
-          "Cost Of Revenue": 4147000.0,
-          "Operating Income": 3438000.0,
-          "Diluted EPS": 0.98,
-          "Diluted Average Shares": 3532000.0,
-          "Research And Development": 255000.0,
-          "Selling General And Administration": 2560000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 10005000.0,
@@ -1287,6 +1264,17 @@
           "Selling General And Administration": "sec",
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "yfinance"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Diluted EPS": 0.843593,
+          "Diluted Average Shares": 3184000.0
+        },
+        "sources": {
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -1623,7 +1611,7 @@
   },
   "validation": {
     "ticker": "UTMD",
-    "checked_at": "2026-07-24T15:24:13.265706+00:00",
+    "checked_at": "2026-07-25T15:01:05.420909+00:00",
     "status": "error",
     "issues": [
       {
@@ -1639,7 +1627,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 84 days old"
+        "detail": "latest close 2026-05-01 is 85 days old"
       }
     ]
   },

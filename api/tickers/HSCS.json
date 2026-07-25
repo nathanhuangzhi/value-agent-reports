@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 6103156.01,
-    "ttm_pe": -0.7192621699572,
+    "ttm_pe": -0.6676044039105763,
     "static_pe": -0.6676044039105763,
-    "ev_revenue": 930.7258057446072,
+    "ev_revenue": 1868.1319773095624,
     "pb": 26.99794749181633,
-    "ps": 704.0207647940939,
+    "ps": 1413.0947001620746,
     "p_fcf": -0.8168954790013169,
     "ttm_pocf": -0.8217849458717033,
     "debt_asset": 0.6882662099659241,
-    "gross_margin": 0.5791902180182259,
-    "op_margin": -899.3956627061945,
-    "net_margin": -978.8096666282155,
-    "roe": -37.53561443864461,
-    "roa": -1.6123557363339884,
+    "gross_margin": 0.5906459828664042,
+    "op_margin": -1947.8738133827276,
+    "net_margin": -2116.664737207687,
+    "roe": -40.440038042997436,
+    "roa": -1.737116290523846,
     "dividend_rate": 0.0,
-    "latest_q_ni": -1985208.0,
-    "latest_q_ocf": -1462526.0
+    "latest_q_ni": -2750904.0,
+    "latest_q_ocf": -1676548.0
   },
   "annual": {
     "income_statement": [
@@ -377,31 +377,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-01-31",
-        "items": {
-          "Total Revenue": 14700.0,
-          "Gross Profit": 10139.0,
-          "Cost Of Revenue": 4561.0,
-          "Operating Income": -1525382.0,
-          "Net Income": -1643811.0,
-          "Diluted EPS": -3.01,
-          "Diluted Average Shares": 546670.0,
-          "Research And Development": 509507.0,
-          "Selling General And Administration": 1026014.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-07-31",
         "items": {
           "Operating Income": -2075667.0,
@@ -563,6 +538,27 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-04-30",
+        "items": {
+          "Total Revenue": 0.0,
+          "Gross Profit": 0.0,
+          "Cost Of Revenue": 0.0,
+          "Operating Income": -2536405.0,
+          "Net Income": -2750904.0,
+          "Research And Development": 476205.0,
+          "Selling General And Administration": 2060200.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
+        }
       }
     ],
     "cash_flow": [
@@ -661,13 +657,13 @@
         "period": "2026-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1676548.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -1676548.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -800,16 +796,20 @@
         "period": "2026-04-30",
         "items": {
           "Cash And Cash Equivalents": 1700000.0,
+          "Total Assets": 5262673.0,
           "Common Stock Equity": 226060.0,
           "Net PPE": 39312.0,
           "Inventory": 655629.0,
+          "Accounts Receivable": 0.0,
           "Total Debt": 3622120.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
+          "Total Assets": "yfinance",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -876,13 +876,13 @@
   },
   "validation": {
     "ticker": "HSCS",
-    "checked_at": "2026-07-24T15:24:13.141559+00:00",
+    "checked_at": "2026-07-25T15:01:05.298773+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 84 days old"
+        "detail": "latest close 2026-05-01 is 85 days old"
       }
     ]
   },

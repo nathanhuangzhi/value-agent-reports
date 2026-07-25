@@ -1068,8 +1068,7 @@
           "Cost Of Revenue": 0.0,
           "Operating Income": -1141000.0,
           "Net Income": -1034000.0,
-          "Selling General And Administration": 1104000.0,
-          "General And Administrative Expense": 1104000.0
+          "Selling General And Administration": 1104000.0
         },
         "sources": {
           "Total Revenue": "yfinance",
@@ -1077,8 +1076,7 @@
           "Cost Of Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1386,13 +1384,13 @@
   },
   "validation": {
     "ticker": "NTIP",
-    "checked_at": "2026-07-24T15:24:13.192915+00:00",
+    "checked_at": "2026-07-25T15:01:05.349395+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-03-31 is 480 days old (>180)"
+        "detail": "latest quarterly period 2025-03-31 is 481 days old (>180)"
       },
       {
         "severity": "warn",

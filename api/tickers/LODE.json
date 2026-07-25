@@ -26,12 +26,12 @@
     "market_cap": 297180288.15999997,
     "ttm_pe": -4.871218106095905,
     "static_pe": -6.898905003832373,
-    "ev_revenue": 261.9208873033314,
+    "ev_revenue": 273.50752000315356,
     "pb": 2.1126366677432205,
     "ps": 292.87069587026895,
-    "p_fcf": -6.2653298230822925,
+    "p_fcf": -6.174697137923231,
     "ttm_pocf": -9.733478826396048,
-    "debt_asset": 0.0,
+    "debt_asset": 0.06074467958414147,
     "gross_margin": -5.4422995619459655,
     "op_margin": -58.4612999709278,
     "net_margin": -60.12268173822206,
@@ -996,7 +996,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 785815.0,
-          "Gross Profit": -100981.0,
           "Cost Of Revenue": 886796.0,
           "Operating Income": -7038748.0,
           "Net Income": -9093931.0,
@@ -1005,11 +1004,11 @@
           "Research And Development": 3303918.0,
           "Selling General And Administration": 3258465.0,
           "Selling And Marketing Expense": 237374.0,
-          "General And Administrative Expense": 3021091.0
+          "General And Administrative Expense": 3021091.0,
+          "Gross Profit": -100981.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
@@ -1018,7 +1017,8 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1133,27 +1133,29 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 272824.0,
+          "Gross Profit": -896073.0,
           "Cost Of Revenue": 1168897.0,
           "Operating Income": -26935389.0,
           "Net Income": -25468401.0,
+          "Diluted EPS": -0.34,
           "Diluted Average Shares": 75811298.0,
           "Research And Development": 2284363.0,
           "Selling General And Administration": 7349670.0,
           "Selling And Marketing Expense": 347624.0,
-          "General And Administrative Expense": 7002046.0,
-          "Gross Profit": -896073.0
+          "General And Administrative Expense": 7002046.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1253,13 +1255,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -10100759.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -10100759.0
+          "Capital Expenditure": 696218.0,
+          "Free Cash Flow": -10796977.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1412,7 +1414,7 @@
           "Goodwill": 1507154.0,
           "Net PPE": 35601644.0,
           "Accounts Receivable": 1340513.0,
-          "Total Debt": 0
+          "Total Debt": 11757130.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1421,7 +1423,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1466,7 +1468,7 @@
   },
   "validation": {
     "ticker": "LODE",
-    "checked_at": "2026-07-24T15:24:13.166149+00:00",
+    "checked_at": "2026-07-25T15:01:05.323147+00:00",
     "status": "warn",
     "issues": [
       {
