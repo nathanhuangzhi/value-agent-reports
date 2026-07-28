@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 94661699.76,
-    "ttm_pe": null,
+    "ttm_pe": -6.139687362822675,
     "static_pe": -6.419918600203459,
-    "ev_revenue": null,
+    "ev_revenue": 0.7368762158007331,
     "pb": -1.0210626774099603,
-    "ps": null,
-    "p_fcf": 8.363818674677505,
-    "ttm_pocf": 2.4672044349457884,
-    "debt_asset": 0.853519359409006,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "ps": 0.12720474376753638,
+    "p_fcf": -8.683762935510504,
+    "ttm_pocf": 4.8166539337505725,
+    "debt_asset": 0.8288649021889437,
+    "gross_margin": 0.48231447737607636,
+    "op_margin": 0.06300862170907645,
+    "net_margin": -0.02071843992216811,
+    "roe": 0.16630532095050102,
+    "roa": -0.028164177168712883,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 2647000.0,
+    "latest_q_ocf": 12200000.0
   },
   "annual": {
     "income_statement": [
@@ -1097,29 +1097,28 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 213600000.0,
+          "Cost Of Revenue": 107589000.0,
+          "Operating Income": 19258000.0,
+          "Net Income": 2647000.0,
           "Diluted EPS": 0.07,
-          "Diluted Average Shares": 38955432.0
+          "Diluted Average Shares": 38955432.0,
+          "Selling General And Administration": 9407000.0,
+          "Gross Profit": 106011000.0
         },
         "sources": {
+          "Total Revenue": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 11828000.0,
-          "Capital Expenditure": 13204000.0,
-          "Free Cash Flow": -1376000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1210,26 +1209,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 12200000.0,
+          "Capital Expenditure": 9519000.0,
+          "Free Cash Flow": 2681000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 55000.0,
-          "Total Assets": 535078000.0,
-          "Goodwill": 16671000.0,
-          "Inventory": 41597000.0,
-          "Total Debt": 439397000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Goodwill": "sec",
-          "Inventory": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1378,6 +1373,23 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 50000.0,
+          "Total Assets": 547433000.0,
+          "Goodwill": 16671000.0,
+          "Inventory": 60359000.0,
+          "Total Debt": 453748000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Goodwill": "sec",
+          "Inventory": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1421,7 +1433,7 @@
   },
   "validation": {
     "ticker": "MMLP",
-    "checked_at": "2026-07-27T16:07:45.795955+00:00",
+    "checked_at": "2026-07-28T15:50:57.373208+00:00",
     "status": "error",
     "issues": [
       {

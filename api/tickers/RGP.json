@@ -24,21 +24,21 @@
   },
   "snapshot": {
     "market_cap": 160430400.0,
-    "ttm_pe": null,
+    "ttm_pe": -3.9513903598433537,
     "static_pe": -3.9513903598433537,
-    "ev_revenue": null,
+    "ev_revenue": 0.18279491865152234,
     "pb": 0.9449644821939756,
-    "ps": null,
+    "ps": 0.35492980181679007,
     "p_fcf": 259.1767366720517,
     "ttm_pocf": 112.42494744218641,
-    "debt_asset": 0.0,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "debt_asset": 0.01773899665499866,
+    "gross_margin": 0.3753954593523095,
+    "op_margin": -0.06606770706583541,
+    "net_margin": -0.08982402888457233,
+    "roe": -0.23914733704807567,
+    "roa": -0.1577356555386773,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
+    "latest_q_ni": -16068000.0,
     "latest_q_ocf": 2093000.0
   },
   "annual": {
@@ -966,7 +966,7 @@
           "Goodwill": 209785000.0,
           "Net PPE": 17657000.0,
           "Accounts Receivable": 153154000.0,
-          "Total Debt": 62193000.0
+          "Total Debt": 54000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -975,7 +975,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1050,7 +1050,7 @@
           "Goodwill": 28757000.0,
           "Net PPE": 3441000.0,
           "Accounts Receivable": 71923000.0,
-          "Total Debt": 0
+          "Total Debt": 4566000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1059,7 +1059,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1230,12 +1230,24 @@
       {
         "period": "2026-05-30",
         "items": {
+          "Total Revenue": 106115000.0,
+          "Gross Profit": 39927000.0,
+          "Cost Of Revenue": 66188000.0,
+          "Operating Income": -7361000.0,
+          "Net Income": -16068000.0,
           "Diluted EPS": -0.47,
-          "Diluted Average Shares": 34280000.0
+          "Diluted Average Shares": 34280000.0,
+          "Selling General And Administration": 46232000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -1397,7 +1409,7 @@
           "Goodwill": 97588000.0,
           "Net PPE": 4607000.0,
           "Accounts Receivable": 101137000.0,
-          "Total Debt": 5294000.0
+          "Total Debt": 0.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1406,7 +1418,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1502,7 +1514,7 @@
           "Goodwill": 28757000.0,
           "Net PPE": 3441000.0,
           "Accounts Receivable": 71923000.0,
-          "Total Debt": 0
+          "Total Debt": 4566000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1511,7 +1523,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1556,7 +1568,7 @@
   },
   "validation": {
     "ticker": "RGP",
-    "checked_at": "2026-07-27T16:07:45.838952+00:00",
+    "checked_at": "2026-07-28T15:50:57.406238+00:00",
     "status": "ok",
     "issues": []
   },

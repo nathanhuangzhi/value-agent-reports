@@ -26,13 +26,13 @@
     "market_cap": 68934278.03,
     "ttm_pe": -2.955128307540618,
     "static_pe": -1.6193919852941177,
-    "ev_revenue": 0.34707783780021584,
+    "ev_revenue": 0.4033030614805774,
     "pb": -1.3512285955386545,
     "ps": 0.13906871910588378,
     "p_fcf": 18.328709925551717,
     "ttm_pocf": 5.135151819874851,
-    "debt_asset": 0.4428223637890522,
-    "gross_margin": null,
+    "debt_asset": 0.5610287817995199,
+    "gross_margin": 0.16502617589799973,
     "op_margin": -0.014858226494648819,
     "net_margin": -0.04706012891251501,
     "roe": 0.4572487062882233,
@@ -953,24 +953,18 @@
         "period": "2025-04-01",
         "items": {
           "Total Revenue": 123794000.0,
-          "Gross Profit": 14955000.0,
-          "Cost Of Revenue": 108839000.0,
           "Operating Income": -6387000.0,
           "Net Income": -9057000.0,
           "Diluted EPS": -1.58,
           "Diluted Average Shares": 5722919.0,
-          "Selling General And Administration": 12810000.0,
           "General And Administrative Expense": 12810000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -1078,18 +1072,24 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 127037000.0,
+          "Gross Profit": 23744000.0,
+          "Cost Of Revenue": 103293000.0,
           "Operating Income": -1540000.0,
           "Net Income": -3951000.0,
           "Diluted EPS": -0.67,
           "Diluted Average Shares": 5927281.0,
+          "Selling General And Administration": 13857000.0,
           "General And Administrative Expense": 13857000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1257,7 +1257,7 @@
           "Net PPE": 137579000.0,
           "Inventory": 11112000.0,
           "Accounts Receivable": 4111000.0,
-          "Total Debt": 132460000.0
+          "Total Debt": 100623000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1267,7 +1267,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1372,7 +1372,7 @@
           "Net PPE": 94401000.0,
           "Inventory": 9306000.0,
           "Accounts Receivable": 4789000.0,
-          "Total Debt": 104406000.0
+          "Total Debt": 132276000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1382,7 +1382,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1427,13 +1427,13 @@
   },
   "validation": {
     "ticker": "NDLS",
-    "checked_at": "2026-07-27T16:07:45.804964+00:00",
+    "checked_at": "2026-07-28T15:50:57.380086+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 87 days old"
+        "detail": "latest close 2026-05-01 is 88 days old"
       },
       {
         "severity": "warn",
