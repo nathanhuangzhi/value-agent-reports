@@ -23,23 +23,23 @@
     "logic_summary": "Provides marine support and transportation services to offshore energy facilities worldwide."
   },
   "snapshot": {
-    "market_cap": 198414920.925,
-    "ttm_pe": -7.045984407848012,
-    "static_pe": -7.125948891143515,
-    "ev_revenue": 2.0792877728919974,
-    "pb": 0.8005831265786523,
-    "ps": 0.9159795994044734,
-    "p_fcf": -2.676075217482197,
-    "ttm_pocf": -4.951954700134771,
-    "debt_asset": 0.511000441671986,
-    "gross_margin": 0.13337949818802947,
-    "op_margin": 0.020229439327839716,
-    "net_margin": -0.13000023082427348,
-    "roe": -0.11362260831672302,
-    "roa": -0.04394870362249063,
+    "market_cap": 202790613.42000002,
+    "ttm_pe": null,
+    "static_pe": -7.283099174687545,
+    "ev_revenue": 2.0431611348872574,
+    "pb": 0.8037295626842957,
+    "ps": 0.9636734070853233,
+    "p_fcf": -2.4894196415462617,
+    "ttm_pocf": -3.963153734096817,
+    "debt_asset": 0.5055895560566156,
+    "gross_margin": 0.1212773540523202,
+    "op_margin": 0.06786418609071684,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": -15805000.0,
-    "latest_q_ocf": -15133000.0
+    "latest_q_ni": null,
+    "latest_q_ocf": -13178000.0
   },
   "annual": {
     "income_statement": [
@@ -664,25 +664,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 62770000.0,
-          "Gross Profit": 14671000.0,
-          "Operating Income": -10610000.0,
-          "Diluted EPS": -0.84,
-          "Diluted Average Shares": 27343604.0,
-          "General And Administrative Expense": 11917000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Operating Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 69867000.0,
@@ -844,22 +825,28 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 54630000.0,
+          "Gross Profit": 7946000.0,
+          "Operating Income": 15966000.0,
+          "Diluted EPS": 0.12,
+          "Diluted Average Shares": 26353556.0,
+          "General And Administrative Expense": 12343000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Operating Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -12247000.0,
-          "Capital Expenditure": 658000.0,
-          "Free Cash Flow": -12905000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -950,30 +937,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -13178000.0,
+          "Capital Expenditure": 6429000.0,
+          "Free Cash Flow": -19607000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 42860000.0,
-          "Total Assets": 721566000.0,
-          "Common Stock Equity": 337938000.0,
-          "Net PPE": 583162000.0,
-          "Inventory": 3117000.0,
-          "Accounts Receivable": 70770000.0,
-          "Total Debt": 306345000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1120,6 +1099,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 93040000.0,
+          "Total Assets": 633324000.0,
+          "Common Stock Equity": 252312000.0,
+          "Net PPE": 459123000.0,
+          "Inventory": 2061000.0,
+          "Accounts Receivable": 61955000.0,
+          "Total Debt": 320202000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1163,7 +1163,7 @@
   },
   "validation": {
     "ticker": "SMHI",
-    "checked_at": "2026-07-29T15:59:25.924733+00:00",
+    "checked_at": "2026-07-30T15:39:09.968371+00:00",
     "status": "warn",
     "issues": [
       {

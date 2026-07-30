@@ -23,23 +23,23 @@
     "logic_summary": "Development-stage gold mining company focused on Mt Todd gold project in Australia."
   },
   "snapshot": {
-    "market_cap": 226361064.44189999,
-    "ttm_pe": -28.523319612134575,
-    "static_pe": -30.1854999922523,
+    "market_cap": 251085312.2546,
+    "ttm_pe": -29.411422309312403,
+    "static_pe": -33.48250596807574,
     "ev_revenue": null,
-    "pb": 4.241910395628056,
+    "pb": 4.94603195616271,
     "ps": null,
-    "p_fcf": -29.97365789749735,
-    "ttm_pocf": -32.365036380025735,
+    "p_fcf": -32.34801755405823,
+    "ttm_pocf": -34.77635903803324,
     "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -0.14871727601521653,
-    "roa": -0.14358863015433607,
+    "roe": -0.16816704422338224,
+    "roa": -0.1631658416314673,
     "dividend_rate": 0.0,
-    "latest_q_ni": -3145000.0,
-    "latest_q_ocf": -2200000.0
+    "latest_q_ni": -2957000.0,
+    "latest_q_ocf": -2521000.0
   },
   "annual": {
     "income_statement": [
@@ -928,25 +928,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 0.0,
-          "Operating Income": -1218000.0,
-          "Net Income": -1073000.0,
-          "Diluted EPS": -0.01,
-          "Diluted Average Shares": 121217992.0,
-          "General And Administrative Expense": 1256000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 0.0,
@@ -1104,22 +1085,28 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 0.0,
+          "Operating Income": -3417000.0,
+          "Net Income": -2957000.0,
+          "Diluted EPS": -0.02,
+          "Diluted Average Shares": 145971346.0,
+          "General And Administrative Expense": 846000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -1377000.0,
-          "Capital Expenditure": 31000.0,
-          "Free Cash Flow": -1408000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1210,26 +1197,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -2521000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -2521000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 20225000.0,
-          "Total Assets": 20971000.0,
-          "Common Stock Equity": 20140000.0,
-          "Net PPE": 260000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1348,6 +1331,23 @@
           "Net PPE": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 49536000.0,
+          "Total Assets": 52321000.0,
+          "Common Stock Equity": 50765000.0,
+          "Net PPE": 1206000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1391,7 +1391,7 @@
   },
   "validation": {
     "ticker": "VGZ",
-    "checked_at": "2026-07-29T15:59:25.954153+00:00",
+    "checked_at": "2026-07-30T15:39:09.998821+00:00",
     "status": "info",
     "issues": [
       {
