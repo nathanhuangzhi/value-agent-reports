@@ -24,7 +24,7 @@
   },
   "snapshot": {
     "market_cap": 202790613.42000002,
-    "ttm_pe": null,
+    "ttm_pe": -11.179195888643882,
     "static_pe": -7.283099174687545,
     "ev_revenue": 2.0431611348872574,
     "pb": 0.8037295626842957,
@@ -34,11 +34,11 @@
     "debt_asset": 0.5055895560566156,
     "gross_margin": 0.1212773540523202,
     "op_margin": 0.06786418609071684,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "net_margin": -0.08620239028678689,
+    "roe": -0.07189511398585878,
+    "roa": -0.028642527363561147,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
+    "latest_q_ni": 3293000.0,
     "latest_q_ocf": -13178000.0
   },
   "annual": {
@@ -706,23 +706,17 @@
         "items": {
           "Total Revenue": 55499000.0,
           "Gross Profit": 13571000.0,
-          "Cost Of Revenue": 55075000.0,
           "Operating Income": -5253000.0,
-          "Net Income": -15489000.0,
           "Diluted EPS": -0.56,
           "Diluted Average Shares": 27908297.0,
-          "Selling General And Administration": 11486000.0,
           "General And Administrative Expense": 11486000.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
-          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -831,17 +825,23 @@
         "items": {
           "Total Revenue": 54630000.0,
           "Gross Profit": 7946000.0,
+          "Cost Of Revenue": 57668000.0,
           "Operating Income": 15966000.0,
+          "Net Income": 3293000.0,
           "Diluted EPS": 0.12,
           "Diluted Average Shares": 26353556.0,
+          "Selling General And Administration": 12343000.0,
           "General And Administrative Expense": 12343000.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
+          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1163,7 +1163,7 @@
   },
   "validation": {
     "ticker": "SMHI",
-    "checked_at": "2026-07-30T15:39:09.968371+00:00",
+    "checked_at": "2026-07-31T15:50:18.888920+00:00",
     "status": "warn",
     "issues": [
       {

@@ -23,23 +23,23 @@
     "logic_summary": "Pulmonx Corporation sells medical devices for emphysema treatment to hospitals globally."
   },
   "snapshot": {
-    "market_cap": 52791062.94,
-    "ttm_pe": -0.9921453690165197,
-    "static_pe": -0.9775579678906727,
-    "ev_revenue": 0.3193298654921226,
-    "pb": 1.1536256406110006,
-    "ps": 0.5962060301541589,
-    "p_fcf": -1.7949428084730201,
-    "ttm_pocf": -1.804760963385867,
+    "market_cap": 53510640.12,
+    "ttm_pe": null,
+    "static_pe": -0.9908827309593911,
+    "ev_revenue": null,
+    "pb": 1.1693503227639255,
+    "ps": null,
+    "p_fcf": -1.8194090687157864,
+    "ttm_pocf": -1.82936105158798,
     "debt_asset": 0.31102979177433604,
-    "gross_margin": 0.7548816985713479,
-    "op_margin": -0.5879044553616805,
-    "net_margin": -0.6009260827827658,
-    "roe": -1.162758680972881,
-    "roa": -0.44353400130036846,
+    "gross_margin": null,
+    "op_margin": null,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": -13654000.0,
-    "latest_q_ocf": -10097000.0
+    "latest_q_ni": null,
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -539,31 +539,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 18854000.0,
-          "Gross Profit": 14078000.0,
-          "Cost Of Revenue": 4776000.0,
-          "Operating Income": -14536000.0,
-          "Net Income": -13749000.0,
-          "Diluted EPS": -0.36,
-          "Diluted Average Shares": 38636029.0,
-          "Research And Development": 4210000.0,
-          "Selling General And Administration": 24404000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 20783000.0,
@@ -736,6 +711,17 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Diluted EPS": -0.24,
+          "Diluted Average Shares": 42468762.0
+        },
+        "sources": {
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -1072,13 +1058,13 @@
   },
   "validation": {
     "ticker": "LUNG",
-    "checked_at": "2026-07-30T15:39:09.897169+00:00",
+    "checked_at": "2026-07-31T15:50:18.834207+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
+        "detail": "latest close 2026-05-01 is 91 days old"
       }
     ]
   },

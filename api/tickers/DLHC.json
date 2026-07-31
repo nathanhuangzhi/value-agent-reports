@@ -24,7 +24,7 @@
   },
   "snapshot": {
     "market_cap": 75653460.0,
-    "ttm_pe": null,
+    "ttm_pe": -3.508159517737074,
     "static_pe": 55.54585903083701,
     "ev_revenue": 0.7956569720204147,
     "pb": 0.8111753731343283,
@@ -34,11 +34,11 @@
     "debt_asset": 0.4957203238504134,
     "gross_margin": 0.17952449692753075,
     "op_margin": -0.001072800561642647,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "net_margin": -0.08505494158758707,
+    "roe": -0.23122533882312574,
+    "roa": -0.08463201849228245,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
+    "latest_q_ni": -16787000.0,
     "latest_q_ocf": 4203000.0
   },
   "annual": {
@@ -976,38 +976,34 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 89212000.0,
-          "Gross Profit": 17618000.0,
           "Cost Of Revenue": 71594000.0,
           "Operating Income": 5115000.0,
-          "Net Income": 878000.0,
           "Diluted EPS": 0.06,
           "Diluted Average Shares": 14454000.0,
-          "Selling General And Administration": 8238000.0,
-          "General And Administrative Expense": 8238000.0
+          "General And Administrative Expense": 8238000.0,
+          "Gross Profit": 17618000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
-          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
         "period": "2025-06-30",
         "items": {
           "Total Revenue": 83343000.0,
-          "Gross Profit": 15923000.0,
+          "Gross Profit": 15694000.0,
           "Cost Of Revenue": 67649000.0,
           "Operating Income": 3755000.0,
           "Net Income": 289000.0,
           "Diluted EPS": 0.02,
           "Diluted Average Shares": 14450000.0,
-          "Selling General And Administration": 7860000.0,
+          "Selling General And Administration": 7631000.0,
           "General And Administrative Expense": 7631000.0
         },
         "sources": {
@@ -1099,21 +1095,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 44225000.0,
+          "Gross Profit": 7406000.0,
           "Cost Of Revenue": 36819000.0,
           "Operating Income": -3932000.0,
+          "Net Income": -16787000.0,
           "Diluted EPS": -1.16,
           "Diluted Average Shares": 14493000.0,
-          "General And Administrative Expense": 7337000.0,
-          "Gross Profit": 7406000.0
+          "Selling General And Administration": 7337000.0,
+          "General And Administrative Expense": 7337000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
+          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1434,7 +1434,7 @@
   },
   "validation": {
     "ticker": "DLHC",
-    "checked_at": "2026-07-30T15:39:09.832700+00:00",
+    "checked_at": "2026-07-31T15:50:18.787997+00:00",
     "status": "error",
     "issues": [
       {

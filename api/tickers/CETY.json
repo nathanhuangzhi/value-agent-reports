@@ -1022,6 +1022,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 1513026.0,
+          "Gross Profit": 253005.0,
+          "Cost Of Revenue": 1260021.0,
+          "Operating Income": -820921.0,
+          "Net Income": -1406555.0,
+          "Diluted EPS": -0.54,
+          "Diluted Average Shares": 2676260.0,
+          "Research And Development": 0.0,
+          "General And Administrative Expense": 218658.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 196126.0,
@@ -1065,27 +1090,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 480326.0,
-          "Gross Profit": 204980.0,
-          "Cost Of Revenue": 275346.0,
-          "Operating Income": -560975.0,
-          "Net Income": -865650.0,
-          "Selling General And Administration": 716043.0,
-          "General And Administrative Expense": 716043.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -1197,6 +1201,7 @@
           "Diluted EPS": -0.05,
           "Diluted Average Shares": 11613409.0,
           "Research And Development": 0.0,
+          "Selling General And Administration": 674323.0,
           "General And Administrative Expense": 147729.0
         },
         "sources": {
@@ -1208,6 +1213,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1535,7 +1541,7 @@
   },
   "validation": {
     "ticker": "CETY",
-    "checked_at": "2026-07-30T15:39:09.811663+00:00",
+    "checked_at": "2026-07-31T15:50:18.772075+00:00",
     "status": "info",
     "issues": [
       {

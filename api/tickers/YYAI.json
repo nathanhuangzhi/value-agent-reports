@@ -922,7 +922,7 @@
           "Common Stock Equity": 26421739.0,
           "Inventory": 1166996.0,
           "Accounts Receivable": 87256.0,
-          "Total Debt": 2661136.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -930,7 +930,7 @@
           "Common Stock Equity": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1073,13 +1073,13 @@
   },
   "validation": {
     "ticker": "YYAI",
-    "checked_at": "2026-07-30T15:39:10.011389+00:00",
+    "checked_at": "2026-07-31T15:50:18.921294+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
+        "detail": "latest close 2026-05-01 is 91 days old"
       },
       {
         "severity": "warn",
@@ -1090,6 +1090,11 @@
         "severity": "warn",
         "rule": "ni_exceeds_revenue",
         "detail": "FY2021 |Net Income| -52M > 1.5× Revenue 16M — heavy cash burn"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2026-01-31 is 181 days old (>180)"
       },
       {
         "severity": "info",

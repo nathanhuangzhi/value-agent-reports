@@ -26,12 +26,12 @@
     "market_cap": 204520470.0,
     "ttm_pe": -54.04875,
     "static_pe": -18.79783731617647,
-    "ev_revenue": 1.3767340494306033,
+    "ev_revenue": 1.3927716445372718,
     "pb": 1.4897835841552425,
     "ps": 1.6950989606643792,
     "p_fcf": 363.91542704626335,
     "ttm_pocf": 34.21791366906475,
-    "debt_asset": 0.0,
+    "debt_asset": 0.010546453448445011,
     "gross_margin": 0.6216453660881529,
     "op_margin": -0.04244368193346263,
     "net_margin": -0.03136240820859648,
@@ -1414,7 +1414,7 @@
           "Net PPE": 40461000.0,
           "Inventory": 21336000.0,
           "Accounts Receivable": 21987000.0,
-          "Total Debt": 1874000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1424,7 +1424,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1538,7 +1538,7 @@
           "Net PPE": 40102000.0,
           "Inventory": 28565000.0,
           "Accounts Receivable": 29062000.0,
-          "Total Debt": 0
+          "Total Debt": 1935000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1548,7 +1548,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1593,13 +1593,13 @@
   },
   "validation": {
     "ticker": "ANIK",
-    "checked_at": "2026-07-30T15:39:09.784021+00:00",
+    "checked_at": "2026-07-31T15:50:18.751988+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
+        "detail": "latest close 2026-05-01 is 91 days old"
       },
       {
         "severity": "info",

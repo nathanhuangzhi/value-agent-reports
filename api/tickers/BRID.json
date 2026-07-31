@@ -947,12 +947,24 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-11-01",
+        "period": "2024-07-12",
         "items": {
-          "Selling And Marketing Expense": 2655000.0
+          "Total Revenue": 49263000.0,
+          "Gross Profit": 11224000.0,
+          "Cost Of Revenue": 38039000.0,
+          "Operating Income": -3384000.0,
+          "Net Income": -1770000.0,
+          "Diluted Average Shares": 9076832.0,
+          "Selling General And Administration": 14445000.0
         },
         "sources": {
-          "Selling And Marketing Expense": "yfinance"
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
         }
       },
       {
@@ -1444,13 +1456,13 @@
   },
   "validation": {
     "ticker": "BRID",
-    "checked_at": "2026-07-30T15:39:09.803444+00:00",
+    "checked_at": "2026-07-31T15:50:18.766309+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
+        "detail": "latest close 2026-05-01 is 91 days old"
       }
     ]
   },

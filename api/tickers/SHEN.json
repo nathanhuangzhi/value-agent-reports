@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 755805450.0,
-    "ttm_pe": null,
+    "ttm_pe": -19.778751995394238,
     "static_pe": -22.942823968673164,
-    "ev_revenue": null,
-    "pb": 0.8717901559245085,
-    "ps": null,
-    "p_fcf": -3.064171386407956,
-    "ttm_pocf": 7.208788688063332,
-    "debt_asset": 0.3567591176889258,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "ev_revenue": 3.950110625798699,
+    "pb": 0.8789069095678991,
+    "ps": 2.0593985607747074,
+    "p_fcf": -3.3244429245034044,
+    "ttm_pocf": 6.976622759244559,
+    "debt_asset": 0.36344855662022496,
+    "gross_margin": 0.6485287586205017,
+    "op_margin": -0.05238104320673128,
+    "net_margin": -0.1041217646722234,
+    "roe": -0.04443692452246557,
+    "roa": -0.01934886386882085,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": -7699000.0,
+    "latest_q_ocf": 24435000.0
   },
   "annual": {
     "income_statement": [
@@ -1083,23 +1083,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 87898000.0,
-          "Gross Profit": 54868000.0,
           "Cost Of Revenue": 33030000.0,
           "Operating Income": -6092000.0,
           "Net Income": -9132000.0,
           "Diluted EPS": -0.19,
           "Diluted Average Shares": 54959000.0,
-          "Selling General And Administration": 30992000.0
+          "Selling General And Administration": 30992000.0,
+          "Gross Profit": 54868000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1197,29 +1197,28 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 93462000.0,
+          "Gross Profit": 60759000.0,
+          "Cost Of Revenue": 32703000.0,
+          "Operating Income": -882000.0,
+          "Net Income": -7699000.0,
           "Diluted EPS": -0.17,
-          "Diluted Average Shares": 55779000.0
+          "Diluted Average Shares": 55779000.0,
+          "Selling General And Administration": 31022000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 2541000.0,
-          "Capital Expenditure": 80861000.0,
-          "Free Cash Flow": -78320000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1310,28 +1309,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 24435000.0,
+          "Capital Expenditure": -70374000.0,
+          "Free Cash Flow": -45939000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 43779000.0,
-          "Total Assets": 1656333000.0,
-          "Common Stock Equity": 933082000.0,
-          "Net PPE": 1337252000.0,
-          "Accounts Receivable": 29639000.0,
-          "Total Debt": 297296000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1378,7 +1371,6 @@
           "Cash And Cash Equivalents": 87547000.0,
           "Total Assets": 1825453000.0,
           "Common Stock Equity": 910473000.0,
-          "Goodwill": 67055000.0,
           "Net PPE": 1483796000.0,
           "Accounts Receivable": 29749000.0,
           "Total Debt": 514547000.0
@@ -1387,7 +1379,6 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Goodwill": "yfinance",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1476,6 +1467,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 23895000.0,
+          "Total Assets": 1974948000.0,
+          "Common Stock Equity": 859938000.0,
+          "Goodwill": 67538000.0,
+          "Net PPE": 1690558000.0,
+          "Accounts Receivable": 20526000.0,
+          "Total Debt": 717792000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "yfinance",
+          "Total Assets": "yfinance",
+          "Common Stock Equity": "yfinance",
+          "Goodwill": "yfinance",
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
+        }
       }
     ]
   },
@@ -1519,7 +1531,7 @@
   },
   "validation": {
     "ticker": "SHEN",
-    "checked_at": "2026-07-30T15:39:09.964649+00:00",
+    "checked_at": "2026-07-31T15:50:18.886231+00:00",
     "status": "warn",
     "issues": [
       {

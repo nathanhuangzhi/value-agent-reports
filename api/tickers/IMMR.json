@@ -1539,13 +1539,18 @@
   },
   "validation": {
     "ticker": "IMMR",
-    "checked_at": "2026-07-30T15:39:09.874866+00:00",
+    "checked_at": "2026-07-31T15:50:18.817973+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
+        "detail": "latest close 2026-05-01 is 91 days old"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2026-01-31 is 181 days old (>180)"
       },
       {
         "severity": "warn",

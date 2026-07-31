@@ -181,8 +181,6 @@
         "period": "2021-07-31",
         "items": {
           "Total Revenue": 19569000.0,
-          "Gross Profit": 18375000.0,
-          "Cost Of Revenue": 1194000.0,
           "Operating Income": 7803000.0,
           "Net Income": 8248000.0,
           "Diluted EPS": 0.59,
@@ -191,8 +189,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -363,13 +359,13 @@
         "period": "2021-07-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 10130000.0,
-          "Capital Expenditure": -653000.0,
-          "Free Cash Flow": 9477000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 10130000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -574,7 +570,7 @@
           "Goodwill": 2262000.0,
           "Net PPE": 1980000.0,
           "Accounts Receivable": 2545000.0,
-          "Total Debt": 86000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -583,7 +579,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1164,13 +1160,13 @@
   },
   "validation": {
     "ticker": "ZDGE",
-    "checked_at": "2026-07-30T15:39:10.011623+00:00",
+    "checked_at": "2026-07-31T15:50:18.921483+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
+        "detail": "latest close 2026-05-01 is 91 days old"
       },
       {
         "severity": "warn",

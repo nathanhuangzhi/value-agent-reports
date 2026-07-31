@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 278279680.0,
-    "ttm_pe": null,
+    "ttm_pe": 17.22560693283813,
     "static_pe": 28.191640158038698,
-    "ev_revenue": null,
-    "pb": 1.1499920655911136,
-    "ps": null,
-    "p_fcf": 14.719898439566252,
-    "ttm_pocf": 8.699774283302592,
-    "debt_asset": 0.03524819825894128,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "ev_revenue": 0.3725103125780932,
+    "pb": 1.1226613414019162,
+    "ps": 0.47631218784125645,
+    "p_fcf": 7.866563392226149,
+    "ttm_pocf": 5.502643359962034,
+    "debt_asset": 0.0,
+    "gross_margin": 0.3211208445873086,
+    "op_margin": 0.025746356792950818,
+    "net_margin": 0.02765140233945755,
+    "roe": 0.06517397881996974,
+    "roa": 0.03602062908451191,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 5863000.0,
+    "latest_q_ocf": 4354000.0
   },
   "annual": {
     "income_statement": [
@@ -1277,29 +1277,32 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 139238000.0,
+          "Gross Profit": 44961000.0,
+          "Cost Of Revenue": 94277000.0,
+          "Operating Income": -142000.0,
+          "Net Income": 5863000.0,
           "Diluted EPS": 0.49,
-          "Diluted Average Shares": 11872000.0
+          "Diluted Average Shares": 11872000.0,
+          "Research And Development": 3263000.0,
+          "Selling General And Administration": 45103000.0,
+          "General And Administrative Expense": 36442000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -14803000.0,
-          "Capital Expenditure": 2399000.0,
-          "Free Cash Flow": -17202000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1390,32 +1393,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 4354000.0,
+          "Capital Expenditure": 4515000.0,
+          "Free Cash Flow": -161000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 17902000.0,
-          "Total Assets": 378251000.0,
-          "Common Stock Equity": 195395000.0,
-          "Goodwill": 35029000.0,
-          "Net PPE": 16746000.0,
-          "Inventory": 51327000.0,
-          "Accounts Receivable": 140006000.0,
-          "Total Debt": 5000000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1576,6 +1569,29 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 60645000.0,
+          "Total Assets": 448493000.0,
+          "Common Stock Equity": 247875000.0,
+          "Goodwill": 34964000.0,
+          "Net PPE": 23213000.0,
+          "Inventory": 58272000.0,
+          "Accounts Receivable": 141272000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1619,7 +1635,7 @@
   },
   "validation": {
     "ticker": "JAKK",
-    "checked_at": "2026-07-30T15:39:09.882162+00:00",
+    "checked_at": "2026-07-31T15:50:18.822885+00:00",
     "status": "info",
     "issues": [
       {

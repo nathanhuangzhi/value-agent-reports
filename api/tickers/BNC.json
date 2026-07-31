@@ -1421,13 +1421,18 @@
   },
   "validation": {
     "ticker": "BNC",
-    "checked_at": "2026-07-30T15:39:09.801505+00:00",
+    "checked_at": "2026-07-31T15:50:18.764983+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "gross_margin_out_of_range",
         "detail": "FY2024 Gross Margin -8% outside expected [0, 100%]"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2026-01-31 is 181 days old (>180)"
       },
       {
         "severity": "warn",

@@ -23,23 +23,23 @@
     "logic_summary": "Develops and sells software-defined network and security solutions via subscription model to enterprises and government clients globally."
   },
   "snapshot": {
-    "market_cap": 57647297.519999996,
-    "ttm_pe": 11.599144846408251,
-    "static_pe": 11.599144846408251,
-    "ev_revenue": 2.970425458918944,
-    "pb": 2.286173199717794,
-    "ps": 3.001166970892886,
-    "p_fcf": -67.94825261669024,
-    "ttm_pocf": -73.86957279217009,
-    "debt_asset": 0.13394755225684193,
-    "gross_margin": 0.9100188699735645,
-    "op_margin": 0.1868656321066306,
-    "net_margin": 0.25874036496942415,
-    "roe": 0.1970984266504545,
-    "roa": 0.1439605038796212,
+    "market_cap": 58343910.48,
+    "ttm_pe": null,
+    "static_pe": 11.739309519732648,
+    "ev_revenue": 2.680615120960205,
+    "pb": 2.2003193711294755,
+    "ps": 2.8735309284532353,
+    "p_fcf": -59.75447460758669,
+    "ttm_pocf": -61.36064524271273,
+    "debt_asset": 0.011032605064946011,
+    "gross_margin": 0.9068400080004299,
+    "op_margin": 0.17179736177895596,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": 3961491.0,
-    "latest_q_ocf": -912525.0
+    "latest_q_ni": null,
+    "latest_q_ocf": -679047.0
   },
   "annual": {
     "income_statement": [
@@ -324,31 +324,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 3750319.0,
-          "Gross Profit": 3466639.0,
-          "Cost Of Revenue": 283680.0,
-          "Operating Income": 859843.0,
-          "Net Income": 625493.0,
-          "Diluted EPS": 0.05,
-          "Diluted Average Shares": 12449308.0,
-          "Selling And Marketing Expense": 1014935.0,
-          "General And Administrative Expense": 581122.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 5595576.0,
@@ -446,7 +421,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Research And Development": "yfinance",
+          "Research And Development": "sec",
           "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
@@ -534,22 +509,34 @@
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 5031538.0,
+          "Gross Profit": 4641476.0,
+          "Cost Of Revenue": 390062.0,
+          "Operating Income": 901465.0,
+          "Diluted EPS": 0.09,
+          "Diluted Average Shares": 14092732.0,
+          "Research And Development": 527045.0,
+          "Selling And Marketing Expense": 1355250.0,
+          "General And Administrative Expense": 1163706.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -252465.0,
-          "Capital Expenditure": 1955.0,
-          "Free Cash Flow": -254420.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -640,20 +627,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -679047.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -679047.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 767843.0,
-          "Common Stock Equity": 14571943.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -769,7 +758,7 @@
           "Net PPE": 95506.0,
           "Inventory": 445842.0,
           "Accounts Receivable": 4295370.0,
-          "Total Debt": 4624283.0
+          "Total Debt": 4232886.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -779,6 +768,27 @@
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 4308342.0,
+          "Total Assets": 35476390.0,
+          "Common Stock Equity": 26516110.0,
+          "Net PPE": 90063.0,
+          "Inventory": 769903.0,
+          "Accounts Receivable": 4049414.0,
+          "Total Debt": 391397.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -823,18 +833,13 @@
   },
   "validation": {
     "ticker": "FATN",
-    "checked_at": "2026-07-30T15:39:09.846742+00:00",
+    "checked_at": "2026-07-31T15:50:18.798605+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
-      },
-      {
-        "severity": "warn",
-        "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-12-31 is 211 days old (>180)"
+        "detail": "latest close 2026-05-01 is 91 days old"
       }
     ]
   },

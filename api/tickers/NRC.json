@@ -23,23 +23,23 @@
     "logic_summary": "Provides subscription-based analytics and insights to healthcare organizations to improve patient and employee experience."
   },
   "snapshot": {
-    "market_cap": 407982820.0,
-    "ttm_pe": 45.150821159805226,
-    "static_pe": 35.17093275862069,
-    "ev_revenue": 3.4871419400907366,
-    "pb": 30.23214672100778,
-    "ps": 2.942686035356996,
-    "p_fcf": 23.40693172690763,
-    "ttm_pocf": 15.11943447969167,
+    "market_cap": 409807580.0,
+    "ttm_pe": null,
+    "static_pe": 35.32823965517241,
+    "ev_revenue": null,
+    "pb": 30.367364208966283,
+    "ps": null,
+    "p_fcf": 23.51162248995984,
+    "ttm_pocf": 15.187058256744738,
     "debt_asset": 0.5799091848185555,
-    "gross_margin": 0.6180189407326732,
-    "op_margin": 0.14111062224562365,
-    "net_margin": 0.06517458508543525,
-    "roe": 0.6695813264171916,
-    "roa": 0.0671526988161327,
+    "gross_margin": null,
+    "op_margin": null,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": 3222000.0,
-    "latest_q_ocf": 7180000.0
+    "latest_q_ni": null,
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -940,23 +940,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 35313000.0,
-          "Operating Income": 8760000.0,
-          "Diluted EPS": 0.27,
-          "Diluted Average Shares": 23963000.0,
-          "Selling General And Administration": 11250000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 35021000.0,
@@ -1103,6 +1086,17 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Diluted EPS": -0.15,
+          "Diluted Average Shares": 22009000.0
+        },
+        "sources": {
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -1423,7 +1417,7 @@
   },
   "validation": {
     "ticker": "NRC",
-    "checked_at": "2026-07-30T15:39:09.920927+00:00",
+    "checked_at": "2026-07-31T15:50:18.852768+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1434,7 +1428,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 90 days old"
+        "detail": "latest close 2026-05-01 is 91 days old"
       },
       {
         "severity": "info",
