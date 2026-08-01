@@ -1364,7 +1364,7 @@
           "Goodwill": 2139500000.0,
           "Net PPE": 79700000.0,
           "Accounts Receivable": 705300000.0,
-          "Total Debt": 1302400000.0
+          "Total Debt": 19800000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1478,7 +1478,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1523,13 +1523,13 @@
   },
   "validation": {
     "ticker": "EFOR",
-    "checked_at": "2026-07-31T15:50:18.792596+00:00",
+    "checked_at": "2026-08-01T14:55:29.597690+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 91 days old"
+        "detail": "latest close 2026-05-01 is 92 days old"
       },
       {
         "severity": "warn",

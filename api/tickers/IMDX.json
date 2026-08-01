@@ -1288,9 +1288,14 @@
   },
   "validation": {
     "ticker": "IMDX",
-    "checked_at": "2026-07-31T15:50:18.817723+00:00",
+    "checked_at": "2026-08-01T14:55:29.632903+00:00",
     "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
+      },
       {
         "severity": "warn",
         "rule": "gross_margin_out_of_range",

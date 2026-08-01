@@ -1450,9 +1450,15 @@
   },
   "validation": {
     "ticker": "STRT",
-    "checked_at": "2026-07-31T15:50:18.895392+00:00",
-    "status": "ok",
-    "issues": []
+    "checked_at": "2026-08-01T14:55:29.735001+00:00",
+    "status": "warn",
+    "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
+      }
+    ]
   },
   "analyzed_date": "2026-06-19"
 }

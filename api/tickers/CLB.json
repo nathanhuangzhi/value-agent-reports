@@ -26,13 +26,13 @@
     "market_cap": 562020342.0,
     "ttm_pe": 23.077126632175414,
     "static_pe": 18.943016009976745,
-    "ev_revenue": 1.2580296350797986,
+    "ev_revenue": 1.2810273507170895,
     "pb": 2.0160790547012044,
     "ps": 1.0825112234245409,
     "p_fcf": 37.12891206976283,
     "ttm_pocf": 19.914263411522924,
-    "debt_asset": 0.19404442566013042,
-    "gross_margin": 0.17391781687346633,
+    "debt_asset": 0.21439283681392282,
+    "gross_margin": 0.1665504582208166,
     "op_margin": 0.09253017246360622,
     "net_margin": 0.04690840591545932,
     "roe": 0.08736265510153568,
@@ -403,25 +403,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 123585000.0,
-          "Gross Profit": 20399000.0,
           "Cost Of Revenue": 99469000.0,
           "Operating Income": 4417000.0,
           "Net Income": -154000.0,
           "Diluted EPS": 0.0,
           "Diluted Average Shares": 46773000.0,
-          "Selling General And Administration": 13647000.0,
-          "General And Administrative Expense": 13647000.0
+          "General And Administrative Expense": 13647000.0,
+          "Gross Profit": 24116000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -528,23 +526,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 124609000.0,
+          "Gross Profit": 19413000.0,
           "Cost Of Revenue": 101371000.0,
           "Operating Income": 9151000.0,
           "Net Income": 5956000.0,
           "Diluted EPS": 0.13,
           "Diluted Average Shares": 46878000.0,
-          "General And Administrative Expense": 10953000.0,
-          "Gross Profit": 23238000.0
+          "Selling General And Administration": 10953000.0,
+          "General And Administrative Expense": 10953000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -711,7 +711,7 @@
           "Net PPE": 97943000.0,
           "Inventory": 59031000.0,
           "Accounts Receivable": 117031000.0,
-          "Total Debt": 136021000.0
+          "Total Debt": 124367000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -721,7 +721,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -826,7 +826,7 @@
           "Net PPE": 100390000.0,
           "Inventory": 57961000.0,
           "Accounts Receivable": 108817000.0,
-          "Total Debt": 113861000.0
+          "Total Debt": 125801000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -836,7 +836,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -881,7 +881,7 @@
   },
   "validation": {
     "ticker": "CLB",
-    "checked_at": "2026-07-31T15:50:18.773516+00:00",
+    "checked_at": "2026-08-01T14:55:29.573018+00:00",
     "status": "ok",
     "issues": []
   },

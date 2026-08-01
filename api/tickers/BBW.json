@@ -1493,13 +1493,18 @@
   },
   "validation": {
     "ticker": "BBW",
-    "checked_at": "2026-07-31T15:50:18.760681+00:00",
+    "checked_at": "2026-08-01T14:55:29.555300+00:00",
     "status": "error",
     "issues": [
       {
         "severity": "error",
         "rule": "missing_operating_income",
         "detail": "no annual Operating Income — margins won't compute"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
       },
       {
         "severity": "warn",

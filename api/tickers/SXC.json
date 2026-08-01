@@ -26,13 +26,13 @@
     "market_cap": 717717000.0,
     "ttm_pe": -13.120968921389396,
     "static_pe": -16.23794117647059,
-    "ev_revenue": 0.700314607925801,
+    "ev_revenue": 0.7025806281618887,
     "pb": 1.1698728606356967,
     "ps": 0.3782235455311973,
     "p_fcf": 24.663814432989692,
     "ttm_pocf": 6.448490566037735,
-    "debt_asset": 0.37511473152822394,
-    "gross_margin": null,
+    "debt_asset": 0.377581459385039,
+    "gross_margin": 0.17474704890387857,
     "op_margin": 0.02071037099494098,
     "net_margin": -0.028825885328836426,
     "roe": -0.08916055419722901,
@@ -1033,8 +1033,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 436000000.0,
-          "Gross Profit": 73700000.0,
-          "Cost Of Revenue": 362300000.0,
           "Operating Income": 30200000.0,
           "Net Income": 17300000.0,
           "Diluted EPS": 0.2,
@@ -1043,8 +1041,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1148,6 +1144,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 475300000.0,
+          "Gross Profit": 100400000.0,
+          "Cost Of Revenue": 374900000.0,
           "Operating Income": 29000000.0,
           "Net Income": 13100000.0,
           "Diluted EPS": 0.15,
@@ -1156,6 +1154,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1324,7 +1324,7 @@
           "Net PPE": 1122600000.0,
           "Inventory": 209700000.0,
           "Accounts Receivable": 80700000.0,
-          "Total Debt": 495700000.0
+          "Total Debt": 492900000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1333,7 +1333,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1435,18 +1435,20 @@
           "Total Assets": 1743200000.0,
           "Common Stock Equity": 613500000.0,
           "Goodwill": 55300000.0,
+          "Net PPE": 1148800000.0,
           "Inventory": 186100000.0,
           "Accounts Receivable": 209300000.0,
-          "Total Debt": 653900000.0
+          "Total Debt": 658200000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1491,7 +1493,7 @@
   },
   "validation": {
     "ticker": "SXC",
-    "checked_at": "2026-07-31T15:50:18.896932+00:00",
+    "checked_at": "2026-08-01T14:55:29.737020+00:00",
     "status": "warn",
     "issues": [
       {

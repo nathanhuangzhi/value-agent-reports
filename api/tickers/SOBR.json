@@ -1363,9 +1363,14 @@
   },
   "validation": {
     "ticker": "SOBR",
-    "checked_at": "2026-07-31T15:50:18.891313+00:00",
-    "status": "info",
+    "checked_at": "2026-08-01T14:55:29.729479+00:00",
+    "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
+      },
       {
         "severity": "info",
         "rule": "eps_mismatch",

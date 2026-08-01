@@ -1503,9 +1503,15 @@
   },
   "validation": {
     "ticker": "CULP",
-    "checked_at": "2026-07-31T15:50:18.782148+00:00",
-    "status": "ok",
-    "issues": []
+    "checked_at": "2026-08-01T14:55:29.584287+00:00",
+    "status": "warn",
+    "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_filings",
+        "detail": "latest quarterly period 2026-02-01 is 181 days old (>180)"
+      }
+    ]
   },
   "analyzed_date": "2026-07-22"
 }

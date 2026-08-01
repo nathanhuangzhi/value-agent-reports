@@ -1607,9 +1607,14 @@
   },
   "validation": {
     "ticker": "FCEL",
-    "checked_at": "2026-07-31T15:50:18.799160+00:00",
+    "checked_at": "2026-08-01T14:55:29.606306+00:00",
     "status": "warn",
     "issues": [
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
+      },
       {
         "severity": "warn",
         "rule": "gross_margin_out_of_range",

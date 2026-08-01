@@ -26,13 +26,13 @@
     "market_cap": 719715820.0,
     "ttm_pe": 31.737699872117123,
     "static_pe": 56.710725711133875,
-    "ev_revenue": 1.0608356577702878,
+    "ev_revenue": 1.0848570202216519,
     "pb": 1.5752703530874357,
     "ps": 0.911266844518275,
     "p_fcf": 10.792607443841286,
     "ttm_pocf": 5.683567372918164,
-    "debt_asset": 0.14918328166002867,
-    "gross_margin": null,
+    "debt_asset": 0.1681638418926936,
+    "gross_margin": 0.3937302876561952,
     "op_margin": 0.04830355141890891,
     "net_margin": 0.028712441298207006,
     "roe": 0.04963404277672232,
@@ -1006,26 +1006,16 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 148766000.0,
-          "Gross Profit": 47253000.0,
-          "Cost Of Revenue": 101513000.0,
           "Operating Income": -20412000.0,
           "Net Income": -16816000.0,
-          "Diluted EPS": -0.54,
           "Diluted Average Shares": 31596000.0,
-          "Selling General And Administration": 36177000.0,
-          "Selling And Marketing Expense": 5244000.0,
           "General And Administrative Expense": 24716000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
-          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -1141,16 +1131,26 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 231744000.0,
+          "Gross Profit": 95523000.0,
+          "Cost Of Revenue": 136221000.0,
           "Operating Income": 27067000.0,
           "Net Income": 15844000.0,
+          "Diluted EPS": 0.51,
           "Diluted Average Shares": 31049000.0,
+          "Selling General And Administration": 36823000.0,
+          "Selling And Marketing Expense": 6774000.0,
           "General And Administrative Expense": 23691000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1307,8 +1307,6 @@
           "Total Assets": 1017957000.0,
           "Common Stock Equity": 441791000.0,
           "Goodwill": 74996000.0,
-          "Net PPE": 849563000.0,
-          "Accounts Receivable": 18253000.0,
           "Total Debt": 198902000.0
         },
         "sources": {
@@ -1316,8 +1314,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -1414,14 +1410,18 @@
           "Total Assets": 999549000.0,
           "Common Stock Equity": 456884000.0,
           "Goodwill": 74996000.0,
-          "Total Debt": 149116000.0
+          "Net PPE": 820947000.0,
+          "Accounts Receivable": 19780000.0,
+          "Total Debt": 168088000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Total Debt": "sec"
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1466,7 +1466,7 @@
   },
   "validation": {
     "ticker": "MCS",
-    "checked_at": "2026-07-31T15:50:18.837920+00:00",
+    "checked_at": "2026-08-01T14:55:29.659615+00:00",
     "status": "warn",
     "issues": [
       {

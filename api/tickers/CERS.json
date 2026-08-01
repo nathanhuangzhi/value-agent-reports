@@ -32,7 +32,7 @@
     "p_fcf": -286.20811919081467,
     "ttm_pocf": 216.58032685146875,
     "debt_asset": 0.31637481906748477,
-    "gross_margin": null,
+    "gross_margin": 0.520489638954462,
     "op_margin": -0.007298545255945583,
     "net_margin": -0.030615975554161345,
     "roe": -0.09592024322986636,
@@ -1121,8 +1121,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 43239000.0,
-          "Gross Profit": 25424000.0,
-          "Cost Of Revenue": 17815000.0,
           "Operating Income": -5853000.0,
           "Net Income": -7717000.0,
           "Diluted EPS": -0.04,
@@ -1132,8 +1130,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1246,6 +1242,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 57441000.0,
+          "Gross Profit": 29532000.0,
+          "Cost Of Revenue": 27909000.0,
           "Operating Income": -1858000.0,
           "Net Income": -2940000.0,
           "Diluted EPS": -0.01,
@@ -1255,6 +1253,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1597,13 +1597,13 @@
   },
   "validation": {
     "ticker": "CERS",
-    "checked_at": "2026-07-31T15:50:18.771591+00:00",
+    "checked_at": "2026-08-01T14:55:29.570314+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 91 days old"
+        "detail": "latest close 2026-05-01 is 92 days old"
       },
       {
         "severity": "warn",

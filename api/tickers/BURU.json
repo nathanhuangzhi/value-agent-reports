@@ -912,13 +912,18 @@
   },
   "validation": {
     "ticker": "BURU",
-    "checked_at": "2026-07-31T15:50:18.767387+00:00",
+    "checked_at": "2026-08-01T14:55:29.564378+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "info",
         "rule": "zero_annual_revenue",
         "detail": "FY2025 reported revenue is 0 — pre-revenue stage"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
       },
       {
         "severity": "warn",

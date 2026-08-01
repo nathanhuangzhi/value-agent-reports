@@ -26,13 +26,13 @@
     "market_cap": 468136595.0,
     "ttm_pe": -4.321473626393915,
     "static_pe": -4.280027748064035,
-    "ev_revenue": 0.6953821248137582,
+    "ev_revenue": 0.7229164846840317,
     "pb": 0.8052217411795465,
     "ps": 0.725044519922065,
     "p_fcf": 8.69479755205141,
     "ttm_pocf": 6.440090176225392,
-    "debt_asset": 0.0007742786998312073,
-    "gross_margin": 0.14977403177494247,
+    "debt_asset": 0.021951396739214594,
+    "gross_margin": 0.13728924862080394,
     "op_margin": 0.009394950330356562,
     "net_margin": -0.16777714793716875,
     "roe": -0.18633036107441656,
@@ -1168,23 +1168,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 159938000.0,
-          "Gross Profit": 25236000.0,
           "Cost Of Revenue": 122677000.0,
           "Operating Income": 5639000.0,
           "Net Income": 3158000.0,
           "Diluted EPS": 0.05,
           "Diluted Average Shares": 60167000.0,
-          "Selling General And Administration": 22530000.0
+          "Selling General And Administration": 22530000.0,
+          "Gross Profit": 37261000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1283,23 +1283,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 156659000.0,
+          "Gross Profit": 30647000.0,
           "Cost Of Revenue": 117951000.0,
           "Operating Income": 11712000.0,
           "Net Income": 5910000.0,
           "Diluted EPS": 0.1,
           "Diluted Average Shares": 58627000.0,
-          "Selling General And Administration": 23127000.0,
-          "Gross Profit": 38708000.0
+          "Selling General And Administration": 23127000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1466,7 +1466,7 @@
           "Net PPE": 268021000.0,
           "Inventory": 215702000.0,
           "Accounts Receivable": 183539000.0,
-          "Total Debt": 125348000.0
+          "Total Debt": 620000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1476,7 +1476,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1581,7 +1581,7 @@
           "Net PPE": 232247000.0,
           "Inventory": 209621000.0,
           "Accounts Receivable": 196926000.0,
-          "Total Debt": 650000.0
+          "Total Debt": 18428000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1591,7 +1591,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1636,7 +1636,7 @@
   },
   "validation": {
     "ticker": "OIS",
-    "checked_at": "2026-07-31T15:50:18.857940+00:00",
+    "checked_at": "2026-08-01T14:55:29.684627+00:00",
     "status": "warn",
     "issues": [
       {

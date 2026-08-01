@@ -1164,7 +1164,7 @@
   },
   "validation": {
     "ticker": "NAVI",
-    "checked_at": "2026-07-31T15:50:18.848273+00:00",
+    "checked_at": "2026-08-01T14:55:29.672628+00:00",
     "status": "error",
     "issues": [
       {
@@ -1179,6 +1179,11 @@
       },
       {
         "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
+      },
+      {
+        "severity": "warn",
         "rule": "ni_exceeds_revenue",
         "detail": "FY2019 |Net Income| 597M > 1.5× Revenue 391M — heavy cash burn"
       },
@@ -1190,7 +1195,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2024-09-30 is 669 days old (>180)"
+        "detail": "latest quarterly period 2024-09-30 is 670 days old (>180)"
       }
     ]
   },

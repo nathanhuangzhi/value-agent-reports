@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 399046200.0,
-    "ttm_pe": null,
+    "ttm_pe": 8.52316794463786,
     "static_pe": 8.985098621994055,
-    "ev_revenue": null,
-    "pb": 1.0617194671264258,
-    "ps": null,
-    "p_fcf": 1.239982474457454,
-    "ttm_pocf": 1.2225155783759276,
-    "debt_asset": 0.7788445302134845,
+    "ev_revenue": 3.0112361250248902,
+    "pb": 1.054754170290037,
+    "ps": 0.6159650777430812,
+    "p_fcf": 1.2336458826038972,
+    "ttm_pocf": 1.2147155337737054,
+    "debt_asset": 0.7843396440823932,
     "gross_margin": null,
     "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "net_margin": 0.07226949905763623,
+    "roe": 0.12375142401759306,
+    "roa": 0.021984941730677304,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 8153000.0,
+    "latest_q_ocf": 80754000.0
   },
   "annual": {
     "income_statement": [
@@ -986,29 +986,22 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 168006000.0,
+          "Net Income": 8153000.0,
           "Diluted EPS": 0.85,
-          "Diluted Average Shares": 9604000.0
+          "Diluted Average Shares": 9604000.0,
+          "General And Administrative Expense": 65444000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 71495000.0,
-          "Capital Expenditure": 1209000.0,
-          "Free Cash Flow": 70286000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1099,26 +1092,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 80754000.0,
+          "Capital Expenditure": 1461000.0,
+          "Free Cash Flow": 79293000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 143214000.0,
-          "Total Assets": 1789052000.0,
-          "Common Stock Equity": 344903000.0,
-          "Net PPE": 13411000.0,
-          "Total Debt": 1372833000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1241,6 +1230,23 @@
           "Net PPE": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 118575000.0,
+          "Total Assets": 2129594000.0,
+          "Common Stock Equity": 378331000.0,
+          "Net PPE": 13044000.0,
+          "Total Debt": 1670325000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1284,7 +1290,7 @@
   },
   "validation": {
     "ticker": "RM",
-    "checked_at": "2026-07-31T15:50:18.877558+00:00",
+    "checked_at": "2026-08-01T14:55:29.709979+00:00",
     "status": "error",
     "issues": [
       {
@@ -1296,6 +1302,11 @@
         "severity": "warn",
         "rule": "no_gross_profit_source",
         "detail": "neither Gross Profit nor Cost of Revenue fetched — Gross Margin will show n/a"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
       }
     ]
   },

@@ -646,7 +646,7 @@
   },
   "validation": {
     "ticker": "SSYS",
-    "checked_at": "2026-07-31T15:50:18.893986+00:00",
+    "checked_at": "2026-08-01T14:55:29.733139+00:00",
     "status": "error",
     "issues": [
       {
@@ -688,6 +688,11 @@
         "severity": "warn",
         "rule": "no_gross_profit_source",
         "detail": "neither Gross Profit nor Cost of Revenue fetched — Gross Margin will show n/a"
+      },
+      {
+        "severity": "warn",
+        "rule": "stale_price",
+        "detail": "latest close 2026-06-01 is 61 days old"
       }
     ]
   },

@@ -29,10 +29,10 @@
     "ev_revenue": 7.0166715680044245,
     "pb": 2.0085717948078265,
     "ps": 5.077353334368224,
-    "p_fcf": -135.5940787278145,
+    "p_fcf": -25.813907505055987,
     "ttm_pocf": 17.848445519346534,
     "debt_asset": 0.28328352588933337,
-    "gross_margin": null,
+    "gross_margin": 0.5365938847681927,
     "op_margin": 0.29222231385313935,
     "net_margin": 0.23255926768571025,
     "roe": 0.09199910956222701,
@@ -885,8 +885,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 44301000.0,
-          "Gross Profit": 23192000.0,
-          "Cost Of Revenue": 21109000.0,
           "Operating Income": 11557000.0,
           "Net Income": 9479000.0,
           "Diluted EPS": 0.53,
@@ -894,8 +892,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -990,6 +986,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 56357000.0,
+          "Gross Profit": 30958000.0,
+          "Cost Of Revenue": 25399000.0,
           "Operating Income": 18229000.0,
           "Net Income": 14772000.0,
           "Diluted EPS": 0.79,
@@ -997,6 +995,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1035,13 +1035,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 13782000.0,
-          "Capital Expenditure": -18911000.0,
-          "Free Cash Flow": -5129000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 13782000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1100,13 +1100,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 16400000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 16400000.0
+          "Capital Expenditure": -32827000.0,
+          "Free Cash Flow": -16427000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1134,8 +1134,6 @@
           "Cash And Cash Equivalents": 2657000.0,
           "Total Assets": 1278961000.0,
           "Common Stock Equity": 449048000.0,
-          "Net PPE": 1074407000.0,
-          "Inventory": 7031000.0,
           "Accounts Receivable": 20121000.0,
           "Total Debt": 709085000.0
         },
@@ -1143,8 +1141,6 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1248,6 +1244,8 @@
           "Cash And Cash Equivalents": 3476000.0,
           "Total Assets": 1423482000.0,
           "Common Stock Equity": 521092000.0,
+          "Net PPE": 1198633000.0,
+          "Inventory": 8979000.0,
           "Accounts Receivable": 20957000.0,
           "Total Debt": 403249000.0
         },
@@ -1255,6 +1253,8 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1301,7 +1301,7 @@
   },
   "validation": {
     "ticker": "MSEX",
-    "checked_at": "2026-07-31T15:50:18.844401+00:00",
+    "checked_at": "2026-08-01T14:55:29.667743+00:00",
     "status": "warn",
     "issues": [
       {

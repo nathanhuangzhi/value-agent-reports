@@ -620,15 +620,11 @@
         "period": "2024-12-31",
         "items": {
           "Cash And Cash Equivalents": 393711.0,
-          "Total Assets": 556943.0,
-          "Common Stock Equity": -206119.0,
-          "Total Debt": 0
+          "Common Stock Equity": -206119.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "sec",
-          "Total Debt": "yfinance"
+          "Common Stock Equity": "sec"
         }
       },
       {
@@ -760,7 +756,7 @@
   },
   "validation": {
     "ticker": "ATHR",
-    "checked_at": "2026-07-31T15:50:18.757016+00:00",
+    "checked_at": "2026-08-01T14:55:29.550493+00:00",
     "status": "error",
     "issues": [
       {
@@ -771,7 +767,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 91 days old"
+        "detail": "latest close 2026-05-01 is 92 days old"
       }
     ]
   },
