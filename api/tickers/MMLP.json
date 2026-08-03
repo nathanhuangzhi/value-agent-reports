@@ -27,15 +27,15 @@
     "ttm_pe": -6.139687362822675,
     "static_pe": -6.419918600203459,
     "ev_revenue": 0.7368762158007331,
-    "pb": -1.0210626774099603,
+    "pb": -1.0493132892155232,
     "ps": 0.12720474376753638,
     "p_fcf": -8.683762935510504,
     "ttm_pocf": 4.8166539337505725,
     "debt_asset": 0.8288649021889437,
-    "gross_margin": 0.48231447737607636,
+    "gross_margin": 0.46477542705410607,
     "op_margin": 0.06300862170907645,
     "net_margin": -0.02071843992216811,
-    "roe": 0.16630532095050102,
+    "roe": 0.17090663208185072,
     "roa": -0.028164177168712883,
     "dividend_rate": 0.0,
     "latest_q_ni": 2647000.0,
@@ -987,23 +987,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 192543000.0,
-          "Gross Profit": 90151000.0,
           "Cost Of Revenue": 89576000.0,
           "Operating Income": 14402000.0,
           "Net Income": -1033000.0,
           "Diluted EPS": -0.03,
           "Diluted Average Shares": 38919878.0,
-          "Selling General And Administration": 11774000.0
+          "Selling General And Administration": 11774000.0,
+          "Gross Profit": 102967000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1098,23 +1098,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 213600000.0,
+          "Gross Profit": 92959000.0,
           "Cost Of Revenue": 107589000.0,
           "Operating Income": 19258000.0,
           "Net Income": 2647000.0,
           "Diluted EPS": 0.07,
           "Diluted Average Shares": 38955432.0,
-          "Selling General And Administration": 9407000.0,
-          "Gross Profit": 106011000.0
+          "Selling General And Administration": 9407000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1264,21 +1264,15 @@
         "items": {
           "Cash And Cash Equivalents": 52000.0,
           "Total Assets": 533410000.0,
-          "Common Stock Equity": -71628000.0,
           "Goodwill": 16671000.0,
-          "Net PPE": 368597000.0,
           "Inventory": 44418000.0,
-          "Accounts Receivable": 64405000.0,
           "Total Debt": 451449000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
-          "Common Stock Equity": "yfinance",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -1379,15 +1373,21 @@
         "items": {
           "Cash And Cash Equivalents": 50000.0,
           "Total Assets": 547433000.0,
+          "Common Stock Equity": -90213000.0,
           "Goodwill": 16671000.0,
+          "Net PPE": 351183000.0,
           "Inventory": 60359000.0,
+          "Accounts Receivable": 72239000.0,
           "Total Debt": 453748000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
+          "Common Stock Equity": "yfinance",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -1433,7 +1433,7 @@
   },
   "validation": {
     "ticker": "MMLP",
-    "checked_at": "2026-08-02T15:03:49.837470+00:00",
+    "checked_at": "2026-08-03T16:10:20.140837+00:00",
     "status": "error",
     "issues": [
       {

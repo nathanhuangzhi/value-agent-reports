@@ -23,23 +23,23 @@
     "logic_summary": "Investment manager providing fixed income portfolio management to individuals and institutions globally."
   },
   "snapshot": {
-    "market_cap": 67393911.83999999,
-    "ttm_pe": 4.321784778761061,
-    "static_pe": 4.670079124107823,
-    "ev_revenue": 0.32736265313757273,
-    "pb": 0.6729566017614282,
-    "ps": 0.2211623289118749,
-    "p_fcf": 61.88605311294765,
-    "ttm_pocf": 26.807443054892598,
-    "debt_asset": 0.0750639126373811,
-    "gross_margin": 0.3529958060684024,
-    "op_margin": 0.2114456921956118,
-    "net_margin": 0.05117384141819208,
-    "roe": 0.15571265951710503,
-    "roa": 0.022793680213173677,
+    "market_cap": 68962596.47999999,
+    "ttm_pe": 3.8830290810810806,
+    "static_pe": 4.778781545284456,
+    "ev_revenue": 0.18346131436460922,
+    "pb": 0.6309420451779946,
+    "ps": 0.21938715310076282,
+    "p_fcf": -8.490839261265696,
+    "ttm_pocf": -9.974341405843216,
+    "debt_asset": 0.03598277324730785,
+    "gross_margin": null,
+    "op_margin": 0.22061003620260736,
+    "net_margin": 0.05649897245675093,
+    "roe": 0.16248707697093348,
+    "roa": 0.022189376835839842,
     "dividend_rate": 0.0,
-    "latest_q_ni": 1492000.0,
-    "latest_q_ocf": -31208000.0
+    "latest_q_ni": 3574000.0,
+    "latest_q_ocf": 3922000.0
   },
   "annual": {
     "income_statement": [
@@ -930,23 +930,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 10798000.0,
-          "Operating Income": -6367000.0,
-          "Net Income": -2349000.0,
-          "Diluted EPS": -1.47,
-          "Diluted Average Shares": 5682360.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 31695000.0,
@@ -1096,22 +1079,26 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 69487000.0,
+          "Operating Income": 12409000.0,
+          "Net Income": 3574000.0,
+          "Diluted EPS": 0.94,
+          "Diluted Average Shares": 6246612.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -4207000.0,
-          "Capital Expenditure": 375000.0,
-          "Free Cash Flow": -4582000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1202,26 +1189,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 3922000.0,
+          "Capital Expenditure": 196000.0,
+          "Free Cash Flow": 3726000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 9575000.0,
-          "Total Assets": 826013000.0,
-          "Common Stock Equity": 95618000.0,
-          "Goodwill": 109000.0,
-          "Total Debt": 29689000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1263,7 +1246,7 @@
         "items": {
           "Cash And Cash Equivalents": 13985000.0,
           "Total Assets": 978050000.0,
-          "Common Stock Equity": 85660000.0,
+          "Common Stock Equity": 85650000.0,
           "Goodwill": 109000.0,
           "Net PPE": 1960000.0,
           "Accounts Receivable": 47371000.0,
@@ -1362,6 +1345,25 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 40093000.0,
+          "Total Assets": 800383000.0,
+          "Common Stock Equity": 109301000.0,
+          "Goodwill": 109000.0,
+          "Net PPE": 2608000.0,
+          "Total Debt": 28800000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1405,7 +1407,7 @@
   },
   "validation": {
     "ticker": "COHN",
-    "checked_at": "2026-08-02T15:03:49.751825+00:00",
+    "checked_at": "2026-08-03T16:10:20.055798+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1416,7 +1418,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 93 days old"
+        "detail": "latest close 2026-05-01 is 94 days old"
       },
       {
         "severity": "warn",
