@@ -23,23 +23,23 @@
     "logic_summary": "Katapult provides a lease-to-own platform for nonprime consumers, integrating with retailers to enable purchases of durable goods."
   },
   "snapshot": {
-    "market_cap": 36603050.0,
-    "ttm_pe": 2.873306381976607,
-    "static_pe": 26.815421245421245,
-    "ev_revenue": 0.2680334698630687,
-    "pb": -1.1464606759169356,
-    "ps": 0.12248541005769051,
-    "p_fcf": -11.521262197041233,
-    "ttm_pocf": -11.586910414688193,
-    "debt_asset": 0.6886123905037549,
-    "gross_margin": 0.18556331901109638,
-    "op_margin": 0.017303805431741825,
-    "net_margin": 0.042628732816661984,
-    "roe": -0.39900397782441194,
-    "roa": 0.12249156241886941,
+    "market_cap": 36844610.0,
+    "ttm_pe": 2.2763258371432102,
+    "static_pe": 26.99238827838828,
+    "ev_revenue": 0.04228089131652475,
+    "pb": -1.0224673234355488,
+    "ps": 0.12211888197646092,
+    "p_fcf": -13.966872630780895,
+    "ttm_pocf": -14.14923579109063,
+    "debt_asset": 0.0,
+    "gross_margin": 0.1849219948891489,
+    "op_margin": 0.015418728518350341,
+    "net_margin": 0.05364736453095843,
+    "roe": -0.4491744137643957,
+    "roa": 0.15869872146835046,
     "dividend_rate": 0.0,
-    "latest_q_ni": 5686000.0,
-    "latest_q_ocf": 12212000.0
+    "latest_q_ni": -4388000.0,
+    "latest_q_ocf": -6079000.0
   },
   "annual": {
     "income_statement": [
@@ -446,27 +446,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 65061000.0,
-          "Gross Profit": 16488000.0,
-          "Cost Of Revenue": 48573000.0,
-          "Operating Income": 3800000.0,
-          "Net Income": -570000.0,
-          "Diluted EPS": -0.13,
-          "Diluted Average Shares": 4242000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 58863000.0,
@@ -612,22 +591,30 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 74761000.0,
+          "Gross Profit": 11508000.0,
+          "Cost Of Revenue": 63253000.0,
+          "Operating Income": -1929000.0,
+          "Net Income": -4388000.0,
+          "Diluted EPS": -1.41,
+          "Diluted Average Shares": 5491000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -628000.0,
-          "Capital Expenditure": 25000.0,
-          "Free Cash Flow": -653000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -718,24 +705,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -6079000.0,
+          "Capital Expenditure": 16000.0,
+          "Free Cash Flow": -6095000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 38374000.0,
-          "Total Assets": 106631000.0,
-          "Common Stock Equity": -32946000.0,
-          "Total Debt": 27605000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -852,6 +837,21 @@
           "Net PPE": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 24088000.0,
+          "Total Assets": 101992000.0,
+          "Common Stock Equity": -36035000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -895,13 +895,13 @@
   },
   "validation": {
     "ticker": "KPLT",
-    "checked_at": "2026-08-03T16:10:20.122112+00:00",
+    "checked_at": "2026-08-04T15:49:49.175788+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 94 days old"
+        "detail": "latest close 2026-05-01 is 95 days old"
       },
       {
         "severity": "info",

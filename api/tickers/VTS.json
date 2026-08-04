@@ -23,23 +23,23 @@
     "logic_summary": "Oil and gas exploration and production company focused on non-operated interests in US basins."
   },
   "snapshot": {
-    "market_cap": 733198762.5200001,
-    "ttm_pe": -37.27308029688374,
-    "static_pe": 29.00655783993354,
-    "ev_revenue": 3.1983256155623705,
-    "pb": 1.2853101745479407,
-    "ps": 2.6639686460679877,
-    "p_fcf": 12.097192867725918,
-    "ttm_pocf": 4.1450824411478715,
-    "debt_asset": 0.17023817482015938,
-    "gross_margin": 0.1705168078829189,
-    "op_margin": 0.06416861656517506,
-    "net_margin": -0.07147165259348613,
-    "roe": -0.034483604904942636,
-    "roa": -0.022287887766305192,
+    "market_cap": 783989268.34,
+    "ttm_pe": -69.69412999733309,
+    "static_pe": 31.015914402025558,
+    "ev_revenue": 2.7527893936592416,
+    "pb": 1.2565481130524119,
+    "ps": 2.7558968505010952,
+    "p_fcf": 14.054772563059107,
+    "ttm_pocf": 5.751432510270556,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": 0.06988614193766104,
+    "net_margin": -0.03954273983485484,
+    "roe": -0.018029468379912265,
+    "roa": -0.012178895183982625,
     "dividend_rate": 0.0,
-    "latest_q_ni": -42280000.0,
-    "latest_q_ocf": 24024000.0
+    "latest_q_ni": 33081000.0,
+    "latest_q_ocf": 25444000.0
   },
   "annual": {
     "income_statement": [
@@ -381,25 +381,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 61193000.0,
-          "Operating Income": 13079000.0,
-          "Net Income": -2186000.0,
-          "Diluted EPS": -0.07,
-          "Diluted Average Shares": 29933962.0,
-          "General And Administrative Expense": 5374000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 66598000.0,
@@ -557,22 +538,28 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 91004000.0,
+          "Operating Income": 20876000.0,
+          "Net Income": 33081000.0,
+          "Diluted EPS": 0.77,
+          "Diluted Average Shares": 42852652.0,
+          "General And Administrative Expense": 6150000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 35161000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 35161000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -663,28 +650,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 25444000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 25444000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 121000.0,
-          "Total Assets": 778428000.0,
-          "Common Stock Equity": 518505000.0,
-          "Net PPE": 189000.0,
-          "Accounts Receivable": 46319000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -817,6 +798,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 884000.0,
+          "Total Assets": 923647000.0,
+          "Common Stock Equity": 623923000.0,
+          "Net PPE": 99000.0,
+          "Accounts Receivable": 52429000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -860,7 +860,7 @@
   },
   "validation": {
     "ticker": "VTS",
-    "checked_at": "2026-08-03T16:10:20.232886+00:00",
+    "checked_at": "2026-08-04T15:49:49.288182+00:00",
     "status": "warn",
     "issues": [
       {
@@ -871,7 +871,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 94 days old"
+        "detail": "latest close 2026-05-01 is 95 days old"
       },
       {
         "severity": "info",
