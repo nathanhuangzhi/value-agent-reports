@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 138136610.0,
-    "ttm_pe": -6.7827069625847,
+    "ttm_pe": -5.07053591748339,
     "static_pe": -5.3993359130706695,
-    "ev_revenue": 0.41460176952570693,
+    "ev_revenue": 0.3958781805126284,
     "pb": -2.283815987434901,
-    "ps": 0.30110406807813117,
+    "ps": 0.2875060826491003,
     "p_fcf": -3.378414449227157,
     "ttm_pocf": -4.0082584220758495,
     "debt_asset": 0.3395429780585961,
-    "gross_margin": 0.08674119978115252,
-    "op_margin": -0.02940272513062186,
-    "net_margin": -0.044392905331028604,
-    "roe": 0.3367115813838142,
-    "roa": -0.1006891914607497,
+    "gross_margin": 0.07183041428616029,
+    "op_margin": -0.04469003985722165,
+    "net_margin": -0.05670132059567294,
+    "roe": 0.4504091923617426,
+    "roa": -0.13468897392542495,
     "dividend_rate": 0.0,
     "latest_q_ni": -4552000.0,
     "latest_q_ocf": -7533000.0
@@ -283,6 +283,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2023-09-29",
+        "items": {
+          "Total Revenue": 175448000.0,
+          "Gross Profit": 17012000.0,
+          "Cost Of Revenue": 158436000.0,
+          "Operating Income": 35636000.0,
+          "Net Income": 34567000.0,
+          "Diluted EPS": 1.58,
+          "Diluted Average Shares": 21914000.0,
+          "Selling General And Administration": 14022000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-03-29",
         "items": {
           "Total Revenue": 120043000.0,
@@ -418,29 +441,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2026-01-02",
-        "items": {
-          "Total Revenue": 100412000.0,
-          "Gross Profit": 9978000.0,
-          "Cost Of Revenue": 90434000.0,
-          "Operating Income": -897000.0,
-          "Net Income": -2893000.0,
-          "Diluted EPS": -0.08,
-          "Diluted Average Shares": 36162500.0,
-          "Selling General And Administration": 10875000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -768,7 +768,7 @@
   },
   "validation": {
     "ticker": "SHIM",
-    "checked_at": "2026-08-04T15:49:49.251500+00:00",
+    "checked_at": "2026-08-05T15:38:05.703913+00:00",
     "status": "warn",
     "issues": [
       {

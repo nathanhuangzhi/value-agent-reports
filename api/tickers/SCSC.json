@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 1180963940.0,
-    "ttm_pe": 16.101272598369373,
+    "ttm_pe": 16.70694668043629,
     "static_pe": 16.505897299714878,
-    "ev_revenue": 0.3767880685894723,
+    "ev_revenue": 0.39045850307559377,
     "pb": 1.303116806306351,
-    "ps": 0.3827044517567027,
-    "p_fcf": 9.542217643541637,
-    "ttm_pocf": 8.876224670795503,
+    "ps": 0.3965895414700589,
+    "p_fcf": null,
+    "ttm_pocf": null,
     "debt_asset": 0.056507080690857456,
-    "gross_margin": 0.13695112964452444,
-    "op_margin": 0.03030975702548222,
-    "net_margin": 0.0237685840928785,
-    "roe": 0.08093253488785239,
-    "roa": 0.04061789078923177,
+    "gross_margin": 0.14027441073087873,
+    "op_margin": 0.029965084950327407,
+    "net_margin": 0.023738002464236168,
+    "roe": 0.07799850153542964,
+    "roa": 0.039145377337802004,
     "dividend_rate": 0.0,
     "latest_q_ni": 16885000.0,
     "latest_q_ocf": 71351000.0
@@ -600,53 +600,37 @@
       {
         "period": "2022-06-30",
         "items": {
-          "Cash Flow From Continuing Operating Activities": -124354000.0,
-          "Capital Expenditure": 6849000.0,
-          "Free Cash Flow": -131203000.0
+          "Capital Expenditure": 6849000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec"
         }
       },
       {
         "period": "2023-06-30",
         "items": {
-          "Cash Flow From Continuing Operating Activities": -35769000.0,
-          "Capital Expenditure": 9979000.0,
-          "Free Cash Flow": -45748000.0
+          "Capital Expenditure": 9979000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec"
         }
       },
       {
         "period": "2024-06-30",
         "items": {
-          "Cash Flow From Continuing Operating Activities": 371647000.0,
-          "Capital Expenditure": 8555000.0,
-          "Free Cash Flow": 363092000.0
+          "Capital Expenditure": 8555000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec"
         }
       },
       {
         "period": "2025-06-30",
         "items": {
-          "Cash Flow From Continuing Operating Activities": 112349000.0,
-          "Capital Expenditure": 8286000.0,
-          "Free Cash Flow": 104063000.0
+          "Capital Expenditure": 8286000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec"
         }
       }
     ],
@@ -960,7 +944,6 @@
           "Total Assets": 1937428000.0,
           "Common Stock Equity": 806528000.0,
           "Goodwill": 214435000.0,
-          "Net PPE": 53694000.0,
           "Inventory": 614814000.0,
           "Accounts Receivable": 729442000.0,
           "Total Debt": 135331000.0
@@ -970,7 +953,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -983,7 +965,6 @@
           "Total Assets": 2068169000.0,
           "Common Stock Equity": 905298000.0,
           "Goodwill": 216706000.0,
-          "Net PPE": 49918000.0,
           "Inventory": 757574000.0,
           "Accounts Receivable": 753236000.0,
           "Total Debt": 150921000.0
@@ -993,7 +974,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1049,6 +1029,29 @@
   },
   "quarterly": {
     "income_statement": [
+      {
+        "period": "2023-12-31",
+        "items": {
+          "Total Revenue": 884792000.0,
+          "Gross Profit": 100748000.0,
+          "Cost Of Revenue": 784044000.0,
+          "Operating Income": 26826000.0,
+          "Net Income": 32726000.0,
+          "Diluted EPS": 1.29,
+          "Diluted Average Shares": 25334000.0,
+          "Selling General And Administration": 66921000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
       {
         "period": "2024-03-31",
         "items": {
@@ -1139,25 +1142,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-06-30",
-        "items": {
-          "Total Revenue": 812886000.0,
-          "Gross Profit": 105102000.0,
-          "Cost Of Revenue": 707784000.0,
-          "Operating Income": 26640000.0,
-          "Net Income": 20090000.0,
-          "Selling General And Administration": 71610000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1282,14 +1266,10 @@
       {
         "period": "2025-06-30",
         "items": {
-          "Cash Flow From Continuing Operating Activities": 7645000.0,
-          "Capital Expenditure": 2517000.0,
-          "Free Cash Flow": 5128000.0
+          "Capital Expenditure": 2517000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec"
         }
       },
       {
@@ -1559,7 +1539,7 @@
   },
   "validation": {
     "ticker": "SCSC",
-    "checked_at": "2026-08-04T15:49:49.246512+00:00",
+    "checked_at": "2026-08-05T15:38:05.699793+00:00",
     "status": "info",
     "issues": [
       {

@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 290213797.3,
-    "ttm_pe": -7.79055613926769,
+    "ttm_pe": -6.142870995258657,
     "static_pe": -7.552537274241399,
-    "ev_revenue": 3.086216702072832,
+    "ev_revenue": 3.202016241066305,
     "pb": 5.384000840398494,
-    "ps": 3.648055979032846,
+    "ps": 3.784936581198811,
     "p_fcf": -11.286217519639107,
     "ttm_pocf": -11.55401693208058,
     "debt_asset": 0.36948278062387196,
-    "gross_margin": 0.8616896911492967,
-    "op_margin": -0.4481792012871922,
-    "net_margin": -0.4682664387263837,
-    "roe": -0.6910932601153925,
-    "roa": -0.33957448360102827,
+    "gross_margin": 0.8588867442224425,
+    "op_margin": -0.5978924304867234,
+    "net_margin": -0.6161510772601596,
+    "roe": -0.8764632766265329,
+    "roa": -0.43065759967913075,
     "dividend_rate": 0.0,
     "latest_q_ni": -12980000.0,
     "latest_q_ocf": -7029000.0
@@ -419,6 +419,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2023-09-30",
+        "items": {
+          "Total Revenue": 20009000.0,
+          "Gross Profit": 17332000.0,
+          "Cost Of Revenue": 2677000.0,
+          "Operating Income": -13411000.0,
+          "Net Income": -13035000.0,
+          "Diluted EPS": -0.27,
+          "Diluted Average Shares": 48671049.0,
+          "Research And Development": 4239000.0,
+          "Selling General And Administration": 26504000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 19265000.0,
@@ -566,31 +591,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 20385000.0,
-          "Gross Profit": 17788000.0,
-          "Cost Of Revenue": 2597000.0,
-          "Operating Income": -3669000.0,
-          "Net Income": -4162000.0,
-          "Diluted EPS": -0.08,
-          "Diluted Average Shares": 53082214.0,
-          "Research And Development": 2437000.0,
-          "Selling General And Administration": 19020000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -936,13 +936,13 @@
   },
   "validation": {
     "ticker": "SGHT",
-    "checked_at": "2026-08-04T15:49:49.250127+00:00",
+    "checked_at": "2026-08-05T15:38:05.702780+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 95 days old"
+        "detail": "latest close 2026-05-01 is 96 days old"
       }
     ]
   },

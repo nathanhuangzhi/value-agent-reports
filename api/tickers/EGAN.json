@@ -1144,6 +1144,7 @@
           "Diluted Average Shares": 27750000.0,
           "Research And Development": 6961000.0,
           "Selling General And Administration": 6672000.0,
+          "Selling And Marketing Expense": 4641000.0,
           "General And Administrative Expense": 2031000.0
         },
         "sources": {
@@ -1156,6 +1157,7 @@
           "Diluted Average Shares": "yfinance",
           "Research And Development": "yfinance",
           "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
       },
@@ -1564,13 +1566,13 @@
   },
   "validation": {
     "ticker": "EGAN",
-    "checked_at": "2026-08-04T15:49:49.128576+00:00",
+    "checked_at": "2026-08-05T15:38:05.596518+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 95 days old"
+        "detail": "latest close 2026-05-01 is 96 days old"
       },
       {
         "severity": "info",

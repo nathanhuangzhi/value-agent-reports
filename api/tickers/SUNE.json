@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 13047339.28,
-    "ttm_pe": -1.1358337461908075,
+    "ttm_pe": -0.7418556792473899,
     "static_pe": -1.197791178842088,
-    "ev_revenue": 0.25792280068750084,
+    "ev_revenue": 0.33036708894839073,
     "pb": 0.6439850795987209,
-    "ps": 0.19630881735130426,
-    "p_fcf": -15.430649366623026,
+    "ps": 0.2514472251013929,
+    "p_fcf": -16.19238651228018,
     "ttm_pocf": -16.19238651228018,
     "debt_asset": 0.14410938450428729,
-    "gross_margin": 0.37169568582306234,
-    "op_margin": -0.05770457992946427,
-    "net_margin": -0.1728323515740362,
-    "roe": -0.5669712506415868,
-    "roa": -0.2863160546252532,
+    "gross_margin": 0.3483162714886439,
+    "op_margin": -0.17163984558801382,
+    "net_margin": -0.3389435871900115,
+    "roe": -0.8680732622442704,
+    "roa": -0.4383702194603337,
     "dividend_rate": 0.0,
     "latest_q_ni": -4090614.0,
     "latest_q_ocf": -5164097.0
@@ -1050,6 +1050,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2023-09-30",
+        "items": {
+          "Total Revenue": 18288697.0,
+          "Gross Profit": 7032458.0,
+          "Cost Of Revenue": 11256239.0,
+          "Operating Income": -1564350.0,
+          "Net Income": -2363036.0,
+          "Diluted EPS": -173.81,
+          "Diluted Average Shares": 13400.0,
+          "Selling General And Administration": 7150110.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 13219197.0,
@@ -1188,25 +1211,6 @@
         }
       },
       {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 27210999.0,
-          "Gross Profit": 11061686.0,
-          "Cost Of Revenue": 16149313.0,
-          "Operating Income": 2903629.0,
-          "Net Income": 2603989.0,
-          "Selling General And Administration": 7598682.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
-        }
-      },
-      {
         "period": "2026-03-31",
         "items": {
           "Total Revenue": 7194449.0,
@@ -1300,26 +1304,26 @@
         "period": "2025-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 2387195.0,
-          "Capital Expenditure": -8970.0,
-          "Free Cash Flow": 2378225.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 2387195.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 2101316.0,
-          "Capital Expenditure": -30807.0,
-          "Free Cash Flow": 2070509.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 2101316.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1563,7 +1567,7 @@
   },
   "validation": {
     "ticker": "SUNE",
-    "checked_at": "2026-08-04T15:49:49.264262+00:00",
+    "checked_at": "2026-08-05T15:38:05.714574+00:00",
     "status": "warn",
     "issues": [
       {

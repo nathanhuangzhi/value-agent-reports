@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 420036281.06,
-    "ttm_pe": 20.78050170979073,
+    "ttm_pe": 18.39843543845817,
     "static_pe": 21.289218502787634,
-    "ev_revenue": 0.44494986295758,
-    "pb": 1.3699321976706642,
-    "ps": 0.5480082677650239,
-    "p_fcf": 18.19126379644868,
-    "ttm_pocf": 9.636290831631834,
-    "debt_asset": 0.05417546548109883,
-    "gross_margin": 0.6074942790269258,
-    "op_margin": 0.02900148471319464,
-    "net_margin": 0.026371272234819526,
-    "roe": 0.06592392314691906,
-    "roa": 0.03122465593867838,
+    "ev_revenue": 0.39605158555806425,
+    "pb": 1.4283450347533937,
+    "ps": 0.5382361743683319,
+    "p_fcf": 10.63060035077951,
+    "ttm_pocf": 6.92786213194788,
+    "debt_asset": 0.0,
+    "gross_margin": 0.6090000691958165,
+    "op_margin": null,
+    "net_margin": 0.029254453519632392,
+    "roe": 0.07763404880437444,
+    "roa": 0.03479885863401905,
     "dividend_rate": 0.0,
-    "latest_q_ni": 4261000.0,
-    "latest_q_ocf": -2901000.0
+    "latest_q_ni": 5306000.0,
+    "latest_q_ocf": 24264000.0
   },
   "annual": {
     "income_statement": [
@@ -916,23 +916,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 183997000.0,
-          "Gross Profit": 111019000.0,
-          "Cost Of Revenue": 72978000.0,
-          "Net Income": 2393000.0,
-          "Selling General And Administration": 109356000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Net Income": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 178636000.0,
@@ -1080,22 +1063,26 @@
           "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 194941000.0,
+          "Gross Profit": 119731000.0,
+          "Cost Of Revenue": 75210000.0,
+          "Net Income": 5306000.0,
+          "Selling General And Administration": 113163000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Net Income": "sec",
+          "Selling General And Administration": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 14407000.0,
-          "Capital Expenditure": 9553000.0,
-          "Free Cash Flow": 4854000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1186,28 +1173,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 24264000.0,
+          "Capital Expenditure": 6194000.0,
+          "Free Cash Flow": 18070000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 116067000.0,
-          "Total Assets": 642105000.0,
-          "Common Stock Equity": 307098000.0,
-          "Net PPE": 177449000.0,
-          "Inventory": 92401000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1340,6 +1321,25 @@
           "Inventory": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 110960000.0,
+          "Total Assets": 656056000.0,
+          "Common Stock Equity": 294072000.0,
+          "Net PPE": 178806000.0,
+          "Inventory": 100502000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1383,7 +1383,7 @@
   },
   "validation": {
     "ticker": "HVT",
-    "checked_at": "2026-08-04T15:49:49.159501+00:00",
+    "checked_at": "2026-08-05T15:38:05.624333+00:00",
     "status": "error",
     "issues": [
       {

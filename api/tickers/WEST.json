@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 823640370.0,
-    "ttm_pe": -11.477708612040134,
+    "ttm_pe": -10.778234816860122,
     "static_pe": -9.106532920559456,
-    "ev_revenue": 0.948139707674802,
+    "ev_revenue": 1.0510127902409123,
     "pb": -40.71582233427258,
-    "ps": 0.641473954832665,
+    "ps": 0.7110738277051382,
     "p_fcf": -13.019100436267072,
     "ttm_pocf": -95.15253812384474,
     "debt_asset": 0.39056605971853403,
-    "gross_margin": 0.130421711847761,
-    "op_margin": -0.020085967004184642,
-    "net_margin": -0.055888677480430006,
-    "roe": 3.5473824707103665,
-    "roa": -0.06431254318646425,
+    "gross_margin": 0.1360936886225994,
+    "op_margin": -0.028969053919304502,
+    "net_margin": -0.06597312452247034,
+    "roe": 3.7775965198477435,
+    "roa": -0.06848622648662261,
     "dividend_rate": 0.0,
     "latest_q_ni": -8533000.0,
     "latest_q_ocf": -11763000.0
@@ -413,6 +413,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2023-09-30",
+        "items": {
+          "Total Revenue": 219612000.0,
+          "Gross Profit": 35066000.0,
+          "Cost Of Revenue": 184546000.0,
+          "Operating Income": -5369000.0,
+          "Net Income": 16621000.0,
+          "Diluted EPS": 0.15,
+          "Diluted Average Shares": 107080000.0,
+          "Selling General And Administration": 37050000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 192500000.0,
@@ -548,25 +571,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-12-31",
-        "items": {
-          "Total Revenue": 339472000.0,
-          "Gross Profit": 38894000.0,
-          "Cost Of Revenue": 300578000.0,
-          "Operating Income": -5304000.0,
-          "Net Income": -22561000.0,
-          "Selling General And Administration": 44198000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -926,13 +930,13 @@
   },
   "validation": {
     "ticker": "WEST",
-    "checked_at": "2026-08-04T15:49:49.289176+00:00",
+    "checked_at": "2026-08-05T15:38:05.736071+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 95 days old"
+        "detail": "latest close 2026-05-01 is 96 days old"
       },
       {
         "severity": "info",
