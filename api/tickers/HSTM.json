@@ -23,23 +23,23 @@
     "logic_summary": "Provides SaaS applications for healthcare organizations' credentialing, learning, and scheduling needs."
   },
   "snapshot": {
-    "market_cap": 667924800.0,
-    "ttm_pe": 33.532044781364526,
-    "static_pe": 36.415047432122996,
-    "ev_revenue": 2.0311653655438735,
-    "pb": 1.8975567626536967,
-    "ps": 2.1422814658960427,
-    "p_fcf": 11.13003949275966,
-    "ttm_pocf": 10.538249633170825,
+    "market_cap": 665427800.0,
+    "ttm_pe": null,
+    "static_pe": 36.27891178715516,
+    "ev_revenue": null,
+    "pb": 1.8904628514284416,
+    "ps": null,
+    "p_fcf": 11.08843045441669,
+    "ttm_pocf": 10.498852968555246,
     "debt_asset": 0.026670281604956762,
-    "gross_margin": 0.648854006966406,
-    "op_margin": 0.07495301204046417,
-    "net_margin": 0.06388758812247018,
-    "roe": 0.056589354303506895,
-    "roa": 0.0377653614337907,
+    "gross_margin": null,
+    "op_margin": null,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": 5910000.0,
-    "latest_q_ocf": 27136000.0
+    "latest_q_ni": null,
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -1060,31 +1060,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 72760000.0,
-          "Cost Of Revenue": 24617000.0,
-          "Operating Income": 5690000.0,
-          "Net Income": 5227000.0,
-          "Diluted EPS": 0.17,
-          "Diluted Average Shares": 30418000.0,
-          "Research And Development": 12032000.0,
-          "Selling And Marketing Expense": 11773000.0,
-          "Gross Profit": 48143000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling And Marketing Expense": "sec",
-          "Gross Profit": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 71556000.0,
@@ -1277,6 +1252,17 @@
           "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "yfinance"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Diluted EPS": 0.23,
+          "Diluted Average Shares": 29314000.0
+        },
+        "sources": {
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -1597,13 +1583,13 @@
   },
   "validation": {
     "ticker": "HSTM",
-    "checked_at": "2026-08-05T15:38:05.623706+00:00",
+    "checked_at": "2026-08-06T15:39:29.498971+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 96 days old"
+        "detail": "latest close 2026-05-01 is 97 days old"
       },
       {
         "severity": "info",

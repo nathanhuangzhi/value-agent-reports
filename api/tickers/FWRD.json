@@ -23,23 +23,23 @@
     "logic_summary": "Asset-light freight and logistics company providing expedited freight, omni logistics, and intermodal services to B2B customers globally."
   },
   "snapshot": {
-    "market_cap": 405410880.0,
-    "ttm_pe": -4.43178556592842,
-    "static_pe": -3.7609083825002783,
-    "ev_revenue": 0.8453189051590518,
-    "pb": 3.315539271811312,
-    "ps": 0.16454144941135598,
-    "p_fcf": 10.571064118275926,
-    "ttm_pocf": 6.485847665061513,
-    "debt_asset": 0.6745028244962032,
-    "gross_margin": 0.14302911298953724,
-    "op_margin": 0.02114629631358307,
-    "net_margin": -0.037127574645386976,
-    "roe": -0.7481271876737872,
-    "roa": -0.03393253183840966,
+    "market_cap": 418355280.0,
+    "ttm_pe": -1.4617840283722636,
+    "static_pe": -3.8809907603250586,
+    "ev_revenue": 0.78323611488935,
+    "pb": -3.6243201940570042,
+    "ps": 0.16614091319758148,
+    "p_fcf": 8.676689895470384,
+    "ttm_pocf": 5.905552998969523,
+    "debt_asset": 0.7023844336736704,
+    "gross_margin": null,
+    "op_margin": -0.06700832977572153,
+    "net_margin": -0.1136562652025853,
+    "roe": 2.479381443298969,
+    "roa": -0.11871148912518224,
     "dividend_rate": 0.0,
-    "latest_q_ni": -34319000.0,
-    "latest_q_ocf": 45738000.0
+    "latest_q_ni": -207300000.0,
+    "latest_q_ocf": -4883000.0
   },
   "annual": {
     "income_statement": [
@@ -1039,23 +1039,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 643666000.0,
-          "Operating Income": -1095755000.0,
-          "Net Income": -645433000.0,
-          "Diluted EPS": -23.29,
-          "Diluted Average Shares": 26803000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 655937000.0,
@@ -1209,18 +1192,26 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 673036000.0,
+          "Operating Income": -201312000.0,
+          "Net Income": -207300000.0,
+          "Diluted EPS": -6.33,
+          "Diluted Average Shares": 32481000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Capital Expenditure": 14426000.0
-        },
-        "sources": {
-          "Capital Expenditure": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1260,9 +1251,9 @@
           "Free Cash Flow": -17961000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1303,28 +1294,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -4883000.0,
+          "Capital Expenditure": 3213000.0,
+          "Free Cash Flow": -8096000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 104655000.0,
-          "Total Assets": 3067316000.0,
-          "Common Stock Equity": 362217000.0,
-          "Goodwill": 545380000.0,
-          "Accounts Receivable": 368927000.0,
-          "Total Debt": 1694190000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1467,6 +1452,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 139448000.0,
+          "Total Assets": 2410845000.0,
+          "Common Stock Equity": -115430000.0,
+          "Goodwill": 278706000.0,
+          "Accounts Receivable": 369469000.0,
+          "Total Debt": 1693340000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1504,7 +1508,7 @@
   },
   "validation": {
     "ticker": "FWRD",
-    "checked_at": "2026-08-05T15:38:05.611464+00:00",
+    "checked_at": "2026-08-06T15:39:29.485276+00:00",
     "status": "warn",
     "issues": [
       {

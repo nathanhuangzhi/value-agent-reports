@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 476554900.0,
-    "ttm_pe": -6.476514636731809,
+    "ttm_pe": -7.72086418352964,
     "static_pe": -5.169156759805623,
-    "ev_revenue": 0.727270711762429,
+    "ev_revenue": 0.7126150703444369,
     "pb": 1.110384687077683,
-    "ps": 0.5837300770704413,
+    "ps": 0.5719670037662659,
     "p_fcf": -17.12747627947096,
     "ttm_pocf": 29.299409775591762,
     "debt_asset": 0.2538212182996953,
-    "gross_margin": 0.7071433471011617,
-    "op_margin": -0.06812747735167737,
-    "net_margin": -0.09013027991317939,
-    "roe": -0.1714478773474999,
-    "roa": -0.08428443792811162,
+    "gross_margin": 0.7130676703641203,
+    "op_margin": -0.04616256154088043,
+    "net_margin": -0.07408069746731222,
+    "roe": -0.1438161144508132,
+    "roa": -0.07070055668827747,
     "dividend_rate": 0.0,
     "latest_q_ni": -15798000.0,
     "latest_q_ocf": -6224000.0
@@ -1019,7 +1019,7 @@
           "Net PPE": 58229000.0,
           "Inventory": 100150000.0,
           "Accounts Receivable": 82857000.0,
-          "Total Debt": 0
+          "Total Debt": 2290000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1029,7 +1029,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1105,35 +1105,6 @@
   },
   "quarterly": {
     "income_statement": [
-      {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 188608000.0,
-          "Gross Profit": 127242000.0,
-          "Cost Of Revenue": 61366000.0,
-          "Operating Income": -29337000.0,
-          "Net Income": -36020000.0,
-          "Diluted EPS": -0.95,
-          "Diluted Average Shares": 37741000.0,
-          "Research And Development": 19492000.0,
-          "Selling General And Administration": 131691000.0,
-          "Selling And Marketing Expense": 100043000.0,
-          "General And Administrative Expense": 31648000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1265,6 +1236,31 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 219911000.0,
+          "Gross Profit": 156342000.0,
+          "Cost Of Revenue": 63569000.0,
+          "Operating Income": 1154000.0,
+          "Net Income": -2222000.0,
+          "Diluted EPS": -0.06,
+          "Diluted Average Shares": 40000000.0,
+          "Research And Development": 15373000.0,
+          "Selling General And Administration": 136753000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1481,7 +1477,7 @@
           "Net PPE": 130693000.0,
           "Inventory": 174480000.0,
           "Accounts Receivable": 131865000.0,
-          "Total Debt": 156885000.0
+          "Total Debt": 161857000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1491,7 +1487,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1504,7 +1500,7 @@
           "Net PPE": 129200000.0,
           "Inventory": 172993000.0,
           "Accounts Receivable": 129556000.0,
-          "Total Debt": 157047000.0
+          "Total Debt": 160892000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1514,7 +1510,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1527,7 +1523,7 @@
           "Net PPE": 130017000.0,
           "Inventory": 174042000.0,
           "Accounts Receivable": 130808000.0,
-          "Total Debt": 157219000.0
+          "Total Debt": 161188000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1537,7 +1533,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1573,7 +1569,7 @@
           "Net PPE": 125327000.0,
           "Inventory": 177818000.0,
           "Accounts Receivable": 137775000.0,
-          "Total Debt": 221335000.0
+          "Total Debt": 224558000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1583,7 +1579,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       },
       {
@@ -1651,13 +1647,13 @@
   },
   "validation": {
     "ticker": "OFIX",
-    "checked_at": "2026-08-05T15:38:05.671331+00:00",
+    "checked_at": "2026-08-06T15:39:29.553387+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 96 days old"
+        "detail": "latest close 2026-05-01 is 97 days old"
       },
       {
         "severity": "warn",

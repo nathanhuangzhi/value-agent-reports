@@ -25,12 +25,12 @@
   "snapshot": {
     "market_cap": 154355646.95,
     "ttm_pe": -33.07272088866053,
-    "static_pe": -48.36424446440007,
+    "static_pe": -33.570185752581885,
     "ev_revenue": 227.57576146153843,
     "pb": 18.354036343110774,
     "ps": 237.47022607692307,
-    "p_fcf": -72.16401223307071,
-    "ttm_pocf": -72.16401223307071,
+    "p_fcf": -62.81268747487177,
+    "ttm_pocf": -62.81268747487177,
     "debt_asset": 0.028775405085765093,
     "gross_margin": null,
     "op_margin": -2.4341538461538463,
@@ -72,6 +72,8 @@
           "Net Income": -2910394.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 9511045.0,
+          "Selling General And Administration": 3220890.0,
+          "Selling And Marketing Expense": 569529.0,
           "General And Administrative Expense": 2651361.0
         },
         "sources": {
@@ -82,6 +84,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -90,19 +94,25 @@
         "items": {
           "Total Revenue": 2450000.0,
           "Gross Profit": 2450000.0,
+          "Cost Of Revenue": 0.0,
           "Operating Income": -760864.0,
           "Net Income": -2882299.0,
           "Diluted EPS": -0.3,
           "Diluted Average Shares": 9627452.0,
+          "Selling General And Administration": 2448864.0,
+          "Selling And Marketing Expense": 207238.0,
           "General And Administrative Expense": 2241626.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -114,6 +124,8 @@
           "Net Income": -3191524.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 10247476.0,
+          "Selling General And Administration": 2599112.0,
+          "Selling And Marketing Expense": 333500.0,
           "General And Administrative Expense": 2265612.0
         },
         "sources": {
@@ -122,7 +134,32 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2025-07-31",
+        "items": {
+          "Total Revenue": 1200000.0,
+          "Operating Income": -842349.0,
+          "Net Income": -4597998.0,
+          "Diluted EPS": -5.569992,
+          "Diluted Average Shares": 825518.0,
+          "Selling General And Administration": 2042349.0,
+          "Selling And Marketing Expense": 120000.0,
+          "General And Administrative Expense": 1922349.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -421,19 +458,6 @@
     ],
     "cash_flow": [
       {
-        "period": "2023-07-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -972791.0,
-          "Capital Expenditure": -7558.0,
-          "Free Cash Flow": -980349.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
-      {
         "period": "2023-10-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 195353.0,
@@ -502,26 +526,39 @@
         "period": "2025-01-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -395125.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -395125.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       },
       {
         "period": "2025-04-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -939015.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -939015.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
+      },
+      {
+        "period": "2025-07-31",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -322628.0,
+          "Capital Expenditure": 0.0,
+          "Free Cash Flow": -322628.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -710,18 +747,18 @@
   },
   "validation": {
     "ticker": "ZBAI",
-    "checked_at": "2026-08-05T15:38:05.743172+00:00",
+    "checked_at": "2026-08-06T15:39:29.635806+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 96 days old"
+        "detail": "latest close 2026-05-01 is 97 days old"
       },
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-04-30 is 462 days old (>180)"
+        "detail": "latest quarterly period 2025-04-30 is 463 days old (>180)"
       }
     ]
   },

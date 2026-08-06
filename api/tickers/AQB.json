@@ -23,23 +23,23 @@
     "logic_summary": "AquaBounty Technologies operates as a land-based aquaculture company, farming fish."
   },
   "snapshot": {
-    "market_cap": 4473189.42,
-    "ttm_pe": -0.22263876133478455,
-    "static_pe": -0.24191842107782233,
+    "market_cap": 5044259.92,
+    "ttm_pe": -0.27489721150659124,
+    "static_pe": -0.27280297809354614,
     "ev_revenue": null,
-    "pb": -2.103613717068647,
+    "pb": 1.794125119196114,
     "ps": null,
-    "p_fcf": -0.604640547427264,
-    "ttm_pocf": -0.604640547427264,
-    "debt_asset": 0.36941970155276976,
+    "p_fcf": -0.7030193179586676,
+    "ttm_pocf": -0.7030193179586676,
+    "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": 9.448551116871416,
-    "roa": -1.9603855926427627,
+    "roe": -6.526530805326471,
+    "roa": -1.5671477724393068,
     "dividend_rate": 0.0,
-    "latest_q_ni": -1200070.0,
-    "latest_q_ocf": -1020167.0
+    "latest_q_ni": -1630967.0,
+    "latest_q_ocf": -1325361.0
   },
   "annual": {
     "income_statement": [
@@ -702,33 +702,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 180182.0,
-          "Cost Of Revenue": 1641083.0,
-          "Operating Income": -29559913.0,
-          "Net Income": -50514241.0,
-          "Diluted EPS": -7.91,
-          "Diluted Average Shares": 3860487.0,
-          "Research And Development": 76766.0,
-          "Selling And Marketing Expense": 79702.0,
-          "General And Administrative Expense": 3138502.0,
-          "Gross Profit": -1460901.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 47812.0,
@@ -793,14 +766,14 @@
         "period": "2025-06-30",
         "items": {
           "Total Revenue": 0.0,
-          "Operating Income": -3294348.0,
+          "Operating Income": -1196841.0,
           "Net Income": -3373037.0,
-          "Diluted EPS": -0.87,
+          "Diluted EPS": -0.31,
           "Diluted Average Shares": 3872587.0,
           "Research And Development": 0.0,
           "Selling General And Administration": 1768596.0,
           "Selling And Marketing Expense": 0.0,
-          "General And Administrative Expense": 1768596.0
+          "General And Administrative Expense": 1196841.0
         },
         "sources": {
           "Total Revenue": "yfinance",
@@ -882,22 +855,28 @@
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Operating Income": -799258.0,
+          "Net Income": -1630967.0,
+          "Diluted EPS": -0.26,
+          "Diluted Average Shares": 5147204.0,
+          "General And Administrative Expense": 799258.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -4325690.0,
-          "Capital Expenditure": 874130.0,
-          "Free Cash Flow": -5199820.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -988,30 +967,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -1325361.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1325361.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 728339.0,
-          "Total Assets": 127437408.0,
-          "Common Stock Equity": 103344648.0,
-          "Net PPE": 90233868.0,
-          "Inventory": 124916.0,
-          "Accounts Receivable": 52942.0,
-          "Total Debt": 10491518.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1142,6 +1113,23 @@
           "Net PPE": "yfinance",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 1889291.0,
+          "Total Assets": 11708929.0,
+          "Common Stock Equity": 2811543.0,
+          "Accounts Receivable": 100000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1185,7 +1173,7 @@
   },
   "validation": {
     "ticker": "AQB",
-    "checked_at": "2026-08-05T15:38:05.551590+00:00",
+    "checked_at": "2026-08-06T15:39:29.416556+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1201,7 +1189,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2024-09-30 is 674 days old (>180)"
+        "detail": "latest quarterly period 2024-09-30 is 675 days old (>180)"
       },
       {
         "severity": "info",

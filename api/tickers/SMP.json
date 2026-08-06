@@ -10,19 +10,19 @@
   "classification_meta": {},
   "snapshot": {
     "market_cap": 901073747.4899999,
-    "ttm_pe": 13.171474579965208,
+    "ttm_pe": 17.65737977876193,
     "static_pe": 21.799292306519895,
-    "ev_revenue": 0.7254202605098861,
+    "ev_revenue": 0.7683773413655317,
     "pb": 1.2304153267570899,
-    "ps": 0.46316887857024625,
+    "ps": 0.49059626659574196,
     "p_fcf": 10.329742264676547,
     "ttm_pocf": 7.409597542040473,
     "debt_asset": 0.28574541289968797,
-    "gross_margin": 0.3168797617419893,
-    "op_margin": 0.09016352995239157,
-    "net_margin": 0.035164542569497914,
-    "roe": 0.09341515403511791,
-    "roa": 0.03319842575473026,
+    "gross_margin": 0.31991717714084733,
+    "op_margin": 0.0842215702042423,
+    "net_margin": 0.027784205399819566,
+    "roe": 0.06968278092070138,
+    "roa": 0.02476427569673941,
     "dividend_rate": 0.0,
     "latest_q_ni": 30368000.0,
     "latest_q_ocf": 100195000.0
@@ -951,6 +951,7 @@
           "Common Stock Equity": 621038000.0,
           "Goodwill": 132087000.0,
           "Net PPE": 107148000.0,
+          "Inventory": 548410000.0,
           "Accounts Receivable": 167638000.0,
           "Total Debt": 239620000.0
         },
@@ -960,6 +961,7 @@
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
           "Net PPE": "sec",
+          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1037,33 +1039,6 @@
   },
   "quarterly": {
     "income_statement": [
-      {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 331403000.0,
-          "Gross Profit": 89522000.0,
-          "Cost Of Revenue": 241881000.0,
-          "Operating Income": 14619000.0,
-          "Net Income": 8824000.0,
-          "Diluted EPS": 0.44,
-          "Diluted Average Shares": 22372543.0,
-          "Selling General And Administration": 74733000.0,
-          "Selling And Marketing Expense": 17973000.0,
-          "General And Administrative Expense": 22402000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
       {
         "period": "2024-06-30",
         "items": {
@@ -1197,6 +1172,29 @@
           "Selling General And Administration": "sec",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 385090000.0,
+          "Gross Profit": 122003000.0,
+          "Cost Of Revenue": 263087000.0,
+          "Operating Income": 22116000.0,
+          "Net Income": 7862000.0,
+          "Diluted EPS": 0.35,
+          "Diluted Average Shares": 22669246.0,
+          "Selling General And Administration": 99906000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1573,13 +1571,13 @@
   },
   "validation": {
     "ticker": "SMP",
-    "checked_at": "2026-08-05T15:38:05.707394+00:00",
+    "checked_at": "2026-08-06T15:39:29.594807+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 65 days old"
+        "detail": "latest close 2026-06-01 is 66 days old"
       },
       {
         "severity": "info",

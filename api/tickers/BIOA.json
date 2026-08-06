@@ -23,23 +23,23 @@
     "logic_summary": "Clinical-stage biopharmaceutical company developing therapeutics for metabolic diseases using aging-related target identification."
   },
   "snapshot": {
-    "market_cap": 750205418.08,
-    "ttm_pe": -8.342104059601914,
-    "static_pe": -9.307182160908132,
-    "ev_revenue": 49.39777220628151,
-    "pb": 1.9788020660422398,
-    "ps": 72.72251047692905,
-    "p_fcf": -8.464559208385518,
-    "ttm_pocf": -8.495135523496772,
-    "debt_asset": 0.0029145940943634415,
+    "market_cap": 791854850.38,
+    "ttm_pe": -8.382609781292343,
+    "static_pe": -9.823892443148688,
+    "ev_revenue": 69.3279430593916,
+    "pb": 2.1121029422292636,
+    "ps": 76.47077261033317,
+    "p_fcf": -8.989259162665032,
+    "ttm_pocf": -9.039335742514355,
+    "debt_asset": 0.0,
     "gross_margin": null,
-    "op_margin": -9.859344707250873,
-    "net_margin": -8.717526172935246,
-    "roe": -0.23720659103557967,
-    "roa": -0.2261513778309787,
+    "op_margin": -10.26277160791888,
+    "net_margin": -9.122549492998552,
+    "roe": -0.2519624552896272,
+    "roa": -0.23798714631583986,
     "dividend_rate": 0.0,
-    "latest_q_ni": -22253000.0,
-    "latest_q_ocf": -24046000.0
+    "latest_q_ni": -26097000.0,
+    "latest_q_ocf": -19260000.0
   },
   "annual": {
     "income_statement": [
@@ -268,27 +268,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Operating Income": -12813000.0,
-          "Net Income": -12992000.0,
-          "Diluted EPS": -7.76,
-          "Diluted Average Shares": 1673472.0,
-          "Research And Development": 9321000.0,
-          "General And Administrative Expense": 3492000.0,
-          "Total Revenue": 0
-        },
-        "sources": {
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "General And Administrative Expense": "sec",
-          "Total Revenue": "derived"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 0.0,
@@ -440,22 +419,30 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 2451000.0,
+          "Operating Income": -29333000.0,
+          "Net Income": -26097000.0,
+          "Diluted EPS": -0.58,
+          "Diluted Average Shares": 44838893.0,
+          "Research And Development": 24365000.0,
+          "General And Administrative Expense": 7419000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -15781000.0,
-          "Capital Expenditure": 35000.0,
-          "Free Cash Flow": -15816000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -546,20 +533,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -19260000.0,
+          "Capital Expenditure": 328000.0,
+          "Free Cash Flow": -19588000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 159085000.0,
-          "Common Stock Equity": -197131000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -690,6 +679,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 73964000.0,
+          "Total Assets": 396929000.0,
+          "Common Stock Equity": 374913000.0,
+          "Net PPE": 1209000.0,
+          "Accounts Receivable": 625000.0,
+          "Total Debt": 0.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -733,7 +741,7 @@
   },
   "validation": {
     "ticker": "BIOA",
-    "checked_at": "2026-08-05T15:38:05.561821+00:00",
+    "checked_at": "2026-08-06T15:39:29.428577+00:00",
     "status": "warn",
     "issues": [
       {
@@ -744,7 +752,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 96 days old"
+        "detail": "latest close 2026-05-01 is 97 days old"
       }
     ]
   },

@@ -24,19 +24,19 @@
   },
   "snapshot": {
     "market_cap": 20054443.0,
-    "ttm_pe": -2.264503500451671,
+    "ttm_pe": -0.7821240591240591,
     "static_pe": -0.8143605538861366,
-    "ev_revenue": 0.2863367749163232,
+    "ev_revenue": 0.3123053477145874,
     "pb": 339.90581355932204,
-    "ps": 0.13868525766922077,
+    "ps": 0.1512629582139086,
     "p_fcf": -0.9427181403657218,
     "ttm_pocf": -1.09485412458372,
     "debt_asset": 0.5028906265310522,
-    "gross_margin": 0.2132651932173384,
-    "op_margin": -0.02911399408038505,
-    "net_margin": -0.061243119139166274,
-    "roe": -150.10169491525423,
-    "roa": -0.1735551766711741,
+    "gross_margin": 0.16012219037562225,
+    "op_margin": -0.12998189772213004,
+    "net_margin": -0.19340021119324183,
+    "roe": -434.59322033898303,
+    "roa": -0.5024986771709096,
     "dividend_rate": 0.0,
     "latest_q_ni": -553000.0,
     "latest_q_ocf": -3918000.0
@@ -973,29 +973,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2023-09-30",
-        "items": {
-          "Total Revenue": 48714000.0,
-          "Gross Profit": 10640000.0,
-          "Cost Of Revenue": 36446000.0,
-          "Operating Income": 800000.0,
-          "Net Income": 259000.0,
-          "Diluted EPS": 0.01,
-          "Diluted Average Shares": 23376000.0,
-          "Selling General And Administration": 9343000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-03-31",
         "items": {
           "Total Revenue": 49396000.0,
@@ -1131,6 +1108,29 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-12-31",
+        "items": {
+          "Total Revenue": 22017000.0,
+          "Gross Profit": -2335000.0,
+          "Cost Of Revenue": 24352000.0,
+          "Operating Income": -11987000.0,
+          "Net Income": -16323000.0,
+          "Diluted EPS": -0.68,
+          "Diluted Average Shares": 23915000.0,
+          "Selling General And Administration": 9203000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Net Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1474,7 +1474,7 @@
   },
   "validation": {
     "ticker": "SGRP",
-    "checked_at": "2026-08-05T15:38:05.703240+00:00",
+    "checked_at": "2026-08-06T15:39:29.589711+00:00",
     "status": "info",
     "issues": [
       {

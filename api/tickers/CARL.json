@@ -23,23 +23,23 @@
     "logic_summary": "Carlsmed designs, manufactures, and markets AI-enabled personalized spine surgery solutions, including custom implants and surgical planning software."
   },
   "snapshot": {
-    "market_cap": 295462609.40999997,
-    "ttm_pe": -9.06299222140425,
-    "static_pe": -9.97039243470338,
-    "ev_revenue": 4.225638920762606,
-    "pb": 3.202916154388171,
-    "ps": 5.235171505191537,
-    "p_fcf": -8.572333229175733,
-    "ttm_pocf": -8.734003648053445,
-    "debt_asset": 0.13589404642625602,
-    "gross_margin": 0.7588681384882526,
-    "op_margin": -0.6047521173677309,
-    "net_margin": -0.5776427229880577,
-    "roe": -0.3534060359032174,
-    "roa": -0.2744908183111755,
+    "market_cap": 299370322.65,
+    "ttm_pe": -8.236905286834501,
+    "static_pe": -10.102258306337314,
+    "ev_revenue": 4.240592821707875,
+    "pb": 3.5535256587849866,
+    "ps": 4.7297625823524765,
+    "p_fcf": -8.658076832865778,
+    "ttm_pocf": -8.767618176892663,
+    "debt_asset": 0.13013316187543358,
+    "gross_margin": 0.7662848566237459,
+    "op_margin": -0.6108697369460463,
+    "net_margin": -0.5742159728256576,
+    "roe": -0.4314151413716972,
+    "roa": -0.3074821069017445,
     "dividend_rate": 0.0,
-    "latest_q_ni": -8696000.0,
-    "latest_q_ocf": -13007000.0
+    "latest_q_ni": -10510000.0,
+    "latest_q_ocf": -7358000.0
   },
   "annual": {
     "income_statement": [
@@ -241,15 +241,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Net Income": -5447000.0
-        },
-        "sources": {
-          "Net Income": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 6081000.0,
@@ -447,6 +438,33 @@
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 18940000.0,
+          "Gross Profit": 14542000.0,
+          "Cost Of Revenue": 4398000.0,
+          "Operating Income": -11036000.0,
+          "Net Income": -10510000.0,
+          "Diluted EPS": -0.39,
+          "Diluted Average Shares": 27190765.0,
+          "Research And Development": 6040000.0,
+          "Selling And Marketing Expense": 11920000.0,
+          "General And Administrative Expense": 7618000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
@@ -514,20 +532,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -7358000.0,
+          "Capital Expenditure": 121000.0,
+          "Free Cash Flow": -7479000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 38248000.0,
-          "Common Stock Equity": -57738000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -664,6 +684,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 46344000.0,
+          "Total Assets": 118202000.0,
+          "Common Stock Equity": 84246000.0,
+          "Net PPE": 2400000.0,
+          "Inventory": 2275000.0,
+          "Accounts Receivable": 13775000.0,
+          "Total Debt": 15382000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -707,13 +748,13 @@
   },
   "validation": {
     "ticker": "CARL",
-    "checked_at": "2026-08-05T15:38:05.569819+00:00",
+    "checked_at": "2026-08-06T15:39:29.437626+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 96 days old"
+        "detail": "latest close 2026-05-01 is 97 days old"
       },
       {
         "severity": "info",

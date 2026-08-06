@@ -1431,7 +1431,6 @@
           "Common Stock Equity": 193120000.0,
           "Goodwill": 15036000.0,
           "Net PPE": 70019000.0,
-          "Inventory": 58532000.0,
           "Accounts Receivable": 41316000.0,
           "Total Debt": 13023000.0
         },
@@ -1441,7 +1440,6 @@
           "Common Stock Equity": "sec",
           "Goodwill": "yfinance",
           "Net PPE": "yfinance",
-          "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
@@ -1580,13 +1578,13 @@
   },
   "validation": {
     "ticker": "HOFT",
-    "checked_at": "2026-08-05T15:38:05.622570+00:00",
+    "checked_at": "2026-08-06T15:39:29.497765+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 65 days old"
+        "detail": "latest close 2026-06-01 is 66 days old"
       },
       {
         "severity": "info",
