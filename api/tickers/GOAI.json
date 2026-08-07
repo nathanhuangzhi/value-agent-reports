@@ -32,7 +32,7 @@
     "p_fcf": -24.333660693572718,
     "ttm_pocf": -24.345344040201315,
     "debt_asset": 0.09949541179769998,
-    "gross_margin": null,
+    "gross_margin": 0.35223282435147424,
     "op_margin": -0.36839926447283383,
     "net_margin": -0.3929250330611461,
     "roe": -0.39799601005099516,
@@ -383,24 +383,18 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 3681520.0,
-          "Gross Profit": 2380754.0,
-          "Cost Of Revenue": 1300766.0,
           "Operating Income": 2002962.0,
           "Net Income": 1995694.0,
           "Diluted EPS": 0.06,
           "Diluted Average Shares": 31342285.0,
-          "Selling General And Administration": 377385.0,
           "General And Administrative Expense": 377385.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -504,18 +498,26 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 4204390.0,
+          "Gross Profit": 1155348.0,
+          "Cost Of Revenue": 3049042.0,
           "Operating Income": -862213.0,
           "Net Income": -1749757.0,
           "Diluted EPS": -0.05,
           "Diluted Average Shares": 37331301.0,
+          "Selling General And Administration": 2017316.0,
+          "Selling And Marketing Expense": 509733.0,
           "General And Administrative Expense": 2017316.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -801,7 +803,7 @@
   },
   "validation": {
     "ticker": "GOAI",
-    "checked_at": "2026-08-06T15:39:29.490243+00:00",
+    "checked_at": "2026-08-07T14:43:11.574447+00:00",
     "status": "warn",
     "issues": [
       {
@@ -812,7 +814,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 97 days old"
+        "detail": "latest close 2026-05-01 is 98 days old"
       },
       {
         "severity": "warn",

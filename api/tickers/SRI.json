@@ -1346,14 +1346,10 @@
       {
         "period": "2026-03-31",
         "items": {
-          "Cash Flow From Continuing Operating Activities": -11499000.0,
-          "Capital Expenditure": 836000.0,
-          "Free Cash Flow": -12335000.0
+          "Capital Expenditure": 836000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec"
         }
       },
       {
@@ -1593,13 +1589,13 @@
   },
   "validation": {
     "ticker": "SRI",
-    "checked_at": "2026-08-06T15:39:29.599521+00:00",
+    "checked_at": "2026-08-07T14:43:11.683393+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 66 days old"
+        "detail": "latest close 2026-06-01 is 67 days old"
       },
       {
         "severity": "warn",

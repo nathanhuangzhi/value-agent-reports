@@ -23,23 +23,23 @@
     "logic_summary": "Digital financial technology company offering banking solutions and digital asset services."
   },
   "snapshot": {
-    "market_cap": 151298623.5826,
-    "ttm_pe": -2.26192152748158,
-    "static_pe": -6.83886619438133,
+    "market_cap": 151298698.4242,
+    "ttm_pe": -1.7562363429737375,
+    "static_pe": -6.838869577304955,
     "ev_revenue": null,
-    "pb": 2.525745494964731,
+    "pb": 3.260687305440302,
     "ps": null,
-    "p_fcf": -9.405640400794582,
-    "ttm_pocf": -9.405640400794582,
-    "debt_asset": 0.06917705399332708,
+    "p_fcf": -6.588966353182173,
+    "ttm_pocf": -6.588966353182173,
+    "debt_asset": 0.2256074333498112,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -1.1166371000398463,
-    "roa": -0.9254426314552879,
+    "roe": -1.8566335439335921,
+    "roa": -1.2957295927059371,
     "dividend_rate": 0.0,
-    "latest_q_ni": -25554769.0,
-    "latest_q_ocf": -7057591.0
+    "latest_q_ni": -20788574.0,
+    "latest_q_ocf": -8167815.0
   },
   "annual": {
     "income_statement": [
@@ -1044,27 +1044,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Operating Income": -4726093.0,
-          "Net Income": -5397664.0,
-          "Diluted EPS": -2.69,
-          "Diluted Average Shares": 2044153.0,
-          "Research And Development": 2175245.0,
-          "Selling General And Administration": 2550848.0,
-          "Total Revenue": 0
-        },
-        "sources": {
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Total Revenue": "derived"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Operating Income": -3835831.0,
@@ -1134,7 +1113,7 @@
           "Operating Income": -1254345.0,
           "Net Income": -1528601.0,
           "Diluted EPS": -0.55,
-          "Diluted Average Shares": 6716252.0,
+          "Diluted Average Shares": 6672777.0,
           "Research And Development": 238612.0,
           "Selling General And Administration": 1015733.0
         },
@@ -1206,22 +1185,30 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Operating Income": -16430235.0,
+          "Net Income": -20788574.0,
+          "Diluted EPS": -0.05,
+          "Diluted Average Shares": 388144429.0,
+          "Research And Development": 57352.0,
+          "Selling General And Administration": 16372883.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec",
+          "Total Revenue": "derived"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -2526080.0,
-          "Capital Expenditure": 53656.0,
-          "Free Cash Flow": -2579736.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1312,26 +1299,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -8167815.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -8167815.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 2129954.0,
-          "Total Assets": 2742208.0,
-          "Common Stock Equity": -4601481.0,
-          "Net PPE": 88668.0,
-          "Total Debt": 5485076.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1454,6 +1437,21 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 3642232.0,
+          "Total Assets": 66487171.0,
+          "Common Stock Equity": 46400861.0,
+          "Total Debt": 15000000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1491,7 +1489,7 @@
   },
   "validation": {
     "ticker": "USBC",
-    "checked_at": "2026-08-06T15:39:29.620110+00:00",
+    "checked_at": "2026-08-07T14:43:11.704068+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1502,12 +1500,12 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 66 days old"
+        "detail": "latest close 2026-06-01 is 67 days old"
       },
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2023-06-30 is 1133 days old (>180)"
+        "detail": "latest quarterly period 2023-06-30 is 1134 days old (>180)"
       },
       {
         "severity": "info",

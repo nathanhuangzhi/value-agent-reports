@@ -23,23 +23,23 @@
     "logic_summary": "Patent licensing company owning various technology patents."
   },
   "snapshot": {
-    "market_cap": 33535536.3,
-    "ttm_pe": -13.059009462616823,
-    "static_pe": -13.857659628099174,
+    "market_cap": 33569590.32,
+    "ttm_pe": -12.162895043478262,
+    "static_pe": -13.871731537190083,
     "ev_revenue": null,
-    "pb": 0.8816324806772176,
+    "pb": 0.8952129475452679,
     "ps": null,
-    "p_fcf": -19.565657117852975,
-    "ttm_pocf": -25.063928475336322,
+    "p_fcf": -16.91163240302267,
+    "ttm_pocf": -20.863635997513985,
     "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -0.06751143593248857,
-    "roa": -0.0651892468205011,
+    "roe": -0.07360196271900583,
+    "roa": -0.07175167680549056,
     "dividend_rate": 0.0,
-    "latest_q_ni": -511000.0,
-    "latest_q_ocf": -310000.0
+    "latest_q_ni": -655000.0,
+    "latest_q_ocf": -932000.0
   },
   "annual": {
     "income_statement": [
@@ -925,25 +925,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Operating Income": -918000.0,
-          "Net Income": -920000.0,
-          "Diluted EPS": -0.04,
-          "Diluted Average Shares": 23540468.0,
-          "General And Administrative Expense": 669000.0,
-          "Total Revenue": 0
-        },
-        "sources": {
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Total Revenue": "derived"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 100000.0,
@@ -1103,22 +1084,28 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Operating Income": -1013000.0,
+          "Net Income": -655000.0,
+          "Diluted EPS": -0.03,
+          "Diluted Average Shares": 22836456.0,
+          "General And Administrative Expense": 488000.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -64000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -64000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1209,24 +1196,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -932000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -932000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 19939000.0,
-          "Total Assets": 48063000.0,
-          "Common Stock Equity": 47173000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1341,6 +1326,21 @@
           "Common Stock Equity": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 9435000.0,
+          "Total Assets": 38466000.0,
+          "Common Stock Equity": 37499000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1384,13 +1384,13 @@
   },
   "validation": {
     "ticker": "NTIP",
-    "checked_at": "2026-08-06T15:39:29.549511+00:00",
+    "checked_at": "2026-08-07T14:43:11.633287+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-03-31 is 493 days old (>180)"
+        "detail": "latest quarterly period 2025-03-31 is 494 days old (>180)"
       },
       {
         "severity": "warn",

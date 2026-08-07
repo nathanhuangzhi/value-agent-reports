@@ -23,23 +23,23 @@
     "logic_summary": "Exploration stage company for precious and base metals in North and South America."
   },
   "snapshot": {
-    "market_cap": 69753260.0,
-    "ttm_pe": -18.27915618448637,
-    "static_pe": -18.19808505087399,
+    "market_cap": 71289719.0,
+    "ttm_pe": -15.158349776738252,
+    "static_pe": -18.598935298721628,
     "ev_revenue": null,
-    "pb": 2.7414423832730703,
+    "pb": 2.8012778105230067,
     "ps": null,
-    "p_fcf": -20.06710586881473,
-    "ttm_pocf": -20.247680696661828,
+    "p_fcf": -17.611096590909092,
+    "ttm_pocf": -17.74700497883993,
     "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -0.14997641880207516,
-    "roa": -0.14756380510440836,
+    "roe": -0.18480097449801564,
+    "roa": -0.17920286541685718,
     "dividend_rate": 0.0,
-    "latest_q_ni": -494000.0,
-    "latest_q_ocf": -473000.0
+    "latest_q_ni": -1830000.0,
+    "latest_q_ocf": -1375000.0
   },
   "annual": {
     "income_statement": [
@@ -850,21 +850,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Net Income": -730000.0,
-          "Diluted EPS": -0.01,
-          "Diluted Average Shares": 79624000.0,
-          "General And Administrative Expense": 472000.0
-        },
-        "sources": {
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Net Income": -762000.0,
@@ -1014,22 +999,24 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Net Income": -1830000.0,
+          "Diluted EPS": -0.02,
+          "Diluted Average Shares": 93679000.0,
+          "General And Administrative Expense": 451000.0
+        },
+        "sources": {
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -579000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -579000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1120,24 +1107,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -1375000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -1375000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 276000.0,
-          "Total Assets": 26611000.0,
-          "Common Stock Equity": 26105000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1252,6 +1237,21 @@
           "Net PPE": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 743000.0,
+          "Total Assets": 26244000.0,
+          "Common Stock Equity": 25449000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1295,7 +1295,7 @@
   },
   "validation": {
     "ticker": "XPL",
-    "checked_at": "2026-08-06T15:39:29.633043+00:00",
+    "checked_at": "2026-08-07T14:43:11.716739+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1311,7 +1311,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2020-09-30 is 2136 days old (>180)"
+        "detail": "latest quarterly period 2020-09-30 is 2137 days old (>180)"
       },
       {
         "severity": "info",

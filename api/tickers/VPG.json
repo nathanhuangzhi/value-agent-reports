@@ -26,12 +26,12 @@
     "market_cap": 1829193300.0,
     "ttm_pe": 463.3215045592705,
     "static_pe": 345.587247307765,
-    "ev_revenue": 5.384024723895201,
+    "ev_revenue": 5.398346566683608,
     "pb": 5.497183479538754,
     "ps": 5.566812340035728,
     "p_fcf": -244.8391513853567,
     "ttm_pocf": 642.7242796907941,
-    "debt_asset": 0.03469980453626729,
+    "debt_asset": 0.045140807103254105,
     "gross_margin": 0.3868175745384051,
     "op_margin": 0.035914166329365865,
     "net_margin": 0.012015009632093588,
@@ -1090,6 +1090,33 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-06-29",
+        "items": {
+          "Total Revenue": 77359000.0,
+          "Gross Profit": 32407000.0,
+          "Cost Of Revenue": 44952000.0,
+          "Operating Income": 5906000.0,
+          "Net Income": 4603000.0,
+          "Diluted EPS": 0.34,
+          "Diluted Average Shares": 13389000.0,
+          "Research And Development": 4945000.0,
+          "Selling General And Administration": 26501000.0,
+          "General And Administrative Expense": 7912000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-09-28",
         "items": {
           "Total Revenue": 75727000.0,
@@ -1114,15 +1141,6 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "General And Administrative Expense": 27300000.0
-        },
-        "sources": {
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -1449,7 +1467,7 @@
           "Net PPE": 77995000.0,
           "Inventory": 83936000.0,
           "Accounts Receivable": 50241000.0,
-          "Total Debt": 35593000.0
+          "Total Debt": 31479000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1459,7 +1477,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1564,7 +1582,7 @@
           "Net PPE": 75052000.0,
           "Inventory": 84205000.0,
           "Accounts Receivable": 62198000.0,
-          "Total Debt": 15640000.0
+          "Total Debt": 20346000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1574,7 +1592,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1619,13 +1637,13 @@
   },
   "validation": {
     "ticker": "VPG",
-    "checked_at": "2026-08-06T15:39:29.625878+00:00",
+    "checked_at": "2026-08-07T14:43:11.709810+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 66 days old"
+        "detail": "latest close 2026-06-01 is 67 days old"
       },
       {
         "severity": "info",

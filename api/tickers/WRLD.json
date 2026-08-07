@@ -23,23 +23,23 @@
     "logic_summary": "Consumer finance company providing small to medium loans and related services to individuals with limited access to credit."
   },
   "snapshot": {
-    "market_cap": 1019272500.0,
-    "ttm_pe": null,
-    "static_pe": 29.47064687169592,
-    "ev_revenue": null,
-    "pb": 2.9038664833117855,
-    "ps": null,
-    "p_fcf": 3.989691077200914,
-    "ttm_pocf": 3.929969410071,
-    "debt_asset": 0.55707930998456,
+    "market_cap": 1019303872.5,
+    "ttm_pe": 26.06261643179718,
+    "static_pe": 29.471553957748945,
+    "ev_revenue": 2.643939182123284,
+    "pb": 2.814354266868869,
+    "ps": 1.7229585568107708,
+    "p_fcf": 3.898550935579251,
+    "ttm_pocf": 3.838100219001701,
+    "debt_asset": 0.5308714886600828,
     "gross_margin": null,
     "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "net_margin": 0.06610842627099822,
+    "roe": 0.10798433358499156,
+    "roa": 0.036245059458100054,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 6106806.0,
+    "latest_q_ocf": 64369264.0
   },
   "annual": {
     "income_statement": [
@@ -969,13 +969,13 @@
       {
         "period": "2025-06-30",
         "items": {
-          "Total Revenue": 132775000.0,
-          "Net Income": 1585000.0,
+          "Total Revenue": 132774825.0,
+          "Net Income": 1584390.0,
           "Diluted EPS": 0.3,
           "Diluted Average Shares": 5288643.0,
           "Selling General And Administration": 57743579.0,
           "Selling And Marketing Expense": 2298906.0,
-          "General And Administrative Expense": 70360000.0
+          "General And Administrative Expense": 70360252.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1053,29 +1053,22 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 139208923.0,
+          "Net Income": 6106806.0,
           "Diluted EPS": 1.33,
-          "Diluted Average Shares": 4581000.0
+          "Diluted Average Shares": 4581141.0,
+          "General And Administrative Expense": 76130291.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 48410927.0,
-          "Capital Expenditure": 1083641.0,
-          "Free Cash Flow": 47327286.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1166,28 +1159,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 64369264.0,
+          "Capital Expenditure": 1274538.0,
+          "Free Cash Flow": 63094726.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 11119138.0,
-          "Total Assets": 1048436030.0,
-          "Common Stock Equity": 422611168.0,
-          "Goodwill": 7370791.0,
-          "Net PPE": 22199110.0,
-          "Total Debt": 494727745.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1252,7 +1239,7 @@
         "items": {
           "Cash And Cash Equivalents": 8126292.0,
           "Total Assets": 1024056405.0,
-          "Common Stock Equity": 427851338.0,
+          "Common Stock Equity": 425602684.0,
           "Goodwill": 7370791.0,
           "Net PPE": 19138343.0,
           "Accounts Receivable": 7629460.0,
@@ -1330,6 +1317,25 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 27977661.0,
+          "Total Assets": 1079038263.0,
+          "Common Stock Equity": 362180371.0,
+          "Goodwill": 7370791.0,
+          "Net PPE": 17220005.0,
+          "Total Debt": 572830649.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1373,7 +1379,7 @@
   },
   "validation": {
     "ticker": "WRLD",
-    "checked_at": "2026-08-06T15:39:29.630847+00:00",
+    "checked_at": "2026-08-07T14:43:11.714607+00:00",
     "status": "error",
     "issues": [
       {
@@ -1389,7 +1395,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 66 days old"
+        "detail": "latest close 2026-06-01 is 67 days old"
       },
       {
         "severity": "warn",

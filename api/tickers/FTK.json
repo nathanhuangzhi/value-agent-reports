@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 902553120.0,
-    "ttm_pe": null,
+    "ttm_pe": 23.75327315314367,
     "static_pe": 29.564764150943397,
-    "ev_revenue": null,
-    "pb": 7.637428559339962,
-    "ps": null,
-    "p_fcf": -364.5206462035541,
-    "ttm_pocf": -10256.285454545454,
-    "debt_asset": 0.19096543781783362,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "ev_revenue": 3.2018756997351248,
+    "pb": 6.9850024378352025,
+    "ps": 3.080722536249693,
+    "p_fcf": -232.9169341935484,
+    "ttm_pocf": -410.6247133757962,
+    "debt_asset": 0.14923368502738438,
+    "gross_margin": 0.24678804511072883,
+    "op_margin": 0.13003126621337485,
+    "net_margin": 0.12969675869036892,
+    "roe": 0.2940648386772229,
+    "roa": 0.1417608082496381,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 9953000.0,
+    "latest_q_ocf": -6601000.0
   },
   "annual": {
     "income_statement": [
@@ -1241,29 +1241,30 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 99367000.0,
+          "Gross Profit": 23783000.0,
+          "Cost Of Revenue": 75584000.0,
+          "Operating Income": 14886000.0,
+          "Net Income": 9953000.0,
           "Diluted EPS": 0.26,
-          "Diluted Average Shares": 38472000.0
+          "Diluted Average Shares": 38472000.0,
+          "Research And Development": 497000.0,
+          "Selling General And Administration": 7736000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -3060000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -3060000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1354,26 +1355,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -6601000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -6601000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 4878000.0,
-          "Total Assets": 156040000.0,
-          "Common Stock Equity": 106234000.0,
-          "Inventory": 12142000.0,
-          "Total Debt": 0.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Inventory": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1512,6 +1509,23 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 4506000.0,
+          "Total Assets": 268036000.0,
+          "Common Stock Equity": 129213000.0,
+          "Inventory": 26626000.0,
+          "Total Debt": 40000000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Inventory": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1555,7 +1569,7 @@
   },
   "validation": {
     "ticker": "FTK",
-    "checked_at": "2026-08-06T15:39:29.484042+00:00",
+    "checked_at": "2026-08-07T14:43:11.568339+00:00",
     "status": "warn",
     "issues": [
       {

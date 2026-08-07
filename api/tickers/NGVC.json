@@ -23,23 +23,23 @@
     "logic_summary": "Retails natural and organic groceries and supplements in the US."
   },
   "snapshot": {
-    "market_cap": 750196344.28,
-    "ttm_pe": 15.572962951861001,
-    "static_pe": 16.152707438635776,
-    "ev_revenue": 0.5773723777153702,
-    "pb": 3.2490800765716017,
-    "ps": 0.5607682639495709,
-    "p_fcf": 43.338899149624496,
-    "ttm_pocf": 12.022569981570218,
-    "debt_asset": 0.06270766363712044,
-    "gross_margin": 0.29795687101444834,
-    "op_margin": 0.0478449335887774,
-    "net_margin": 0.0360090925331944,
-    "roe": 0.20863596006842938,
-    "roa": 0.07035625769496466,
+    "market_cap": 751756932.5749999,
+    "ttm_pe": 15.779621178711613,
+    "static_pe": 16.186308943566445,
+    "ev_revenue": 0.5474942478615306,
+    "pb": 3.1399611244653656,
+    "ps": 0.5594116335524822,
+    "p_fcf": 33.10100535313284,
+    "ttm_pocf": 10.629445910511283,
+    "debt_asset": 0.0021114256922117186,
+    "gross_margin": 0.29641734290296057,
+    "op_margin": 0.04719031726365216,
+    "net_margin": 0.035451524926795326,
+    "roe": 0.19898837170448092,
+    "roa": 0.06927715661340116,
     "dividend_rate": 0.0,
-    "latest_q_ni": 13434000.0,
-    "latest_q_ocf": 22705000.0
+    "latest_q_ni": 11073000.0,
+    "latest_q_ocf": 11258000.0
   },
   "annual": {
     "income_statement": [
@@ -878,27 +878,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 308092000.0,
-          "Gross Profit": 90357000.0,
-          "Operating Income": 11261000.0,
-          "Net Income": 7961000.0,
-          "Diluted EPS": 0.35,
-          "Diluted Average Shares": 23061119.0,
-          "General And Administrative Expense": 9522000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 309082000.0,
@@ -1064,22 +1043,30 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 334739000.0,
+          "Gross Profit": 98008000.0,
+          "Operating Income": 14996000.0,
+          "Net Income": 11073000.0,
+          "Diluted EPS": 0.48,
+          "Diluted Average Shares": 23263405.0,
+          "General And Administrative Expense": 9504000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 12433000.0,
-          "Capital Expenditure": 8833000.0,
-          "Free Cash Flow": 3600000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1170,30 +1157,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 11258000.0,
+          "Capital Expenditure": 10008000.0,
+          "Free Cash Flow": 1250000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 13915000.0,
-          "Total Assets": 654386000.0,
-          "Common Stock Equity": 167802000.0,
-          "Goodwill": 5198000.0,
-          "Net PPE": 178219000.0,
-          "Accounts Receivable": 8921000.0,
-          "Total Debt": 1687000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1292,7 +1271,7 @@
           "Net PPE": 182741000.0,
           "Inventory": 132968000.0,
           "Accounts Receivable": 11966000.0,
-          "Total Debt": 40556000.0
+          "Total Debt": 0.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1302,7 +1281,7 @@
           "Net PPE": "sec",
           "Inventory": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1350,6 +1329,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 17467000.0,
+          "Total Assets": 687687000.0,
+          "Common Stock Equity": 239416000.0,
+          "Goodwill": 5198000.0,
+          "Net PPE": 206997000.0,
+          "Accounts Receivable": 10616000.0,
+          "Total Debt": 1452000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1393,7 +1393,7 @@
   },
   "validation": {
     "ticker": "NGVC",
-    "checked_at": "2026-08-06T15:39:29.545226+00:00",
+    "checked_at": "2026-08-07T14:43:11.629012+00:00",
     "status": "warn",
     "issues": [
       {

@@ -23,23 +23,23 @@
     "logic_summary": "A company that originates and services mortgage loans, primarily serving financial institutions."
   },
   "snapshot": {
-    "market_cap": 344862814.94000006,
-    "ttm_pe": 1.9706446568000002,
-    "static_pe": 1.8198565432189977,
-    "ev_revenue": 13.842932836482142,
-    "pb": 0.5480972901144311,
-    "ps": 0.2996982836012862,
-    "p_fcf": -0.15729204786316991,
-    "ttm_pocf": -0.15748598727737695,
-    "debt_asset": 0.8960372592358699,
-    "gross_margin": 0.5283740331971843,
-    "op_margin": 0.20265925089076214,
-    "net_margin": 0.15208134179195273,
-    "roe": 0.2781309599491418,
-    "roa": 0.009867382380802021,
+    "market_cap": 324326174.13000005,
+    "ttm_pe": 2.2904390828389833,
+    "static_pe": 1.7114837684960424,
+    "ev_revenue": -0.05777070418702607,
+    "pb": 0.5317694279881948,
+    "ps": 0.2732318231929234,
+    "p_fcf": -0.15366539094570267,
+    "ttm_pocf": -0.1539206369560059,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": null,
+    "net_margin": 0.11929233361415333,
+    "roe": 0.2321692080668962,
+    "roa": 0.011465308535015343,
     "dividend_rate": 0.0,
-    "latest_q_ni": 7600000.0,
-    "latest_q_ocf": -1589900000.0
+    "latest_q_ni": -11900000.0,
+    "latest_q_ocf": -516100000.0
   },
   "annual": {
     "income_statement": [
@@ -896,21 +896,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 239100000.0,
-          "Net Income": 30100000.0,
-          "Diluted EPS": 3.74,
-          "Diluted Average Shares": 8046188.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 246400000.0,
@@ -1060,22 +1045,24 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 282900000.0,
+          "Net Income": -11900000.0,
+          "Diluted EPS": -1.53,
+          "Diluted Average Shares": 8447094.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -77900000.0,
-          "Capital Expenditure": 100000.0,
-          "Free Cash Flow": -78000000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1166,26 +1153,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -516100000.0,
+          "Capital Expenditure": 800000.0,
+          "Free Cash Flow": -516900000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 249400000.0,
-          "Total Assets": 13084700000.0,
-          "Common Stock Equity": 446200000.0,
-          "Net PPE": 12300000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1301,7 +1284,7 @@
         "items": {
           "Cash And Cash Equivalents": 307200000.0,
           "Total Assets": 17735200000.0,
-          "Common Stock Equity": 629200000.0,
+          "Common Stock Equity": 629300000.0,
           "Net PPE": 11300000.0,
           "Accounts Receivable": 346400000.0,
           "Total Debt": 15891400000.0
@@ -1313,6 +1296,23 @@
           "Net PPE": "sec",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 392900000.0,
+          "Total Assets": 12350300000.0,
+          "Common Stock Equity": 609900000.0,
+          "Net PPE": 11000000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1357,7 +1357,7 @@
   },
   "validation": {
     "ticker": "ONIT",
-    "checked_at": "2026-08-06T15:39:29.555386+00:00",
+    "checked_at": "2026-08-07T14:43:11.639133+00:00",
     "status": "warn",
     "issues": [
       {

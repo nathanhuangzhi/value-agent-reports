@@ -23,23 +23,23 @@
     "logic_summary": "A regenerative medicine company developing and selling wound care and surgical products."
   },
   "snapshot": {
-    "market_cap": 307990801.33000004,
-    "ttm_pe": 113.27355694372933,
-    "static_pe": 8.316882731961549,
-    "ev_revenue": 0.4387958825325575,
-    "pb": 1.2593927800699232,
-    "ps": 0.5990081088865897,
-    "p_fcf": 18.030137064161107,
-    "ttm_pocf": 10.01498394725718,
-    "debt_asset": 0.018698364590224465,
-    "gross_margin": 0.7254749420422897,
-    "op_margin": 0.008730609450607583,
-    "net_margin": 0.005288154844331035,
-    "roe": 0.011118153380630123,
-    "roa": 0.005228926598870752,
+    "market_cap": 310105660.68,
+    "ttm_pe": -3.684890687295024,
+    "static_pe": 8.373991701231368,
+    "ev_revenue": 0.5761682855129366,
+    "pb": 2.091521168964308,
+    "ps": 0.6786899633632293,
+    "p_fcf": 14.8803100134357,
+    "ttm_pocf": 9.69898541519407,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": -0.07425183512140034,
+    "net_margin": -0.18418184444473626,
+    "roe": -0.5675938166023687,
+    "roa": -0.2070533354984426,
     "dividend_rate": 0.0,
-    "latest_q_ni": -53156000.0,
-    "latest_q_ocf": 21127000.0
+    "latest_q_ni": -96267000.0,
+    "latest_q_ocf": -31653000.0
   },
   "annual": {
     "income_statement": [
@@ -669,31 +669,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 109976000.0,
-          "Gross Profit": 81280000.0,
-          "Cost Of Revenue": 28696000.0,
-          "Operating Income": -3852000.0,
-          "Net Income": -2100000.0,
-          "Diluted EPS": -0.02,
-          "Diluted Average Shares": 131861772.0,
-          "Research And Development": 12810000.0,
-          "Selling General And Administration": 72322000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 130234000.0,
@@ -777,7 +752,7 @@
           "Operating Income": -12576000.0,
           "Net Income": -9392000.0,
           "Diluted EPS": -0.1,
-          "Diluted Average Shares": 133926755.0,
+          "Diluted Average Shares": 126853536.0,
           "Research And Development": 10395000.0,
           "Selling General And Administration": 73810000.0
         },
@@ -867,22 +842,30 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 43755000.0,
+          "Operating Income": -50992000.0,
+          "Net Income": -96267000.0,
+          "Diluted EPS": -0.77,
+          "Diluted Average Shares": 128674548.0,
+          "Research And Development": 18297000.0,
+          "Selling General And Administration": 53965000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 4738000.0,
-          "Capital Expenditure": 1880000.0,
-          "Free Cash Flow": 2858000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -973,32 +956,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -31653000.0,
+          "Capital Expenditure": 1100000.0,
+          "Free Cash Flow": -32753000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 90477000.0,
-          "Total Assets": 443163000.0,
-          "Common Stock Equity": 263501000.0,
-          "Goodwill": 28772000.0,
-          "Net PPE": 89947000.0,
-          "Inventory": 26883000.0,
-          "Accounts Receivable": 105945000.0,
-          "Total Debt": 63489000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1159,6 +1132,29 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 46844000.0,
+          "Total Assets": 406446000.0,
+          "Common Stock Equity": 148268000.0,
+          "Goodwill": 28772000.0,
+          "Net PPE": 101531000.0,
+          "Inventory": 29280000.0,
+          "Accounts Receivable": 100937000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1202,13 +1198,13 @@
   },
   "validation": {
     "ticker": "ORGO",
-    "checked_at": "2026-08-06T15:39:29.557776+00:00",
+    "checked_at": "2026-08-07T14:43:11.641529+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 97 days old"
+        "detail": "latest close 2026-05-01 is 98 days old"
       },
       {
         "severity": "info",
