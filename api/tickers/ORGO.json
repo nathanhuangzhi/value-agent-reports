@@ -26,13 +26,13 @@
     "market_cap": 310105660.68,
     "ttm_pe": -3.684890687295024,
     "static_pe": 8.373991701231368,
-    "ev_revenue": 0.5761682855129366,
+    "ev_revenue": 0.5965504985139566,
     "pb": 2.091521168964308,
     "ps": 0.6786899633632293,
     "p_fcf": 14.8803100134357,
     "ttm_pocf": 9.69898541519407,
-    "debt_asset": 0.0,
-    "gross_margin": null,
+    "debt_asset": 0.022913252929048385,
+    "gross_margin": 0.6981537168594802,
     "op_margin": -0.07425183512140034,
     "net_margin": -0.18418184444473626,
     "roe": -0.5675938166023687,
@@ -847,6 +847,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 43755000.0,
+          "Gross Profit": 19132000.0,
+          "Cost Of Revenue": 23673000.0,
           "Operating Income": -50992000.0,
           "Net Income": -96267000.0,
           "Diluted EPS": -0.77,
@@ -856,6 +858,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1028,7 +1032,7 @@
           "Net PPE": 75518000.0,
           "Inventory": 29338000.0,
           "Accounts Receivable": 103320000.0,
-          "Total Debt": 9258000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1038,7 +1042,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1143,7 +1147,7 @@
           "Net PPE": 101531000.0,
           "Inventory": 29280000.0,
           "Accounts Receivable": 100937000.0,
-          "Total Debt": 0
+          "Total Debt": 9313000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1153,7 +1157,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1198,13 +1202,13 @@
   },
   "validation": {
     "ticker": "ORGO",
-    "checked_at": "2026-08-07T14:43:11.641529+00:00",
+    "checked_at": "2026-08-08T14:10:37.783217+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

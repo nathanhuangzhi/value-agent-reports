@@ -23,23 +23,23 @@
     "logic_summary": "PRA Group purchases and collects nonperforming loan portfolios globally, earning revenue through collection and fee-based services."
   },
   "snapshot": {
-    "market_cap": 717652485.0000001,
-    "ttm_pe": -2.557646129063299,
-    "static_pe": -2.3518640010224754,
-    "ev_revenue": 3.449033295539924,
-    "pb": 0.6716108731987341,
-    "ps": 0.5742244296382476,
-    "p_fcf": -53.736614376637974,
-    "ttm_pocf": -89.438245887338,
-    "debt_asset": 0.7258095616718809,
-    "gross_margin": 0.6537382268996789,
-    "op_margin": -0.026767975406812576,
-    "net_margin": -0.2245128530929918,
-    "roe": -0.26258944330375444,
-    "roa": -0.05388902652861722,
+    "market_cap": 713776405.0000001,
+    "ttm_pe": -2.693008077782138,
+    "static_pe": -2.339161455977873,
+    "ev_revenue": 0.4332709555762246,
+    "pb": 0.64136789388416,
+    "ps": 0.5349593033757214,
+    "p_fcf": -18.859025708095544,
+    "ttm_pocf": -22.735352922439883,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": 0.026019607828441618,
+    "net_margin": -0.19864749303548102,
+    "roe": -0.23816040478139486,
+    "roa": -0.05059358433005324,
     "dividend_rate": 0.0,
-    "latest_q_ni": 28210000.0,
-    "latest_q_ocf": 24937000.0
+    "latest_q_ni": 57917000.0,
+    "latest_q_ocf": -36281000.0
   },
   "annual": {
     "income_statement": [
@@ -983,23 +983,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 255586000.0,
-          "Operating Income": 66396000.0,
-          "Net Income": 3475000.0,
-          "Diluted EPS": 0.09,
-          "Diluted Average Shares": 39448000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 284229000.0,
@@ -1157,22 +1140,26 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 372174000.0,
+          "Operating Income": 153282000.0,
+          "Net Income": 57917000.0,
+          "Diluted EPS": 1.51,
+          "Diluted Average Shares": 38303000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -29489000.0,
-          "Capital Expenditure": 1337000.0,
-          "Free Cash Flow": -30826000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1263,28 +1250,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -36281000.0,
+          "Capital Expenditure": 2400000.0,
+          "Free Cash Flow": -38681000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 119917000.0,
-          "Total Assets": 4661940000.0,
-          "Common Stock Equity": 1203278000.0,
-          "Goodwill": 415646000.0,
-          "Net PPE": 32827000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1427,6 +1408,25 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 135679000.0,
+          "Total Assets": 5238767000.0,
+          "Common Stock Equity": 1112897000.0,
+          "Goodwill": 26871000.0,
+          "Net PPE": 22213000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1470,7 +1470,7 @@
   },
   "validation": {
     "ticker": "PRAA",
-    "checked_at": "2026-08-07T14:43:11.651144+00:00",
+    "checked_at": "2026-08-08T14:10:37.792700+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1481,7 +1481,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "info",

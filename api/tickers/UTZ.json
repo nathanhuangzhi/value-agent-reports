@@ -553,7 +553,6 @@
           "Diluted EPS": 0.09,
           "Diluted Average Shares": 87535340.0,
           "Selling General And Administration": 77400000.0,
-          "Selling And Marketing Expense": 41500000.0,
           "General And Administrative Expense": 35900000.0
         },
         "sources": {
@@ -565,7 +564,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -580,7 +578,7 @@
           "Diluted EPS": 0.12,
           "Diluted Average Shares": 87679440.0,
           "Selling General And Administration": 88000000.0,
-          "Selling And Marketing Expense": 85800000.0,
+          "Selling And Marketing Expense": 54300000.0,
           "General And Administrative Expense": 33700000.0
         },
         "sources": {
@@ -688,6 +686,7 @@
           "Diluted EPS": -0.11,
           "Diluted Average Shares": 88510845.0,
           "Selling General And Administration": 101300000.0,
+          "Selling And Marketing Expense": 64600000.0,
           "General And Administrative Expense": 36700000.0
         },
         "sources": {
@@ -699,6 +698,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -859,7 +859,6 @@
           "Total Assets": 2779067000.0,
           "Common Stock Equity": 1372100000.0,
           "Goodwill": 870695000.0,
-          "Net PPE": 374956000.0,
           "Inventory": 107576000.0,
           "Accounts Receivable": 134998000.0,
           "Total Debt": 848192000.0
@@ -869,7 +868,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -974,6 +972,7 @@
           "Total Assets": 2775500000.0,
           "Common Stock Equity": 1313700000.0,
           "Goodwill": 865200000.0,
+          "Net PPE": 379700000.0,
           "Inventory": 128700000.0,
           "Accounts Receivable": 123600000.0,
           "Total Debt": 838800000.0
@@ -983,6 +982,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1030,13 +1030,13 @@
   },
   "validation": {
     "ticker": "UTZ",
-    "checked_at": "2026-08-07T14:43:11.705936+00:00",
+    "checked_at": "2026-08-08T14:10:37.846089+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

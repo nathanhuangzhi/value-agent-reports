@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 222637800.0,
-    "ttm_pe": null,
+    "ttm_pe": 10.303966307215255,
     "static_pe": 11.520714100905563,
-    "ev_revenue": null,
-    "pb": 0.7082436249809131,
-    "ps": null,
-    "p_fcf": 0.7474076809453472,
-    "ttm_pocf": 0.744822256568779,
-    "debt_asset": 0.9050994140099226,
+    "ev_revenue": 0.10818049713193116,
+    "pb": 0.6973819726356939,
+    "ps": 0.567591586998088,
+    "p_fcf": 0.6370872941836309,
+    "ttm_pocf": 0.6351208407503766,
+    "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "net_margin": 0.055084767367750156,
+    "roe": 0.06768092517415927,
+    "roa": 0.0048860063755294,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 6234000.0,
+    "latest_q_ocf": 106090000.0
   },
   "annual": {
     "income_statement": [
@@ -918,7 +918,7 @@
           "Diluted Average Shares": 24180000.0,
           "Selling General And Administration": 43266000.0,
           "Selling And Marketing Expense": 5721000.0,
-          "General And Administrative Expense": 13183000.0
+          "General And Administrative Expense": 12402000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -996,29 +996,24 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 121389000.0,
+          "Net Income": 6234000.0,
           "Diluted EPS": 0.27,
-          "Diluted Average Shares": 23485000.0
+          "Diluted Average Shares": 23485000.0,
+          "Selling And Marketing Expense": 8303000.0,
+          "General And Administrative Expense": 14673000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 43291000.0,
-          "Capital Expenditure": 145000.0,
-          "Free Cash Flow": 43146000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1109,26 +1104,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 106090000.0,
+          "Capital Expenditure": 172000.0,
+          "Free Cash Flow": 105918000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 266611000.0,
-          "Total Assets": 3286542000.0,
-          "Common Stock Equity": 280314000.0,
-          "Net PPE": 1192000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1168,7 +1159,7 @@
         "items": {
           "Cash And Cash Equivalents": 183478000.0,
           "Total Assets": 3673606000.0,
-          "Common Stock Equity": 298427000.0,
+          "Common Stock Equity": 0.0,
           "Net PPE": 1165000.0,
           "Total Debt": 3299890000.0
         },
@@ -1247,6 +1238,23 @@
           "Net PPE": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 180204000.0,
+          "Total Assets": 4422221000.0,
+          "Common Stock Equity": 319248000.0,
+          "Net PPE": 1265000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1290,7 +1298,7 @@
   },
   "validation": {
     "ticker": "CPSS",
-    "checked_at": "2026-08-07T14:43:11.535622+00:00",
+    "checked_at": "2026-08-08T14:10:37.678796+00:00",
     "status": "error",
     "issues": [
       {
@@ -1306,7 +1314,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       }
     ]
   },

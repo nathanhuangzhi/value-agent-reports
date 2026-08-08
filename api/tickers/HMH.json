@@ -26,12 +26,12 @@
     "market_cap": 219667850.00000003,
     "ttm_pe": 123.33961257720384,
     "static_pe": 26.095016631028752,
-    "ev_revenue": 0.13311616645450852,
+    "ev_revenue": 0.3908070104066876,
     "pb": 0.2595322655154366,
     "ps": 0.28827423524625667,
-    "p_fcf": 3.3950704769558904,
-    "ttm_pocf": 2.6785495671259607,
-    "debt_asset": 0.0010810493444349445,
+    "p_fcf": 2.1542822257963286,
+    "ttm_pocf": 1.8151667520534138,
+    "debt_asset": 0.14519380726791015,
     "gross_margin": 0.3323539061167176,
     "op_margin": 0.0847311715069356,
     "net_margin": 0.002337239668770751,
@@ -39,7 +39,7 @@
     "roa": 0.0013070936065435411,
     "dividend_rate": 0.0,
     "latest_q_ni": 4976000.0,
-    "latest_q_ocf": null
+    "latest_q_ocf": 17869000.0
   },
   "annual": {
     "income_statement": [
@@ -298,26 +298,12 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 198430000.0,
-          "Gross Profit": 56547000.0,
-          "Cost Of Revenue": 141883000.0,
-          "Operating Income": 19278000.0,
-          "Net Income": 6112000.0,
           "Diluted EPS": 30560.0,
-          "Diluted Average Shares": 200.0,
-          "Research And Development": 1031000.0,
-          "Selling General And Administration": 36238000.0
+          "Diluted Average Shares": 200.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Diluted Average Shares": "sec"
         }
       },
       {
@@ -416,42 +402,29 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 170822000.0,
+          "Gross Profit": 61298000.0,
           "Cost Of Revenue": 109524000.0,
           "Operating Income": -4831000.0,
           "Net Income": 4976000.0,
           "Diluted EPS": 0.42,
           "Diluted Average Shares": 11971000.0,
           "Research And Development": 771000.0,
-          "Selling General And Administration": 60354000.0,
-          "Gross Profit": 61298000.0
+          "Selling General And Administration": 60354000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2025-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 13587000.0,
-          "Capital Expenditure": -2407000.0,
-          "Free Cash Flow": 11180000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
-        }
-      },
       {
         "period": "2025-06-30",
         "items": {
@@ -503,6 +476,19 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 17869000.0,
+          "Capital Expenditure": -5248000.0,
+          "Free Cash Flow": 12621000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
+        }
       }
     ],
     "balance_sheet": [
@@ -510,36 +496,20 @@
         "period": "2024-12-31",
         "items": {
           "Cash And Cash Equivalents": 48912000.0,
-          "Common Stock Equity": 631337000.0,
-          "Total Debt": 14397000.0
+          "Common Stock Equity": 631337000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec",
-          "Total Debt": "yfinance"
+          "Common Stock Equity": "sec"
         }
       },
       {
         "period": "2025-03-31",
         "items": {
-          "Cash And Cash Equivalents": 46984000.0,
-          "Total Assets": 1388733000.0,
-          "Common Stock Equity": 650794000.0,
-          "Goodwill": 303184000.0,
-          "Net PPE": 248286000.0,
-          "Inventory": 281271000.0,
-          "Accounts Receivable": 129691000.0,
-          "Total Debt": 341271000.0
+          "Common Stock Equity": 650794000.0
         },
         "sources": {
-          "Cash And Cash Equivalents": "yfinance",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "sec",
-          "Goodwill": "yfinance",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Common Stock Equity": "sec"
         }
       },
       {
@@ -643,7 +613,8 @@
           "Goodwill": 307954000.0,
           "Net PPE": 197673000.0,
           "Inventory": 252192000.0,
-          "Total Debt": 1473000.0
+          "Accounts Receivable": 126704000.0,
+          "Total Debt": 197836000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -652,7 +623,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -697,7 +669,7 @@
   },
   "validation": {
     "ticker": "HMH",
-    "checked_at": "2026-08-07T14:43:11.581016+00:00",
+    "checked_at": "2026-08-08T14:10:37.723510+00:00",
     "status": "error",
     "issues": [
       {

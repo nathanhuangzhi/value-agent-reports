@@ -26,12 +26,12 @@
     "market_cap": 181100468.86,
     "ttm_pe": -3.484845844750616,
     "static_pe": -3.397374945784715,
-    "ev_revenue": 2.8614347398182653,
+    "ev_revenue": 2.8674980202000393,
     "pb": 9.076352872249787,
     "ps": 2.9597383287572727,
     "p_fcf": -4.411274634871146,
     "ttm_pocf": -4.476369203351707,
-    "debt_asset": 0.6346889459597109,
+    "debt_asset": 0.6387091880411343,
     "gross_margin": 0.869173694188403,
     "op_margin": -0.794861737595607,
     "net_margin": -0.8493168595149375,
@@ -775,7 +775,7 @@
           "Net PPE": 2435000.0,
           "Inventory": 11672000.0,
           "Accounts Receivable": 9012000.0,
-          "Total Debt": 49622000.0
+          "Total Debt": 49332000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -784,7 +784,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -880,7 +880,7 @@
           "Net PPE": 2061000.0,
           "Inventory": 13028000.0,
           "Accounts Receivable": 9401000.0,
-          "Total Debt": 58571000.0
+          "Total Debt": 58942000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -889,7 +889,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -934,13 +934,13 @@
   },
   "validation": {
     "ticker": "CVRX",
-    "checked_at": "2026-08-07T14:43:11.541389+00:00",
+    "checked_at": "2026-08-08T14:10:37.684429+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

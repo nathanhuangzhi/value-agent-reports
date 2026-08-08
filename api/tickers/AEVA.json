@@ -26,12 +26,12 @@
     "market_cap": 1310268213.16,
     "ttm_pe": -40.41293606686818,
     "static_pe": -9.009738242704294,
-    "ev_revenue": 63.15071826835818,
+    "ev_revenue": 63.2447547532179,
     "pb": 47.594195901198695,
     "ps": 60.66618266320956,
     "p_fcf": -11.230549525670696,
     "ttm_pocf": -11.75381439197675,
-    "debt_asset": 0.4253667787562447,
+    "debt_asset": 0.4342827291324618,
     "gross_margin": 0.272247430317622,
     "op_margin": -6.109454579127697,
     "net_margin": -1.5011575145846838,
@@ -554,7 +554,6 @@
           "Diluted EPS": -0.64,
           "Diluted Average Shares": 54750088.0,
           "Research And Development": 21569000.0,
-          "Selling General And Administration": 9159000.0,
           "Selling And Marketing Expense": 1942000.0,
           "General And Administrative Expense": 7217000.0
         },
@@ -567,7 +566,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -699,6 +697,7 @@
           "Diluted EPS": -1.23,
           "Diluted Average Shares": 64672666.0,
           "Research And Development": 24889000.0,
+          "Selling General And Administration": 11860000.0,
           "Selling And Marketing Expense": 1644000.0,
           "General And Administrative Expense": 10216000.0
         },
@@ -711,6 +710,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -874,7 +874,7 @@
           "Net PPE": 12339000.0,
           "Inventory": 3882000.0,
           "Accounts Receivable": 775000.0,
-          "Total Debt": 2634000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -883,7 +883,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -979,7 +979,7 @@
           "Net PPE": 12399000.0,
           "Inventory": 5709000.0,
           "Accounts Receivable": 3712000.0,
-          "Total Debt": 96896000.0
+          "Total Debt": 98927000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -988,7 +988,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1033,13 +1033,13 @@
   },
   "validation": {
     "ticker": "AEVA",
-    "checked_at": "2026-08-07T14:43:11.491614+00:00",
+    "checked_at": "2026-08-08T14:10:37.635617+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

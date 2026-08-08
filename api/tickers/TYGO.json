@@ -26,12 +26,12 @@
     "market_cap": 165935074.42000002,
     "ttm_pe": 16.635095179949875,
     "static_pe": -88.26333745744682,
-    "ev_revenue": 1.376844572070655,
+    "ev_revenue": 1.3849078558137446,
     "pb": 3.7172668388628782,
     "ps": 1.4916182697649334,
     "p_fcf": -20.172024607342575,
     "ttm_pocf": -22.935048295784384,
-    "debt_asset": 0.05324942203955818,
+    "debt_asset": 0.06477010017980991,
     "gross_margin": 0.42433367791810866,
     "op_margin": -0.027938334307159873,
     "net_margin": 0.089666951323655,
@@ -469,7 +469,6 @@
           "Diluted EPS": -0.11,
           "Diluted Average Shares": 61657718.0,
           "Research And Development": 2164000.0,
-          "Selling General And Administration": 8986000.0,
           "Selling And Marketing Expense": 3916000.0,
           "General And Administrative Expense": 5070000.0
         },
@@ -482,7 +481,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -614,6 +612,7 @@
           "Diluted EPS": 0.03,
           "Diluted Average Shares": 80551007.0,
           "Research And Development": 2507000.0,
+          "Selling General And Administration": 9169000.0,
           "Selling And Marketing Expense": 4048000.0,
           "General And Administrative Expense": 5121000.0
         },
@@ -626,6 +625,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -662,13 +662,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -530000.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -530000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -909,7 +909,7 @@
           "Net PPE": 2639000.0,
           "Inventory": 20561000.0,
           "Accounts Receivable": 13584000.0,
-          "Total Debt": 4146000.0
+          "Total Debt": 5043000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -919,7 +919,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -964,7 +964,7 @@
   },
   "validation": {
     "ticker": "TYGO",
-    "checked_at": "2026-08-07T14:43:11.699808+00:00",
+    "checked_at": "2026-08-08T14:10:37.840057+00:00",
     "status": "info",
     "issues": [
       {

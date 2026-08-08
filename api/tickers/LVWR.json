@@ -472,23 +472,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 2743000.0,
-          "Gross Profit": -2168000.0,
           "Cost Of Revenue": 4911000.0,
           "Operating Income": -20666000.0,
           "Net Income": -19271000.0,
           "Diluted EPS": -0.09,
           "Diluted Average Shares": 203480000.0,
-          "Selling General And Administration": 18498000.0
+          "Selling General And Administration": 18498000.0,
+          "Gross Profit": -2168000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -587,23 +587,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 9115000.0,
+          "Gross Profit": -46000.0,
           "Cost Of Revenue": 9161000.0,
           "Operating Income": -18014000.0,
           "Net Income": -18213000.0,
           "Diluted EPS": -0.09,
           "Diluted Average Shares": 205041000.0,
-          "Selling General And Administration": 17968000.0,
-          "Gross Profit": -46000.0
+          "Selling General And Administration": 17968000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -765,8 +765,7 @@
           "Goodwill": 8327000.0,
           "Net PPE": 31420000.0,
           "Inventory": 28491000.0,
-          "Accounts Receivable": 3622000.0,
-          "Total Debt": 351000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -775,8 +774,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -880,6 +878,7 @@
           "Goodwill": 8619000.0,
           "Net PPE": 25478000.0,
           "Inventory": 13621000.0,
+          "Accounts Receivable": 5013000.0,
           "Total Debt": 76818000.0
         },
         "sources": {
@@ -889,6 +888,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -934,7 +934,7 @@
   },
   "validation": {
     "ticker": "LVWR",
-    "checked_at": "2026-08-07T14:43:11.609139+00:00",
+    "checked_at": "2026-08-08T14:10:37.751238+00:00",
     "status": "warn",
     "issues": [
       {

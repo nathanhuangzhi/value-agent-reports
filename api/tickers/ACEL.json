@@ -32,7 +32,7 @@
     "p_fcf": 12.912734988598936,
     "ttm_pocf": 6.840002013085053,
     "debt_asset": 0.5226344988778466,
-    "gross_margin": 0.49520786987838844,
+    "gross_margin": 0.3135742747813883,
     "op_margin": 0.08207951844305023,
     "net_margin": 0.040754316512105794,
     "roe": 0.19968012851224531,
@@ -631,25 +631,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 323912000.0,
-          "Gross Profit": 100364000.0,
           "Cost Of Revenue": 2076000.0,
           "Operating Income": 25952000.0,
           "Net Income": 14639000.0,
           "Diluted EPS": 0.17,
           "Diluted Average Shares": 87223000.0,
-          "Selling General And Administration": 53004000.0,
-          "General And Administrative Expense": 53004000.0
+          "General And Administrative Expense": 53004000.0,
+          "Gross Profit": 321836000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -752,23 +750,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 368125000.0,
+          "Gross Profit": 115237000.0,
           "Cost Of Revenue": 268000.0,
           "Operating Income": 32053000.0,
           "Net Income": 12493000.0,
           "Diluted EPS": 0.15,
           "Diluted Average Shares": 83415000.0,
-          "General And Administrative Expense": 59556000.0,
-          "Gross Profit": 367857000.0
+          "Selling General And Administration": 59556000.0,
+          "General And Administrative Expense": 59556000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1105,7 +1105,7 @@
   },
   "validation": {
     "ticker": "ACEL",
-    "checked_at": "2026-08-07T14:43:11.489390+00:00",
+    "checked_at": "2026-08-08T14:10:37.633405+00:00",
     "status": "ok",
     "issues": []
   },

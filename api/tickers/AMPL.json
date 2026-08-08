@@ -26,12 +26,12 @@
     "market_cap": 774339300.0,
     "ttm_pe": -7.779724312539559,
     "static_pe": -8.745545001750601,
-    "ev_revenue": 1.8689132083938798,
+    "ev_revenue": 1.8800573232754936,
     "pb": 5.685394058649907,
     "ps": 2.0683907278399865,
     "p_fcf": 26.298712810759408,
     "ttm_pocf": 24.378657557535497,
-    "debt_asset": 0.0,
+    "debt_asset": 0.011700170510634478,
     "gross_margin": 0.7241698008376785,
     "op_margin": -0.2778709718779383,
     "net_margin": -0.26586941191554836,
@@ -537,12 +537,10 @@
           "Total Revenue": 79953000.0,
           "Gross Profit": 59749000.0,
           "Cost Of Revenue": 20204000.0,
-          "Operating Income": -24198000.0,
           "Net Income": -22231000.0,
           "Diluted EPS": -0.17,
           "Diluted Average Shares": 129696000.0,
           "Research And Development": 23533000.0,
-          "Selling General And Administration": 60414000.0,
           "Selling And Marketing Expense": 44146000.0,
           "General And Administrative Expense": 16268000.0
         },
@@ -550,12 +548,10 @@
           "Total Revenue": "sec",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -687,6 +683,7 @@
           "Diluted EPS": -0.27,
           "Diluted Average Shares": 129380000.0,
           "Research And Development": 33656000.0,
+          "Selling General And Administration": 68504000.0,
           "Selling And Marketing Expense": 49857000.0,
           "General And Administrative Expense": 18647000.0
         },
@@ -699,6 +696,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -862,7 +860,7 @@
           "Goodwill": 24358000.0,
           "Net PPE": 16349000.0,
           "Accounts Receivable": 41746000.0,
-          "Total Debt": 3290000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -871,7 +869,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -967,7 +965,7 @@
           "Goodwill": 25180000.0,
           "Net PPE": 18884000.0,
           "Accounts Receivable": 37464000.0,
-          "Total Debt": 0
+          "Total Debt": 4172000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -976,7 +974,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1021,7 +1019,7 @@
   },
   "validation": {
     "ticker": "AMPL",
-    "checked_at": "2026-08-07T14:43:11.497596+00:00",
+    "checked_at": "2026-08-08T14:10:37.641421+00:00",
     "status": "error",
     "issues": [
       {
@@ -1032,7 +1030,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

@@ -1108,16 +1108,14 @@
           "Cash And Cash Equivalents": 39626000.0,
           "Total Assets": 87211000.0,
           "Common Stock Equity": 35197000.0,
-          "Net PPE": 3535700.0,
           "Inventory": 4510000.0,
           "Accounts Receivable": 4525000.0,
-          "Total Debt": 35406000.0
+          "Total Debt": 445000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
@@ -1213,6 +1211,7 @@
           "Cash And Cash Equivalents": 45068000.0,
           "Total Assets": 176835000.0,
           "Common Stock Equity": 90313000.0,
+          "Net PPE": 3520000.0,
           "Inventory": 8458000.0,
           "Accounts Receivable": 10269000.0,
           "Total Debt": 55808000.0
@@ -1221,9 +1220,10 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1268,13 +1268,13 @@
   },
   "validation": {
     "ticker": "SENS",
-    "checked_at": "2026-08-07T14:43:11.671967+00:00",
+    "checked_at": "2026-08-08T14:10:37.812885+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

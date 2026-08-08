@@ -12,13 +12,13 @@
     "market_cap": 648547960.13,
     "ttm_pe": -7.22447071025164,
     "static_pe": -6.943024945187881,
-    "ev_revenue": 62.828498402777775,
+    "ev_revenue": 62.920386486513685,
     "pb": 1.2925899516884143,
     "ps": 65.27254027073269,
     "p_fcf": -8.892745922528452,
     "ttm_pocf": -10.839483221854525,
-    "debt_asset": 0.0,
-    "gross_margin": null,
+    "debt_asset": 0.0017322243050232609,
+    "gross_margin": -0.7817028985507246,
     "op_margin": -10.826086956521738,
     "net_margin": -9.034923510466989,
     "roe": -0.17891829083813826,
@@ -438,26 +438,20 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 6016000.0,
-          "Gross Profit": 2429000.0,
-          "Cost Of Revenue": 2696000.0,
           "Operating Income": -24029000.0,
           "Net Income": -15151000.0,
           "Diluted EPS": -0.08,
           "Diluted Average Shares": 181404557.0,
           "Research And Development": 19022000.0,
-          "Selling General And Administration": 8327000.0,
           "General And Administrative Expense": 8327000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -567,20 +561,26 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": -268000.0,
+          "Gross Profit": -3136000.0,
+          "Cost Of Revenue": 2119000.0,
           "Operating Income": -30289000.0,
           "Net Income": -23821000.0,
           "Diluted EPS": -0.11,
           "Diluted Average Shares": 225974899.0,
           "Research And Development": 19363000.0,
+          "Selling General And Administration": 8539000.0,
           "General And Administrative Expense": 8539000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -735,16 +735,14 @@
           "Total Assets": 419390000.0,
           "Common Stock Equity": 397072000.0,
           "Net PPE": 94702000.0,
-          "Accounts Receivable": 2220000.0,
-          "Total Debt": 866000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -831,7 +829,7 @@
           "Common Stock Equity": 501743000.0,
           "Net PPE": 84207000.0,
           "Accounts Receivable": 3187000.0,
-          "Total Debt": 0
+          "Total Debt": 913000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -839,7 +837,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -884,7 +882,7 @@
   },
   "validation": {
     "ticker": "SLDP",
-    "checked_at": "2026-08-07T14:43:11.676438+00:00",
+    "checked_at": "2026-08-08T14:10:37.817271+00:00",
     "status": "warn",
     "issues": [
       {
@@ -895,7 +893,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "warn",

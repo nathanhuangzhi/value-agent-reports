@@ -23,23 +23,23 @@
     "logic_summary": "Provides virtual care programs for employers and health plans on a subscription basis."
   },
   "snapshot": {
-    "market_cap": 975764879.9999999,
-    "ttm_pe": -154.88331428571428,
-    "static_pe": -76.3628799499139,
-    "ev_revenue": 2.6968350306217896,
-    "pb": 4.167833656532175,
-    "ps": 3.444342046276849,
-    "p_fcf": 45.48808353922893,
-    "ttm_pocf": 43.29805111821086,
+    "market_cap": 1058962319.9999999,
+    "ttm_pe": 245.98427874564456,
+    "static_pe": -82.8738707152919,
+    "ev_revenue": 2.7029087774689353,
+    "pb": 4.189944250788362,
+    "ps": 3.4186652203810053,
+    "p_fcf": 46.59900198019801,
+    "ttm_pocf": 44.71025205826472,
     "debt_asset": 0.0,
-    "gross_margin": 0.6626731851956441,
-    "op_margin": -0.02949928519740906,
-    "net_margin": -0.022238302829206306,
-    "roe": -0.02690950717159723,
-    "roa": -0.020805949841148225,
+    "gross_margin": 0.681862351053561,
+    "op_margin": -0.0014979387201017565,
+    "net_margin": 0.013897901271633754,
+    "roe": 0.01703338226391653,
+    "roa": 0.013116122624321344,
     "dividend_rate": 0.0,
-    "latest_q_ni": -2970000.0,
-    "latest_q_ocf": -11834000.0
+    "latest_q_ni": 5294000.0,
+    "latest_q_ocf": 4007000.0
   },
   "annual": {
     "income_statement": [
@@ -312,15 +312,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Net Income": -18969000.0
-        },
-        "sources": {
-          "Net Income": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 41212000.0,
@@ -518,6 +509,33 @@
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 87835000.0,
+          "Gross Profit": 63787000.0,
+          "Cost Of Revenue": 24048000.0,
+          "Operating Income": 3549000.0,
+          "Net Income": 5294000.0,
+          "Diluted EPS": 0.08,
+          "Diluted Average Shares": 63947000.0,
+          "Research And Development": 14625000.0,
+          "Selling And Marketing Expense": 29888000.0,
+          "General And Administrative Expense": 15725000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
@@ -585,20 +603,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 4007000.0,
+          "Capital Expenditure": 146000.0,
+          "Free Cash Flow": 3861000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 84171000.0,
-          "Common Stock Equity": -373401000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -747,6 +767,29 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 221712000.0,
+          "Total Assets": 328222000.0,
+          "Common Stock Equity": 252739000.0,
+          "Goodwill": 13240000.0,
+          "Net PPE": 9098000.0,
+          "Inventory": 4119000.0,
+          "Accounts Receivable": 56573000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -790,13 +833,13 @@
   },
   "validation": {
     "ticker": "OMDA",
-    "checked_at": "2026-08-07T14:43:11.638284+00:00",
+    "checked_at": "2026-08-08T14:10:37.780001+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

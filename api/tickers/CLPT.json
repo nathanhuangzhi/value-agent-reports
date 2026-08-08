@@ -26,12 +26,12 @@
     "market_cap": 386736324.8,
     "ttm_pe": -11.188344754961523,
     "static_pe": -15.142377635082225,
-    "ev_revenue": 9.618967449561248,
+    "ev_revenue": 9.623556015989026,
     "pb": 35.88867156644395,
     "ps": 9.14724389886232,
     "p_fcf": -12.369624973612666,
     "ttm_pocf": -12.823672816499768,
-    "debt_asset": 0.5791033075477571,
+    "debt_asset": 0.581339850820258,
     "gross_margin": 0.626079140944677,
     "op_margin": -0.734241585657182,
     "net_margin": -0.8175690058894487,
@@ -1090,8 +1090,7 @@
           "Diluted Average Shares": 27718918.0,
           "Research And Development": 3379000.0,
           "Selling General And Administration": 4082000.0,
-          "Selling And Marketing Expense": 3834000.0,
-          "General And Administrative Expense": 4082000.0
+          "Selling And Marketing Expense": 3834000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1103,8 +1102,7 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "yfinance"
+          "Selling And Marketing Expense": "sec"
         }
       },
       {
@@ -1231,7 +1229,8 @@
           "Diluted Average Shares": 30166640.0,
           "Research And Development": 4632000.0,
           "Selling General And Administration": 5554000.0,
-          "Selling And Marketing Expense": 6768000.0
+          "Selling And Marketing Expense": 6768000.0,
+          "General And Administrative Expense": 5554000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1243,7 +1242,8 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "sec"
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1407,7 +1407,7 @@
           "Net PPE": 2183000.0,
           "Inventory": 6582000.0,
           "Accounts Receivable": 3651000.0,
-          "Total Debt": 578000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1416,7 +1416,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1517,7 +1517,7 @@
           "Net PPE": 2986000.0,
           "Inventory": 8813000.0,
           "Accounts Receivable": 8395000.0,
-          "Total Debt": 50232000.0
+          "Total Debt": 50426000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1527,7 +1527,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1572,13 +1572,13 @@
   },
   "validation": {
     "ticker": "CLPT",
-    "checked_at": "2026-08-07T14:43:11.529983+00:00",
+    "checked_at": "2026-08-08T14:10:37.673303+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

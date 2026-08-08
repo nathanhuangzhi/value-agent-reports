@@ -26,12 +26,12 @@
     "market_cap": 231837955.0,
     "ttm_pe": -5.73246185990159,
     "static_pe": -5.224870526458127,
-    "ev_revenue": 1.3221254143778647,
+    "ev_revenue": 1.3387723345181248,
     "pb": 1.929426468262885,
     "ps": 1.3872710001316435,
     "p_fcf": -14.14594880712673,
     "ttm_pocf": -17.869427701556962,
-    "debt_asset": 0.0,
+    "debt_asset": 0.017237960691005527,
     "gross_margin": 0.7482617072966407,
     "op_margin": -0.2573810122189112,
     "net_margin": -0.24200265680537106,
@@ -495,7 +495,6 @@
           "Diluted EPS": -0.19,
           "Diluted Average Shares": 60565000.0,
           "Research And Development": 14257000.0,
-          "Selling General And Administration": 25503000.0,
           "Selling And Marketing Expense": 14527000.0,
           "General And Administrative Expense": 10976000.0
         },
@@ -508,7 +507,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -640,6 +638,7 @@
           "Diluted EPS": -0.13,
           "Diluted Average Shares": 64489000.0,
           "Research And Development": 14932000.0,
+          "Selling General And Administration": 26398000.0,
           "Selling And Marketing Expense": 16875000.0,
           "General And Administrative Expense": 9523000.0
         },
@@ -652,6 +651,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -809,18 +809,16 @@
           "Total Assets": 168030000.0,
           "Common Stock Equity": 142172000.0,
           "Goodwill": 5898000.0,
-          "Net PPE": 15370000.0,
           "Accounts Receivable": 22326000.0,
-          "Total Debt": 2503000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -914,16 +912,18 @@
           "Total Assets": 161388000.0,
           "Common Stock Equity": 120159000.0,
           "Goodwill": 5898000.0,
+          "Net PPE": 12646000.0,
           "Accounts Receivable": 27953000.0,
-          "Total Debt": 0
+          "Total Debt": 2782000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -968,13 +968,13 @@
   },
   "validation": {
     "ticker": "LAW",
-    "checked_at": "2026-08-07T14:43:11.602620+00:00",
+    "checked_at": "2026-08-08T14:10:37.744855+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

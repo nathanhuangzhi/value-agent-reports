@@ -26,12 +26,12 @@
     "market_cap": 915056568.0,
     "ttm_pe": 30.284844216448782,
     "static_pe": 23.424548638132297,
-    "ev_revenue": 1.3196297707858333,
+    "ev_revenue": 1.344717117280493,
     "pb": 4.504383838383839,
     "ps": 1.3382500398525237,
     "p_fcf": 18.081263199494153,
     "ttm_pocf": 17.46757851334326,
-    "debt_asset": 0.012034444947736055,
+    "debt_asset": 0.05449410530015569,
     "gross_margin": 0.2357982423940179,
     "op_margin": 0.05767866727310752,
     "net_margin": 0.044188770801920525,
@@ -976,18 +976,16 @@
           "Total Assets": 336370000.0,
           "Common Stock Equity": 161130000.0,
           "Goodwill": 33142000.0,
-          "Net PPE": 51690000.0,
           "Accounts Receivable": 110851000.0,
-          "Total Debt": 13053000.0
+          "Total Debt": 3419000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1081,16 +1079,18 @@
           "Total Assets": 404007000.0,
           "Common Stock Equity": 203148000.0,
           "Goodwill": 72644000.0,
+          "Net PPE": 57386000.0,
           "Accounts Receivable": 149328000.0,
-          "Total Debt": 4862000.0
+          "Total Debt": 22016000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1135,7 +1135,7 @@
   },
   "validation": {
     "ticker": "LMB",
-    "checked_at": "2026-08-07T14:43:11.605685+00:00",
+    "checked_at": "2026-08-08T14:10:37.747805+00:00",
     "status": "info",
     "issues": [
       {

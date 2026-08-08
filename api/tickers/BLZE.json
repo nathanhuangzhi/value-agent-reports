@@ -26,12 +26,12 @@
     "market_cap": 448051448.35,
     "ttm_pe": -21.93427563274098,
     "static_pe": -17.493809477979074,
-    "ev_revenue": 2.659088106754189,
+    "ev_revenue": 2.796046450483996,
     "pb": 5.060555336126861,
     "ps": 2.8665569333282153,
     "p_fcf": 18.682043462035608,
     "ttm_pocf": 15.534148609714663,
-    "debt_asset": 0.0,
+    "debt_asset": 0.09563527519656898,
     "gross_margin": 0.6196874020332304,
     "op_margin": -0.11204519427010358,
     "net_margin": -0.1306884704708163,
@@ -489,7 +489,6 @@
           "Diluted EPS": -0.17,
           "Diluted Average Shares": 54060249.0,
           "Research And Development": 11855000.0,
-          "Selling General And Administration": 16172000.0,
           "Selling And Marketing Expense": 9263000.0,
           "General And Administrative Expense": 6909000.0
         },
@@ -502,7 +501,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -518,7 +516,7 @@
           "Diluted EPS": -0.13,
           "Diluted Average Shares": 55627214.0,
           "Research And Development": 11878000.0,
-          "Selling General And Administration": 17880000.0,
+          "Selling General And Administration": 17403000.0,
           "Selling And Marketing Expense": 10172000.0,
           "General And Administrative Expense": 7231000.0
         },
@@ -634,6 +632,7 @@
           "Diluted EPS": -0.08,
           "Diluted Average Shares": 60793955.0,
           "Research And Development": 11002000.0,
+          "Selling General And Administration": 20006000.0,
           "Selling And Marketing Expense": 10215000.0,
           "General And Administrative Expense": 9791000.0
         },
@@ -646,6 +645,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -798,17 +798,15 @@
           "Cash And Cash Equivalents": 40606000.0,
           "Total Assets": 170164000.0,
           "Common Stock Equity": 77768000.0,
-          "Net PPE": 60626000.0,
           "Accounts Receivable": 1770000.0,
-          "Total Debt": 19916000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -893,15 +891,17 @@
           "Cash And Cash Equivalents": 32428000.0,
           "Total Assets": 223840000.0,
           "Common Stock Equity": 88538000.0,
+          "Net PPE": 102837000.0,
           "Accounts Receivable": 5266000.0,
-          "Total Debt": 0
+          "Total Debt": 21407000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -946,13 +946,13 @@
   },
   "validation": {
     "ticker": "BLZE",
-    "checked_at": "2026-08-07T14:43:11.516076+00:00",
+    "checked_at": "2026-08-08T14:10:37.659581+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

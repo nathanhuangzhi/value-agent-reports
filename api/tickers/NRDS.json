@@ -547,29 +547,27 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 209200000.0,
-          "Gross Profit": 191000000.0,
           "Cost Of Revenue": 18200000.0,
           "Operating Income": 700000.0,
           "Net Income": 200000.0,
           "Diluted EPS": 0.0,
           "Diluted Average Shares": 76100000.0,
           "Research And Development": 16800000.0,
-          "Selling General And Administration": 173500000.0,
           "Selling And Marketing Expense": 159700000.0,
-          "General And Administrative Expense": 13800000.0
+          "General And Administrative Expense": 13800000.0,
+          "Gross Profit": 191000000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -692,27 +690,29 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 197300000.0,
+          "Gross Profit": 183900000.0,
           "Cost Of Revenue": 13400000.0,
           "Operating Income": 7000000.0,
           "Net Income": 4300000.0,
           "Diluted EPS": 0.07,
           "Diluted Average Shares": 65800000.0,
           "Research And Development": 17500000.0,
+          "Selling General And Administration": 159400000.0,
           "Selling And Marketing Expense": 145400000.0,
-          "General And Administrative Expense": 14000000.0,
-          "Gross Profit": 183900000.0
+          "General And Administrative Expense": 14000000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1033,13 +1033,13 @@
   },
   "validation": {
     "ticker": "NRDS",
-    "checked_at": "2026-08-07T14:43:11.631747+00:00",
+    "checked_at": "2026-08-08T14:10:37.773533+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

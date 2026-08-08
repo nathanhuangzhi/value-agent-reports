@@ -629,25 +629,25 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 20605000.0,
-          "Gross Profit": 7207000.0,
           "Cost Of Revenue": 13398000.0,
           "Operating Income": -17696000.0,
           "Net Income": -15750000.0,
           "Diluted EPS": -0.18,
           "Diluted Average Shares": 87463885.0,
           "Research And Development": 12640000.0,
-          "Selling General And Administration": 12263000.0
+          "Selling General And Administration": 12263000.0,
+          "Gross Profit": 7207000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -754,25 +754,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 22357000.0,
+          "Gross Profit": 4743000.0,
           "Cost Of Revenue": 17614000.0,
           "Operating Income": -33591000.0,
           "Net Income": -31683000.0,
           "Diluted EPS": -0.3,
           "Diluted Average Shares": 105424708.0,
           "Research And Development": 16336000.0,
-          "Selling General And Administration": 21998000.0,
-          "Gross Profit": 4743000.0
+          "Selling General And Administration": 21998000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -928,7 +928,6 @@
           "Total Assets": 273308000.0,
           "Common Stock Equity": 207345000.0,
           "Net PPE": 47986000.0,
-          "Inventory": 4212000.0,
           "Accounts Receivable": 10973000.0,
           "Total Debt": 2834000.0
         },
@@ -937,7 +936,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1033,6 +1031,7 @@
           "Total Assets": 312135000.0,
           "Common Stock Equity": 235161000.0,
           "Net PPE": 48567000.0,
+          "Inventory": 7747000.0,
           "Accounts Receivable": 15102000.0,
           "Total Debt": 898000.0
         },
@@ -1041,6 +1040,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
+          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1087,13 +1087,13 @@
   },
   "validation": {
     "ticker": "PSNL",
-    "checked_at": "2026-08-07T14:43:11.652869+00:00",
+    "checked_at": "2026-08-08T14:10:37.794390+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "warn",

@@ -885,8 +885,6 @@
           "Net Income": 7007000.0,
           "Diluted EPS": 0.7,
           "Diluted Average Shares": 10025000.0,
-          "Selling General And Administration": 59137000.0,
-          "Selling And Marketing Expense": 5406000.0,
           "General And Administrative Expense": 66043000.0
         },
         "sources": {
@@ -894,8 +892,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -990,6 +986,8 @@
           "Net Income": 8153000.0,
           "Diluted EPS": 0.85,
           "Diluted Average Shares": 9604000.0,
+          "Selling General And Administration": 58192000.0,
+          "Selling And Marketing Expense": 4889000.0,
           "General And Administrative Expense": 65444000.0
         },
         "sources": {
@@ -997,6 +995,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1158,7 +1158,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1245,7 +1245,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1290,7 +1290,7 @@
   },
   "validation": {
     "ticker": "RM",
-    "checked_at": "2026-08-07T14:43:11.663374+00:00",
+    "checked_at": "2026-08-08T14:10:37.804455+00:00",
     "status": "error",
     "issues": [
       {
@@ -1306,7 +1306,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       }
     ]
   },

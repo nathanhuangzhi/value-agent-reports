@@ -527,29 +527,27 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 36021000.0,
-          "Gross Profit": 12529000.0,
           "Cost Of Revenue": 23492000.0,
           "Operating Income": -13742000.0,
           "Net Income": -12671000.0,
           "Diluted EPS": -0.33,
           "Diluted Average Shares": 38683000.0,
           "Research And Development": 3066000.0,
-          "Selling General And Administration": 18620000.0,
           "Selling And Marketing Expense": 4258000.0,
-          "General And Administrative Expense": 14362000.0
+          "General And Administrative Expense": 14362000.0,
+          "Gross Profit": 12529000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -672,27 +670,29 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 36288000.0,
+          "Gross Profit": 13502000.0,
           "Cost Of Revenue": 22786000.0,
           "Operating Income": -10312000.0,
           "Net Income": -11848000.0,
           "Diluted EPS": -0.22,
           "Diluted Average Shares": 55089000.0,
           "Research And Development": 2624000.0,
+          "Selling General And Administration": 16509000.0,
           "Selling And Marketing Expense": 2751000.0,
-          "General And Administrative Expense": 13758000.0,
-          "Gross Profit": 13502000.0
+          "General And Administrative Expense": 13758000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1013,13 +1013,13 @@
   },
   "validation": {
     "ticker": "BZFD",
-    "checked_at": "2026-08-07T14:43:11.521335+00:00",
+    "checked_at": "2026-08-08T14:10:37.664784+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

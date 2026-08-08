@@ -26,12 +26,12 @@
     "market_cap": 36844610.0,
     "ttm_pe": 2.2763258371432102,
     "static_pe": 26.99238827838828,
-    "ev_revenue": 0.04228089131652475,
+    "ev_revenue": 0.2877641517876378,
     "pb": -1.0224673234355488,
     "ps": 0.12211888197646092,
     "p_fcf": -13.966872630780895,
     "ttm_pocf": -14.14923579109063,
-    "debt_asset": 0.0,
+    "debt_asset": 0.7261844066201271,
     "gross_margin": 0.1849219948891489,
     "op_margin": 0.015418728518350341,
     "net_margin": 0.05364736453095843,
@@ -759,14 +759,12 @@
           "Cash And Cash Equivalents": 14311000.0,
           "Total Assets": 88535000.0,
           "Common Stock Equity": -51687000.0,
-          "Net PPE": 620000.0,
           "Total Debt": 31490000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -844,13 +842,15 @@
           "Cash And Cash Equivalents": 24088000.0,
           "Total Assets": 101992000.0,
           "Common Stock Equity": -36035000.0,
-          "Total Debt": 0
+          "Net PPE": 448000.0,
+          "Total Debt": 74065000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Total Debt": "sec"
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -895,13 +895,13 @@
   },
   "validation": {
     "ticker": "KPLT",
-    "checked_at": "2026-08-07T14:43:11.599708+00:00",
+    "checked_at": "2026-08-08T14:10:37.742062+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

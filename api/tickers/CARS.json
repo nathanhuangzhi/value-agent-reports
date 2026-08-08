@@ -32,7 +32,7 @@
     "p_fcf": 3.618667627800805,
     "ttm_pocf": 3.5768171742228323,
     "debt_asset": 0.44163198141515825,
-    "gross_margin": null,
+    "gross_margin": 0.8292966279097009,
     "op_margin": 0.11445593020163085,
     "net_margin": 0.04726493971470427,
     "roe": 0.07731427734132844,
@@ -747,27 +747,21 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 179024000.0,
-          "Gross Profit": 147541000.0,
-          "Cost Of Revenue": 31483000.0,
           "Operating Income": 6460000.0,
           "Net Income": -2013000.0,
           "Diluted EPS": -0.03,
           "Diluted Average Shares": 64467000.0,
           "Research And Development": 30617000.0,
-          "Selling General And Administration": 83425000.0,
           "Selling And Marketing Expense": 62540000.0,
           "General And Administrative Expense": 20885000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -776,14 +770,14 @@
         "period": "2025-06-30",
         "items": {
           "Total Revenue": 178739000.0,
-          "Gross Profit": 148192000.0,
-          "Cost Of Revenue": 30547000.0,
+          "Gross Profit": 148134000.0,
+          "Cost Of Revenue": 30605000.0,
           "Operating Income": 15246000.0,
           "Net Income": 7009000.0,
           "Diluted EPS": 0.11,
           "Diluted Average Shares": 63842000.0,
           "Research And Development": 28634000.0,
-          "Selling General And Administration": 79439000.0,
+          "Selling General And Administration": 108015000.0,
           "Selling And Marketing Expense": 58067000.0,
           "General And Administrative Expense": 20531000.0
         },
@@ -892,19 +886,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 179934000.0,
+          "Gross Profit": 149649000.0,
+          "Cost Of Revenue": 30285000.0,
           "Operating Income": 27876000.0,
           "Net Income": 14263000.0,
           "Diluted EPS": 0.25,
           "Diluted Average Shares": 56652000.0,
+          "Selling General And Administration": 104430000.0,
           "Selling And Marketing Expense": 60737000.0,
           "General And Administrative Expense": 17006000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1227,13 +1227,13 @@
   },
   "validation": {
     "ticker": "CARS",
-    "checked_at": "2026-08-07T14:43:11.522653+00:00",
+    "checked_at": "2026-08-08T14:10:37.666060+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

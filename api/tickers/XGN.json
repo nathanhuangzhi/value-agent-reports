@@ -876,7 +876,6 @@
           "Cash And Cash Equivalents": 11394000.0,
           "Total Assets": 40294000.0,
           "Common Stock Equity": 6403000.0,
-          "Net PPE": 7193000.0,
           "Accounts Receivable": 14728000.0,
           "Total Debt": 20940000.0
         },
@@ -884,7 +883,6 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -971,6 +969,7 @@
           "Cash And Cash Equivalents": 24788000.0,
           "Total Assets": 51935000.0,
           "Common Stock Equity": 12216000.0,
+          "Net PPE": 8518000.0,
           "Accounts Receivable": 12407000.0,
           "Total Debt": 22839000.0
         },
@@ -978,6 +977,7 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1024,13 +1024,13 @@
   },
   "validation": {
     "ticker": "XGN",
-    "checked_at": "2026-08-07T14:43:11.716470+00:00",
+    "checked_at": "2026-08-08T14:10:37.856576+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "info",

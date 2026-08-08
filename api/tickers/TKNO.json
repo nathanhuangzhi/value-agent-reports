@@ -26,12 +26,12 @@
     "market_cap": 188258239.26,
     "ttm_pe": -11.226563257200787,
     "static_pe": -10.907830074743611,
-    "ev_revenue": 4.473048953318077,
+    "ev_revenue": 4.517854445308925,
     "pb": 3.0073201159744407,
     "ps": 4.307968861784897,
     "p_fcf": -25.60291571603427,
     "ttm_pocf": -30.015663147321426,
-    "debt_asset": 0.1378627005152381,
+    "debt_asset": 0.1582844865349715,
     "gross_margin": 0.3459725400457666,
     "op_margin": -0.3618764302059497,
     "net_margin": -0.3837299771167048,
@@ -507,7 +507,6 @@
           "Diluted EPS": -0.09,
           "Diluted Average Shares": 53421533.0,
           "Research And Development": 552000.0,
-          "Selling General And Administration": 7132000.0,
           "Selling And Marketing Expense": 1640000.0,
           "General And Administrative Expense": 5492000.0
         },
@@ -520,7 +519,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -652,6 +650,7 @@
           "Diluted EPS": -0.06,
           "Diluted Average Shares": 53634826.0,
           "Research And Development": 554000.0,
+          "Selling General And Administration": 6934000.0,
           "Selling And Marketing Expense": 2122000.0,
           "General And Administrative Expense": 4812000.0
         },
@@ -664,6 +663,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -827,7 +827,7 @@
           "Net PPE": 44728000.0,
           "Inventory": 6573000.0,
           "Accounts Receivable": 5616000.0,
-          "Total Debt": 12989000.0
+          "Total Debt": 0.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -836,7 +836,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -932,7 +932,7 @@
           "Net PPE": 39311000.0,
           "Inventory": 6911000.0,
           "Accounts Receivable": 5408000.0,
-          "Total Debt": 13218000.0
+          "Total Debt": 15176000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -941,7 +941,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -986,13 +986,13 @@
   },
   "validation": {
     "ticker": "TKNO",
-    "checked_at": "2026-08-07T14:43:11.693115+00:00",
+    "checked_at": "2026-08-08T14:10:37.833500+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

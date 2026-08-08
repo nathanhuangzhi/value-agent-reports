@@ -26,12 +26,12 @@
     "market_cap": 596812987.98,
     "ttm_pe": -7.406649308496116,
     "static_pe": -8.969371165481897,
-    "ev_revenue": 2.52996719049485,
+    "ev_revenue": 2.576772119162688,
     "pb": 1.8537213017387577,
     "ps": 2.8872133674876275,
     "p_fcf": -49.40504867384106,
     "ttm_pocf": -98.84282676051673,
-    "debt_asset": 0.0,
+    "debt_asset": 0.021647491575937386,
     "gross_margin": 0.5322941913511264,
     "op_margin": -0.21599930336850354,
     "net_margin": -0.3898136994518865,
@@ -509,7 +509,6 @@
           "Diluted EPS": -0.09,
           "Diluted Average Shares": 128339481.0,
           "Research And Development": 9725000.0,
-          "Selling General And Administration": 25407000.0,
           "Selling And Marketing Expense": 12509000.0,
           "General And Administrative Expense": 12898000.0
         },
@@ -522,7 +521,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -654,6 +652,7 @@
           "Diluted EPS": -0.09,
           "Diluted Average Shares": 129460518.0,
           "Research And Development": 9741000.0,
+          "Selling General And Administration": 29999000.0,
           "Selling And Marketing Expense": 13174000.0,
           "General And Administrative Expense": 16825000.0
         },
@@ -666,6 +665,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -834,7 +834,7 @@
           "Net PPE": 17834000.0,
           "Inventory": 45347000.0,
           "Accounts Receivable": 55029000.0,
-          "Total Debt": 4911000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -844,7 +844,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -949,7 +949,7 @@
           "Net PPE": 20801000.0,
           "Inventory": 52251000.0,
           "Accounts Receivable": 49698000.0,
-          "Total Debt": 0
+          "Total Debt": 9675000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -959,7 +959,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1004,13 +1004,13 @@
   },
   "validation": {
     "ticker": "CTKB",
-    "checked_at": "2026-08-07T14:43:11.538115+00:00",
+    "checked_at": "2026-08-08T14:10:37.681238+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

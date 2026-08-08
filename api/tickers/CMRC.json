@@ -26,12 +26,12 @@
     "market_cap": 226430650.0,
     "ttm_pe": -39.20198234072022,
     "static_pe": -11.706682349291697,
-    "ev_revenue": 0.4962471785735906,
+    "ev_revenue": 0.9358391059069067,
     "pb": 4.385726045439578,
     "ps": 0.6527278833320361,
     "p_fcf": 11.58213043478261,
     "ttm_pocf": 6.469631989485414,
-    "debt_asset": 0.01245559270273432,
+    "debt_asset": 0.48190768207761503,
     "gross_margin": 0.7716857067907373,
     "op_margin": 0.02561552497989328,
     "net_margin": -0.016650379505273868,
@@ -609,7 +609,6 @@
           "Diluted EPS": 0.0,
           "Diluted Average Shares": 78835000.0,
           "Research And Development": 19206000.0,
-          "Selling General And Administration": 44010000.0,
           "Selling And Marketing Expense": 30366000.0,
           "General And Administrative Expense": 13644000.0
         },
@@ -622,7 +621,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -754,6 +752,7 @@
           "Diluted EPS": 0.01,
           "Diluted Average Shares": 82790000.0,
           "Research And Development": 17674000.0,
+          "Selling General And Administration": 41693000.0,
           "Selling And Marketing Expense": 27510000.0,
           "General And Administrative Expense": 14183000.0
         },
@@ -766,6 +765,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -929,7 +929,7 @@
           "Goodwill": 51927000.0,
           "Net PPE": 8128000.0,
           "Accounts Receivable": 44164000.0,
-          "Total Debt": 159794000.0
+          "Total Debt": 157788000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -938,7 +938,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1034,7 +1034,7 @@
           "Goodwill": 51927000.0,
           "Net PPE": 19487000.0,
           "Accounts Receivable": 51609000.0,
-          "Total Debt": 4046000.0
+          "Total Debt": 156540000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1043,7 +1043,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1088,13 +1088,13 @@
   },
   "validation": {
     "ticker": "CMRC",
-    "checked_at": "2026-08-07T14:43:11.531041+00:00",
+    "checked_at": "2026-08-08T14:10:37.674341+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

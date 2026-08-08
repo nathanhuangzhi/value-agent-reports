@@ -23,23 +23,23 @@
     "logic_summary": "Navient Corporation is a financial services company providing education loan origination and servicing in the United States."
   },
   "snapshot": {
-    "market_cap": 819839999.9999999,
-    "ttm_pe": -13.663999999999998,
-    "static_pe": -10.248,
-    "ev_revenue": 73.81986798679868,
-    "pb": 0.34461538461538455,
-    "ps": 1.3528712871287127,
-    "p_fcf": 2.5382043343653247,
-    "ttm_pocf": 2.5382043343653247,
-    "debt_asset": 0.9592117323556371,
+    "market_cap": 811299999.9999999,
+    "ttm_pe": -16.557142857142853,
+    "static_pe": -10.141249999999998,
+    "ev_revenue": null,
+    "pb": 0.338323603002502,
+    "ps": null,
+    "p_fcf": 2.386176470588235,
+    "ttm_pocf": 2.386176470588235,
+    "debt_asset": 0.08909656003552022,
     "gross_margin": null,
     "op_margin": null,
-    "net_margin": -0.09900990099009901,
-    "roe": -0.025220680958385876,
-    "roa": -0.0012498958420131656,
+    "net_margin": null,
+    "roe": -0.02043369474562135,
+    "roa": -0.0010360065120409328,
     "dividend_rate": 0.0,
-    "latest_q_ni": 17000000.0,
-    "latest_q_ocf": -47000000.0
+    "latest_q_ni": 25000000.0,
+    "latest_q_ocf": 143000000.0
   },
   "annual": {
     "income_statement": [
@@ -721,21 +721,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 77000000.0,
-          "Net Income": 73000000.0,
-          "Diluted EPS": 0.64,
-          "Diluted Average Shares": 114000000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 81000000.0,
@@ -859,22 +844,22 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Net Income": 25000000.0,
+          "Diluted EPS": 0.26,
+          "Diluted Average Shares": 95000000.0
+        },
+        "sources": {
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 279000000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 279000000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -965,26 +950,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 143000000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 143000000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 4006000000.0,
-          "Total Assets": 56622000000.0,
-          "Common Stock Equity": 2748000000.0,
-          "Net PPE": 59000000.0,
-          "Total Debt": 5326000000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1121,6 +1102,25 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 2139000000.0,
+          "Total Assets": 47297000000.0,
+          "Common Stock Equity": 2398000000.0,
+          "Goodwill": 428000000.0,
+          "Net PPE": 21000000.0,
+          "Total Debt": 4214000000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1164,7 +1164,7 @@
   },
   "validation": {
     "ticker": "NAVI",
-    "checked_at": "2026-08-07T14:43:11.625963+00:00",
+    "checked_at": "2026-08-08T14:10:37.767806+00:00",
     "status": "error",
     "issues": [
       {
@@ -1180,7 +1180,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "warn",
@@ -1195,7 +1195,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2024-09-30 is 676 days old (>180)"
+        "detail": "latest quarterly period 2024-09-30 is 677 days old (>180)"
       }
     ]
   },

@@ -794,7 +794,6 @@
           "Goodwill": 372340000.0,
           "Net PPE": 41664000.0,
           "Inventory": 189143000.0,
-          "Accounts Receivable": 50894000.0,
           "Total Debt": 551262000.0
         },
         "sources": {
@@ -804,7 +803,6 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -909,6 +907,7 @@
           "Goodwill": 370958000.0,
           "Net PPE": 50174000.0,
           "Inventory": 180202000.0,
+          "Accounts Receivable": 64158000.0,
           "Total Debt": 526813000.0
         },
         "sources": {
@@ -918,6 +917,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -963,13 +963,13 @@
   },
   "validation": {
     "ticker": "HLLY",
-    "checked_at": "2026-08-07T14:43:11.580997+00:00",
+    "checked_at": "2026-08-08T14:10:37.723490+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "info",

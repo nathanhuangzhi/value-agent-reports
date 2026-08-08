@@ -26,14 +26,14 @@
     "market_cap": 838941500.0,
     "ttm_pe": 103.57302469135803,
     "static_pe": -699.1179166666667,
-    "ev_revenue": 0.5974163599182004,
+    "ev_revenue": 0.6014245398773006,
     "pb": 1.211817853531706,
     "ps": 0.6862507157464213,
-    "p_fcf": -10.181328883495146,
+    "p_fcf": -8.595712090163934,
     "ttm_pocf": 139.82358333333335,
-    "debt_asset": 0.0,
+    "debt_asset": 0.004285839237295548,
     "gross_margin": 0.08196319018404907,
-    "op_margin": null,
+    "op_margin": 0.006380368098159509,
     "net_margin": 0.006625766871165644,
     "roe": 0.01170013000144446,
     "roa": 0.007084754657570191,
@@ -914,7 +914,6 @@
           "Total Revenue": 280500000.0,
           "Gross Profit": 21900000.0,
           "Cost Of Revenue": 258600000.0,
-          "Operating Income": -1600000.0,
           "Net Income": 1300000.0,
           "Diluted EPS": 0.03,
           "Diluted Average Shares": 43000000.0,
@@ -924,7 +923,6 @@
           "Total Revenue": "sec",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
@@ -1029,6 +1027,7 @@
           "Total Revenue": 341000000.0,
           "Gross Profit": 34100000.0,
           "Cost Of Revenue": 306900000.0,
+          "Operating Income": 10400000.0,
           "Net Income": 8900000.0,
           "Diluted EPS": 0.21,
           "Diluted Average Shares": 43100000.0,
@@ -1038,6 +1037,7 @@
           "Total Revenue": "sec",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
@@ -1076,13 +1076,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -38900000.0,
-          "Capital Expenditure": -27500000.0,
-          "Free Cash Flow": -66400000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -38900000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1141,13 +1141,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 12800000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 12800000.0
+          "Capital Expenditure": -15200000.0,
+          "Free Cash Flow": -2400000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1308,7 +1308,7 @@
           "Net PPE": 564700000.0,
           "Inventory": 275900000.0,
           "Accounts Receivable": 152900000.0,
-          "Total Debt": 0
+          "Total Debt": 4900000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1317,7 +1317,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1362,7 +1362,7 @@
   },
   "validation": {
     "ticker": "MTUS",
-    "checked_at": "2026-08-07T14:43:11.622465+00:00",
+    "checked_at": "2026-08-08T14:10:37.764372+00:00",
     "status": "ok",
     "issues": []
   },

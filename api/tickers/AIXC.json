@@ -23,23 +23,23 @@
     "logic_summary": "Builds an ecosystem integrating AI and blockchain to bridge Web2 and Web3."
   },
   "snapshot": {
-    "market_cap": 10324159.98,
-    "ttm_pe": -0.5061180299548207,
-    "static_pe": -0.6085250527897913,
+    "market_cap": 27183497.28,
+    "ttm_pe": -1.1870052174350467,
+    "static_pe": -1.602245524029854,
     "ev_revenue": null,
-    "pb": 0.4720351178809884,
+    "pb": 4.784314199242634,
     "ps": null,
-    "p_fcf": -0.9861122116031822,
-    "ttm_pocf": -1.0473495264884833,
+    "p_fcf": -2.121058904246511,
+    "ttm_pocf": -2.2274507639386227,
     "debt_asset": 0.0,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
-    "roe": -0.9326581744640182,
-    "roa": -0.8534428664894796,
+    "roe": -4.030575543366921,
+    "roa": -3.0935471839773037,
     "dividend_rate": 0.0,
-    "latest_q_ni": -6079016.0,
-    "latest_q_ocf": -4495354.0
+    "latest_q_ni": -4187605.0,
+    "latest_q_ocf": -3444555.0
   },
   "annual": {
     "income_statement": [
@@ -692,27 +692,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Operating Income": -1421749.0,
-          "Net Income": -2032751.0,
-          "Diluted EPS": -17.6,
-          "Diluted Average Shares": 118876.0,
-          "Research And Development": 364385.0,
-          "General And Administrative Expense": 1057364.0,
-          "Total Revenue": 0
-        },
-        "sources": {
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "General And Administrative Expense": "sec",
-          "Total Revenue": "derived"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Operating Income": -1740771.0,
@@ -868,22 +847,32 @@
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Operating Income": -2959325.0,
+          "Net Income": -4187605.0,
+          "Diluted EPS": -0.21,
+          "Diluted Average Shares": 20286192.0,
+          "Research And Development": 5073.0,
+          "Selling And Marketing Expense": 85715.0,
+          "General And Administrative Expense": 2868537.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -1474532.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -1474532.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -974,24 +963,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -3444555.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -3444555.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Cash And Cash Equivalents": 1174608.0,
-          "Total Assets": 4686519.0,
-          "Common Stock Equity": 2679036.0,
-          "Total Debt": 0.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2025-03-31",
         "items": {
@@ -1021,7 +1008,7 @@
       {
         "period": "2025-06-30",
         "items": {
-          "Cash And Cash Equivalents": 332000.0,
+          "Cash And Cash Equivalents": 331601.0,
           "Total Assets": 3962673.0,
           "Common Stock Equity": -1652283.0,
           "Accounts Receivable": 3312496.0,
@@ -1094,6 +1081,21 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 600000.0,
+          "Total Assets": 7402799.0,
+          "Common Stock Equity": 5681796.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1137,18 +1139,18 @@
   },
   "validation": {
     "ticker": "AIXC",
-    "checked_at": "2026-08-07T14:43:11.494544+00:00",
+    "checked_at": "2026-08-08T14:10:37.638437+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2023-06-30 is 1134 days old (>180)"
+        "detail": "latest quarterly period 2023-06-30 is 1135 days old (>180)"
       },
       {
         "severity": "info",

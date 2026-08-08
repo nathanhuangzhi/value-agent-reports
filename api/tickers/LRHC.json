@@ -44,17 +44,6 @@
   "annual": {
     "income_statement": [
       {
-        "period": "2021-12-31",
-        "items": {
-          "Diluted EPS": 65.640374,
-          "Diluted Average Shares": 1496.0
-        },
-        "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
-        }
-      },
-      {
         "period": "2022-12-31",
         "items": {
           "Total Revenue": 26203921.0,
@@ -318,6 +307,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-03-31",
+        "items": {
+          "Total Revenue": 10636534.0,
+          "Gross Profit": 1161997.0,
+          "Cost Of Revenue": 9474537.0,
+          "Operating Income": -4583723.0,
+          "Net Income": -4598796.0,
+          "Diluted EPS": -0.35,
+          "Diluted Average Shares": 13672655.0,
+          "Selling And Marketing Expense": 232727.0,
+          "General And Administrative Expense": 2321855.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 16365990.0,
@@ -365,29 +379,6 @@
           "Diluted Average Shares": "sec",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Total Revenue": 17715431.0,
-          "Gross Profit": 1569065.0,
-          "Cost Of Revenue": 16146366.0,
-          "Operating Income": -2237766.0,
-          "Net Income": -5076527.0,
-          "Selling General And Administration": 3513764.0,
-          "Selling And Marketing Expense": 315373.0,
-          "General And Administrative Expense": 3198391.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -502,7 +493,9 @@
           "Cost Of Revenue": 11582179.0,
           "Operating Income": -2497230.0,
           "Net Income": -13454969.0,
+          "Diluted EPS": -720.3,
           "Diluted Average Shares": 223701.0,
+          "Selling General And Administration": 4385778.0,
           "Selling And Marketing Expense": 409277.0,
           "General And Administrative Expense": 3971654.0
         },
@@ -512,7 +505,9 @@
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -829,13 +824,13 @@
   },
   "validation": {
     "ticker": "LRHC",
-    "checked_at": "2026-08-07T14:43:11.607921+00:00",
+    "checked_at": "2026-08-08T14:10:37.750026+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

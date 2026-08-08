@@ -24,7 +24,7 @@
   },
   "snapshot": {
     "market_cap": 487011629.99999994,
-    "ttm_pe": null,
+    "ttm_pe": 8.672322773652438,
     "static_pe": 8.746459833695514,
     "ev_revenue": 0.25316317483038964,
     "pb": -6.854395152777581,
@@ -34,11 +34,11 @@
     "debt_asset": 0.41972471459799365,
     "gross_margin": 0.39352306771120205,
     "op_margin": 0.13765155475763735,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "net_margin": 0.05613561233170162,
+    "roe": -0.7903759271509198,
+    "roa": 0.022495274177803077,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
+    "latest_q_ni": 9863000.0,
     "latest_q_ocf": 31506000.0
   },
   "annual": {
@@ -682,25 +682,21 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 224630000.0,
-          "Gross Profit": 87277000.0,
           "Cost Of Revenue": 137353000.0,
           "Operating Income": 32625000.0,
-          "Net Income": 8268000.0,
           "Diluted EPS": 0.1,
           "Diluted Average Shares": 79857000.0,
           "Selling General And Administration": 15100000.0,
-          "General And Administrative Expense": 40875000.0
+          "Gross Profit": 87277000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
-          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance"
+          "Gross Profit": "sec"
         }
       },
       {
@@ -807,21 +803,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 262256000.0,
+          "Gross Profit": 99898000.0,
           "Cost Of Revenue": 162358000.0,
           "Operating Income": 33044000.0,
+          "Net Income": 9863000.0,
           "Diluted EPS": 0.12,
           "Diluted Average Shares": 83823000.0,
           "Selling General And Administration": 16808000.0,
-          "Gross Profit": 99898000.0
+          "General And Administrative Expense": 45961000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
+          "Net Income": "yfinance",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1146,13 +1146,13 @@
   },
   "validation": {
     "ticker": "PRTH",
-    "checked_at": "2026-08-07T14:43:11.652379+00:00",
+    "checked_at": "2026-08-08T14:10:37.793908+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

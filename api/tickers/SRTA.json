@@ -26,12 +26,12 @@
     "market_cap": 506937908.4,
     "ttm_pe": 12.603811650630266,
     "static_pe": 12.260572917019372,
-    "ev_revenue": 1.9156437480222677,
+    "ev_revenue": 1.919761337630628,
     "pb": 1.8149131398620926,
     "ps": 1.9804196050395546,
     "p_fcf": -10.463762635457304,
     "ttm_pocf": -14.069102697602132,
-    "debt_asset": 0.0,
+    "debt_asset": 0.0031680382809635165,
     "gross_margin": 0.20555132337142298,
     "op_margin": -0.07973044242601816,
     "net_margin": 0.15712862584236742,
@@ -558,7 +558,7 @@
           "Net Income": -3743000.0,
           "Diluted EPS": -0.04,
           "Diluted Average Shares": 81297402.0,
-          "Research And Development": 915000.0,
+          "Research And Development": 696000.0,
           "Selling General And Administration": 13292000.0,
           "Selling And Marketing Expense": 1634000.0,
           "General And Administrative Expense": 20142000.0
@@ -662,7 +662,10 @@
           "Net Income": -10516000.0,
           "Diluted EPS": -0.12,
           "Diluted Average Shares": 86213930.0,
-          "Selling General And Administration": 13996000.0
+          "Research And Development": 1006000.0,
+          "Selling General And Administration": 13996000.0,
+          "Selling And Marketing Expense": 367000.0,
+          "General And Administrative Expense": 12522000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -672,7 +675,10 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "sec",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -834,7 +840,7 @@
           "Goodwill": 42038000.0,
           "Net PPE": 32568000.0,
           "Accounts Receivable": 22128000.0,
-          "Total Debt": 3362000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -843,7 +849,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -939,7 +945,7 @@
           "Goodwill": 106946000.0,
           "Net PPE": 40704000.0,
           "Accounts Receivable": 43407000.0,
-          "Total Debt": 0
+          "Total Debt": 1054000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -948,7 +954,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -993,13 +999,13 @@
   },
   "validation": {
     "ticker": "SRTA",
-    "checked_at": "2026-08-07T14:43:11.683488+00:00",
+    "checked_at": "2026-08-08T14:10:37.824134+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "info",

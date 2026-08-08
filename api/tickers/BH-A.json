@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 372351980.0,
-    "ttm_pe": -19.865129107981222,
+    "ttm_pe": -12.516453662307978,
     "static_pe": -9.932564553990611,
-    "ev_revenue": 1.034691317980322,
-    "pb": 0.717220086293243,
-    "ps": 0.9362469858463642,
-    "p_fcf": 4.5700817418626345,
-    "ttm_pocf": 3.339599447513812,
-    "debt_asset": 0.23562673758245384,
-    "gross_margin": 0.38541690239296766,
-    "op_margin": 0.054716160389432424,
-    "net_margin": -0.0471301737208548,
-    "roe": -0.036104476461977036,
-    "roa": -0.01840720339940116,
+    "ev_revenue": 1.335631046418745,
+    "pb": 0.6847373976623243,
+    "ps": 0.9180004043272881,
+    "p_fcf": 7.400269894268225,
+    "ttm_pocf": 4.417143907849627,
+    "debt_asset": 0.22530191274381628,
+    "gross_margin": 0.4470602447659339,
+    "op_margin": null,
+    "net_margin": -0.07334349082374289,
+    "roe": -0.05470698139716213,
+    "roa": -0.028102635218367176,
     "dividend_rate": 0.0,
-    "latest_q_ni": -14531000.0,
-    "latest_q_ocf": 20332000.0
+    "latest_q_ni": 39926000.0,
+    "latest_q_ocf": 14948000.0
   },
   "annual": {
     "income_statement": [
@@ -549,23 +549,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 89451000.0,
-          "Cost Of Revenue": 34421000.0,
-          "Net Income": 22579000.0,
-          "Selling General And Administration": 18275000.0,
-          "Gross Profit": 55030000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Cost Of Revenue": "sec",
-          "Net Income": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 91141000.0,
@@ -709,22 +692,26 @@
           "Diluted Average Shares": "yfinance",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 108524000.0,
+          "Cost Of Revenue": 41127000.0,
+          "Net Income": 39926000.0,
+          "Selling General And Administration": 26230000.0,
+          "Gross Profit": 67397000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Cost Of Revenue": "sec",
+          "Net Income": "sec",
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 1785000.0,
-          "Capital Expenditure": 11833000.0,
-          "Free Cash Flow": -10048000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -815,32 +802,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 14948000.0,
+          "Capital Expenditure": 6665000.0,
+          "Free Cash Flow": 8283000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 28280000.0,
-          "Total Assets": 809053000.0,
-          "Common Stock Equity": 569179000.0,
-          "Goodwill": 52513000.0,
-          "Net PPE": 381078000.0,
-          "Inventory": 3587000.0,
-          "Accounts Receivable": 19169000.0,
-          "Total Debt": 50000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1001,6 +978,29 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 69105000.0,
+          "Total Assets": 1058584000.0,
+          "Common Stock Equity": 543788000.0,
+          "Goodwill": 52550000.0,
+          "Net PPE": 366455000.0,
+          "Inventory": 3884000.0,
+          "Accounts Receivable": 24994000.0,
+          "Total Debt": 238501000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Inventory": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1044,7 +1044,7 @@
   },
   "validation": {
     "ticker": "BH-A",
-    "checked_at": "2026-08-07T14:43:11.513465+00:00",
+    "checked_at": "2026-08-08T14:10:37.656976+00:00",
     "status": "error",
     "issues": [
       {
@@ -1060,7 +1060,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

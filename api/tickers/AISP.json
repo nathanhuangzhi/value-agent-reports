@@ -26,12 +26,12 @@
     "market_cap": 85055023.04,
     "ttm_pe": 3.2410229077822446,
     "static_pe": 2.900786809944681,
-    "ev_revenue": 4.005250129018828,
+    "ev_revenue": 4.030681302061425,
     "pb": -9.862856188684024,
     "ps": 4.68661087293428,
     "p_fcf": -24.255038730200376,
     "ttm_pocf": -24.255038730200376,
-    "debt_asset": 0.0,
+    "debt_asset": 0.026014598540145987,
     "gross_margin": 0.5616899543400633,
     "op_margin": -0.3610090060266091,
     "net_margin": 1.4460283084334067,
@@ -674,16 +674,12 @@
           "Cash And Cash Equivalents": 8812178.0,
           "Total Assets": 12931066.0,
           "Common Stock Equity": -23509549.0,
-          "Net PPE": 1102967.0,
-          "Accounts Receivable": 2782650.0,
           "Total Debt": 405917.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -771,17 +767,19 @@
           "Cash And Cash Equivalents": 12365685.0,
           "Total Assets": 17741500.0,
           "Common Stock Equity": -8623772.0,
+          "Net PPE": 600951.0,
           "Inventory": 843590.0,
           "Accounts Receivable": 3746980.0,
-          "Total Debt": 0
+          "Total Debt": 461538.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -826,13 +824,13 @@
   },
   "validation": {
     "ticker": "AISP",
-    "checked_at": "2026-08-07T14:43:11.494463+00:00",
+    "checked_at": "2026-08-08T14:10:37.638358+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

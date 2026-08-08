@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 211370880.0,
-    "ttm_pe": -126.4077840604975,
+    "ttm_pe": -30.27662235367136,
     "static_pe": 35.04591415121494,
-    "ev_revenue": 7.6911714071720185,
+    "ev_revenue": 7.471638869794711,
     "pb": -2.6544957969674448,
-    "ps": 2.2809287749637615,
-    "p_fcf": 8.63255957409235,
-    "ttm_pocf": 8.63255957409235,
-    "debt_asset": 1.0595565557011954,
-    "gross_margin": 0.661858286961098,
-    "op_margin": 0.1792596118971118,
-    "net_margin": -0.018044211374452477,
-    "roe": 0.02099946468246789,
-    "roa": -0.003362408958967131,
+    "ps": 2.205639731677953,
+    "p_fcf": 12.276583175755368,
+    "ttm_pocf": 12.276583175755368,
+    "debt_asset": 1.0718270762893711,
+    "gross_margin": null,
+    "op_margin": 0.14179579002029866,
+    "net_margin": -0.07284959682467672,
+    "roe": 0.08767476655616967,
+    "roa": -0.01413441043693106,
     "dividend_rate": 0.0,
-    "latest_q_ni": -3907672.0,
-    "latest_q_ocf": 2306957.0
+    "latest_q_ni": -1159307.0,
+    "latest_q_ocf": 5262838.0
   },
   "annual": {
     "income_statement": [
@@ -810,21 +810,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 20050566.0,
-          "Operating Income": 6538164.0,
-          "Net Income": 4072726.0,
-          "General And Administrative Expense": 651978.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 20209035.0,
@@ -972,22 +957,24 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 24403337.0,
+          "Operating Income": 4040379.0,
+          "Net Income": -1159307.0,
+          "General And Administrative Expense": 896512.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 5363355.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 5363355.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1078,22 +1065,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 5262838.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 5262838.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 13463294.0,
-          "Total Assets": 383700368.0,
-          "Total Debt": 410046000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1204,6 +1191,19 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 24749739.0,
+          "Total Assets": 493923891.0,
+          "Total Debt": 529401000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1247,7 +1247,7 @@
   },
   "validation": {
     "ticker": "NEN",
-    "checked_at": "2026-08-07T14:43:11.627898+00:00",
+    "checked_at": "2026-08-08T14:10:37.769715+00:00",
     "status": "error",
     "issues": [
       {
@@ -1268,7 +1268,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

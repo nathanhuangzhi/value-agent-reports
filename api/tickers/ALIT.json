@@ -704,7 +704,6 @@
           "Total Assets": 7913000000.0,
           "Common Stock Equity": 4233000000.0,
           "Goodwill": 3212000000.0,
-          "Net PPE": 439000000.0,
           "Accounts Receivable": 438000000.0,
           "Total Debt": 2019000000.0
         },
@@ -713,7 +712,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -809,6 +807,7 @@
           "Total Assets": 4268000000.0,
           "Common Stock Equity": 1026000000.0,
           "Goodwill": 83000000.0,
+          "Net PPE": 391000000.0,
           "Accounts Receivable": 340000000.0,
           "Total Debt": 1996000000.0
         },
@@ -817,6 +816,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -863,13 +863,13 @@
   },
   "validation": {
     "ticker": "ALIT",
-    "checked_at": "2026-08-07T14:43:11.495350+00:00",
+    "checked_at": "2026-08-08T14:10:37.639217+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

@@ -29,7 +29,7 @@
     "ev_revenue": -101.82468454917691,
     "pb": 0.45761560503260656,
     "ps": 92.8829280521434,
-    "p_fcf": -0.9468276986812064,
+    "p_fcf": -0.9418785639526818,
     "ttm_pocf": -0.9621606127389817,
     "debt_asset": 0.0,
     "gross_margin": 0.21755064522675452,
@@ -430,7 +430,6 @@
           "Diluted EPS": -9.32,
           "Diluted Average Shares": 219366.0,
           "Research And Development": 198190.0,
-          "Selling General And Administration": 1289247.0,
           "Selling And Marketing Expense": 302584.0,
           "General And Administrative Expense": 986663.0
         },
@@ -443,7 +442,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -571,6 +569,7 @@
           "Diluted EPS": -1.12,
           "Diluted Average Shares": 2462250.0,
           "Research And Development": 297070.0,
+          "Selling General And Administration": 2610949.0,
           "Selling And Marketing Expense": 877160.0,
           "General And Administrative Expense": 1733789.0
         },
@@ -583,6 +582,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -619,21 +619,21 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2510782.0,
-          "Capital Expenditure": -78288.0,
-          "Free Cash Flow": -2589070.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -2510782.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
         "period": "2025-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1865612.0,
-          "Capital Expenditure": -44003.0,
-          "Free Cash Flow": -1909615.0
+          "Capital Expenditure": -44002.0,
+          "Free Cash Flow": -1909614.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
@@ -645,8 +645,8 @@
         "period": "2025-09-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1160372.0,
-          "Capital Expenditure": -40150.0,
-          "Free Cash Flow": -1200522.0
+          "Capital Expenditure": -40151.0,
+          "Free Cash Flow": -1200523.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
@@ -684,13 +684,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2657051.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -2657051.0
+          "Capital Expenditure": -43179.0,
+          "Free Cash Flow": -2700230.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -889,13 +889,13 @@
   },
   "validation": {
     "ticker": "ACON",
-    "checked_at": "2026-08-07T14:43:11.490490+00:00",
+    "checked_at": "2026-08-08T14:10:37.634505+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

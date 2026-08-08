@@ -820,7 +820,6 @@
           "Total Assets": 691414000.0,
           "Common Stock Equity": 185479000.0,
           "Goodwill": 7462000.0,
-          "Net PPE": 32353000.0,
           "Inventory": 94045000.0,
           "Accounts Receivable": 118082000.0,
           "Total Debt": 345932000.0
@@ -830,7 +829,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -935,6 +933,7 @@
           "Total Assets": 673346000.0,
           "Common Stock Equity": 277412000.0,
           "Goodwill": 7462000.0,
+          "Net PPE": 24752000.0,
           "Inventory": 79807000.0,
           "Accounts Receivable": 138406000.0,
           "Total Debt": 248452000.0
@@ -944,6 +943,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -991,13 +991,13 @@
   },
   "validation": {
     "ticker": "BVS",
-    "checked_at": "2026-08-07T14:43:11.520075+00:00",
+    "checked_at": "2026-08-08T14:10:37.663560+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

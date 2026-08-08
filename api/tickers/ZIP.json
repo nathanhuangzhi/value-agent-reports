@@ -26,12 +26,12 @@
     "market_cap": 261249840.0,
     "ttm_pe": 9.320365322868355,
     "static_pe": -7.91810147299509,
-    "ev_revenue": 0.8456425575384234,
+    "ev_revenue": 0.8505578391334245,
     "pb": -7.726313548043652,
     "ps": 0.5776502610206893,
     "p_fcf": 12.209077483876998,
     "ttm_pocf": 11.744204989885368,
-    "debt_asset": 0.7881995232256338,
+    "debt_asset": 0.7951177309025724,
     "gross_margin": 0.8911761519292978,
     "op_margin": 0.003455953726039937,
     "net_margin": 0.061977212374215884,
@@ -552,7 +552,6 @@
           "Diluted EPS": -0.13,
           "Diluted Average Shares": 98066000.0,
           "Research And Development": 33266000.0,
-          "Selling General And Administration": 76813000.0,
           "Selling And Marketing Expense": 58468000.0,
           "General And Administrative Expense": 18345000.0
         },
@@ -565,7 +564,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -693,6 +691,7 @@
           "Diluted EPS": 0.53,
           "Diluted Average Shares": 82674000.0,
           "Research And Development": 26372000.0,
+          "Selling General And Administration": 74962000.0,
           "Selling And Marketing Expense": 58936000.0,
           "General And Administrative Expense": 16026000.0
         },
@@ -705,6 +704,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -868,7 +868,7 @@
           "Goodwill": 8518000.0,
           "Net PPE": 4676000.0,
           "Accounts Receivable": 24809000.0,
-          "Total Debt": 546011000.0
+          "Total Debt": 543926000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -877,7 +877,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -973,7 +973,7 @@
           "Goodwill": 8518000.0,
           "Net PPE": 3870000.0,
           "Accounts Receivable": 26409000.0,
-          "Total Debt": 253269000.0
+          "Total Debt": 255492000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -982,7 +982,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1027,13 +1027,13 @@
   },
   "validation": {
     "ticker": "ZIP",
-    "checked_at": "2026-08-07T14:43:11.719771+00:00",
+    "checked_at": "2026-08-08T14:10:37.859871+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

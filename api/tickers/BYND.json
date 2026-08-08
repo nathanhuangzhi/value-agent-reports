@@ -933,7 +933,6 @@
           "Cash And Cash Equivalents": 115826000.0,
           "Total Assets": 643830000.0,
           "Common Stock Equity": -657702000.0,
-          "Net PPE": 371726000.0,
           "Inventory": 100068000.0,
           "Accounts Receivable": 33267000.0,
           "Total Debt": 1142460000.0
@@ -942,7 +941,6 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1038,6 +1036,7 @@
           "Cash And Cash Equivalents": 186135000.0,
           "Total Assets": 559853000.0,
           "Common Stock Equity": 56757000.0,
+          "Net PPE": 248788000.0,
           "Inventory": 63127000.0,
           "Accounts Receivable": 25725000.0,
           "Total Debt": 323796000.0
@@ -1046,6 +1045,7 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1093,13 +1093,13 @@
   },
   "validation": {
     "ticker": "BYND",
-    "checked_at": "2026-08-07T14:43:11.520982+00:00",
+    "checked_at": "2026-08-08T14:10:37.664447+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

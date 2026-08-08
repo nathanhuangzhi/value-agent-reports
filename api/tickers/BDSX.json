@@ -26,13 +26,13 @@
     "market_cap": 175443840.0,
     "ttm_pe": -6.319567754484547,
     "static_pe": -4.97501318587835,
-    "ev_revenue": 1.866900203032864,
+    "ev_revenue": 1.882530819223035,
     "pb": 19.186771653543307,
     "ps": 1.7043476233497508,
     "p_fcf": -8.66688929506496,
     "ttm_pocf": -8.84694871665574,
-    "debt_asset": 0.49112519144829325,
-    "gross_margin": null,
+    "debt_asset": 0.5080041122044353,
+    "gross_margin": 0.8250420151740351,
     "op_margin": -0.20017680373813618,
     "net_margin": -0.2696937020954157,
     "roe": -3.036089238845144,
@@ -525,8 +525,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 17958000.0,
-          "Gross Profit": 14255000.0,
-          "Cost Of Revenue": 3703000.0,
           "Operating Income": -9136000.0,
           "Net Income": -11101000.0,
           "Diluted EPS": -1.52,
@@ -537,8 +535,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -658,6 +654,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 26861000.0,
+          "Gross Profit": 22041000.0,
+          "Cost Of Revenue": 4820000.0,
           "Operating Income": -5388000.0,
           "Net Income": -7273000.0,
           "Diluted EPS": -0.71,
@@ -668,6 +666,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -941,7 +941,7 @@
           "Goodwill": 15031000.0,
           "Net PPE": 23803000.0,
           "Accounts Receivable": 9113000.0,
-          "Total Debt": 46817000.0
+          "Total Debt": 48426000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -950,7 +950,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -995,7 +995,7 @@
   },
   "validation": {
     "ticker": "BDSX",
-    "checked_at": "2026-08-07T14:43:11.511889+00:00",
+    "checked_at": "2026-08-08T14:10:37.655419+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1006,7 +1006,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "warn",

@@ -312,17 +312,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-12-31",
-        "items": {
-          "Diluted EPS": -0.04,
-          "Diluted Average Shares": 220125000.0
-        },
-        "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
-        }
-      },
-      {
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 14401000.0,
@@ -772,13 +761,13 @@
   },
   "validation": {
     "ticker": "NNDM",
-    "checked_at": "2026-08-07T14:43:11.630500+00:00",
+    "checked_at": "2026-08-08T14:10:37.772307+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "warn",

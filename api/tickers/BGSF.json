@@ -26,12 +26,12 @@
     "market_cap": 60340200.0,
     "ttm_pe": -7.2901051105473,
     "static_pe": -5.2791076115485565,
-    "ev_revenue": 0.5495543613960809,
+    "ev_revenue": 0.5506616729088639,
     "pb": 1.3102907645870883,
     "ps": 0.6550529229767139,
     "p_fcf": -17.969088743299583,
     "ttm_pocf": -18.663841633158057,
-    "debt_asset": 0.0,
+    "debt_asset": 0.001926964275593675,
     "gross_margin": 0.35489333984693044,
     "op_margin": -0.05913260598165337,
     "net_margin": -0.08985507246376812,
@@ -975,9 +975,7 @@
           "Net Income": -722000.0,
           "Diluted EPS": -0.06,
           "Diluted Average Shares": 10954000.0,
-          "Selling General And Administration": 9003000.0,
-          "Selling And Marketing Expense": 5046000.0,
-          "General And Administrative Expense": 3957000.0
+          "Selling General And Administration": 9003000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -987,9 +985,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling General And Administration": "sec"
         }
       },
       {
@@ -1108,8 +1104,11 @@
           "Cost Of Revenue": 14395000.0,
           "Operating Income": -1190000.0,
           "Net Income": -834000.0,
+          "Diluted EPS": -0.08,
           "Diluted Average Shares": 10586000.0,
-          "Selling General And Administration": 8928000.0
+          "Selling General And Administration": 8928000.0,
+          "Selling And Marketing Expense": 5485000.0,
+          "General And Administrative Expense": 3443000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1117,8 +1116,11 @@
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1385,7 +1387,7 @@
           "Goodwill": 1074000.0,
           "Net PPE": 259000.0,
           "Accounts Receivable": 11944000.0,
-          "Total Debt": 0
+          "Total Debt": 102000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1394,7 +1396,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1439,7 +1441,7 @@
   },
   "validation": {
     "ticker": "BGSF",
-    "checked_at": "2026-08-07T14:43:11.513218+00:00",
+    "checked_at": "2026-08-08T14:10:37.656728+00:00",
     "status": "warn",
     "issues": [
       {

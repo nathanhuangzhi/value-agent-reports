@@ -840,7 +840,6 @@
           "Diluted EPS": -0.22,
           "Diluted Average Shares": 43412366.0,
           "Research And Development": 10209000.0,
-          "Selling General And Administration": 112113000.0,
           "Selling And Marketing Expense": 59842000.0,
           "General And Administrative Expense": 52271000.0
         },
@@ -853,7 +852,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -869,7 +867,7 @@
           "Diluted EPS": 0.31,
           "Diluted Average Shares": 44303331.0,
           "Research And Development": 8661000.0,
-          "Selling General And Administration": 117080000.0,
+          "Selling General And Administration": 108419000.0,
           "Selling And Marketing Expense": 56063000.0,
           "General And Administrative Expense": 52356000.0
         },
@@ -981,6 +979,7 @@
           "Diluted EPS": -0.38,
           "Diluted Average Shares": 44358330.0,
           "Research And Development": 7509000.0,
+          "Selling General And Administration": 88194000.0,
           "Selling And Marketing Expense": 47038000.0,
           "General And Administrative Expense": 41156000.0
         },
@@ -993,6 +992,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1259,6 +1259,7 @@
           "Total Assets": 654132000.0,
           "Common Stock Equity": 211562000.0,
           "Goodwill": 253809000.0,
+          "Net PPE": 49242000.0,
           "Accounts Receivable": 127756000.0,
           "Total Debt": 243731000.0
         },
@@ -1267,6 +1268,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1313,13 +1315,13 @@
   },
   "validation": {
     "ticker": "THRY",
-    "checked_at": "2026-08-07T14:43:11.692249+00:00",
+    "checked_at": "2026-08-08T14:10:37.832695+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

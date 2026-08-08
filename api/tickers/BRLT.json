@@ -26,12 +26,12 @@
     "market_cap": 119099343.0003,
     "ttm_pe": -26.50185647536716,
     "static_pe": -32.764606052352136,
-    "ev_revenue": 0.09798909138729252,
+    "ev_revenue": 0.11355406452196637,
     "pb": 1.624554547690692,
     "ps": 0.26509052969497726,
     "p_fcf": 41.310906347658694,
     "ttm_pocf": 18.562865180844764,
-    "debt_asset": 0.0,
+    "debt_asset": 0.03554383129259999,
     "gross_margin": 0.5646170077324062,
     "op_margin": -0.020199074960269587,
     "net_margin": -0.010002715467928544,
@@ -491,8 +491,6 @@
           "Net Income": -466000.0,
           "Diluted EPS": -0.03,
           "Diluted Average Shares": 14111624.0,
-          "Selling General And Administration": 58565000.0,
-          "Selling And Marketing Expense": 22962000.0,
           "General And Administrative Expense": 35603000.0
         },
         "sources": {
@@ -503,8 +501,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -622,6 +618,8 @@
           "Net Income": 20000.0,
           "Diluted EPS": 0.01,
           "Diluted Average Shares": 101681331.0,
+          "Selling General And Administration": 66198000.0,
+          "Selling And Marketing Expense": 26235000.0,
           "General And Administrative Expense": 39963000.0
         },
         "sources": {
@@ -632,6 +630,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -884,7 +884,7 @@
           "Common Stock Equity": 73312000.0,
           "Net PPE": 18103000.0,
           "Inventory": 53315000.0,
-          "Total Debt": 0
+          "Total Debt": 6993000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -892,7 +892,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -937,7 +937,7 @@
   },
   "validation": {
     "ticker": "BRLT",
-    "checked_at": "2026-08-07T14:43:11.518649+00:00",
+    "checked_at": "2026-08-08T14:10:37.662129+00:00",
     "status": "info",
     "issues": [
       {

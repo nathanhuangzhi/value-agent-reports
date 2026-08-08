@@ -33,7 +33,7 @@
     "ttm_pocf": 3.50614327114561,
     "debt_asset": 0.11151119232834883,
     "gross_margin": 0.19469628919895404,
-    "op_margin": null,
+    "op_margin": 0.04508154180889075,
     "net_margin": 0.006444497674511448,
     "roe": 0.014913755670322158,
     "roa": 0.010905215655410723,
@@ -344,7 +344,6 @@
           "Total Revenue": 224722000.0,
           "Gross Profit": 53530000.0,
           "Cost Of Revenue": 171192000.0,
-          "Operating Income": 20531000.0,
           "Net Income": 2683000.0,
           "Diluted EPS": 0.3,
           "Diluted Average Shares": 9133263.0,
@@ -354,7 +353,6 @@
           "Total Revenue": "sec",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
@@ -459,6 +457,7 @@
           "Total Revenue": 273026000.0,
           "Gross Profit": 47921000.0,
           "Cost Of Revenue": 225105000.0,
+          "Operating Income": 6007000.0,
           "Net Income": 246000.0,
           "Diluted EPS": 0.03,
           "Diluted Average Shares": 8380647.0,
@@ -468,6 +467,7 @@
           "Total Revenue": "sec",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
@@ -630,7 +630,6 @@
           "Common Stock Equity": 407163000.0,
           "Goodwill": 25726000.0,
           "Net PPE": 4317000.0,
-          "Inventory": 294991000.0,
           "Total Debt": 42648000.0
         },
         "sources": {
@@ -639,8 +638,7 @@
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
           "Net PPE": "sec",
-          "Inventory": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -737,6 +735,7 @@
           "Common Stock Equity": 432956000.0,
           "Goodwill": 25726000.0,
           "Net PPE": 9206000.0,
+          "Inventory": 331216000.0,
           "Total Debt": 66026000.0
         },
         "sources": {
@@ -745,7 +744,8 @@
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
           "Net PPE": "sec",
-          "Total Debt": "sec"
+          "Inventory": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -790,7 +790,7 @@
   },
   "validation": {
     "ticker": "SDHC",
-    "checked_at": "2026-08-07T14:43:11.670898+00:00",
+    "checked_at": "2026-08-08T14:10:37.811841+00:00",
     "status": "error",
     "issues": [
       {

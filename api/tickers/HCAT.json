@@ -667,29 +667,27 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 79413000.0,
-          "Gross Profit": 36235000.0,
           "Cost Of Revenue": 43178000.0,
           "Operating Income": -20171000.0,
           "Net Income": -23742000.0,
           "Diluted EPS": -0.35,
           "Diluted Average Shares": 68552084.0,
           "Research And Development": 15186000.0,
-          "Selling General And Administration": 25744000.0,
           "Selling And Marketing Expense": 14738000.0,
-          "General And Administrative Expense": 14162000.0
+          "General And Administrative Expense": 14162000.0,
+          "Gross Profit": 36235000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -812,27 +810,29 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 70487000.0,
+          "Gross Profit": 34860000.0,
           "Cost Of Revenue": 35627000.0,
           "Operating Income": -36480000.0,
           "Net Income": -40537000.0,
           "Diluted EPS": -0.55,
           "Diluted Average Shares": 73959819.0,
           "Research And Development": 11026000.0,
+          "Selling General And Administration": 22288000.0,
           "Selling And Marketing Expense": 10360000.0,
-          "General And Administrative Expense": 11928000.0,
-          "Gross Profit": 34860000.0
+          "General And Administrative Expense": 11928000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1153,13 +1153,13 @@
   },
   "validation": {
     "ticker": "HCAT",
-    "checked_at": "2026-08-07T14:43:11.578955+00:00",
+    "checked_at": "2026-08-08T14:10:37.721471+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

@@ -26,12 +26,12 @@
     "market_cap": 242721700.64999998,
     "ttm_pe": -5.169901396195872,
     "static_pe": -6.232582699517255,
-    "ev_revenue": 1.791943225925287,
+    "ev_revenue": 1.8049858181404899,
     "pb": 0.9217046428571428,
     "ps": 1.9024760597106174,
     "p_fcf": -8.935089293208172,
     "ttm_pocf": -10.677533901548477,
-    "debt_asset": 0.0,
+    "debt_asset": 0.004717890558548341,
     "gross_margin": 0.7749839319026195,
     "op_margin": -0.43198883855089276,
     "net_margin": -0.367990782398771,
@@ -595,25 +595,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 33741000.0,
+          "Gross Profit": 25886000.0,
           "Cost Of Revenue": 7855000.0,
           "Operating Income": -13770000.0,
           "Net Income": -12097000.0,
           "Diluted EPS": -0.29,
           "Diluted Average Shares": 41490889.0,
           "Research And Development": 9237000.0,
-          "Selling General And Administration": 30419000.0,
-          "Gross Profit": 25886000.0
+          "Selling General And Administration": 30419000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -775,7 +775,7 @@
           "Net PPE": 12557000.0,
           "Inventory": 23574000.0,
           "Accounts Receivable": 30958000.0,
-          "Total Debt": 1055000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -784,7 +784,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -880,7 +880,7 @@
           "Net PPE": 14039000.0,
           "Inventory": 37117000.0,
           "Accounts Receivable": 18519000.0,
-          "Total Debt": 0
+          "Total Debt": 1664000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -889,7 +889,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -934,13 +934,13 @@
   },
   "validation": {
     "ticker": "RXST",
-    "checked_at": "2026-08-07T14:43:11.666432+00:00",
+    "checked_at": "2026-08-08T14:10:37.807462+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

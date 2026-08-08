@@ -26,12 +26,12 @@
     "market_cap": 276050160.0,
     "ttm_pe": 4.805552538124086,
     "static_pe": 10.434706482706483,
-    "ev_revenue": 0.286055595153243,
+    "ev_revenue": 0.3770920441418635,
     "pb": 1.2736818404126717,
     "ps": 0.4523150883574606,
     "p_fcf": 2.848138831856216,
     "ttm_pocf": 2.7847568320067793,
-    "debt_asset": 0.0,
+    "debt_asset": 0.13508847857695133,
     "gross_margin": 0.33088209993363976,
     "op_margin": 0.12533405428433325,
     "net_margin": 0.09412343008823457,
@@ -1042,8 +1042,7 @@
           "Goodwill": 7099000.0,
           "Net PPE": 34015000.0,
           "Inventory": 165890000.0,
-          "Accounts Receivable": 82331000.0,
-          "Total Debt": 55531000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1052,8 +1051,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1157,7 +1155,8 @@
           "Goodwill": 7099000.0,
           "Net PPE": 25534000.0,
           "Inventory": 115125000.0,
-          "Total Debt": 0
+          "Accounts Receivable": 99097000.0,
+          "Total Debt": 55560000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1166,7 +1165,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1211,13 +1211,13 @@
   },
   "validation": {
     "ticker": "HBB",
-    "checked_at": "2026-08-07T14:43:11.578487+00:00",
+    "checked_at": "2026-08-08T14:10:37.721003+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "warn",

@@ -23,23 +23,23 @@
     "logic_summary": "A financial service holding company providing home equity-based reverse mortgage financing solutions for retirees in the United States."
   },
   "snapshot": {
-    "market_cap": 527112843.0,
-    "ttm_pe": 16.202405034887654,
-    "static_pe": 11.652765402895987,
-    "ev_revenue": 70.85850108559336,
-    "pb": 1.2031408332077953,
-    "ps": 1.2085115173775183,
-    "p_fcf": -1.125045019913516,
-    "ttm_pocf": -1.125045019913516,
-    "debt_asset": 0.9817255024308976,
+    "market_cap": 465816440.0,
+    "ttm_pe": -1378.155147928994,
+    "static_pe": 10.297699568917873,
+    "ev_revenue": 1.4703442565800942,
+    "pb": 1.1453422997012577,
+    "ps": 1.4499129709405114,
+    "p_fcf": -0.8388312960548588,
+    "ttm_pocf": -0.8388312960548588,
+    "debt_asset": 0.009299547230288972,
     "gross_margin": null,
     "op_margin": null,
-    "net_margin": 0.0745884030657982,
-    "roe": 0.07425692856197245,
-    "roa": 0.0010384593863044338,
+    "net_margin": -0.0010520680295824098,
+    "roe": -0.0008310692024932076,
+    "roa": -9.057591624439665e-06,
     "dividend_rate": 0.0,
-    "latest_q_ni": 17507000.0,
-    "latest_q_ocf": -130862000.0
+    "latest_q_ni": 2052000.0,
+    "latest_q_ocf": -183263000.0
   },
   "annual": {
     "income_statement": [
@@ -388,23 +388,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 74682000.0,
-          "Net Income": -7538000.0,
-          "Diluted EPS": -0.58,
-          "Diluted Average Shares": 9648558.0,
-          "General And Administrative Expense": 17271000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 79039000.0,
@@ -542,22 +525,26 @@
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 62481000.0,
+          "Net Income": 2052000.0,
+          "Diluted EPS": -1.28,
+          "Diluted Average Shares": 17000600.0,
+          "General And Administrative Expense": 13902000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -103998000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -103998000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -648,24 +635,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -183263000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -183263000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 246613000.0,
-          "Total Assets": 27974354000.0,
-          "Common Stock Equity": 251297000.0,
-          "Total Debt": 442971000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -786,6 +771,23 @@
           "Common Stock Equity": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 340465000.0,
+          "Total Assets": 37316763000.0,
+          "Common Stock Equity": 406705000.0,
+          "Net PPE": 5682000.0,
+          "Total Debt": 347029000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -829,7 +831,7 @@
   },
   "validation": {
     "ticker": "FOA",
-    "checked_at": "2026-08-07T14:43:11.565028+00:00",
+    "checked_at": "2026-08-08T14:10:37.707694+00:00",
     "status": "warn",
     "issues": [
       {
@@ -840,7 +842,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 67 days old"
+        "detail": "latest close 2026-06-01 is 68 days old"
       },
       {
         "severity": "warn",

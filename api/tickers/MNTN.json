@@ -23,23 +23,23 @@
     "logic_summary": "Operates a technology platform for performance marketing on Connected TV."
   },
   "snapshot": {
-    "market_cap": 617388438.825,
-    "ttm_pe": 26.331233796434514,
-    "static_pe": -96.07663224789917,
-    "ev_revenue": 1.3483176125465326,
-    "pb": 1.937652612066774,
-    "ps": 2.0630916840710567,
-    "p_fcf": 12.681286614460307,
-    "ttm_pocf": 10.020424891256717,
+    "market_cap": 615385935.25,
+    "ttm_pe": null,
+    "static_pe": -95.76500704170557,
+    "ev_revenue": null,
+    "pb": 1.9313678227206106,
+    "ps": null,
+    "p_fcf": 12.640154775598234,
+    "ttm_pocf": 9.987923575381819,
     "debt_asset": 0.0,
-    "gross_margin": 0.7995983345251859,
-    "op_margin": 0.13816356673595007,
-    "net_margin": 0.07835150073181979,
-    "roe": 0.07358761184708139,
-    "roa": 0.062505831513901,
+    "gross_margin": null,
+    "op_margin": null,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": 8762000.0,
-    "latest_q_ocf": 7111000.0
+    "latest_q_ni": null,
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -322,15 +322,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Net Income": -15699000.0
-        },
-        "sources": {
-          "Net Income": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 54821000.0,
@@ -527,6 +518,17 @@
           "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Diluted EPS": 0.09,
+          "Diluted Average Shares": 78643570.0
+        },
+        "sources": {
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       }
     ],
@@ -784,13 +786,13 @@
   },
   "validation": {
     "ticker": "MNTN",
-    "checked_at": "2026-08-07T14:43:11.618923+00:00",
+    "checked_at": "2026-08-08T14:10:37.760898+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

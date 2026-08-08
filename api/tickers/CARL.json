@@ -26,12 +26,12 @@
     "market_cap": 299370322.65,
     "ttm_pe": -8.236905286834501,
     "static_pe": -10.102258306337314,
-    "ev_revenue": 4.240592821707875,
+    "ev_revenue": 4.251699544197804,
     "pb": 3.5535256587849866,
     "ps": 4.7297625823524765,
     "p_fcf": -8.658076832865778,
     "ttm_pocf": -8.767618176892663,
-    "debt_asset": 0.13013316187543358,
+    "debt_asset": 0.13608060777313413,
     "gross_margin": 0.7662848566237459,
     "op_margin": -0.6108697369460463,
     "net_margin": -0.5742159728256576,
@@ -51,8 +51,8 @@
           "Cost Of Revenue": 3875000.0,
           "Operating Income": -18591000.0,
           "Net Income": -18898000.0,
-          "Diluted EPS": -4.251151,
-          "Diluted Average Shares": 4445384.0,
+          "Diluted EPS": -0.985673,
+          "Diluted Average Shares": 19172679.0,
           "Research And Development": 7395000.0,
           "Selling General And Administration": 21099000.0,
           "Selling And Marketing Expense": 15101000.0,
@@ -305,7 +305,6 @@
           "Diluted EPS": -1.47,
           "Diluted Average Shares": 4299492.0,
           "Research And Development": 3150000.0,
-          "Selling General And Administration": 10205000.0,
           "Selling And Marketing Expense": 6739000.0,
           "General And Administrative Expense": 3466000.0
         },
@@ -318,7 +317,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -450,6 +448,7 @@
           "Diluted EPS": -0.39,
           "Diluted Average Shares": 27190765.0,
           "Research And Development": 6040000.0,
+          "Selling General And Administration": 19538000.0,
           "Selling And Marketing Expense": 11920000.0,
           "General And Administrative Expense": 7618000.0
         },
@@ -462,6 +461,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -584,21 +584,11 @@
         "period": "2025-03-31",
         "items": {
           "Cash And Cash Equivalents": 43532000.0,
-          "Total Assets": 57835000.0,
-          "Common Stock Equity": -76609000.0,
-          "Net PPE": 2038000.0,
-          "Inventory": 1261000.0,
-          "Accounts Receivable": 8119000.0,
-          "Total Debt": 15886000.0
+          "Common Stock Equity": -76609000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
-          "Total Assets": "yfinance",
-          "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Common Stock Equity": "sec"
         }
       },
       {
@@ -694,7 +684,7 @@
           "Net PPE": 2400000.0,
           "Inventory": 2275000.0,
           "Accounts Receivable": 13775000.0,
-          "Total Debt": 15382000.0
+          "Total Debt": 16085000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -703,7 +693,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -748,13 +738,13 @@
   },
   "validation": {
     "ticker": "CARL",
-    "checked_at": "2026-08-07T14:43:11.522478+00:00",
+    "checked_at": "2026-08-08T14:10:37.665889+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

@@ -768,6 +768,7 @@
           "Net Income": -3059000.0,
           "Diluted EPS": -0.33,
           "Diluted Average Shares": 9404000.0,
+          "Research And Development": 818000.0,
           "Selling General And Administration": 10131000.0
         },
         "sources": {
@@ -778,6 +779,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Research And Development": "yfinance",
           "Selling General And Administration": "sec"
         }
       }
@@ -940,7 +942,7 @@
           "Net PPE": 183000.0,
           "Inventory": 1733000.0,
           "Accounts Receivable": 1459000.0,
-          "Total Debt": 364000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -949,7 +951,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1099,13 +1101,13 @@
   },
   "validation": {
     "ticker": "ECOR",
-    "checked_at": "2026-08-07T14:43:11.551565+00:00",
+    "checked_at": "2026-08-08T14:10:37.694501+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",

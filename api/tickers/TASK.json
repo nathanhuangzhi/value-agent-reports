@@ -501,23 +501,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 277792000.0,
-          "Gross Profit": 106611000.0,
           "Cost Of Revenue": 171181000.0,
           "Operating Income": 34238000.0,
           "Net Income": 21148000.0,
           "Diluted EPS": 0.23,
           "Diluted Average Shares": 93655539.0,
-          "Selling General And Administration": 57424000.0
+          "Selling General And Administration": 57424000.0,
+          "Gross Profit": 106611000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -616,23 +616,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 308855000.0,
+          "Gross Profit": 107150000.0,
           "Cost Of Revenue": 201705000.0,
           "Operating Income": 33311000.0,
           "Net Income": 21969000.0,
           "Diluted EPS": 0.24,
           "Diluted Average Shares": 92495764.0,
-          "Selling General And Administration": 54641000.0,
-          "Gross Profit": 107150000.0
+          "Selling General And Administration": 54641000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -953,13 +953,13 @@
   },
   "validation": {
     "ticker": "TASK",
-    "checked_at": "2026-08-07T14:43:11.689412+00:00",
+    "checked_at": "2026-08-08T14:10:37.829911+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       }
     ]
   },

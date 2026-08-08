@@ -31,7 +31,7 @@
     "ps": null,
     "p_fcf": -76.22835680751173,
     "ttm_pocf": 362.234750656168,
-    "debt_asset": 0.0,
+    "debt_asset": 0.0038957117470311904,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
@@ -1049,10 +1049,16 @@
       {
         "period": "2026-05-30",
         "items": {
+          "Gross Profit": 20661000.0,
+          "Cost Of Revenue": 45536000.0,
+          "Operating Income": 3867000.0,
           "Diluted EPS": 0.25,
           "Diluted Average Shares": 14824000.0
         },
         "sources": {
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance"
         }
@@ -1216,7 +1222,7 @@
           "Net PPE": 18138000.0,
           "Inventory": 98369000.0,
           "Accounts Receivable": 24932000.0,
-          "Total Debt": 986000.0
+          "Total Debt": 2035000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1321,7 +1327,7 @@
           "Net PPE": 19003000.0,
           "Inventory": 103020000.0,
           "Accounts Receivable": 33162000.0,
-          "Total Debt": 0
+          "Total Debt": 787000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1330,7 +1336,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1375,7 +1381,7 @@
   },
   "validation": {
     "ticker": "RELL",
-    "checked_at": "2026-08-07T14:43:11.659643+00:00",
+    "checked_at": "2026-08-08T14:10:37.800815+00:00",
     "status": "ok",
     "issues": []
   },

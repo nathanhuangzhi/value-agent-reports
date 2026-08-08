@@ -26,12 +26,12 @@
     "market_cap": 258254429.73,
     "ttm_pe": -9.154063155040408,
     "static_pe": -6.583588592805976,
-    "ev_revenue": 5.435841554007587,
+    "ev_revenue": 5.441254514053731,
     "pb": 39.42815721068702,
     "ps": 5.72918405683608,
     "p_fcf": -11.09245037926295,
     "ttm_pocf": -11.325955167529164,
-    "debt_asset": 0.5294805277991289,
+    "debt_asset": 0.5333877786318216,
     "gross_margin": 0.8578876145262551,
     "op_margin": -0.676819664130266,
     "net_margin": -0.625862413204073,
@@ -426,7 +426,6 @@
           "Diluted EPS": -0.39,
           "Diluted Average Shares": 28527453.0,
           "Research And Development": 3021000.0,
-          "Selling General And Administration": 11980000.0,
           "Selling And Marketing Expense": 6734000.0,
           "General And Administrative Expense": 5246000.0
         },
@@ -439,7 +438,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -455,7 +453,7 @@
           "Diluted EPS": -0.27,
           "Diluted Average Shares": 32899297.0,
           "Research And Development": 3670000.0,
-          "Selling General And Administration": 12820000.0,
+          "Selling General And Administration": 13073000.0,
           "Selling And Marketing Expense": 7163000.0,
           "General And Administrative Expense": 5910000.0
         },
@@ -571,6 +569,7 @@
           "Diluted EPS": -0.16,
           "Diluted Average Shares": 58296711.0,
           "Research And Development": 3137000.0,
+          "Selling General And Administration": 16575000.0,
           "Selling And Marketing Expense": 11416000.0,
           "General And Administrative Expense": 5159000.0
         },
@@ -583,6 +582,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -729,19 +729,17 @@
           "Cash And Cash Equivalents": 13350000.0,
           "Total Assets": 28625000.0,
           "Common Stock Equity": -34370000.0,
-          "Net PPE": 3105000.0,
           "Inventory": 4162000.0,
           "Accounts Receivable": 5453000.0,
-          "Total Debt": 31817000.0
+          "Total Debt": 31699000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -834,17 +832,19 @@
           "Cash And Cash Equivalents": 46288000.0,
           "Total Assets": 62448000.0,
           "Common Stock Equity": 6550000.0,
+          "Net PPE": 2635000.0,
           "Inventory": 4205000.0,
           "Accounts Receivable": 6459000.0,
-          "Total Debt": 33065000.0
+          "Total Debt": 33309000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -889,13 +889,13 @@
   },
   "validation": {
     "ticker": "TLSI",
-    "checked_at": "2026-08-07T14:43:11.694171+00:00",
+    "checked_at": "2026-08-08T14:10:37.834507+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "warn",

@@ -32,7 +32,7 @@
     "p_fcf": 18.936628621597894,
     "ttm_pocf": 13.88754549459487,
     "debt_asset": 0.6612315647217816,
-    "gross_margin": null,
+    "gross_margin": 0.6174989464059945,
     "op_margin": 0.10527368443609506,
     "net_margin": 0.04185089680493154,
     "roe": 0.8946404031149794,
@@ -977,8 +977,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 33551000.0,
-          "Gross Profit": 20494000.0,
-          "Cost Of Revenue": 13057000.0,
           "Operating Income": 8596000.0,
           "Net Income": 5787000.0,
           "Diluted EPS": 0.25,
@@ -987,8 +985,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1092,6 +1088,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 35392000.0,
+          "Gross Profit": 21828000.0,
+          "Cost Of Revenue": 13564000.0,
           "Operating Income": -3238000.0,
           "Net Income": -3283000.0,
           "Diluted EPS": -0.15,
@@ -1100,6 +1098,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1369,6 +1369,7 @@
           "Total Assets": 136152000.0,
           "Common Stock Equity": 6549000.0,
           "Goodwill": 66152000.0,
+          "Net PPE": 39497000.0,
           "Accounts Receivable": 9324000.0,
           "Total Debt": 90028000.0
         },
@@ -1377,6 +1378,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1423,7 +1425,7 @@
   },
   "validation": {
     "ticker": "NRC",
-    "checked_at": "2026-08-07T14:43:11.631653+00:00",
+    "checked_at": "2026-08-08T14:10:37.773449+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1434,7 +1436,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 98 days old"
+        "detail": "latest close 2026-05-01 is 99 days old"
       },
       {
         "severity": "info",
