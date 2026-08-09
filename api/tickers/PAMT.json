@@ -952,6 +952,23 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-06-30",
+        "items": {
+          "Total Revenue": 182948000.0,
+          "Operating Income": -705000.0,
+          "Net Income": -2910000.0,
+          "Diluted EPS": -0.13,
+          "Diluted Average Shares": 21932000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec"
+        }
+      },
+      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 182577000.0,
@@ -966,15 +983,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec"
-        }
-      },
-      {
-        "period": "2024-12-31",
-        "items": {
-          "Diluted EPS": -1.45
-        },
-        "sources": {
-          "Diluted EPS": "yfinance"
         }
       },
       {
@@ -1437,7 +1445,7 @@
   },
   "validation": {
     "ticker": "PAMT",
-    "checked_at": "2026-08-08T14:10:37.785574+00:00",
+    "checked_at": "2026-08-09T14:14:37.806092+00:00",
     "status": "warn",
     "issues": [
       {

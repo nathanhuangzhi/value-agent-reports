@@ -26,12 +26,12 @@
     "market_cap": 928363000.0,
     "ttm_pe": -7.553992367592374,
     "static_pe": -16.64836899019063,
-    "ev_revenue": 1.179022070455371,
+    "ev_revenue": 1.2669438439118486,
     "pb": 0.6147574147639043,
     "ps": 1.5124672739150906,
     "p_fcf": 93.95435684647303,
     "ttm_pocf": 24.44668861092824,
-    "debt_asset": 0.0,
+    "debt_asset": 0.02876382240590211,
     "gross_margin": 0.44048210593883746,
     "op_margin": -0.28560117431049176,
     "net_margin": -0.20022091634666922,
@@ -1440,20 +1440,18 @@
           "Total Assets": 2034015000.0,
           "Common Stock Equity": 1695452000.0,
           "Goodwill": 682955000.0,
-          "Net PPE": 211572000.0,
           "Inventory": 75150000.0,
           "Accounts Receivable": 146870000.0,
-          "Total Debt": 53696000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1555,18 +1553,20 @@
           "Total Assets": 1876211000.0,
           "Common Stock Equity": 1510129000.0,
           "Goodwill": 547457000.0,
+          "Net PPE": 233848000.0,
           "Inventory": 79082000.0,
           "Accounts Receivable": 143675000.0,
-          "Total Debt": 0
+          "Total Debt": 53967000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1611,13 +1611,13 @@
   },
   "validation": {
     "ticker": "AZTA",
-    "checked_at": "2026-08-08T14:10:37.653096+00:00",
+    "checked_at": "2026-08-09T14:14:37.707403+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

@@ -32,7 +32,7 @@
     "p_fcf": 20.91080773154832,
     "ttm_pocf": 10.251336914893617,
     "debt_asset": 0.22326161764849242,
-    "gross_margin": null,
+    "gross_margin": 0.16660224110531657,
     "op_margin": -0.07314448731946714,
     "net_margin": -0.21267668992768513,
     "roe": -0.1684002140756532,
@@ -1031,8 +1031,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 103764000.0,
-          "Gross Profit": -34506000.0,
-          "Cost Of Revenue": 138270000.0,
           "Operating Income": -126298000.0,
           "Net Income": -134967000.0,
           "Diluted EPS": -0.6,
@@ -1041,8 +1039,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1146,6 +1142,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 106359000.0,
+          "Gross Profit": 19462000.0,
+          "Cost Of Revenue": 86897000.0,
           "Operating Income": -5128000.0,
           "Net Income": -14853000.0,
           "Diluted EPS": -0.07,
@@ -1154,6 +1152,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1318,7 +1318,6 @@
           "Total Assets": 1116592000.0,
           "Common Stock Equity": 602898000.0,
           "Goodwill": 0.0,
-          "Net PPE": 406407000.0,
           "Inventory": 45720000.0,
           "Accounts Receivable": 91415000.0,
           "Total Debt": 271625000.0
@@ -1328,7 +1327,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1433,6 +1431,7 @@
           "Total Assets": 1025810000.0,
           "Common Stock Equity": 558681000.0,
           "Goodwill": 0.0,
+          "Net PPE": 396423000.0,
           "Inventory": 43282000.0,
           "Accounts Receivable": 91798000.0,
           "Total Debt": 229024000.0
@@ -1442,6 +1441,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1489,7 +1489,7 @@
   },
   "validation": {
     "ticker": "CLNE",
-    "checked_at": "2026-08-08T14:10:37.672952+00:00",
+    "checked_at": "2026-08-09T14:14:37.721709+00:00",
     "status": "ok",
     "issues": []
   },

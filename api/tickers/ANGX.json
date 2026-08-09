@@ -29,7 +29,7 @@
     "ev_revenue": null,
     "pb": -22.488144793356238,
     "ps": null,
-    "p_fcf": -14.07916674968548,
+    "p_fcf": -13.184028740989582,
     "ttm_pocf": -14.938331379459521,
     "debt_asset": 0.3163589789096464,
     "gross_margin": null,
@@ -510,27 +510,29 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 111705930.0,
+          "Gross Profit": 59956431.0,
           "Cost Of Revenue": 51749499.0,
           "Operating Income": -18511384.0,
           "Net Income": -23793082.0,
           "Diluted EPS": -0.129,
           "Diluted Average Shares": 184235772.0,
           "Research And Development": 4000891.0,
+          "Selling General And Administration": 74466924.0,
           "Selling And Marketing Expense": 61141780.0,
-          "General And Administrative Expense": 12408923.0,
-          "Gross Profit": 59956431.0
+          "General And Administrative Expense": 12408923.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -578,8 +580,8 @@
         "period": "2025-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -10591617.0,
-          "Capital Expenditure": -1908451.0,
-          "Free Cash Flow": -12500068.0
+          "Capital Expenditure": -6255170.0,
+          "Free Cash Flow": -16846787.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
@@ -630,13 +632,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 16939586.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 16939586.0
+          "Capital Expenditure": -3180694.0,
+          "Free Cash Flow": 13758892.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -845,7 +847,7 @@
   },
   "validation": {
     "ticker": "ANGX",
-    "checked_at": "2026-08-08T14:10:37.643307+00:00",
+    "checked_at": "2026-08-09T14:14:37.700410+00:00",
     "status": "warn",
     "issues": [
       {

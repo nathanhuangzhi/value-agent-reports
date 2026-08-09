@@ -32,7 +32,7 @@
     "p_fcf": 5.073788109756098,
     "ttm_pocf": 3.4580831168831168,
     "debt_asset": 0.003965829020390347,
-    "gross_margin": null,
+    "gross_margin": 0.10548638765932879,
     "op_margin": 0.01104383484581563,
     "net_margin": 0.016536144132407584,
     "roe": 0.06182029498851593,
@@ -1032,26 +1032,18 @@
         "period": "2025-04-01",
         "items": {
           "Total Revenue": 34279000.0,
-          "Gross Profit": 3479000.0,
-          "Cost Of Revenue": 30800000.0,
           "Operating Income": -514000.0,
           "Net Income": -624000.0,
           "Diluted EPS": -0.06,
           "Diluted Average Shares": 10628318.0,
-          "Selling General And Administration": 3493000.0,
-          "Selling And Marketing Expense": 915000.0,
           "General And Administrative Expense": 2578000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -1059,14 +1051,14 @@
         "period": "2025-07-01",
         "items": {
           "Total Revenue": 37025000.0,
-          "Gross Profit": 4144000.0,
-          "Cost Of Revenue": 32881000.0,
+          "Gross Profit": 4316000.0,
+          "Cost Of Revenue": 32709000.0,
           "Operating Income": 1233000.0,
           "Net Income": 1487000.0,
           "Diluted EPS": 0.14,
           "Diluted Average Shares": 10661491.0,
-          "Selling General And Administration": 2915000.0,
-          "Selling And Marketing Expense": 741000.0,
+          "Selling General And Administration": 3087000.0,
+          "Selling And Marketing Expense": 913000.0,
           "General And Administrative Expense": 2174000.0
         },
         "sources": {
@@ -1167,18 +1159,26 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 35167000.0,
+          "Gross Profit": 4291000.0,
+          "Cost Of Revenue": 30876000.0,
           "Operating Income": 1767000.0,
           "Net Income": 1907000.0,
           "Diluted EPS": 0.18,
           "Diluted Average Shares": 10650896.0,
+          "Selling General And Administration": 2995000.0,
+          "Selling And Marketing Expense": 1009000.0,
           "General And Administrative Expense": 1986000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1516,13 +1516,13 @@
   },
   "validation": {
     "ticker": "GTIM",
-    "checked_at": "2026-08-08T14:10:37.719592+00:00",
+    "checked_at": "2026-08-09T14:14:37.757949+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "info",

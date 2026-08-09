@@ -26,12 +26,12 @@
     "market_cap": 62493375.0,
     "ttm_pe": -4.137538069385593,
     "static_pe": -3.3600395182536698,
-    "ev_revenue": 0.09103755320339654,
+    "ev_revenue": 0.1540527602239761,
     "pb": 0.43713582725358663,
     "ps": 0.1890467554625179,
     "p_fcf": 7.586909675852859,
     "ttm_pocf": 5.461752753015207,
-    "debt_asset": 0.0,
+    "debt_asset": 0.07792270947035301,
     "gross_margin": 0.29551291553100545,
     "op_margin": -0.007226889231057776,
     "net_margin": -0.04569063831975582,
@@ -1442,7 +1442,7 @@
           "Net PPE": 32612000.0,
           "Inventory": 77455000.0,
           "Accounts Receivable": 83843000.0,
-          "Total Debt": 31015000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1451,7 +1451,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1544,17 +1544,19 @@
           "Cash And Cash Equivalents": 32399000.0,
           "Total Assets": 267329000.0,
           "Common Stock Equity": 142961000.0,
+          "Net PPE": 36079000.0,
           "Inventory": 70041000.0,
           "Accounts Receivable": 63676000.0,
-          "Total Debt": 0
+          "Total Debt": 20831000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1599,7 +1601,7 @@
   },
   "validation": {
     "ticker": "UEIC",
-    "checked_at": "2026-08-08T14:10:37.840795+00:00",
+    "checked_at": "2026-08-09T14:14:37.848307+00:00",
     "status": "ok",
     "issues": []
   },

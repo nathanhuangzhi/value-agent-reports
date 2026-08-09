@@ -26,12 +26,12 @@
     "market_cap": 218250062.5,
     "ttm_pe": -9.743306361607143,
     "static_pe": -3.6014861798679867,
-    "ev_revenue": 0.450962974871389,
+    "ev_revenue": 0.4919206321725366,
     "pb": -0.9547246828521435,
     "ps": 0.14394543101173987,
     "p_fcf": 1.5511731520966596,
     "ttm_pocf": 1.5456803293201133,
-    "debt_asset": 0.5502135690871163,
+    "debt_asset": 0.6119002682030397,
     "gross_margin": 0.15934573275293498,
     "op_margin": 0.04280437936947632,
     "net_margin": -0.014773776546629732,
@@ -1325,20 +1325,18 @@
           "Total Assets": 868000000.0,
           "Common Stock Equity": -184300000.0,
           "Goodwill": 126700000.0,
-          "Net PPE": 185600000.0,
           "Inventory": 19700000.0,
           "Accounts Receivable": 164500000.0,
-          "Total Debt": 663400000.0
+          "Total Debt": 523500000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1440,18 +1438,20 @@
           "Total Assets": 1006700000.0,
           "Common Stock Equity": -228600000.0,
           "Goodwill": 105700000.0,
+          "Net PPE": 200300000.0,
           "Inventory": 14800000.0,
           "Accounts Receivable": 284400000.0,
-          "Total Debt": 553900000.0
+          "Total Debt": 616000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1496,7 +1496,7 @@
   },
   "validation": {
     "ticker": "VATE",
-    "checked_at": "2026-08-08T14:10:37.847006+00:00",
+    "checked_at": "2026-08-09T14:14:37.852760+00:00",
     "status": "warn",
     "issues": [
       {

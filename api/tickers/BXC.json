@@ -26,12 +26,12 @@
     "market_cap": 475169348.1,
     "ttm_pe": -243.9267700718686,
     "static_pe": 2169.7230506849314,
-    "ev_revenue": 0.15086227054054951,
+    "ev_revenue": 0.1609851982125652,
     "pb": 0.7645795154454381,
     "ps": 0.15786881560849197,
     "p_fcf": 8.189327475311515,
     "ttm_pocf": 6.386684786290323,
-    "debt_asset": 0.1852680561973555,
+    "debt_asset": 0.20426886876287367,
     "gross_margin": 0.15844845343699127,
     "op_margin": 0.011513671550549852,
     "net_margin": -0.0006471975813149938,
@@ -1372,20 +1372,18 @@
           "Total Assets": 1633470000.0,
           "Common Stock Equity": 636114000.0,
           "Goodwill": 55372000.0,
-          "Net PPE": 320335000.0,
           "Inventory": 399555000.0,
           "Accounts Receivable": 275574000.0,
-          "Total Debt": 318759000.0
+          "Total Debt": 295393000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1487,18 +1485,20 @@
           "Total Assets": 1603563000.0,
           "Common Stock Equity": 621478000.0,
           "Goodwill": 70301000.0,
+          "Net PPE": 331534000.0,
           "Inventory": 375258000.0,
           "Accounts Receivable": 315939000.0,
-          "Total Debt": 297089000.0
+          "Total Debt": 327558000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1543,7 +1543,7 @@
   },
   "validation": {
     "ticker": "BXC",
-    "checked_at": "2026-08-08T14:10:37.664312+00:00",
+    "checked_at": "2026-08-09T14:14:37.715390+00:00",
     "status": "info",
     "issues": [
       {

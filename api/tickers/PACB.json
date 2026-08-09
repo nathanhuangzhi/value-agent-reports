@@ -26,12 +26,12 @@
     "market_cap": 438023550.0,
     "ttm_pe": -3.333842389277478,
     "static_pe": -0.8016888552937903,
-    "ev_revenue": 6.402600285048753,
+    "ev_revenue": 6.4112082551123555,
     "pb": -13.188316321922139,
     "ps": 2.7501776845753465,
     "p_fcf": -3.544023221004086,
     "ttm_pocf": -3.710491740787802,
-    "debt_asset": 0.8569954113187471,
+    "debt_asset": 0.8588189133470772,
     "gross_margin": 0.36382015558387903,
     "op_margin": -0.8353121409421678,
     "net_margin": -0.8249273251251013,
@@ -1411,7 +1411,7 @@
           "Net PPE": 24794000.0,
           "Inventory": 54007000.0,
           "Accounts Receivable": 31645000.0,
-          "Total Debt": 648631000.0
+          "Total Debt": 646214000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1421,7 +1421,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1526,7 +1526,7 @@
           "Net PPE": 26972000.0,
           "Inventory": 61084000.0,
           "Accounts Receivable": 31104000.0,
-          "Total Debt": 644332000.0
+          "Total Debt": 645703000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1536,7 +1536,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1581,13 +1581,13 @@
   },
   "validation": {
     "ticker": "PACB",
-    "checked_at": "2026-08-08T14:10:37.785089+00:00",
+    "checked_at": "2026-08-09T14:14:37.805738+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

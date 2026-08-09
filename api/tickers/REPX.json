@@ -29,10 +29,10 @@
     "ev_revenue": 2.129708696730459,
     "pb": 1.2373362290283159,
     "ps": 1.6196252015045673,
-    "p_fcf": 6.32136167844352,
+    "p_fcf": 14.77733915371851,
     "ttm_pocf": 3.2763022901912255,
     "debt_asset": 0.21054458473141485,
-    "gross_margin": null,
+    "gross_margin": 0.4928905055181251,
     "op_margin": 0.3885111395858306,
     "net_margin": 0.24526309263009963,
     "roe": 0.18737230679840974,
@@ -1004,25 +1004,17 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 102457000.0,
-          "Gross Profit": 58318000.0,
-          "Cost Of Revenue": 44139000.0,
           "Operating Income": 49502000.0,
           "Net Income": 28633000.0,
           "Diluted EPS": 1.36,
-          "Diluted Average Shares": 21111000.0,
-          "Selling General And Administration": 8807000.0,
-          "General And Administrative Expense": 8807000.0
+          "Diluted Average Shares": 21111000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Diluted Average Shares": "sec"
         }
       },
       {
@@ -1129,17 +1121,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 165850000.0,
+          "Gross Profit": 100336000.0,
+          "Cost Of Revenue": 65514000.0,
           "Operating Income": 87232000.0,
           "Net Income": 87370000.0,
           "Diluted EPS": 4.11,
-          "Diluted Average Shares": 21255000.0
+          "Diluted Average Shares": 21255000.0,
+          "Selling General And Administration": 12638000.0,
+          "General And Administrative Expense": 12638000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1174,13 +1174,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 50381000.0,
-          "Capital Expenditure": -19153000.0,
-          "Free Cash Flow": 31228000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 50381000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1239,13 +1239,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 63500000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 63500000.0
+          "Capital Expenditure": -70940000.0,
+          "Free Cash Flow": -7440000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1460,13 +1460,13 @@
   },
   "validation": {
     "ticker": "REPX",
-    "checked_at": "2026-08-08T14:10:37.801178+00:00",
+    "checked_at": "2026-08-09T14:14:37.817443+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

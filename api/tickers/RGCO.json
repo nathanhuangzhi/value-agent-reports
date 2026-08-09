@@ -32,7 +32,7 @@
     "p_fcf": 122.53311283618763,
     "ttm_pocf": 10.715077017395702,
     "debt_asset": 0.43706496145984663,
-    "gross_margin": null,
+    "gross_margin": 0.314353998541374,
     "op_margin": 0.17243186108740927,
     "net_margin": 0.13011270534098834,
     "roe": 0.1137905141160699,
@@ -900,8 +900,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 36462097.0,
-          "Gross Profit": 14071335.0,
-          "Cost Of Revenue": 22390762.0,
           "Operating Income": 10399942.0,
           "Net Income": 7676208.0,
           "Diluted EPS": 0.74,
@@ -909,8 +907,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1005,6 +1001,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 17105393.0,
+          "Gross Profit": 5076501.0,
+          "Cost Of Revenue": 12028892.0,
           "Operating Income": 1172269.0,
           "Net Income": 558900.0,
           "Diluted EPS": 0.05,
@@ -1012,6 +1010,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1166,8 +1166,6 @@
           "Cash And Cash Equivalents": 2152771.0,
           "Total Assets": 326421287.0,
           "Common Stock Equity": 117833223.0,
-          "Net PPE": 267560507.0,
-          "Inventory": 3862987.0,
           "Accounts Receivable": 13597500.0,
           "Total Debt": 141826622.0
         },
@@ -1175,8 +1173,6 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1271,6 +1267,8 @@
           "Cash And Cash Equivalents": 2473427.0,
           "Total Assets": 339659131.0,
           "Common Stock Equity": 122874179.0,
+          "Net PPE": 282505823.0,
+          "Inventory": 6266537.0,
           "Accounts Receivable": 6346425.0,
           "Total Debt": 148453105.0
         },
@@ -1278,6 +1276,8 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1324,7 +1324,7 @@
   },
   "validation": {
     "ticker": "RGCO",
-    "checked_at": "2026-08-08T14:10:37.801752+00:00",
+    "checked_at": "2026-08-09T14:14:37.817863+00:00",
     "status": "ok",
     "issues": []
   },

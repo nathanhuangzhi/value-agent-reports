@@ -26,14 +26,14 @@
     "market_cap": 362579150.0,
     "ttm_pe": -0.39197745945945944,
     "static_pe": -0.3523606899902818,
-    "ev_revenue": -0.015395236560525976,
+    "ev_revenue": 0.5199921554724765,
     "pb": 1.0987246969696969,
     "ps": 0.046742187701430966,
     "p_fcf": 2.224411963190184,
     "ttm_pocf": 1.6708716589861752,
-    "debt_asset": 0.007198683669271904,
+    "debt_asset": 0.43428630193336076,
     "gross_margin": 0.16746164754415366,
-    "op_margin": null,
+    "op_margin": 0.013149413433028232,
     "net_margin": -0.11924713162305015,
     "roe": -2.803030303030303,
     "roa": -0.0951254627725216,
@@ -610,23 +610,17 @@
         "items": {
           "Total Revenue": 1457000000.0,
           "Gross Profit": 22000000.0,
-          "Cost Of Revenue": 1031000000.0,
-          "Operating Income": -4000000.0,
           "Net Income": -90000000.0,
           "Diluted EPS": -0.75,
           "Diluted Average Shares": 125194000.0,
-          "Research And Development": 42000000.0,
           "Selling General And Administration": 378000000.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Research And Development": "yfinance",
           "Selling General And Administration": "sec"
         }
       },
@@ -735,17 +729,23 @@
         "items": {
           "Total Revenue": 1922000000.0,
           "Gross Profit": 203000000.0,
+          "Cost Of Revenue": 1234000000.0,
+          "Operating Income": 159000000.0,
           "Net Income": 13000000.0,
           "Diluted EPS": 0.07,
           "Diluted Average Shares": 130895000.0,
+          "Research And Development": 67000000.0,
           "Selling General And Administration": 432000000.0
         },
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Research And Development": "yfinance",
           "Selling General And Administration": "sec"
         }
       }
@@ -913,7 +913,7 @@
           "Net PPE": 248000000.0,
           "Inventory": 836000000.0,
           "Accounts Receivable": 819000000.0,
-          "Total Debt": 3298000000.0
+          "Total Debt": 599000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -923,7 +923,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1028,7 +1028,7 @@
           "Net PPE": 283000000.0,
           "Inventory": 1043000000.0,
           "Accounts Receivable": 1185000000.0,
-          "Total Debt": 70000000.0
+          "Total Debt": 4223000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1038,7 +1038,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1083,7 +1083,7 @@
   },
   "validation": {
     "ticker": "XRX",
-    "checked_at": "2026-08-08T14:10:37.857113+00:00",
+    "checked_at": "2026-08-09T14:14:37.860096+00:00",
     "status": "error",
     "issues": [
       {

@@ -26,12 +26,12 @@
     "market_cap": 299755437.65999997,
     "ttm_pe": -107.57205138961908,
     "static_pe": 12.876566704367079,
-    "ev_revenue": 3.394980812974663,
+    "ev_revenue": 3.4031695171931995,
     "pb": 1.8135052700354135,
     "ps": 5.58631173379813,
     "p_fcf": -14.625407663828305,
     "ttm_pocf": -14.86483081327572,
-    "debt_asset": 0.0,
+    "debt_asset": 0.002500313167215884,
     "gross_margin": 0.5435285807203303,
     "op_margin": -0.20756848297925953,
     "net_margin": -0.05193088410636391,
@@ -1111,25 +1111,25 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 7040815.0,
-          "Gross Profit": 6883077.0,
           "Cost Of Revenue": 157738.0,
           "Operating Income": -2255398.0,
           "Net Income": -408223.0,
           "Diluted EPS": -0.01,
           "Diluted Average Shares": 71427527.0,
           "Research And Development": 3462813.0,
-          "Selling General And Administration": 5675662.0
+          "Selling General And Administration": 5675662.0,
+          "Gross Profit": 6883077.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1232,25 +1232,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 41002253.0,
+          "Gross Profit": 23441068.0,
           "Cost Of Revenue": 17561185.0,
           "Operating Income": 13905578.0,
           "Net Income": 12463434.0,
           "Diluted EPS": 0.17,
           "Diluted Average Shares": 71883798.0,
           "Research And Development": 4386498.0,
-          "Selling General And Administration": 5148992.0,
-          "Gross Profit": 23441068.0
+          "Selling General And Administration": 5148992.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1417,7 +1417,7 @@
           "Net PPE": 1188008.0,
           "Inventory": 59060679.0,
           "Accounts Receivable": 7185485.0,
-          "Total Debt": 558651.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1427,7 +1427,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1532,7 +1532,7 @@
           "Net PPE": 1530954.0,
           "Inventory": 41110808.0,
           "Accounts Receivable": 7170229.0,
-          "Total Debt": 0
+          "Total Debt": 439397.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1542,7 +1542,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1587,13 +1587,13 @@
   },
   "validation": {
     "ticker": "SIGA",
-    "checked_at": "2026-08-08T14:10:37.816421+00:00",
+    "checked_at": "2026-08-09T14:14:37.828385+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

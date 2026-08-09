@@ -29,7 +29,7 @@
     "ev_revenue": null,
     "pb": 1.3146212237553734,
     "ps": null,
-    "p_fcf": -18.465634963777024,
+    "p_fcf": -18.465439277148313,
     "ttm_pocf": -18.478718406861365,
     "debt_asset": 0.0,
     "gross_margin": null,
@@ -963,7 +963,6 @@
           "Diluted EPS": -0.24,
           "Diluted Average Shares": 19547312.0,
           "Research And Development": 1665913.0,
-          "Selling General And Administration": 3480010.0,
           "General And Administrative Expense": 3480010.0
         },
         "sources": {
@@ -973,7 +972,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -1074,6 +1072,7 @@
           "Diluted EPS": -0.18,
           "Diluted Average Shares": 31906688.0,
           "Research And Development": 3907952.0,
+          "Selling General And Administration": 3710193.0,
           "General And Administrative Expense": 3710193.0
         },
         "sources": {
@@ -1083,6 +1082,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1183,13 +1183,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3526331.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -3526331.0
+          "Capital Expenditure": -180.0,
+          "Free Cash Flow": -3526511.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1305,12 +1305,14 @@
           "Cash And Cash Equivalents": 237466174.0,
           "Total Assets": 240626457.0,
           "Common Stock Equity": 238580313.0,
+          "Net PPE": 100000.0,
           "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -1356,7 +1358,7 @@
   },
   "validation": {
     "ticker": "LTBR",
-    "checked_at": "2026-08-08T14:10:37.750347+00:00",
+    "checked_at": "2026-08-09T14:14:37.779936+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1367,7 +1369,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       },
       {
         "severity": "info",

@@ -12,12 +12,12 @@
     "market_cap": 538302260.58,
     "ttm_pe": -9.53388580957104,
     "static_pe": -129.24424023529411,
-    "ev_revenue": 0.16251129424073735,
+    "ev_revenue": 0.5587749954261828,
     "pb": -4.122804847932479,
     "ps": 0.19394219105117091,
     "p_fcf": -110.01476815450644,
     "ttm_pocf": 9.639392962180361,
-    "debt_asset": 0.02396170391969764,
+    "debt_asset": 0.6102702155220666,
     "gross_margin": 0.11654100528862245,
     "op_margin": 0.027284737862090857,
     "net_margin": -0.020342407589618174,
@@ -1146,7 +1146,8 @@
           "Net Income": -18843000.0,
           "Diluted EPS": -1.04,
           "Diluted Average Shares": 18051719.0,
-          "Selling General And Administration": 52605000.0
+          "Selling General And Administration": 52605000.0,
+          "General And Administrative Expense": 52605000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1156,7 +1157,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1323,7 +1325,7 @@
           "Net PPE": 531991000.0,
           "Inventory": 172957000.0,
           "Accounts Receivable": 357489000.0,
-          "Total Debt": 1100961000.0
+          "Total Debt": 42501000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1333,7 +1335,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1435,18 +1437,20 @@
           "Total Assets": 1875910000.0,
           "Common Stock Equity": -130567000.0,
           "Goodwill": 140503000.0,
+          "Net PPE": 597566000.0,
           "Inventory": 188721000.0,
           "Accounts Receivable": 373454000.0,
-          "Total Debt": 44950000.0
+          "Total Debt": 1144812000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1491,13 +1495,13 @@
   },
   "validation": {
     "ticker": "CPS",
-    "checked_at": "2026-08-08T14:10:37.678201+00:00",
+    "checked_at": "2026-08-09T14:14:37.725524+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       },
       {
         "severity": "info",

@@ -32,7 +32,7 @@
     "p_fcf": -21.542691464389012,
     "ttm_pocf": 6.864092868555322,
     "debt_asset": 0.4120851906884596,
-    "gross_margin": null,
+    "gross_margin": 0.4030176026823135,
     "op_margin": 0.18943839061190276,
     "net_margin": 0.09488683989941324,
     "roe": 0.08792915954637254,
@@ -966,8 +966,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 170800000.0,
-          "Gross Profit": 75800000.0,
-          "Cost Of Revenue": 95000000.0,
           "Operating Income": 46200000.0,
           "Net Income": 27500000.0,
           "Diluted EPS": 1.69,
@@ -975,8 +973,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1067,6 +1063,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 117000000.0,
+          "Gross Profit": 48400000.0,
+          "Cost Of Revenue": 68600000.0,
           "Operating Income": 15400000.0,
           "Net Income": 4700000.0,
           "Diluted EPS": 0.26,
@@ -1074,6 +1072,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1233,8 +1233,6 @@
           "Total Assets": 1890700000.0,
           "Common Stock Equity": 534100000.0,
           "Goodwill": 0.0,
-          "Net PPE": 1625100000.0,
-          "Inventory": 16500000.0,
           "Accounts Receivable": 95500000.0,
           "Total Debt": 810100000.0
         },
@@ -1243,8 +1241,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
-          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1348,6 +1344,8 @@
           "Total Assets": 2220900000.0,
           "Common Stock Equity": 643700000.0,
           "Goodwill": 6800000.0,
+          "Net PPE": 1911200000.0,
+          "Inventory": 17200000.0,
           "Accounts Receivable": 75100000.0,
           "Total Debt": 915200000.0
         },
@@ -1356,6 +1354,8 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
+          "Inventory": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1402,7 +1402,7 @@
   },
   "validation": {
     "ticker": "UTL",
-    "checked_at": "2026-08-08T14:10:37.845674+00:00",
+    "checked_at": "2026-08-09T14:14:37.851808+00:00",
     "status": "warn",
     "issues": [
       {

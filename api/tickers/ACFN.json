@@ -26,12 +26,12 @@
     "market_cap": 40259000.0,
     "ttm_pe": 26.091380427738173,
     "static_pe": 16.039442231075697,
-    "ev_revenue": 3.738480827499739,
+    "ev_revenue": 3.756033852262042,
     "pb": 4.549553621878179,
     "ps": 4.206352523247309,
     "p_fcf": 27.555783709787818,
     "ttm_pocf": 27.443081117927743,
-    "debt_asset": 0.0,
+    "debt_asset": 0.01254855094114132,
     "gross_margin": 0.8029464005851008,
     "op_margin": 0.07146588653223279,
     "net_margin": 0.161216173858531,
@@ -1476,7 +1476,7 @@
           "Net PPE": 338000.0,
           "Inventory": 1127000.0,
           "Accounts Receivable": 1068000.0,
-          "Total Debt": 0
+          "Total Debt": 168000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1485,7 +1485,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1530,13 +1530,13 @@
   },
   "validation": {
     "ticker": "ACFN",
-    "checked_at": "2026-08-08T14:10:37.633726+00:00",
+    "checked_at": "2026-08-09T14:14:37.693007+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       },
       {
         "severity": "warn",

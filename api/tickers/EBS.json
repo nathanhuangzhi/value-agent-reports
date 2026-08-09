@@ -32,7 +32,7 @@
     "p_fcf": 4.769545983701979,
     "ttm_pocf": 4.193490276356193,
     "debt_asset": 0.5209527220630372,
-    "gross_margin": 0.5356069515222789,
+    "gross_margin": 0.5258068731216516,
     "op_margin": -0.07029922906049915,
     "net_margin": -0.2310205148307853,
     "roe": -0.517867603983597,
@@ -1141,25 +1141,25 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 222200000.0,
-          "Gross Profit": 120600000.0,
           "Cost Of Revenue": 88500000.0,
           "Operating Income": 49900000.0,
           "Net Income": 68000000.0,
           "Diluted EPS": 1.19,
           "Diluted Average Shares": 57300000.0,
           "Research And Development": 15100000.0,
-          "Selling General And Administration": 52400000.0
+          "Selling General And Administration": 52400000.0,
+          "Gross Profit": 133700000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1266,25 +1266,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 234300000.0,
+          "Gross Profit": 129700000.0,
           "Cost Of Revenue": 97100000.0,
           "Operating Income": -125100000.0,
           "Net Income": -180200000.0,
           "Diluted EPS": -3.49,
           "Diluted Average Shares": 51600000.0,
           "Research And Development": 9200000.0,
-          "Selling General And Administration": 44600000.0,
-          "Gross Profit": 137200000.0
+          "Selling General And Administration": 44600000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1611,13 +1611,13 @@
   },
   "validation": {
     "ticker": "EBS",
-    "checked_at": "2026-08-08T14:10:37.694370+00:00",
+    "checked_at": "2026-08-09T14:14:37.739108+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

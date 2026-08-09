@@ -26,12 +26,12 @@
     "market_cap": 207939635.4,
     "ttm_pe": -114.28702141470147,
     "static_pe": -78.82694033115409,
-    "ev_revenue": 4.42613260511797,
+    "ev_revenue": 4.438963388267615,
     "pb": 11.519233281058872,
     "ps": 4.609864746544009,
     "p_fcf": 267.73814740946085,
     "ttm_pocf": 149.4906033696912,
-    "debt_asset": 0.0,
+    "debt_asset": 0.02069825945649907,
     "gross_margin": 0.6242764318644324,
     "op_margin": -0.0366394439421263,
     "net_margin": -0.040335855195811524,
@@ -1424,7 +1424,7 @@
           "Net PPE": 3929718.0,
           "Inventory": 4511126.0,
           "Accounts Receivable": 5027723.0,
-          "Total Debt": 0
+          "Total Debt": 578765.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1433,7 +1433,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1478,13 +1478,13 @@
   },
   "validation": {
     "ticker": "KRMD",
-    "checked_at": "2026-08-08T14:10:37.742338+00:00",
+    "checked_at": "2026-08-09T14:14:37.774164+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       }
     ]
   },

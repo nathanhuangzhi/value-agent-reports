@@ -24,21 +24,21 @@
   },
   "snapshot": {
     "market_cap": 276022880.0,
-    "ttm_pe": null,
+    "ttm_pe": 43.243440388532036,
     "static_pe": 43.243440388532036,
-    "ev_revenue": null,
+    "ev_revenue": 1.0720449414605975,
     "pb": 1.6861404634058437,
-    "ps": null,
+    "ps": 1.207639348278819,
     "p_fcf": -76.22835680751173,
     "ttm_pocf": 362.234750656168,
     "debt_asset": 0.0038957117470311904,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "gross_margin": 0.3121532699812744,
+    "op_margin": 0.02458829911972139,
+    "net_margin": 0.0279265326123099,
+    "roe": 0.03899182045314323,
+    "roa": 0.031596350802160215,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
+    "latest_q_ni": 3702000.0,
     "latest_q_ocf": 2144000.0
   },
   "annual": {
@@ -791,7 +791,7 @@
           "Net PPE": 16961000.0,
           "Inventory": 80390000.0,
           "Accounts Receivable": 29878000.0,
-          "Total Debt": 1109000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -800,7 +800,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -875,7 +875,7 @@
           "Net PPE": 19003000.0,
           "Inventory": 103020000.0,
           "Accounts Receivable": 33162000.0,
-          "Total Debt": 0
+          "Total Debt": 787000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -884,7 +884,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1049,18 +1049,24 @@
       {
         "period": "2026-05-30",
         "items": {
+          "Total Revenue": 66197000.0,
           "Gross Profit": 20661000.0,
           "Cost Of Revenue": 45536000.0,
-          "Operating Income": 3867000.0,
+          "Operating Income": 3023000.0,
+          "Net Income": 3702000.0,
           "Diluted EPS": 0.25,
-          "Diluted Average Shares": 14824000.0
+          "Diluted Average Shares": 14824000.0,
+          "Selling General And Administration": 17638000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
           "Gross Profit": "yfinance",
           "Cost Of Revenue": "yfinance",
           "Operating Income": "yfinance",
+          "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance"
         }
       }
     ],
@@ -1222,7 +1228,7 @@
           "Net PPE": 18138000.0,
           "Inventory": 98369000.0,
           "Accounts Receivable": 24932000.0,
-          "Total Debt": 2035000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1231,7 +1237,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1381,7 +1387,7 @@
   },
   "validation": {
     "ticker": "RELL",
-    "checked_at": "2026-08-08T14:10:37.800815+00:00",
+    "checked_at": "2026-08-09T14:14:37.817175+00:00",
     "status": "ok",
     "issues": []
   },

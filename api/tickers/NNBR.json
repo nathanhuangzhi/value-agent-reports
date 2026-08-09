@@ -1039,23 +1039,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 105688000.0,
-          "Gross Profit": 14042000.0,
           "Cost Of Revenue": 91646000.0,
           "Operating Income": -4789000.0,
           "Net Income": -6685000.0,
           "Diluted EPS": -0.23,
           "Diluted Average Shares": 49075000.0,
-          "Selling General And Administration": 11170000.0
+          "Selling General And Administration": 11170000.0,
+          "Gross Profit": 14042000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1154,23 +1154,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 128741000.0,
+          "Gross Profit": 21878000.0,
           "Cost Of Revenue": 106863000.0,
           "Operating Income": 1005000.0,
           "Net Income": -2267000.0,
           "Diluted EPS": -0.13,
           "Diluted Average Shares": 50256000.0,
-          "Selling General And Administration": 12570000.0,
-          "Gross Profit": 21878000.0
+          "Selling General And Administration": 12570000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1325,7 +1325,6 @@
           "Cash And Cash Equivalents": 11739000.0,
           "Total Assets": 460724000.0,
           "Common Stock Equity": 67344000.0,
-          "Net PPE": 200345000.0,
           "Inventory": 62927000.0,
           "Accounts Receivable": 61500000.0,
           "Total Debt": 151323000.0
@@ -1334,7 +1333,6 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1430,6 +1428,7 @@
           "Cash And Cash Equivalents": 16450000.0,
           "Total Assets": 448619000.0,
           "Common Stock Equity": 21211000.0,
+          "Net PPE": 193095000.0,
           "Inventory": 69356000.0,
           "Accounts Receivable": 72093000.0,
           "Total Debt": 166484000.0
@@ -1438,6 +1437,7 @@
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -1485,13 +1485,13 @@
   },
   "validation": {
     "ticker": "NNBR",
-    "checked_at": "2026-08-08T14:10:37.772251+00:00",
+    "checked_at": "2026-08-09T14:14:37.796127+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       },
       {
         "severity": "warn",

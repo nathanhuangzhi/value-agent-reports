@@ -26,12 +26,12 @@
     "market_cap": 206922880.02,
     "ttm_pe": 1029.4107288655846,
     "static_pe": 14.415588126491473,
-    "ev_revenue": 1.1037337003838634,
+    "ev_revenue": 1.1079809690141276,
     "pb": 25.974273377556266,
     "ps": 1.2563877582952954,
     "p_fcf": -18.712271452933578,
     "ttm_pocf": -20.88298726510751,
-    "debt_asset": 0.0,
+    "debt_asset": 0.011679364722007608,
     "gross_margin": 0.8612600364051076,
     "op_margin": -0.14724734264511843,
     "net_margin": 0.0012204921933151411,
@@ -948,8 +948,6 @@
           "Net Income": -183778.0,
           "Diluted EPS": -0.02,
           "Diluted Average Shares": 43135778.0,
-          "Research And Development": 1859049.0,
-          "Selling General And Administration": 36613075.0,
           "Selling And Marketing Expense": 22272924.0,
           "General And Administrative Expense": 14340151.0
         },
@@ -961,8 +959,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -977,8 +973,8 @@
           "Net Income": -1619664.0,
           "Diluted EPS": -0.05,
           "Diluted Average Shares": 44401531.0,
-          "Research And Development": 2744272.0,
-          "Selling General And Administration": 46690284.0,
+          "Research And Development": 1823061.0,
+          "Selling General And Administration": 36590254.0,
           "Selling And Marketing Expense": 22151114.0,
           "General And Administrative Expense": 14439140.0
         },
@@ -1093,6 +1089,8 @@
           "Net Income": -7083941.0,
           "Diluted EPS": -0.16,
           "Diluted Average Shares": 47788194.0,
+          "Research And Development": 1791434.0,
+          "Selling General And Administration": 41681756.0,
           "Selling And Marketing Expense": 28035947.0,
           "General And Administrative Expense": 13645809.0
         },
@@ -1104,6 +1102,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1372,7 +1372,7 @@
           "Net PPE": 2035475.0,
           "Inventory": 2956144.0,
           "Accounts Receivable": 11256158.0,
-          "Total Debt": 0
+          "Total Debt": 699511.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1381,7 +1381,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1426,13 +1426,13 @@
   },
   "validation": {
     "ticker": "LFMD",
-    "checked_at": "2026-08-08T14:10:37.746557+00:00",
+    "checked_at": "2026-08-09T14:14:37.777195+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

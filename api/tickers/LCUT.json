@@ -1113,9 +1113,7 @@
           "Net Income": -4201000.0,
           "Diluted EPS": -0.19,
           "Diluted Average Shares": 21592000.0,
-          "Selling General And Administration": 31468000.0,
-          "Selling And Marketing Expense": 18070000.0,
-          "General And Administrative Expense": 31468000.0
+          "Selling General And Administration": 31468000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1125,9 +1123,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Selling And Marketing Expense": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Selling General And Administration": "sec"
         }
       },
       {
@@ -1248,7 +1244,9 @@
           "Net Income": 19609000.0,
           "Diluted EPS": 0.87,
           "Diluted Average Shares": 22612000.0,
-          "Selling General And Administration": 39539000.0
+          "Selling General And Administration": 39539000.0,
+          "Selling And Marketing Expense": 20095000.0,
+          "General And Administrative Expense": 39539000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1258,7 +1256,9 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Selling And Marketing Expense": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1595,13 +1595,13 @@
   },
   "validation": {
     "ticker": "LCUT",
-    "checked_at": "2026-08-08T14:10:37.745142+00:00",
+    "checked_at": "2026-08-09T14:14:37.776180+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       }
     ]
   },

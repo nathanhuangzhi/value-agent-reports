@@ -26,12 +26,12 @@
     "market_cap": 629094866.34,
     "ttm_pe": -13.908489008423427,
     "static_pe": -3.453263727754784,
-    "ev_revenue": 0.271015166163647,
+    "ev_revenue": 2.042997335343323,
     "pb": -18.432313692938763,
     "ps": 0.657211010583785,
     "p_fcf": -4.401788902307617,
     "ttm_pocf": 41.56007573099029,
-    "debt_asset": 0.0,
+    "debt_asset": 0.5464711944995101,
     "gross_margin": 0.4627499036270697,
     "op_margin": 0.07921489230782089,
     "net_margin": -0.04725250961378744,
@@ -981,25 +981,25 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 247048000.0,
-          "Gross Profit": 109609000.0,
           "Cost Of Revenue": 137439000.0,
           "Operating Income": -40292000.0,
           "Net Income": -52042000.0,
           "Diluted EPS": -1.09,
           "Diluted Average Shares": 47676735.0,
           "Selling General And Administration": 73863000.0,
-          "General And Administrative Expense": 73863000.0
+          "General And Administrative Expense": 73863000.0,
+          "Gross Profit": 109609000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance"
+          "General And Administrative Expense": "yfinance",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1104,23 +1104,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 235559000.0,
+          "Gross Profit": 110553000.0,
           "Cost Of Revenue": 125006000.0,
           "Operating Income": 118943000.0,
           "Net Income": 66636000.0,
           "Diluted EPS": 1.38,
           "Diluted Average Shares": 48429166.0,
           "Selling General And Administration": 72096000.0,
-          "Gross Profit": 110553000.0
+          "General And Administrative Expense": 72096000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1277,7 +1279,7 @@
           "Common Stock Equity": 142844000.0,
           "Net PPE": 1691859000.0,
           "Accounts Receivable": 87955000.0,
-          "Total Debt": 1521344000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1285,7 +1287,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1372,7 +1374,7 @@
           "Common Stock Equity": -34130000.0,
           "Net PPE": 1638204000.0,
           "Accounts Receivable": 85820000.0,
-          "Total Debt": 0
+          "Total Debt": 1696175000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1380,7 +1382,7 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1425,7 +1427,7 @@
   },
   "validation": {
     "ticker": "CCOI",
-    "checked_at": "2026-08-08T14:10:37.668079+00:00",
+    "checked_at": "2026-08-09T14:14:37.718187+00:00",
     "status": "warn",
     "issues": [
       {

@@ -19,7 +19,7 @@
     "ttm_pocf": 4.352562620157275,
     "debt_asset": 0.00520316820238666,
     "gross_margin": 0.14710076168846994,
-    "op_margin": null,
+    "op_margin": 0.028565910163278217,
     "net_margin": 0.018556110359274295,
     "roe": 0.034075787980280554,
     "roa": 0.023503740238928695,
@@ -1067,7 +1067,6 @@
           "Total Revenue": 225651000.0,
           "Gross Profit": 33944000.0,
           "Cost Of Revenue": 191707000.0,
-          "Operating Income": 10684000.0,
           "Net Income": 8065000.0,
           "Diluted EPS": 0.69,
           "Diluted Average Shares": 11613746.0,
@@ -1077,7 +1076,6 @@
           "Total Revenue": "sec",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
@@ -1182,6 +1180,7 @@
           "Total Revenue": 239993000.0,
           "Gross Profit": 35936000.0,
           "Cost Of Revenue": 204057000.0,
+          "Operating Income": 10760000.0,
           "Net Income": 7269000.0,
           "Diluted EPS": 0.63,
           "Diluted Average Shares": 11521479.0,
@@ -1191,6 +1190,7 @@
           "Total Revenue": "sec",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
@@ -1356,8 +1356,7 @@
           "Goodwill": 19998000.0,
           "Net PPE": 117502000.0,
           "Inventory": 164897000.0,
-          "Accounts Receivable": 292574000.0,
-          "Total Debt": 75319000.0
+          "Total Debt": 75000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1366,8 +1365,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1471,6 +1469,7 @@
           "Goodwill": 20258000.0,
           "Net PPE": 127977000.0,
           "Inventory": 157307000.0,
+          "Accounts Receivable": 224984000.0,
           "Total Debt": 3169000.0
         },
         "sources": {
@@ -1480,6 +1479,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -1525,13 +1525,13 @@
   },
   "validation": {
     "ticker": "MLR",
-    "checked_at": "2026-08-08T14:10:37.760039+00:00",
+    "checked_at": "2026-08-09T14:14:37.787004+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       }
     ]
   },

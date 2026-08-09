@@ -26,12 +26,12 @@
     "market_cap": 78002736.0104,
     "ttm_pe": -34.15167628954177,
     "static_pe": -32.52428645486037,
-    "ev_revenue": 1.1048789861124362,
+    "ev_revenue": 1.1112274488700773,
     "pb": 2.173700198245651,
     "ps": 1.4096663541666459,
     "p_fcf": 29.89575028051195,
     "ttm_pocf": 28.98766581307179,
-    "debt_asset": 0.0,
+    "debt_asset": 0.0083986090547146,
     "gross_margin": 0.35304459089962525,
     "op_margin": -0.04946530068041305,
     "net_margin": -0.041276637264166346,
@@ -460,7 +460,6 @@
           "Net Income": -1170047.0,
           "Diluted EPS": -0.01,
           "Diluted Average Shares": 80953373.0,
-          "Selling General And Administration": 3142155.0,
           "General And Administrative Expense": 3142155.0
         },
         "sources": {
@@ -471,7 +470,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -581,6 +579,7 @@
           "Net Income": -1026597.0,
           "Diluted EPS": -0.01,
           "Diluted Average Shares": 94697992.0,
+          "Selling General And Administration": 2869387.0,
           "General And Administrative Expense": 2869387.0
         },
         "sources": {
@@ -591,6 +590,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -858,7 +858,7 @@
           "Goodwill": 10676834.0,
           "Net PPE": 218112.0,
           "Accounts Receivable": 7146578.0,
-          "Total Debt": 0
+          "Total Debt": 351287.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -867,7 +867,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -912,13 +912,13 @@
   },
   "validation": {
     "ticker": "CTM",
-    "checked_at": "2026-08-08T14:10:37.681620+00:00",
+    "checked_at": "2026-08-09T14:14:37.727998+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       }
     ]
   },

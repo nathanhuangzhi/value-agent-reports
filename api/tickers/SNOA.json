@@ -987,6 +987,31 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-06-30",
+        "items": {
+          "Total Revenue": 3391000.0,
+          "Gross Profit": 1306000.0,
+          "Cost Of Revenue": 2085000.0,
+          "Operating Income": -1173000.0,
+          "Net Income": -1143000.0,
+          "Diluted EPS": -1.34,
+          "Diluted Average Shares": 851000.0,
+          "Research And Development": 470000.0,
+          "Selling General And Administration": 2009000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
+      },
+      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 3579000.0,
@@ -1034,27 +1059,6 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
-        }
-      },
-      {
-        "period": "2025-03-31",
-        "items": {
-          "Total Revenue": 3754000.0,
-          "Gross Profit": 1528000.0,
-          "Cost Of Revenue": 2226000.0,
-          "Operating Income": -656000.0,
-          "Net Income": -776000.0,
-          "Research And Development": 411000.0,
-          "Selling General And Administration": 1773000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Research And Development": "yfinance",
-          "Selling General And Administration": "yfinance"
         }
       },
       {
@@ -1496,13 +1500,13 @@
   },
   "validation": {
     "ticker": "SNOA",
-    "checked_at": "2026-08-08T14:10:37.821342+00:00",
+    "checked_at": "2026-08-09T14:14:37.832516+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "info",

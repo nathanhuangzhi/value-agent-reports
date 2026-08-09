@@ -882,25 +882,15 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": -7000.0,
-          "Cost Of Revenue": 7000.0,
-          "Operating Income": -736000.0,
           "Net Income": -511000.0,
           "Diluted EPS": -0.01,
           "Diluted Average Shares": 81687000.0,
-          "Selling General And Administration": 490000.0,
           "General And Administrative Expense": 490000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -1003,15 +993,25 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 0.0,
+          "Gross Profit": -4000.0,
+          "Cost Of Revenue": 4000.0,
+          "Operating Income": -1963000.0,
           "Net Income": -1830000.0,
           "Diluted EPS": -0.02,
           "Diluted Average Shares": 93679000.0,
+          "Selling General And Administration": 451000.0,
           "General And Administrative Expense": 451000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1159,14 +1159,12 @@
           "Cash And Cash Equivalents": 419000.0,
           "Total Assets": 22966000.0,
           "Common Stock Equity": 22291000.0,
-          "Net PPE": 16798000.0,
           "Total Debt": 40000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Total Debt": "yfinance"
         }
       },
@@ -1244,13 +1242,15 @@
           "Cash And Cash Equivalents": 743000.0,
           "Total Assets": 26244000.0,
           "Common Stock Equity": 25449000.0,
-          "Total Debt": 0
+          "Net PPE": 16772000.0,
+          "Total Debt": 0.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Total Debt": "sec"
+          "Net PPE": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1295,7 +1295,7 @@
   },
   "validation": {
     "ticker": "XPL",
-    "checked_at": "2026-08-08T14:10:37.856830+00:00",
+    "checked_at": "2026-08-09T14:14:37.859886+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1311,7 +1311,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2020-09-30 is 2138 days old (>180)"
+        "detail": "latest quarterly period 2020-09-30 is 2139 days old (>180)"
       },
       {
         "severity": "info",

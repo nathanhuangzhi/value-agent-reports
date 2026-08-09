@@ -26,12 +26,12 @@
     "market_cap": 165327967.20000002,
     "ttm_pe": -5.1226364008179965,
     "static_pe": -4.270164713175092,
-    "ev_revenue": 1.193286264840329,
+    "ev_revenue": 2.382177733302379,
     "pb": -4.849180712148765,
     "ps": 1.323544924867708,
     "p_fcf": 39.77098080346404,
     "ttm_pocf": 17.182287175223447,
-    "debt_asset": 0.004226579520697168,
+    "debt_asset": 0.6513202614379084,
     "gross_margin": 0.3066934586472185,
     "op_margin": 0.0012408636410942016,
     "net_margin": -0.2583718267914468,
@@ -1503,7 +1503,8 @@
           "Goodwill": 13881000.0,
           "Net PPE": 123714000.0,
           "Inventory": 25475000.0,
-          "Total Debt": 970000.0
+          "Accounts Receivable": 30455000.0,
+          "Total Debt": 149478000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1512,7 +1513,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1557,13 +1559,13 @@
   },
   "validation": {
     "ticker": "LFCR",
-    "checked_at": "2026-08-08T14:10:37.746320+00:00",
+    "checked_at": "2026-08-09T14:14:37.777017+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

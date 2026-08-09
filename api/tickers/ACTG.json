@@ -26,12 +26,12 @@
     "market_cap": 441039533.475,
     "ttm_pe": -29.390879213314676,
     "static_pe": 20.34127541163177,
-    "ev_revenue": 0.8057093459698105,
+    "ev_revenue": 0.8175459399045889,
     "pb": 0.7917825961229469,
     "ps": 1.584341689507641,
-    "p_fcf": 66.13278354700856,
+    "p_fcf": 504.04518111428575,
     "ttm_pocf": 14.699357868117586,
-    "debt_asset": 0.11482080883960032,
+    "debt_asset": 0.11898363799683903,
     "gross_margin": 0.29732661814680966,
     "op_margin": -0.06951798659357555,
     "net_margin": -0.05390589638400138,
@@ -1073,7 +1073,6 @@
           "Net Income": 24287000.0,
           "Diluted EPS": 0.25,
           "Diluted Average Shares": 96981413.0,
-          "Selling General And Administration": 20632000.0,
           "Selling And Marketing Expense": 3312000.0,
           "General And Administrative Expense": 17320000.0
         },
@@ -1085,7 +1084,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1208,6 +1206,7 @@
           "Net Income": 47000.0,
           "Diluted EPS": 0.0,
           "Diluted Average Shares": 98117805.0,
+          "Selling General And Administration": 22134000.0,
           "Selling And Marketing Expense": 2489000.0,
           "General And Administrative Expense": 19645000.0
         },
@@ -1219,6 +1218,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1320,13 +1320,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 3904000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 3904000.0
+          "Capital Expenditure": -5794000.0,
+          "Free Cash Flow": -1890000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1387,7 +1387,7 @@
           "Net PPE": 23354000.0,
           "Inventory": 26264000.0,
           "Accounts Receivable": 95725000.0,
-          "Total Debt": 108388000.0
+          "Total Debt": 2400000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1397,7 +1397,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1502,7 +1502,7 @@
           "Net PPE": 20326000.0,
           "Inventory": 24639000.0,
           "Accounts Receivable": 86658000.0,
-          "Total Debt": 90884000.0
+          "Total Debt": 94179000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1512,7 +1512,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1557,7 +1557,7 @@
   },
   "validation": {
     "ticker": "ACTG",
-    "checked_at": "2026-08-08T14:10:37.634718+00:00",
+    "checked_at": "2026-08-09T14:14:37.693797+00:00",
     "status": "warn",
     "issues": [
       {

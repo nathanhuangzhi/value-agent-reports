@@ -1575,7 +1575,7 @@
           "Net PPE": 8722953.0,
           "Inventory": 3018524.0,
           "Accounts Receivable": 7670399.0,
-          "Total Debt": 14660604.0
+          "Total Debt": 14186715.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1584,7 +1584,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1734,13 +1734,13 @@
   },
   "validation": {
     "ticker": "CTSO",
-    "checked_at": "2026-08-08T14:10:37.682329+00:00",
+    "checked_at": "2026-08-09T14:14:37.728505+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",

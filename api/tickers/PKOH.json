@@ -26,12 +26,12 @@
     "market_cap": 554652000.0,
     "ttm_pe": 20.930264150943398,
     "static_pe": 23.30470588235294,
-    "ev_revenue": 0.310420015712818,
+    "ev_revenue": 0.7048117483531758,
     "pb": 1.4131261146496816,
     "ps": 0.3351979210733063,
-    "p_fcf": null,
-    "ttm_pocf": null,
-    "debt_asset": 0.004963622764669885,
+    "p_fcf": 27.05619512195122,
+    "ttm_pocf": 8.22925816023739,
+    "debt_asset": 0.44869789895967904,
     "gross_margin": 0.17314316794585122,
     "op_margin": 0.04937450897443645,
     "net_margin": 0.01601498761104732,
@@ -39,7 +39,7 @@
     "roa": 0.01801863058407561,
     "dividend_rate": 0.0,
     "latest_q_ni": 12100000.0,
-    "latest_q_ocf": null
+    "latest_q_ocf": 9200000.0
   },
   "annual": {
     "income_statement": [
@@ -1260,14 +1260,10 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Cash Flow From Continuing Operating Activities": -10000000.0,
-          "Capital Expenditure": 9500000.0,
-          "Free Cash Flow": -19500000.0
+          "Capital Expenditure": 9500000.0
         },
         "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "sec"
         }
       },
       {
@@ -1325,10 +1321,14 @@
       {
         "period": "2026-06-30",
         "items": {
-          "Capital Expenditure": 11000000.0
+          "Cash Flow From Continuing Operating Activities": 9200000.0,
+          "Capital Expenditure": 11000000.0,
+          "Free Cash Flow": -1800000.0
         },
         "sources": {
-          "Capital Expenditure": "sec"
+          "Cash Flow From Continuing Operating Activities": "yfinance",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1382,20 +1382,18 @@
           "Total Assets": 1419600000.0,
           "Common Stock Equity": 354800000.0,
           "Goodwill": 113300000.0,
-          "Net PPE": 232500000.0,
           "Inventory": 419800000.0,
           "Accounts Receivable": 277200000.0,
-          "Total Debt": 649600000.0
+          "Total Debt": 7500000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1497,18 +1495,20 @@
           "Total Assets": 1470700000.0,
           "Common Stock Equity": 392500000.0,
           "Goodwill": 114800000.0,
+          "Net PPE": 249700000.0,
           "Inventory": 427600000.0,
           "Accounts Receivable": 288700000.0,
-          "Total Debt": 7300000.0
+          "Total Debt": 659900000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1553,13 +1553,13 @@
   },
   "validation": {
     "ticker": "PKOH",
-    "checked_at": "2026-08-08T14:10:37.789553+00:00",
+    "checked_at": "2026-08-09T14:14:37.809004+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       },
       {
         "severity": "warn",

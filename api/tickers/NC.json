@@ -26,12 +26,12 @@
     "market_cap": 350703000.0,
     "ttm_pe": 20.287094348354255,
     "static_pe": 19.955786958006147,
-    "ev_revenue": 1.1267573264578403,
+    "ev_revenue": 1.527228460519181,
     "pb": 0.8041101669655017,
     "ps": 1.2593607371524398,
-    "p_fcf": 82.90851063829787,
+    "p_fcf": -82.3053273879371,
     "ttm_pocf": 4.717871796596489,
-    "debt_asset": 0.012688066339280312,
+    "debt_asset": 0.17729934301322386,
     "gross_margin": 0.18490575523292768,
     "op_margin": 0.02770067186877193,
     "net_margin": 0.06207693992681622,
@@ -1229,13 +1229,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": 5023000.0,
-          "Capital Expenditure": -8808000.0,
-          "Free Cash Flow": -3785000.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 5023000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1294,13 +1294,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 8299000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 8299000.0
+          "Capital Expenditure": -8491000.0,
+          "Free Cash Flow": -192000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1345,19 +1345,15 @@
           "Cash And Cash Equivalents": 61884000.0,
           "Total Assets": 634187000.0,
           "Common Stock Equity": 409117000.0,
-          "Net PPE": 273160000.0,
           "Inventory": 63146000.0,
-          "Accounts Receivable": 33981000.0,
-          "Total Debt": 95827000.0
+          "Total Debt": 4634000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1450,15 +1446,19 @@
           "Cash And Cash Equivalents": 45523000.0,
           "Total Assets": 677487000.0,
           "Common Stock Equity": 436138000.0,
+          "Net PPE": 307419000.0,
           "Inventory": 61076000.0,
-          "Total Debt": 8596000.0
+          "Accounts Receivable": 44905000.0,
+          "Total Debt": 120118000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1503,7 +1503,7 @@
   },
   "validation": {
     "ticker": "NC",
-    "checked_at": "2026-08-08T14:10:37.768166+00:00",
+    "checked_at": "2026-08-09T14:14:37.793232+00:00",
     "status": "warn",
     "issues": [
       {

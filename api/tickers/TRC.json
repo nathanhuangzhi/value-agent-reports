@@ -26,12 +26,12 @@
     "market_cap": 508504145.435,
     "ttm_pe": 84.23126477306609,
     "static_pe": 6780.055272466667,
-    "ev_revenue": 8.869823274187588,
+    "ev_revenue": 10.557843401921282,
     "pb": 1.0316306233250088,
     "ps": 8.946709809367137,
-    "p_fcf": -22.76510477839459,
+    "p_fcf": -16.422961128928076,
     "ttm_pocf": 40.784740570660894,
-    "debt_asset": 0.0,
+    "debt_asset": 0.15001766900481284,
     "gross_margin": 0.29211605116385453,
     "op_margin": -0.00906099899713215,
     "net_margin": 0.10621602125376076,
@@ -984,7 +984,6 @@
         "items": {
           "Total Revenue": 8209000.0,
           "Gross Profit": 1228000.0,
-          "Cost Of Revenue": 8139000.0,
           "Operating Income": -4166000.0,
           "Net Income": -1464000.0,
           "Diluted EPS": -0.05,
@@ -993,7 +992,6 @@
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1089,6 +1087,7 @@
         "items": {
           "Total Revenue": 14259000.0,
           "Gross Profit": 6803000.0,
+          "Cost Of Revenue": 11072000.0,
           "Operating Income": 348000.0,
           "Net Income": 2635000.0,
           "Diluted EPS": 0.1,
@@ -1097,6 +1096,7 @@
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1200,13 +1200,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": 1300000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 1300000.0
+          "Capital Expenditure": -8626000.0,
+          "Free Cash Flow": -7326000.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -1262,7 +1262,7 @@
           "Net PPE": 57853000.0,
           "Inventory": 5681000.0,
           "Accounts Receivable": 2976000.0,
-          "Total Debt": 74442000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1271,7 +1271,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1367,7 +1367,7 @@
           "Net PPE": 60372000.0,
           "Inventory": 9391000.0,
           "Accounts Receivable": 2638000.0,
-          "Total Debt": 0
+          "Total Debt": 95942000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1376,7 +1376,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1421,13 +1421,13 @@
   },
   "validation": {
     "ticker": "TRC",
-    "checked_at": "2026-08-08T14:10:37.836663+00:00",
+    "checked_at": "2026-08-09T14:14:37.845297+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 68 days old"
+        "detail": "latest close 2026-06-01 is 69 days old"
       }
     ]
   },

@@ -26,12 +26,12 @@
     "market_cap": 687147000.0,
     "ttm_pe": -6.281051188299817,
     "static_pe": -6.19609558160505,
-    "ev_revenue": 0.6290190932015851,
+    "ev_revenue": 0.6310261952550049,
     "pb": 0.9149760319573902,
     "ps": 0.3536343986413463,
     "p_fcf": 12.205097690941386,
     "ttm_pocf": 7.971542923433875,
-    "debt_asset": 0.326605504587156,
+    "debt_asset": 0.32884174311926606,
     "gross_margin": 0.11811023622047244,
     "op_margin": -0.017652205239051002,
     "net_margin": -0.05630178580618599,
@@ -1119,8 +1119,7 @@
           "Net Income": 18100000.0,
           "Diluted EPS": 0.16,
           "Diluted Average Shares": 115000000.0,
-          "Selling General And Administration": 61600000.0,
-          "General And Administrative Expense": 61600000.0
+          "Selling General And Administration": 61600000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1130,8 +1129,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance"
+          "Selling General And Administration": "sec"
         }
       },
       {
@@ -1244,7 +1242,8 @@
           "Net Income": 15200000.0,
           "Diluted EPS": 0.13,
           "Diluted Average Shares": 115100000.0,
-          "Selling General And Administration": 64500000.0
+          "Selling General And Administration": 64500000.0,
+          "General And Administrative Expense": 64500000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1254,7 +1253,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1535,7 +1535,8 @@
           "Goodwill": 2600000.0,
           "Net PPE": 707600000.0,
           "Inventory": 498300000.0,
-          "Total Debt": 569600000.0
+          "Accounts Receivable": 373400000.0,
+          "Total Debt": 573500000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1544,7 +1545,8 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1589,7 +1591,7 @@
   },
   "validation": {
     "ticker": "KRO",
-    "checked_at": "2026-08-08T14:10:37.742671+00:00",
+    "checked_at": "2026-08-09T14:14:37.774397+00:00",
     "status": "info",
     "issues": [
       {

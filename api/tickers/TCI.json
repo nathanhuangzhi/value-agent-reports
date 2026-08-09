@@ -32,7 +32,7 @@
     "p_fcf": 149.02509631049352,
     "ttm_pocf": 149.02509631049352,
     "debt_asset": 0.18974446078093124,
-    "gross_margin": null,
+    "gross_margin": 0.32813030200203597,
     "op_margin": -0.18343679514561168,
     "net_margin": 0.1608215732848959,
     "roe": 0.009314020160917414,
@@ -927,24 +927,18 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 12008000.0,
-          "Gross Profit": 5450000.0,
-          "Cost Of Revenue": 5977000.0,
           "Operating Income": -635000.0,
           "Net Income": 4618000.0,
           "Diluted EPS": 0.53,
           "Diluted Average Shares": 8639316.0,
-          "Selling General And Administration": 3783000.0,
           "General And Administrative Expense": 1352000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -1052,18 +1046,24 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 12866000.0,
+          "Gross Profit": 4060000.0,
+          "Cost Of Revenue": 8176000.0,
           "Operating Income": -2344000.0,
           "Net Income": -1127000.0,
           "Diluted EPS": -0.13,
           "Diluted Average Shares": 8639316.0,
+          "Selling General And Administration": 3337000.0,
           "General And Administrative Expense": 1351000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1211,15 +1211,13 @@
           "Cash And Cash Equivalents": 32016000.0,
           "Total Assets": 1083540000.0,
           "Common Stock Equity": 856913000.0,
-          "Accounts Receivable": 3996000.0,
           "Total Debt": 198153000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1296,13 +1294,15 @@
           "Cash And Cash Equivalents": 21940000.0,
           "Total Assets": 1130394000.0,
           "Common Stock Equity": 865040000.0,
+          "Accounts Receivable": 5485000.0,
           "Total Debt": 214486000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1347,7 +1347,7 @@
   },
   "validation": {
     "ticker": "TCI",
-    "checked_at": "2026-08-08T14:10:37.831216+00:00",
+    "checked_at": "2026-08-09T14:14:37.840967+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1358,7 +1358,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 99 days old"
+        "detail": "latest close 2026-05-01 is 100 days old"
       },
       {
         "severity": "warn",
