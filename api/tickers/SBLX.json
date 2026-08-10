@@ -1230,13 +1230,13 @@
         "period": "2024-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2981388.0,
-          "Capital Expenditure": -36490.0,
-          "Free Cash Flow": -3017878.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -2981388.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1282,13 +1282,13 @@
         "period": "2025-12-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -1649935.0,
-          "Capital Expenditure": 0.0,
+          "Capital Expenditure": 0,
           "Free Cash Flow": -1649935.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -1478,13 +1478,13 @@
   },
   "validation": {
     "ticker": "SBLX",
-    "checked_at": "2026-08-09T14:14:37.823023+00:00",
+    "checked_at": "2026-08-10T14:44:49.702042+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 100 days old"
+        "detail": "latest close 2026-05-01 is 101 days old"
       },
       {
         "severity": "warn",
@@ -1514,7 +1514,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2024-09-30 is 678 days old (>180)"
+        "detail": "latest quarterly period 2024-09-30 is 679 days old (>180)"
       },
       {
         "severity": "warn",

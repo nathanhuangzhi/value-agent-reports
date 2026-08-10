@@ -23,23 +23,23 @@
     "logic_summary": "OPAL Fuels produces and distributes renewable natural gas and operates fueling stations for trucking fleets in the US."
   },
   "snapshot": {
-    "market_cap": 69756692.365,
-    "ttm_pe": 3.6214667409926276,
-    "static_pe": 4.728626109341106,
-    "ev_revenue": 1.1276497578670577,
-    "pb": 3.7855696730341344,
-    "ps": 0.2070281690523323,
-    "p_fcf": -1.0932794038868427,
-    "ttm_pocf": 3.534668982265011,
-    "debt_asset": 0.4216199856308021,
-    "gross_margin": 0.29363126700955355,
-    "op_margin": 0.011168061066708613,
-    "net_margin": 0.05716693921523819,
-    "roe": 1.0453139414988875,
-    "roa": 0.018161383817869473,
+    "market_cap": 73065597.44,
+    "ttm_pe": null,
+    "static_pe": 4.952928242950108,
+    "ev_revenue": 1.2297640898418882,
+    "pb": 1.9279030433520672,
+    "ps": 0.21497089447638326,
+    "p_fcf": -1.4149031262587142,
+    "ttm_pocf": 1.904237618973156,
+    "debt_asset": 0.4230795851742476,
+    "gross_margin": null,
+    "op_margin": 0.004645675314664329,
+    "net_margin": null,
+    "roe": null,
+    "roa": null,
     "dividend_rate": 0.0,
-    "latest_q_ni": 6892000.0,
-    "latest_q_ocf": 12916000.0
+    "latest_q_ni": null,
+    "latest_q_ocf": 10761000.0
   },
   "annual": {
     "income_statement": [
@@ -360,25 +360,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 64952000.0,
-          "Operating Income": 3570000.0,
-          "Diluted EPS": -0.01,
-          "Diluted Average Shares": 27368204.0,
-          "Research And Development": 785000.0,
-          "Selling General And Administration": 13161000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Research And Development": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 70950000.0,
@@ -538,22 +519,28 @@
           "Research And Development": "sec",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 83399000.0,
+          "Operating Income": -3011000.0,
+          "Diluted EPS": -0.05,
+          "Diluted Average Shares": 29641216.0,
+          "Research And Development": 3301000.0,
+          "Selling General And Administration": 14274000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling General And Administration": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 533000.0,
-          "Capital Expenditure": 22990000.0,
-          "Free Cash Flow": -22457000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -644,28 +631,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 10761000.0,
+          "Capital Expenditure": 28313000.0,
+          "Free Cash Flow": -17552000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 22449000.0,
-          "Total Assets": 782312000.0,
-          "Common Stock Equity": -272513000.0,
-          "Goodwill": 54608000.0,
-          "Accounts Receivable": 24220000.0,
-          "Total Debt": 221746000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -818,6 +799,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 95192000.0,
+          "Total Assets": 1040244000.0,
+          "Common Stock Equity": 37899000.0,
+          "Goodwill": 54608000.0,
+          "Accounts Receivable": 37517000.0,
+          "Total Debt": 440106000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -861,7 +861,7 @@
   },
   "validation": {
     "ticker": "OPAL",
-    "checked_at": "2026-08-09T14:14:37.802922+00:00",
+    "checked_at": "2026-08-10T14:44:49.674162+00:00",
     "status": "warn",
     "issues": [
       {

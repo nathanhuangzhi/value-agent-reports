@@ -1091,29 +1091,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-07-28",
-        "items": {
-          "Total Revenue": 95081000.0,
-          "Gross Profit": 20922000.0,
-          "Cost Of Revenue": 74159000.0,
-          "Operating Income": -3149000.0,
-          "Net Income": -1951000.0,
-          "Diluted EPS": -0.19,
-          "Diluted Average Shares": 10521000.0,
-          "Selling General And Administration": 23147000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-10-27",
         "items": {
           "Total Revenue": 82670000.0,
@@ -1134,6 +1111,25 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
+        }
+      },
+      {
+        "period": "2025-02-02",
+        "items": {
+          "Total Revenue": 104460000.0,
+          "Gross Profit": 24330000.0,
+          "Cost Of Revenue": 80130000.0,
+          "Operating Income": -2655000.0,
+          "Diluted EPS": -0.22,
+          "Diluted Average Shares": 10542000.0
+        },
+        "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance"
         }
       },
       {
@@ -1163,23 +1159,23 @@
         "period": "2025-08-02",
         "items": {
           "Total Revenue": 82149000.0,
-          "Gross Profit": 16837000.0,
-          "Cost Of Revenue": 65312000.0,
+          "Cost Of Revenue": 63575000.0,
           "Operating Income": -4401000.0,
           "Net Income": -3277000.0,
           "Diluted EPS": -0.31,
           "Diluted Average Shares": 10612000.0,
-          "Selling General And Administration": 20366000.0
+          "Selling General And Administration": 20366000.0,
+          "Gross Profit": 18574000.0
         },
         "sources": {
           "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "yfinance",
           "Operating Income": "yfinance",
           "Net Income": "yfinance",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "yfinance"
+          "Selling General And Administration": "yfinance",
+          "Gross Profit": "yfinance"
         }
       },
       {
@@ -1431,7 +1427,6 @@
           "Common Stock Equity": 193120000.0,
           "Goodwill": 15036000.0,
           "Net PPE": 70019000.0,
-          "Inventory": 58532000.0,
           "Accounts Receivable": 41316000.0,
           "Total Debt": 13023000.0
         },
@@ -1441,7 +1436,6 @@
           "Common Stock Equity": "sec",
           "Goodwill": "yfinance",
           "Net PPE": "yfinance",
-          "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
@@ -1580,13 +1574,13 @@
   },
   "validation": {
     "ticker": "HOFT",
-    "checked_at": "2026-08-09T14:14:37.761268+00:00",
+    "checked_at": "2026-08-10T14:44:49.616112+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 69 days old"
+        "detail": "latest close 2026-06-01 is 70 days old"
       },
       {
         "severity": "info",

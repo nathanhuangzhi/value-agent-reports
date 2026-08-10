@@ -23,23 +23,23 @@
     "logic_summary": "Produces forged and machined components for aerospace, defense, and energy markets."
   },
   "snapshot": {
-    "market_cap": 111966600.00000001,
-    "ttm_pe": 15.089838274932617,
-    "static_pe": -153.58930041152266,
-    "ev_revenue": 1.213440758691593,
-    "pb": 2.701766324019111,
-    "ps": 1.1746144646566377,
-    "p_fcf": 19.172363013698632,
-    "ttm_pocf": 17.8432828685259,
-    "debt_asset": 0.06504252190037726,
-    "gross_margin": 0.19866347747634333,
-    "op_margin": 0.08504857220788485,
-    "net_margin": 0.07784142170747571,
-    "roe": 0.17904541286617442,
-    "roa": 0.09489097768399514,
+    "market_cap": 110971100.00000001,
+    "ttm_pe": 27.938343403826792,
+    "static_pe": -152.223731138546,
+    "ev_revenue": 1.175784929356358,
+    "pb": 2.6719421169218918,
+    "ps": 1.1167240268888623,
+    "p_fcf": null,
+    "ttm_pocf": null,
+    "debt_asset": 0.08779908789904417,
+    "gross_margin": 0.16568047337278108,
+    "op_margin": 0.05165438956647748,
+    "net_margin": 0.039971017992996016,
+    "roe": 0.09563709910430511,
+    "roa": 0.04962828762416443,
     "dividend_rate": 0.0,
-    "latest_q_ni": 2651000.0,
-    "latest_q_ocf": -2900000.0
+    "latest_q_ni": -40000.0,
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -1005,29 +1005,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 21986000.0,
-          "Gross Profit": 2712000.0,
-          "Cost Of Revenue": 19274000.0,
-          "Operating Income": 147000.0,
-          "Net Income": 72000.0,
-          "Diluted EPS": 0.01,
-          "Diluted Average Shares": 6105000.0,
-          "Selling General And Administration": 2565000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Gross Profit": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 21658000.0,
@@ -1175,22 +1152,32 @@
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 26145000.0,
+          "Gross Profit": 3422000.0,
+          "Cost Of Revenue": 22723000.0,
+          "Operating Income": 286000.0,
+          "Net Income": -40000.0,
+          "Diluted EPS": -0.01,
+          "Diluted Average Shares": 6131000.0,
+          "Selling General And Administration": 3100000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 382000.0,
-          "Capital Expenditure": 557000.0,
-          "Free Cash Flow": -175000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1273,30 +1260,18 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Capital Expenditure": 334000.0
+        },
+        "sources": {
+          "Capital Expenditure": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 1006000.0,
-          "Total Assets": 106331000.0,
-          "Common Stock Equity": 29826000.0,
-          "Goodwill": 3493000.0,
-          "Inventory": 13423000.0,
-          "Accounts Receivable": 17970000.0,
-          "Total Debt": 32794000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Inventory": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1381,7 +1356,7 @@
           "Goodwill": "sec",
           "Net PPE": "yfinance",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
+          "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
       },
@@ -1453,6 +1428,25 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 1158000.0,
+          "Total Assets": 80035000.0,
+          "Common Stock Equity": 41532000.0,
+          "Goodwill": 3493000.0,
+          "Inventory": 10066000.0,
+          "Total Debt": 7027000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Inventory": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1496,13 +1490,13 @@
   },
   "validation": {
     "ticker": "SIF",
-    "checked_at": "2026-08-09T14:14:37.828257+00:00",
+    "checked_at": "2026-08-10T14:44:49.709345+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 100 days old"
+        "detail": "latest close 2026-05-01 is 101 days old"
       },
       {
         "severity": "warn",

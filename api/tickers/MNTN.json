@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 615385935.25,
-    "ttm_pe": null,
+    "ttm_pe": 10.912065524425925,
     "static_pe": -95.76500704170557,
-    "ev_revenue": null,
-    "pb": 1.9313678227206106,
-    "ps": null,
-    "p_fcf": 12.640154775598234,
-    "ttm_pocf": 9.987923575381819,
+    "ev_revenue": 1.206726864721333,
+    "pb": 1.8406597550616308,
+    "ps": 1.9640122913149354,
+    "p_fcf": 9.744211534502961,
+    "ttm_pocf": 8.44035022973529,
     "debt_asset": 0.0,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "gross_margin": 0.8075102686934903,
+    "op_margin": 0.1428106379515592,
+    "net_margin": 0.17998538286987242,
+    "roe": 0.16868114940672213,
+    "roa": 0.1400286537931514,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 6720000.0,
+    "latest_q_ocf": 26915000.0
   },
   "annual": {
     "income_statement": [
@@ -523,12 +523,28 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 82537000.0,
+          "Gross Profit": 66296000.0,
+          "Cost Of Revenue": 16241000.0,
+          "Operating Income": 7117000.0,
+          "Net Income": 6720000.0,
           "Diluted EPS": 0.09,
-          "Diluted Average Shares": 78643570.0
+          "Diluted Average Shares": 78643570.0,
+          "Research And Development": 16354000.0,
+          "Selling And Marketing Expense": 28567000.0,
+          "General And Administrative Expense": 13601000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Research And Development": "sec",
+          "Selling And Marketing Expense": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -597,20 +613,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 26915000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 26915000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-09-30",
-        "items": {
-          "Cash And Cash Equivalents": 58393000.0,
-          "Common Stock Equity": -111302000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Common Stock Equity": "sec"
-        }
-      },
       {
         "period": "2024-12-31",
         "items": {
@@ -743,6 +761,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 237281000.0,
+          "Total Assets": 402739000.0,
+          "Common Stock Equity": 334329000.0,
+          "Goodwill": 51903000.0,
+          "Accounts Receivable": 59985000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -786,13 +823,13 @@
   },
   "validation": {
     "ticker": "MNTN",
-    "checked_at": "2026-08-09T14:14:37.787870+00:00",
+    "checked_at": "2026-08-10T14:44:49.653566+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 100 days old"
+        "detail": "latest close 2026-05-01 is 101 days old"
       },
       {
         "severity": "info",
