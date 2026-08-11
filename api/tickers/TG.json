@@ -26,15 +26,15 @@
     "market_cap": 262549540.0,
     "ttm_pe": 7.879165116139488,
     "static_pe": 7.842918508782411,
-    "ev_revenue": null,
+    "ev_revenue": 0.3727229048206873,
     "pb": 1.1486815186860688,
-    "ps": null,
+    "ps": 0.33585491247033844,
     "p_fcf": 11.598248001060211,
     "ttm_pocf": 6.034789224474785,
     "debt_asset": 0.11140037537083006,
-    "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
+    "gross_margin": 0.14573736624303632,
+    "op_margin": 0.0473293379470025,
+    "net_margin": 0.04262569796670227,
     "roe": 0.1457872124462956,
     "roa": 0.08069746321971302,
     "dividend_rate": 0.0,
@@ -1084,28 +1084,18 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 164738000.0,
-          "Gross Profit": 23529000.0,
-          "Cost Of Revenue": 141209000.0,
-          "Operating Income": 2289000.0,
           "Net Income": 10101000.0,
           "Diluted EPS": 0.29,
           "Diluted Average Shares": 34612000.0,
           "Research And Development": 165000.0,
-          "Selling General And Administration": 20660000.0,
-          "General And Administrative Expense": 20635000.0
+          "Selling General And Administration": 20660000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance"
+          "Selling General And Administration": "sec"
         }
       },
       {
@@ -1219,16 +1209,28 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 216236000.0,
+          "Gross Profit": 28980000.0,
+          "Cost Of Revenue": 187256000.0,
+          "Operating Income": 8212000.0,
           "Net Income": 6017000.0,
           "Diluted EPS": 0.17,
           "Diluted Average Shares": 34844000.0,
-          "Selling General And Administration": 20125000.0
+          "Research And Development": 178000.0,
+          "Selling General And Administration": 20125000.0,
+          "General And Administrative Expense": 20150000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Research And Development": "yfinance",
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1563,7 +1565,7 @@
   },
   "validation": {
     "ticker": "TG",
-    "checked_at": "2026-08-10T14:44:49.725076+00:00",
+    "checked_at": "2026-08-11T14:45:25.251014+00:00",
     "status": "error",
     "issues": [
       {
@@ -1574,7 +1576,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2018-06-30 is 2963 days old (>180)"
+        "detail": "latest quarterly period 2018-06-30 is 2964 days old (>180)"
       },
       {
         "severity": "info",

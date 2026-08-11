@@ -23,23 +23,23 @@
     "logic_summary": "Financial technology company providing prepaid cards, deposit accounts, and money movement services primarily in the US."
   },
   "snapshot": {
-    "market_cap": 773353280.0,
-    "ttm_pe": -10.909816889089525,
-    "static_pe": -7.82223696720814,
-    "ev_revenue": -0.14207485866886085,
-    "pb": 0.8222788729399255,
-    "ps": 0.3550971410519665,
-    "p_fcf": 14.662671444551883,
-    "ttm_pocf": 6.19192838899253,
-    "debt_asset": 0.08475005694962044,
-    "gross_margin": 0.2772748895247821,
-    "op_margin": 0.010374844342897444,
-    "net_margin": -0.03254840522640532,
-    "roe": -0.0753705475810739,
-    "roa": -0.010658563155437504,
+    "market_cap": 756677450.0,
+    "ttm_pe": -29.16130144905195,
+    "static_pe": -7.6535659377339025,
+    "ev_revenue": -0.14232185289642843,
+    "pb": 0.8054892958385184,
+    "ps": 0.3334010921006657,
+    "p_fcf": 9.112753055940265,
+    "ttm_pocf": 4.864810242958448,
+    "debt_asset": 0.010293674717036589,
+    "gross_margin": null,
+    "op_margin": 0.003716561411826288,
+    "net_margin": -0.011432997689871787,
+    "roe": -0.027621856906688412,
+    "roa": -0.0041905312533561155,
     "dividend_rate": 0.0,
-    "latest_q_ni": 53753000.0,
-    "latest_q_ocf": 95061000.0
+    "latest_q_ni": -2087000.0,
+    "latest_q_ocf": 99624000.0
   },
   "annual": {
     "income_statement": [
@@ -954,23 +954,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 451988000.0,
-          "Operating Income": 10554000.0,
-          "Net Income": 4750000.0,
-          "Diluted Average Shares": 53270000.0,
-          "Selling And Marketing Expense": 62375000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling And Marketing Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 407121000.0,
@@ -1138,22 +1121,26 @@
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 595883000.0,
+          "Operating Income": -761000.0,
+          "Net Income": -2087000.0,
+          "Diluted Average Shares": 56765000.0,
+          "Selling And Marketing Expense": 49359000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling And Marketing Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 31497000.0,
-          "Capital Expenditure": 16999000.0,
-          "Free Cash Flow": 14498000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1244,28 +1231,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 99624000.0,
+          "Capital Expenditure": 19846000.0,
+          "Free Cash Flow": 79778000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 1317217000.0,
-          "Total Assets": 5517354000.0,
-          "Common Stock Equity": 869951000.0,
-          "Net PPE": 175210000.0,
-          "Accounts Receivable": 75881000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1402,6 +1383,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 1143426000.0,
+          "Total Assets": 6192055000.0,
+          "Common Stock Equity": 939401000.0,
+          "Net PPE": 200197000.0,
+          "Accounts Receivable": 137754000.0,
+          "Total Debt": 63739000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1445,7 +1445,7 @@
   },
   "validation": {
     "ticker": "GDOT",
-    "checked_at": "2026-08-10T14:44:49.605848+00:00",
+    "checked_at": "2026-08-11T14:45:25.130711+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1456,7 +1456,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       }
     ]
   },

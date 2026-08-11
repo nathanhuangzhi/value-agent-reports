@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 383537790.0,
-    "ttm_pe": null,
+    "ttm_pe": 2.3169029050556063,
     "static_pe": -25.730430028176574,
-    "ev_revenue": null,
-    "pb": 0.7029973697475141,
-    "ps": null,
-    "p_fcf": 10.199388097010956,
-    "ttm_pocf": 3.0008198824827286,
-    "debt_asset": 0.34046456191222896,
+    "ev_revenue": 0.7695797319994606,
+    "pb": 0.5332097733907966,
+    "ps": 0.5224577341326762,
+    "p_fcf": 9.271364097853413,
+    "ttm_pocf": 3.005004896852695,
+    "debt_asset": 0.2730362156107016,
     "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "op_margin": 0.3764430876866053,
+    "net_margin": 0.22549832925352437,
+    "roe": 0.23013902405116085,
+    "roa": 0.08805181652516093,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 167288000.0,
+    "latest_q_ocf": 23760000.0
   },
   "annual": {
     "income_statement": [
@@ -1054,7 +1054,7 @@
           "Gross Profit": "yfinance",
           "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
-          "Net Income": "yfinance",
+          "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec",
@@ -1139,29 +1139,24 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 184504000.0,
+          "Operating Income": 239732000.0,
+          "Net Income": 167288000.0,
           "Diluted EPS": 10.71,
-          "Diluted Average Shares": 15459000.0
+          "Diluted Average Shares": 15459000.0,
+          "Selling General And Administration": 55319000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 35234000.0,
-          "Capital Expenditure": 25814000.0,
-          "Free Cash Flow": 9420000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1252,28 +1247,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 23760000.0,
+          "Capital Expenditure": 17242000.0,
+          "Free Cash Flow": 6518000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 73253000.0,
-          "Total Assets": 1772341000.0,
-          "Common Stock Equity": 628765000.0,
-          "Goodwill": 40104000.0,
-          "Accounts Receivable": 98324000.0,
-          "Total Debt": 540835000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1426,6 +1415,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 331900000.0,
+          "Total Assets": 1880018000.0,
+          "Common Stock Equity": 719300000.0,
+          "Goodwill": 4835000.0,
+          "Accounts Receivable": 82895000.0,
+          "Total Debt": 513313000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1469,7 +1477,7 @@
   },
   "validation": {
     "ticker": "ATNI",
-    "checked_at": "2026-08-10T14:44:49.540733+00:00",
+    "checked_at": "2026-08-11T14:45:25.065709+00:00",
     "status": "warn",
     "issues": [
       {

@@ -560,7 +560,6 @@
           "Diluted EPS": -0.25,
           "Diluted Average Shares": 62661447.0,
           "Research And Development": 5562000.0,
-          "Selling General And Administration": 51913000.0,
           "Selling And Marketing Expense": 36122000.0,
           "General And Administrative Expense": 15791000.0
         },
@@ -573,7 +572,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -705,6 +703,7 @@
           "Diluted EPS": -0.24,
           "Diluted Average Shares": 65049844.0,
           "Research And Development": 4376000.0,
+          "Selling General And Administration": 46189000.0,
           "Selling And Marketing Expense": 30940000.0,
           "General And Administrative Expense": 15249000.0
         },
@@ -717,6 +716,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1055,13 +1055,13 @@
   },
   "validation": {
     "ticker": "TMCI",
-    "checked_at": "2026-08-10T14:44:49.728127+00:00",
+    "checked_at": "2026-08-11T14:45:25.254114+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "info",

@@ -32,7 +32,7 @@
     "p_fcf": -4.3677392947103275,
     "ttm_pocf": 4.722201797385621,
     "debt_asset": 0.29774955573812617,
-    "gross_margin": null,
+    "gross_margin": 0.4364513924630217,
     "op_margin": 0.09726843492285897,
     "net_margin": -0.09623564202709704,
     "roe": 1.5728351994598548,
@@ -1028,24 +1028,18 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 130443000.0,
-          "Gross Profit": 55622000.0,
-          "Cost Of Revenue": 74821000.0,
           "Operating Income": 7140000.0,
           "Net Income": -20613000.0,
           "Diluted EPS": -0.67,
           "Diluted Average Shares": 30683000.0,
-          "Selling General And Administration": 36088000.0,
           "General And Administrative Expense": 36088000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -1153,18 +1147,24 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 151995000.0,
+          "Gross Profit": 67021000.0,
+          "Cost Of Revenue": 84974000.0,
           "Operating Income": 17180000.0,
           "Net Income": -10910000.0,
           "Diluted EPS": -0.39,
           "Diluted Average Shares": 28195000.0,
+          "Selling General And Administration": 36827000.0,
           "General And Administrative Expense": 36827000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1502,7 +1502,7 @@
   },
   "validation": {
     "ticker": "CNTY",
-    "checked_at": "2026-08-10T14:44:49.566596+00:00",
+    "checked_at": "2026-08-11T14:45:25.091405+00:00",
     "status": "warn",
     "issues": [
       {

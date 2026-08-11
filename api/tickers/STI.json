@@ -29,7 +29,7 @@
     "ev_revenue": 546.9594173608266,
     "pb": 6.728183522383328,
     "ps": 663.8237671264054,
-    "p_fcf": -26.615877020001772,
+    "p_fcf": -26.512054853890092,
     "ttm_pocf": -27.026352888763366,
     "debt_asset": 0.06189438872499665,
     "gross_margin": 0.9726114069825663,
@@ -369,26 +369,22 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 0.0,
-          "Cost Of Revenue": 0.0,
           "Operating Income": -3132669.0,
           "Net Income": 9194630.0,
           "Diluted EPS": -0.3,
           "Diluted Average Shares": 3048833.0,
           "Research And Development": 1353050.0,
-          "Selling General And Administration": 1779619.0
+          "Selling General And Administration": 1779619.0,
+          "Total Revenue": 0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Total Revenue": "derived"
         }
       },
       {
@@ -492,6 +488,7 @@
         "items": {
           "Total Revenue": 124914.0,
           "Gross Profit": 124914.0,
+          "Cost Of Revenue": 0.0,
           "Operating Income": -1367337.0,
           "Net Income": -2886756.0,
           "Diluted EPS": -0.35,
@@ -502,6 +499,7 @@
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -542,13 +540,13 @@
         "period": "2025-03-31",
         "items": {
           "Cash Flow From Continuing Operating Activities": -2342278.0,
-          "Capital Expenditure": -40156.0,
-          "Free Cash Flow": -2382434.0
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -2342278.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
         }
       },
       {
@@ -607,13 +605,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -3973478.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -3973478.0
+          "Capital Expenditure": -21457.0,
+          "Free Cash Flow": -3994935.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -828,13 +826,13 @@
   },
   "validation": {
     "ticker": "STI",
-    "checked_at": "2026-08-10T14:44:49.718767+00:00",
+    "checked_at": "2026-08-11T14:45:25.244605+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "info",

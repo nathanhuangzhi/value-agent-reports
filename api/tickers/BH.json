@@ -23,17 +23,17 @@
     "logic_summary": "Biglari Holdings owns and operates Steak n Shake and Western Sizzlin restaurant chains, along with insurance and magazine businesses."
   },
   "snapshot": {
-    "market_cap": 354079392.45,
-    "ttm_pe": -11.90222839255101,
-    "static_pe": -9.445139576664532,
-    "ev_revenue": 1.290581620982614,
-    "pb": 0.651134987256063,
-    "ps": 0.872950978891157,
-    "p_fcf": 7.037113292988313,
-    "ttm_pocf": 4.2003795206235095,
+    "market_cap": 853703574.3,
+    "ttm_pe": -28.696883064976973,
+    "static_pe": -22.772715917093468,
+    "ev_revenue": 2.522360221837618,
+    "pb": 1.5699198479922323,
+    "ps": 2.104729579746161,
+    "p_fcf": 16.966841050560458,
+    "ttm_pocf": 10.127330442364496,
     "debt_asset": 0.22530191274381628,
-    "gross_margin": 0.4470602447659339,
-    "op_margin": null,
+    "gross_margin": 0.3913049909765983,
+    "op_margin": 0.05902685324891768,
     "net_margin": -0.07334349082374289,
     "roe": -0.05470698139716213,
     "roa": -0.028102635218367176,
@@ -586,23 +586,21 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 95035000.0,
-          "Gross Profit": 34528000.0,
           "Cost Of Revenue": 37758000.0,
-          "Operating Income": 2904000.0,
           "Net Income": -33275000.0,
           "Diluted EPS": -25.28,
           "Diluted Average Shares": 1316285.0,
-          "Selling General And Administration": 21367000.0
+          "Selling General And Administration": 21367000.0,
+          "Gross Profit": 57277000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -697,17 +695,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 108524000.0,
+          "Gross Profit": 44782000.0,
           "Cost Of Revenue": 41127000.0,
+          "Operating Income": 8403000.0,
           "Net Income": 39926000.0,
-          "Selling General And Administration": 26230000.0,
-          "Gross Profit": 67397000.0
+          "Diluted EPS": 31.63,
+          "Diluted Average Shares": 3139020.0,
+          "Selling General And Administration": 26230000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -874,7 +878,7 @@
           "Net PPE": 370394000.0,
           "Inventory": 4233000.0,
           "Accounts Receivable": 22506000.0,
-          "Total Debt": 48400000.0
+          "Total Debt": 13400000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1044,7 +1048,7 @@
   },
   "validation": {
     "ticker": "BH",
-    "checked_at": "2026-08-10T14:44:49.547209+00:00",
+    "checked_at": "2026-08-11T14:45:25.072215+00:00",
     "status": "error",
     "issues": [
       {
@@ -1060,7 +1064,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       }
     ]
   },

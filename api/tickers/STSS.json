@@ -26,12 +26,12 @@
     "market_cap": 131209864.24000001,
     "ttm_pe": -0.33007915910686253,
     "static_pe": -0.46445620108359825,
-    "ev_revenue": 684.0063397214344,
+    "ev_revenue": 684.785341661978,
     "pb": 0.8342430799668376,
     "ps": 753.3090530376971,
     "p_fcf": -8.289660944240174,
     "ttm_pocf": -9.120612086085155,
-    "debt_asset": 0.0,
+    "debt_asset": 0.000846177196433502,
     "gross_margin": 1.8640471242062717,
     "op_margin": -631.0631537852082,
     "net_margin": -2282.207259240547,
@@ -394,28 +394,24 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 0.0,
-          "Gross Profit": 0.0,
-          "Cost Of Revenue": 0.0,
           "Operating Income": -1364295.0,
           "Net Income": 1928834.0,
           "Diluted EPS": 52.62,
           "Diluted Average Shares": 49938.0,
           "Research And Development": 82016.0,
           "Selling General And Administration": 1364295.0,
-          "General And Administrative Expense": 1939753.0
+          "General And Administrative Expense": 1939753.0,
+          "Total Revenue": 0
         },
         "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
         }
       },
       {
@@ -525,6 +521,7 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 0.0,
           "Gross Profit": -284228.0,
           "Cost Of Revenue": 284228.0,
           "Operating Income": -23389091.0,
@@ -533,9 +530,10 @@
           "Diluted Average Shares": 72093332.0,
           "Research And Development": 283158.0,
           "Selling General And Administration": 5163257.0,
-          "Total Revenue": 0
+          "General And Administrative Expense": 7663257.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
           "Gross Profit": "sec",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
@@ -544,7 +542,7 @@
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
           "Selling General And Administration": "sec",
-          "Total Revenue": "derived"
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -663,7 +661,6 @@
           "Common Stock Equity": 1996129.0,
           "Net PPE": 1175338.0,
           "Inventory": 538830.0,
-          "Accounts Receivable": 0.0,
           "Total Debt": 3763622.0
         },
         "sources": {
@@ -672,7 +669,6 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -693,7 +689,6 @@
           "Common Stock Equity": 10135328.0,
           "Net PPE": 4182159.0,
           "Inventory": 2056998.0,
-          "Accounts Receivable": 160194.0,
           "Total Debt": 0
         },
         "sources": {
@@ -702,7 +697,6 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -798,7 +792,8 @@
           "Common Stock Equity": 157280135.0,
           "Net PPE": 47774.0,
           "Inventory": 173481.0,
-          "Total Debt": 0
+          "Accounts Receivable": 637021.0,
+          "Total Debt": 135685.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -806,7 +801,8 @@
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -851,13 +847,13 @@
   },
   "validation": {
     "ticker": "STSS",
-    "checked_at": "2026-08-10T14:44:49.720303+00:00",
+    "checked_at": "2026-08-11T14:45:25.246162+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "info",

@@ -23,23 +23,23 @@
     "logic_summary": "Owns and operates midstream energy infrastructure for natural gas and crude oil producers."
   },
   "snapshot": {
-    "market_cap": 362965760.0,
-    "ttm_pe": -13.574903134116239,
-    "static_pe": -61.12592792185921,
-    "ev_revenue": 2.777674166631489,
-    "pb": 0.3966873590151608,
-    "ps": 0.6384217710048264,
-    "p_fcf": 9.88415010075704,
-    "ttm_pocf": 2.9169105155301964,
-    "debt_asset": 0.5260005327475603,
-    "gross_margin": 0.26257440162100554,
-    "op_margin": 0.15301053935019066,
-    "net_margin": -0.04702956365120239,
-    "roe": -0.02922211341738507,
-    "roa": -0.011111235779026951,
+    "market_cap": 413484800.0,
+    "ttm_pe": -24.17615622990119,
+    "static_pe": -69.63368137420007,
+    "ev_revenue": 2.7795025817201866,
+    "pb": 0.44999466733996035,
+    "ps": 0.7088327059033278,
+    "p_fcf": 9.221749408983452,
+    "ttm_pocf": 3.1526663311831893,
+    "debt_asset": 0.5149365700471051,
+    "gross_margin": 0.3774814342432783,
+    "op_margin": null,
+    "net_margin": -0.029319495587418486,
+    "roe": -0.0186131601343395,
+    "roa": -0.007104403957829674,
     "dividend_rate": 0.0,
-    "latest_q_ni": -5295000.0,
-    "latest_q_ocf": 6870000.0
+    "latest_q_ni": 1607000.0,
+    "latest_q_ocf": 43932000.0
   },
   "annual": {
     "income_statement": [
@@ -280,27 +280,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 118871000.0,
-          "Cost Of Revenue": 30182000.0,
-          "Net Income": 129157000.0,
-          "Diluted EPS": 11.47,
-          "Diluted Average Shares": 10980000.0,
-          "General And Administrative Expense": 14785000.0,
-          "Gross Profit": 88689000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Cost Of Revenue": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 101315000.0,
@@ -466,22 +445,30 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 155013000.0,
+          "Cost Of Revenue": 49092000.0,
+          "Net Income": 1607000.0,
+          "Diluted EPS": 0.11,
+          "Diluted Average Shares": 14045000.0,
+          "General And Administrative Expense": 13690000.0,
+          "Gross Profit": 105921000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Cost Of Revenue": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -12643000.0,
-          "Capital Expenditure": 10522000.0,
-          "Free Cash Flow": -23165000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -572,18 +559,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 43932000.0,
+          "Capital Expenditure": 24993000.0,
+          "Free Cash Flow": 18939000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 160216000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -716,6 +707,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 31760000.0,
+          "Total Assets": 2407380000.0,
+          "Common Stock Equity": 918866000.0,
+          "Net PPE": 1839292000.0,
+          "Accounts Receivable": 87202000.0,
+          "Total Debt": 1239648000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -759,7 +769,7 @@
   },
   "validation": {
     "ticker": "SMC",
-    "checked_at": "2026-08-10T14:44:49.711807+00:00",
+    "checked_at": "2026-08-11T14:45:25.237440+00:00",
     "status": "error",
     "issues": [
       {

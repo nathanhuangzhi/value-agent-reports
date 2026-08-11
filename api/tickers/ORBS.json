@@ -26,12 +26,12 @@
     "market_cap": 259450983.3504,
     "ttm_pe": -0.8191561086397496,
     "static_pe": -0.9902215689187401,
-    "ev_revenue": 9.890863813334413,
+    "ev_revenue": 10.228259322243883,
     "pb": 0.6576885319337308,
     "ps": 10.32891994862193,
     "p_fcf": -12.347808699420638,
     "ttm_pocf": -12.347808699420638,
-    "debt_asset": 0.0,
+    "debt_asset": 0.020797915117845723,
     "gross_margin": -0.04811992473552173,
     "op_margin": -1.7142831322787855,
     "net_margin": -12.60922044001311,
@@ -628,13 +628,13 @@
         "period": "2026-06-30",
         "items": {
           "Cash Flow From Continuing Operating Activities": -5006197.0,
-          "Capital Expenditure": 0,
+          "Capital Expenditure": 0.0,
           "Free Cash Flow": -5006197.0
         },
         "sources": {
           "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
+          "Capital Expenditure": "yfinance",
+          "Free Cash Flow": "yfinance"
         }
       }
     ],
@@ -804,17 +804,19 @@
           "Cash And Cash Equivalents": 11003483.0,
           "Total Assets": 407492768.0,
           "Common Stock Equity": 394489140.0,
+          "Net PPE": 0.0,
           "Inventory": 502115.0,
           "Accounts Receivable": 101264.0,
-          "Total Debt": 0
+          "Total Debt": 8475000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -859,7 +861,7 @@
   },
   "validation": {
     "ticker": "ORBS",
-    "checked_at": "2026-08-10T14:44:49.675827+00:00",
+    "checked_at": "2026-08-11T14:45:25.201135+00:00",
     "status": "warn",
     "issues": [
       {

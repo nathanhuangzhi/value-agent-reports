@@ -23,19 +23,19 @@
     "logic_summary": "Owns and operates residential, commercial, and mixed-use real estate properties in Massachusetts and New Hampshire, generating revenue from rentals and property sales."
   },
   "snapshot": {
-    "market_cap": 211370880.0,
-    "ttm_pe": -30.27662235367136,
-    "static_pe": 35.04591415121494,
-    "ev_revenue": 7.471638869794711,
-    "pb": -2.6544957969674448,
-    "ps": 2.205639731677953,
-    "p_fcf": 12.276583175755368,
-    "ttm_pocf": 12.276583175755368,
-    "debt_asset": 1.0718270762893711,
-    "gross_margin": null,
+    "market_cap": 210940020.0,
+    "ttm_pe": -30.2149062577394,
+    "static_pe": 34.97447629482151,
+    "ev_revenue": 7.4342061148130405,
+    "pb": -2.5346458441376796,
+    "ps": 2.201143738971717,
+    "p_fcf": 12.251558495784758,
+    "ttm_pocf": 12.251558495784758,
+    "debt_asset": 1.0654366261461121,
+    "gross_margin": 0.657789194144595,
     "op_margin": 0.14179579002029866,
     "net_margin": -0.07284959682467672,
-    "roe": 0.08767476655616967,
+    "roe": 0.08388726486577938,
     "roa": -0.01413441043693106,
     "dividend_rate": 0.0,
     "latest_q_ni": -1159307.0,
@@ -841,24 +841,18 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 20688894.0,
-          "Gross Profit": 14316399.0,
-          "Cost Of Revenue": 6372495.0,
           "Operating Income": 6233447.0,
           "Net Income": 3795719.0,
           "Diluted EPS": 1.07349,
           "Diluted Average Shares": 3535576.0,
-          "Selling General And Administration": 899595.0,
           "General And Administrative Expense": 621266.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -962,14 +956,24 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 24403337.0,
+          "Gross Profit": 15870242.0,
+          "Cost Of Revenue": 8533095.0,
           "Operating Income": 4040379.0,
           "Net Income": -1159307.0,
+          "Diluted EPS": -0.32967,
+          "Diluted Average Shares": 3515667.0,
+          "Selling General And Administration": 1473329.0,
           "General And Administrative Expense": 896512.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -1112,16 +1116,12 @@
         "items": {
           "Cash And Cash Equivalents": 30863737.0,
           "Total Assets": 385217652.0,
-          "Common Stock Equity": -71377784.0,
-          "Accounts Receivable": 1094839.0,
-          "Total Debt": 405484379.0
+          "Total Debt": 407789000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
-          "Common Stock Equity": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1197,12 +1197,16 @@
         "items": {
           "Cash And Cash Equivalents": 24749739.0,
           "Total Assets": 493923891.0,
-          "Total Debt": 529401000.0
+          "Common Stock Equity": -83222680.0,
+          "Accounts Receivable": 1840493.0,
+          "Total Debt": 526244604.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
-          "Total Debt": "sec"
+          "Common Stock Equity": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1247,7 +1251,7 @@
   },
   "validation": {
     "ticker": "NEN",
-    "checked_at": "2026-08-10T14:44:49.662460+00:00",
+    "checked_at": "2026-08-11T14:45:25.187546+00:00",
     "status": "error",
     "issues": [
       {
@@ -1268,7 +1272,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       }
     ]
   },

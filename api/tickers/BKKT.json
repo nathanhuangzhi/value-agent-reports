@@ -23,23 +23,23 @@
     "logic_summary": "Bakkt provides digital asset infrastructure for institutions, offering trading, custody, and payment solutions via a platform."
   },
   "snapshot": {
-    "market_cap": 227607126.82,
-    "ttm_pe": -1.7982423191543153,
-    "static_pe": -2.1229631647576763,
-    "ev_revenue": 0.08278319057772256,
-    "pb": 1.331986135254392,
-    "ps": 0.14946040757548795,
-    "p_fcf": -3.3166311138635503,
-    "ttm_pocf": -3.5446750061515937,
-    "debt_asset": 0.00037023151185678135,
-    "gross_margin": 0.019131121134655277,
-    "op_margin": -0.09940907201520298,
-    "net_margin": -0.08311472040418713,
-    "roe": -0.7407155982630883,
-    "roa": -0.5931764926422345,
+    "market_cap": 334386024.35999995,
+    "ttm_pe": -10.788037951993804,
+    "static_pe": -3.1189234820729017,
+    "ev_revenue": 0.27677395784236014,
+    "pb": 0.943553780750021,
+    "ps": 0.35385625719991065,
+    "p_fcf": -3.7666263895647467,
+    "ttm_pocf": -3.9628587859682383,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": -0.16139017140099707,
+    "net_margin": -0.03280079832630847,
+    "roe": -0.08746296453060189,
+    "roa": -0.076798810703667,
     "dividend_rate": 0.0,
-    "latest_q_ni": -11650000.0,
-    "latest_q_ocf": -12093000.0
+    "latest_q_ni": 80842000.0,
+    "latest_q_ocf": -14817000.0
   },
   "annual": {
     "income_statement": [
@@ -367,23 +367,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 509898000.0,
-          "Operating Income": -22017000.0,
-          "Net Income": -16424000.0,
-          "Diluted EPS": -2.67,
-          "Diluted Average Shares": 6161704.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 328419000.0,
@@ -442,9 +425,9 @@
           "Total Revenue": 577882000.0,
           "Gross Profit": 16808000.0,
           "Cost Of Revenue": 561074000.0,
-          "Operating Income": -18489000.0,
+          "Operating Income": -16121000.0,
           "Net Income": -14734000.0,
-          "Diluted EPS": -2.16,
+          "Diluted EPS": -1.93,
           "Diluted Average Shares": 6825634.0,
           "Selling General And Administration": 30684000.0,
           "General And Administrative Expense": 30684000.0
@@ -531,22 +514,26 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Operating Income": -19613000.0,
+          "Net Income": 80842000.0,
+          "Diluted EPS": 1.96,
+          "Diluted Average Shares": 41694018.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Total Revenue": "derived"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -65893000.0,
-          "Capital Expenditure": 463000.0,
-          "Free Cash Flow": -66356000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -637,30 +624,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -14817000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -14817000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-09-30",
-        "items": {
-          "Cash And Cash Equivalents": 117493000.0,
-          "Total Assets": 1182729000.0,
-          "Common Stock Equity": 101993000.0,
-          "Goodwill": 68001000.0,
-          "Net PPE": 1769000.0,
-          "Accounts Receivable": 26786000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-12-31",
         "items": {
@@ -795,6 +774,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 72841000.0,
+          "Total Assets": 403600000.0,
+          "Common Stock Equity": 354390000.0,
+          "Goodwill": 156690000.0,
+          "Net PPE": 2085000.0,
+          "Accounts Receivable": 11276000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -838,7 +838,7 @@
   },
   "validation": {
     "ticker": "BKKT",
-    "checked_at": "2026-08-10T14:44:49.547980+00:00",
+    "checked_at": "2026-08-11T14:45:25.072992+00:00",
     "status": "warn",
     "issues": [
       {
@@ -849,7 +849,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "warn",
@@ -864,7 +864,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2025-06-30 is 406 days old (>180)"
+        "detail": "latest quarterly period 2025-06-30 is 407 days old (>180)"
       },
       {
         "severity": "warn",

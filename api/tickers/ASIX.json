@@ -26,14 +26,14 @@
     "market_cap": 559770344.64,
     "ttm_pe": -31.577274476222712,
     "static_pe": 11.357593325487969,
-    "ev_revenue": 0.3542265206646379,
+    "ev_revenue": 0.5579855108991869,
     "pb": 0.7024242885538177,
     "ps": 0.3588531378490878,
     "p_fcf": -21.7369658527493,
     "ttm_pocf": 6.584294069822151,
-    "debt_asset": 0.0,
+    "debt_asset": 0.18998084895781034,
     "gross_margin": 0.05619509618324917,
-    "op_margin": null,
+    "op_margin": -0.008230724405037032,
     "net_margin": -0.011364284720623993,
     "roe": -0.022244614210853896,
     "roa": -0.010595834110373122,
@@ -796,23 +796,21 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 377791000.0,
-          "Gross Profit": 53471000.0,
           "Cost Of Revenue": 324320000.0,
-          "Operating Income": 30062000.0,
           "Net Income": 23344000.0,
           "Diluted EPS": 0.86,
           "Diluted Average Shares": 27289144.0,
-          "Selling General And Administration": 23409000.0
+          "Selling General And Administration": 23409000.0,
+          "Gross Profit": 53471000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -911,21 +909,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 421284000.0,
+          "Gross Profit": 31101000.0,
           "Cost Of Revenue": 390183000.0,
+          "Operating Income": 9047000.0,
           "Net Income": 3248000.0,
           "Diluted EPS": 0.12,
           "Diluted Average Shares": 27602088.0,
-          "Selling General And Administration": 22054000.0,
-          "Gross Profit": 31101000.0
+          "Selling General And Administration": 22054000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1081,20 +1081,16 @@
           "Total Assets": 1625974000.0,
           "Common Stock Equity": 794368000.0,
           "Goodwill": 56192000.0,
-          "Net PPE": 1070850000.0,
           "Inventory": 222857000.0,
-          "Accounts Receivable": 175589000.0,
-          "Total Debt": 255093000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1196,16 +1192,20 @@
           "Total Assets": 1673016000.0,
           "Common Stock Equity": 796912000.0,
           "Goodwill": 56192000.0,
+          "Net PPE": 1112321000.0,
           "Inventory": 194145000.0,
-          "Total Debt": 0
+          "Accounts Receivable": 187078000.0,
+          "Total Debt": 317841000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1250,7 +1250,7 @@
   },
   "validation": {
     "ticker": "ASIX",
-    "checked_at": "2026-08-10T14:44:49.538198+00:00",
+    "checked_at": "2026-08-11T14:45:25.063148+00:00",
     "status": "error",
     "issues": [
       {

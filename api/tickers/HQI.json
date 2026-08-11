@@ -23,23 +23,23 @@
     "logic_summary": "A staffing company providing temporary and permanent personnel services across multiple industries."
   },
   "snapshot": {
-    "market_cap": 177451920.0,
-    "ttm_pe": 27.187363260303357,
-    "static_pe": 28.033478672985783,
-    "ev_revenue": 5.942637925227349,
-    "pb": 2.635398461401372,
-    "ps": 5.9768245200404175,
-    "p_fcf": 17.04956956187548,
-    "ttm_pocf": 16.99405477877801,
+    "market_cap": 176353700.0,
+    "ttm_pe": 21.614621889937492,
+    "static_pe": 27.85998420221169,
+    "ev_revenue": 5.794623727239561,
+    "pb": 2.5611958289764147,
+    "ps": 5.8490166163643,
+    "p_fcf": 18.642040169133193,
+    "ttm_pocf": 18.59290458618872,
     "debt_asset": 0.0,
     "gross_margin": null,
-    "op_margin": 0.22633883462445267,
-    "net_margin": 0.21983832940383968,
-    "roe": 0.09693468381501173,
-    "roa": 0.07162295621639417,
+    "op_margin": 0.29916089018606346,
+    "net_margin": 0.2706046233955756,
+    "roe": 0.11849366794469618,
+    "roa": 0.0873825920253612,
     "dividend_rate": 0.0,
-    "latest_q_ni": 1560000.0,
-    "latest_q_ocf": 250000.0
+    "latest_q_ni": 2692000.0,
+    "latest_q_ocf": 1600000.0
   },
   "annual": {
     "income_statement": [
@@ -945,25 +945,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 8419000.0,
-          "Operating Income": 2102000.0,
-          "Net Income": 1619000.0,
-          "Diluted EPS": 0.12,
-          "Diluted Average Shares": 13886000.0,
-          "Selling General And Administration": 5619000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 8680000.0,
@@ -1095,22 +1076,28 @@
           "Diluted Average Shares": "sec",
           "Selling General And Administration": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 8099000.0,
+          "Operating Income": 3343000.0,
+          "Net Income": 2692000.0,
+          "Diluted EPS": 0.2,
+          "Diluted Average Shares": 13810000.0,
+          "Selling General And Administration": 3994000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 188000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 188000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1201,30 +1188,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 1600000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 1600000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 614000.0,
-          "Total Assets": 107616000.0,
-          "Common Stock Equity": 65414000.0,
-          "Goodwill": 5870000.0,
-          "Net PPE": 4198000.0,
-          "Accounts Receivable": 49878000.0,
-          "Total Debt": 348000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1371,6 +1350,27 @@
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 1640000.0,
+          "Total Assets": 93371000.0,
+          "Common Stock Equity": 68856000.0,
+          "Goodwill": 1633000.0,
+          "Net PPE": 3964000.0,
+          "Accounts Receivable": 48856000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1414,7 +1414,7 @@
   },
   "validation": {
     "ticker": "HQI",
-    "checked_at": "2026-08-10T14:44:49.616927+00:00",
+    "checked_at": "2026-08-11T14:45:25.141988+00:00",
     "status": "warn",
     "issues": [
       {

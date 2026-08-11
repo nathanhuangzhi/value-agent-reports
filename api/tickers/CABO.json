@@ -26,13 +26,13 @@
     "market_cap": 278728992.74,
     "ttm_pe": -0.2654834904352067,
     "static_pe": -0.7819384353880812,
-    "ev_revenue": 0.09059025573758667,
+    "ev_revenue": 2.1903777191298204,
     "pb": 0.8539883657030808,
     "ps": 0.1933424105841011,
     "p_fcf": 1.1018872560445294,
     "ttm_pocf": 0.5150878861417518,
-    "debt_asset": 0.003906713056901297,
-    "gross_margin": null,
+    "debt_asset": 0.6587300110841626,
+    "gross_margin": 0.7346705197019493,
     "op_margin": -0.1735586147385536,
     "net_margin": -0.7282652878608579,
     "roe": -3.2167287099590975,
@@ -789,8 +789,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 380601000.0,
-          "Gross Profit": 280750000.0,
-          "Cost Of Revenue": 99851000.0,
           "Operating Income": 95675000.0,
           "Net Income": 2607000.0,
           "Diluted EPS": 0.46,
@@ -799,8 +797,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -904,6 +900,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 348926000.0,
+          "Gross Profit": 250201000.0,
+          "Cost Of Revenue": 98725000.0,
           "Operating Income": -524917000.0,
           "Net Income": -1164576000.0,
           "Diluted EPS": -204.35,
@@ -912,6 +910,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1068,18 +1068,14 @@
           "Total Assets": 6423377000.0,
           "Common Stock Equity": 1775460000.0,
           "Goodwill": 929609000.0,
-          "Net PPE": 1794014000.0,
-          "Accounts Receivable": 37793000.0,
-          "Total Debt": 3546459000.0
+          "Total Debt": 593619000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1173,14 +1169,18 @@
           "Total Assets": 4622812000.0,
           "Common Stock Equity": 326385000.0,
           "Goodwill": 769111000.0,
-          "Total Debt": 18060000.0
+          "Net PPE": 1788736000.0,
+          "Accounts Receivable": 52701000.0,
+          "Total Debt": 3045185000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Total Debt": "sec"
+          "Net PPE": "yfinance",
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1225,7 +1225,7 @@
   },
   "validation": {
     "ticker": "CABO",
-    "checked_at": "2026-08-10T14:44:49.555622+00:00",
+    "checked_at": "2026-08-11T14:45:25.080631+00:00",
     "status": "warn",
     "issues": [
       {

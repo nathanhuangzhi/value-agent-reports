@@ -1153,29 +1153,27 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 64700000.0,
-          "Gross Profit": 46482000.0,
           "Cost Of Revenue": 18218000.0,
           "Operating Income": -16944000.0,
           "Net Income": -14133000.0,
           "Diluted EPS": -3.61,
           "Diluted Average Shares": 6353663.0,
           "Research And Development": 16034000.0,
-          "Selling General And Administration": 40269000.0,
           "Selling And Marketing Expense": 23485000.0,
-          "General And Administrative Expense": 16784000.0
+          "General And Administrative Expense": 16784000.0,
+          "Gross Profit": 46482000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -1298,27 +1296,29 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 52496000.0,
+          "Gross Profit": 36710000.0,
           "Cost Of Revenue": 15786000.0,
           "Operating Income": -67700000.0,
           "Net Income": -72557000.0,
           "Diluted EPS": -6.11,
           "Diluted Average Shares": 12230954.0,
           "Research And Development": 10385000.0,
+          "Selling General And Administration": 37738000.0,
           "Selling And Marketing Expense": 13759000.0,
-          "General And Administrative Expense": 23979000.0,
-          "Gross Profit": 36710000.0
+          "General And Administrative Expense": 23979000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -1474,7 +1474,6 @@
           "Total Assets": 596220000.0,
           "Common Stock Equity": -74944000.0,
           "Goodwill": 223784000.0,
-          "Net PPE": 98316000.0,
           "Accounts Receivable": 29643000.0,
           "Total Debt": 528858000.0
         },
@@ -1483,7 +1482,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1579,6 +1577,7 @@
           "Total Assets": 384286000.0,
           "Common Stock Equity": -121956000.0,
           "Goodwill": 132386000.0,
+          "Net PPE": 85371000.0,
           "Accounts Receivable": 17653000.0,
           "Total Debt": 398565000.0
         },
@@ -1587,6 +1586,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
         }
@@ -1633,13 +1633,13 @@
   },
   "validation": {
     "ticker": "LPSN",
-    "checked_at": "2026-08-10T14:44:49.642182+00:00",
+    "checked_at": "2026-08-11T14:45:25.167069+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "info",

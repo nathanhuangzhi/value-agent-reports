@@ -773,7 +773,6 @@
           "Total Assets": 1120200000.0,
           "Common Stock Equity": -736200000.0,
           "Goodwill": 15500000.0,
-          "Net PPE": 257400000.0,
           "Inventory": 169200000.0,
           "Accounts Receivable": 185600000.0,
           "Total Debt": 1518600000.0
@@ -783,7 +782,6 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -888,6 +886,7 @@
           "Total Assets": 1265300000.0,
           "Common Stock Equity": -612700000.0,
           "Goodwill": 39900000.0,
+          "Net PPE": 316800000.0,
           "Inventory": 214200000.0,
           "Accounts Receivable": 182200000.0,
           "Total Debt": 1455100000.0
@@ -897,6 +896,7 @@
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
           "Total Debt": "sec"
@@ -944,13 +944,13 @@
   },
   "validation": {
     "ticker": "EMBC",
-    "checked_at": "2026-08-10T14:44:49.589008+00:00",
+    "checked_at": "2026-08-11T14:45:25.113863+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       }
     ]
   },

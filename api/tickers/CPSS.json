@@ -26,12 +26,12 @@
     "market_cap": 222637800.0,
     "ttm_pe": 10.303966307215255,
     "static_pe": 11.520714100905563,
-    "ev_revenue": 0.10818049713193116,
+    "ev_revenue": 10.326854811982153,
     "pb": 0.6973819726356939,
     "ps": 0.567591586998088,
     "p_fcf": 0.6370872941836309,
     "ttm_pocf": 0.6351208407503766,
-    "debt_asset": 0.0,
+    "debt_asset": 0.9063940947320362,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": 0.055084767367750156,
@@ -895,7 +895,6 @@
           "Net Income": 4694000.0,
           "Diluted EPS": 0.19,
           "Diluted Average Shares": 24325000.0,
-          "Selling General And Administration": 43507000.0,
           "Selling And Marketing Expense": 5911000.0,
           "General And Administrative Expense": 12563000.0
         },
@@ -904,7 +903,6 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -916,7 +914,7 @@
           "Net Income": 4797000.0,
           "Diluted EPS": 0.2,
           "Diluted Average Shares": 24180000.0,
-          "Selling General And Administration": 43266000.0,
+          "Selling General And Administration": 42485000.0,
           "Selling And Marketing Expense": 5721000.0,
           "General And Administrative Expense": 12402000.0
         },
@@ -1000,6 +998,7 @@
           "Net Income": 6234000.0,
           "Diluted EPS": 0.27,
           "Diluted Average Shares": 23485000.0,
+          "Selling General And Administration": 46394000.0,
           "Selling And Marketing Expense": 8303000.0,
           "General And Administrative Expense": 14673000.0
         },
@@ -1008,6 +1007,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1161,14 +1161,14 @@
           "Total Assets": 3673606000.0,
           "Common Stock Equity": 0.0,
           "Net PPE": 1165000.0,
-          "Total Debt": 3299890000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1246,14 +1246,14 @@
           "Total Assets": 4422221000.0,
           "Common Stock Equity": 319248000.0,
           "Net PPE": 1265000.0,
-          "Total Debt": 0
+          "Total Debt": 4008275000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1298,7 +1298,7 @@
   },
   "validation": {
     "ticker": "CPSS",
-    "checked_at": "2026-08-10T14:44:49.569790+00:00",
+    "checked_at": "2026-08-11T14:45:25.094583+00:00",
     "status": "error",
     "issues": [
       {
@@ -1314,7 +1314,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       }
     ]
   },

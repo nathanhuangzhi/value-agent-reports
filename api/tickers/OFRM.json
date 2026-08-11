@@ -26,12 +26,12 @@
     "market_cap": 665711028.875,
     "ttm_pe": -70.03061528245318,
     "static_pe": -38.59418104672735,
-    "ev_revenue": 1.9855088050407221,
+    "ev_revenue": 1.9860848479038633,
     "pb": 4.2871100892247656,
     "ps": 2.31010895842081,
     "p_fcf": -18.364948795139178,
     "ttm_pocf": -21.7602402142647,
-    "debt_asset": 0.0,
+    "debt_asset": 0.0008192312057997621,
     "gross_margin": 0.4117943041159304,
     "op_margin": -0.063590273897971,
     "net_margin": -0.032987129259160294,
@@ -538,7 +538,7 @@
           "Net PPE": 9794000.0,
           "Inventory": 51887000.0,
           "Accounts Receivable": 36959000.0,
-          "Total Debt": 0.0
+          "Total Debt": 166000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -548,7 +548,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -593,7 +593,7 @@
   },
   "validation": {
     "ticker": "OFRM",
-    "checked_at": "2026-08-10T14:44:49.671958+00:00",
+    "checked_at": "2026-08-11T14:45:25.197170+00:00",
     "status": "error",
     "issues": [
       {
@@ -634,7 +634,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       }
     ]
   },

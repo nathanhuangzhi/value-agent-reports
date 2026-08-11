@@ -24,22 +24,22 @@
   },
   "snapshot": {
     "market_cap": 628904430.0,
-    "ttm_pe": null,
+    "ttm_pe": -5.779256117844901,
     "static_pe": -15.194231354642314,
-    "ev_revenue": null,
-    "pb": 1.8234187773989283,
-    "ps": null,
-    "p_fcf": -4.677434308876576,
-    "ttm_pocf": 4.468713752797812,
-    "debt_asset": 0.18580325895931407,
+    "ev_revenue": 2.1939414374496162,
+    "pb": 1.6535539195709046,
+    "ps": 1.7978252156860504,
+    "p_fcf": -20.68016277005031,
+    "ttm_pocf": 3.207174299949514,
+    "debt_asset": 0.18274363236523947,
     "gross_margin": null,
-    "op_margin": null,
-    "net_margin": null,
-    "roe": null,
-    "roa": null,
+    "op_margin": 0.08774948972882732,
+    "net_margin": -0.31108246096496994,
+    "roe": -0.286118816306677,
+    "roa": -0.11235223060800975,
     "dividend_rate": 0.0,
-    "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ni": 42445000.0,
+    "latest_q_ocf": 73701000.0
   },
   "annual": {
     "income_statement": [
@@ -1117,29 +1117,24 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 135166000.0,
+          "Operating Income": 43592000.0,
+          "Net Income": 42445000.0,
           "Diluted EPS": 0.39,
-          "Diluted Average Shares": 104643000.0
+          "Diluted Average Shares": 104643000.0,
+          "General And Administrative Expense": 11194000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -438000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": -438000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1230,28 +1225,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 73701000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 73701000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 78085000.0,
-          "Total Assets": 917364000.0,
-          "Common Stock Equity": 493648000.0,
-          "Net PPE": 548415000.0,
-          "Accounts Receivable": 64934000.0,
-          "Total Debt": 0.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1394,6 +1383,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 38433000.0,
+          "Total Assets": 968570000.0,
+          "Common Stock Equity": 380335000.0,
+          "Net PPE": 709653000.0,
+          "Accounts Receivable": 21465000.0,
+          "Total Debt": 177000000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1437,7 +1445,7 @@
   },
   "validation": {
     "ticker": "EGY",
-    "checked_at": "2026-08-10T14:44:49.587621+00:00",
+    "checked_at": "2026-08-11T14:45:25.112457+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1448,7 +1456,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "info",

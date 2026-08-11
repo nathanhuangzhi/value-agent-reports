@@ -26,12 +26,12 @@
     "market_cap": 189856566.89999998,
     "ttm_pe": -7.719315588534254,
     "static_pe": -8.346444230008352,
-    "ev_revenue": 0.2858493466063041,
+    "ev_revenue": 0.29503072756728677,
     "pb": 1.0857384418748284,
     "ps": 0.5358578139112175,
     "p_fcf": -38.10085629139073,
     "ttm_pocf": -75.48968862823061,
-    "debt_asset": 0.0,
+    "debt_asset": 0.01139117280405642,
     "gross_margin": 0.44506130328757226,
     "op_margin": -0.0870834085982659,
     "net_margin": -0.06941778811416185,
@@ -981,7 +981,6 @@
           "Diluted EPS": -0.25,
           "Diluted Average Shares": 25164444.0,
           "Research And Development": 4034000.0,
-          "Selling General And Administration": 39994000.0,
           "Selling And Marketing Expense": 23757000.0,
           "General And Administrative Expense": 16237000.0
         },
@@ -994,7 +993,6 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1126,6 +1124,7 @@
           "Diluted EPS": -0.14,
           "Diluted Average Shares": 27045095.0,
           "Research And Development": 5871000.0,
+          "Selling General And Administration": 42497000.0,
           "Selling And Marketing Expense": 24824000.0,
           "General And Administrative Expense": 17673000.0
         },
@@ -1138,6 +1137,7 @@
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
+          "Selling General And Administration": "yfinance",
           "Selling And Marketing Expense": "sec",
           "General And Administrative Expense": "sec"
         }
@@ -1306,7 +1306,7 @@
           "Net PPE": 41099000.0,
           "Inventory": 26273000.0,
           "Accounts Receivable": 36623000.0,
-          "Total Debt": 2945000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1316,7 +1316,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1421,7 +1421,7 @@
           "Net PPE": 31781000.0,
           "Inventory": 28633000.0,
           "Accounts Receivable": 46157000.0,
-          "Total Debt": 0
+          "Total Debt": 3253000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1431,7 +1431,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1476,13 +1476,13 @@
   },
   "validation": {
     "ticker": "INGN",
-    "checked_at": "2026-08-10T14:44:49.622563+00:00",
+    "checked_at": "2026-08-11T14:45:25.147574+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "info",

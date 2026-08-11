@@ -23,23 +23,23 @@
     "logic_summary": "Oil and gas exploration and production company focused on the Utica and Marcellus shale plays in the US."
   },
   "snapshot": {
-    "market_cap": 268563938.35,
-    "ttm_pe": 5.690275618153697,
-    "static_pe": 19.410518816854584,
-    "ev_revenue": 1.7218927632597891,
-    "pb": 1.4883753600900018,
-    "ps": 0.6302276219205986,
-    "p_fcf": -0.3466848659997961,
-    "ttm_pocf": 1.0917898991808443,
-    "debt_asset": 0.2563402393060781,
-    "gross_margin": 0.5583120960815511,
-    "op_margin": 0.38768427129239824,
-    "net_margin": 0.11075520136669342,
-    "roe": 0.2615647219866882,
-    "roa": 0.02248025350954781,
+    "market_cap": 550532376.625,
+    "ttm_pe": 9.030894779039057,
+    "static_pe": 39.78985086910957,
+    "ev_revenue": 1.003765923431309,
+    "pb": 1.3799567779966864,
+    "ps": 1.0532856113480307,
+    "p_fcf": -0.8863828314683626,
+    "ttm_pocf": 1.7564595196581088,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": 0.4094887703972404,
+    "net_margin": 0.11663136788978364,
+    "roe": 0.1528039924902682,
+    "roa": 0.027872765837401475,
     "dividend_rate": 0.0,
-    "latest_q_ni": -1871000.0,
-    "latest_q_ocf": 58427000.0
+    "latest_q_ni": 31752000.0,
+    "latest_q_ocf": 137850000.0
   },
   "annual": {
     "income_statement": [
@@ -280,19 +280,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 50225000.0,
-          "Operating Income": 14439000.0,
-          "General And Administrative Expense": 2128000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 70442000.0,
@@ -450,22 +437,28 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 171019000.0,
+          "Operating Income": 70504000.0,
+          "Net Income": 31752000.0,
+          "Diluted EPS": 0.88,
+          "Diluted Average Shares": 36207325.0,
+          "General And Administrative Expense": 12411000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 66636000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 66636000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -556,18 +549,22 @@
           "Capital Expenditure": "yfinance",
           "Free Cash Flow": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 137850000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": 137850000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 6861000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -688,6 +685,23 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 25883000.0,
+          "Total Assets": 2187117000.0,
+          "Common Stock Equity": 398949000.0,
+          "Accounts Receivable": 69690000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -731,7 +745,7 @@
   },
   "validation": {
     "ticker": "INR",
-    "checked_at": "2026-08-10T14:44:49.622873+00:00",
+    "checked_at": "2026-08-11T14:45:25.147890+00:00",
     "status": "warn",
     "issues": [
       {
@@ -742,7 +756,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "warn",

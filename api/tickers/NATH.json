@@ -1032,6 +1032,29 @@
   "quarterly": {
     "income_statement": [
       {
+        "period": "2024-06-30",
+        "items": {
+          "Total Revenue": 44767000.0,
+          "Gross Profit": 19526000.0,
+          "Cost Of Revenue": 25241000.0,
+          "Operating Income": 13745000.0,
+          "Net Income": 9277000.0,
+          "Diluted EPS": 2.27,
+          "Diluted Average Shares": 4089000.0,
+          "General And Administrative Expense": 3975000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Gross Profit": "sec",
+          "Cost Of Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
+      },
+      {
         "period": "2024-09-29",
         "items": {
           "Total Revenue": 41109000.0,
@@ -1077,27 +1100,6 @@
           "Diluted Average Shares": "sec",
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
-        }
-      },
-      {
-        "period": "2025-03-31",
-        "items": {
-          "Total Revenue": 30787000.0,
-          "Gross Profit": 8939000.0,
-          "Cost Of Revenue": 21848000.0,
-          "Operating Income": 6368000.0,
-          "Net Income": 4235000.0,
-          "Selling General And Administration": 2345000.0,
-          "General And Administrative Expense": 3853000.0
-        },
-        "sources": {
-          "Total Revenue": "yfinance",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
-          "Operating Income": "yfinance",
-          "Net Income": "yfinance",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
         }
       },
       {
@@ -1212,6 +1214,8 @@
           "Net Income": 8829000.0,
           "Diluted EPS": 2.14,
           "Diluted Average Shares": 4129000.0,
+          "Selling General And Administration": 4734000.0,
+          "Selling And Marketing Expense": 411000.0,
           "General And Administrative Expense": 4323000.0
         },
         "sources": {
@@ -1222,11 +1226,26 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
     ],
     "cash_flow": [
+      {
+        "period": "2024-09-29",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 9833000.0,
+          "Capital Expenditure": 89000.0,
+          "Free Cash Flow": 9744000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
+      },
       {
         "period": "2024-12-29",
         "items": {
@@ -1251,19 +1270,6 @@
           "Cash Flow From Continuing Operating Activities": "sec",
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
-        }
-      },
-      {
-        "period": "2025-03-31",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 6790000.0,
-          "Capital Expenditure": -54000.0,
-          "Free Cash Flow": 6736000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "yfinance",
-          "Capital Expenditure": "yfinance",
-          "Free Cash Flow": "yfinance"
         }
       },
       {
@@ -1384,7 +1390,6 @@
           "Goodwill": 95000.0,
           "Net PPE": 2114000.0,
           "Inventory": 1221000.0,
-          "Accounts Receivable": 14436000.0,
           "Total Debt": 50473000.0
         },
         "sources": {
@@ -1394,7 +1399,6 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
-          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       },
@@ -1499,6 +1503,7 @@
           "Goodwill": 95000.0,
           "Net PPE": 1605000.0,
           "Inventory": 1399000.0,
+          "Accounts Receivable": 31221000.0,
           "Total Debt": 47561000.0
         },
         "sources": {
@@ -1508,6 +1513,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Inventory": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -1553,13 +1559,13 @@
   },
   "validation": {
     "ticker": "NATH",
-    "checked_at": "2026-08-10T14:44:49.660099+00:00",
+    "checked_at": "2026-08-11T14:45:25.185154+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       }
     ]
   },

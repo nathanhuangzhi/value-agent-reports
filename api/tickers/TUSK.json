@@ -26,13 +26,13 @@
     "market_cap": 144010360.0,
     "ttm_pe": 201.97806451612902,
     "static_pe": 31.327030672177507,
-    "ev_revenue": 1.3444697308488613,
+    "ev_revenue": 1.3835421946169773,
     "pb": 0.5488429774114006,
     "ps": 2.3852647619047618,
     "p_fcf": -1.2238702111024238,
     "ttm_pocf": -7.667874980033012,
-    "debt_asset": 0.0,
-    "gross_margin": null,
+    "debt_asset": 0.006818667946190622,
+    "gross_margin": 0.1515031055900621,
     "op_margin": -0.30563975155279505,
     "net_margin": 0.01180952380952381,
     "roe": 0.002717339522617183,
@@ -802,8 +802,6 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 11631000.0,
-          "Gross Profit": 1564000.0,
-          "Cost Of Revenue": 10067000.0,
           "Operating Income": -1163000.0,
           "Net Income": -537000.0,
           "Diluted EPS": -0.01,
@@ -813,8 +811,6 @@
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -827,8 +823,8 @@
         "period": "2025-06-30",
         "items": {
           "Total Revenue": 12353000.0,
-          "Gross Profit": 2364000.0,
-          "Cost Of Revenue": 14045000.0,
+          "Gross Profit": 1250000.0,
+          "Cost Of Revenue": 11103000.0,
           "Operating Income": -37127000.0,
           "Net Income": 8848000.0,
           "Diluted EPS": 0.18,
@@ -919,6 +915,8 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 26054000.0,
+          "Gross Profit": 6853000.0,
+          "Cost Of Revenue": 19201000.0,
           "Operating Income": 2628000.0,
           "Net Income": -760000.0,
           "Diluted EPS": -0.01,
@@ -927,6 +925,8 @@
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1070,20 +1070,18 @@
           "Total Assets": 374354000.0,
           "Common Stock Equity": 252511000.0,
           "Goodwill": 9214000.0,
-          "Net PPE": 113926000.0,
           "Inventory": 16516000.0,
           "Accounts Receivable": 76312000.0,
-          "Total Debt": 5484000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1188,18 +1186,20 @@
           "Total Assets": 345962000.0,
           "Common Stock Equity": 262389000.0,
           "Goodwill": 1462000.0,
+          "Net PPE": 153427000.0,
           "Inventory": 11043000.0,
           "Accounts Receivable": 39402000.0,
-          "Total Debt": 0
+          "Total Debt": 2359000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1244,13 +1244,13 @@
   },
   "validation": {
     "ticker": "TUSK",
-    "checked_at": "2026-08-10T14:44:49.732216+00:00",
+    "checked_at": "2026-08-11T14:45:25.258240+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "warn",

@@ -26,12 +26,12 @@
     "market_cap": 1230897360.0,
     "ttm_pe": 11.731994128748164,
     "static_pe": -12.861772585734885,
-    "ev_revenue": 0.46103852321231664,
+    "ev_revenue": 0.4627253205075009,
     "pb": 1.660507070221968,
     "ps": 0.3584108989293074,
     "p_fcf": 2.8030619002290913,
     "ttm_pocf": 2.614702523578894,
-    "debt_asset": 0.31427336221968316,
+    "debt_asset": 0.3167238936757845,
     "gross_margin": 0.2778591621803333,
     "op_margin": 0.05819406991604449,
     "net_margin": 0.03054987029451836,
@@ -1085,8 +1085,7 @@
           "Net Income": -1092000.0,
           "Diluted EPS": -0.03,
           "Diluted Average Shares": 38312000.0,
-          "Selling General And Administration": 147731000.0,
-          "General And Administrative Expense": 147731000.0
+          "Selling General And Administration": 147731000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1096,8 +1095,7 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "General And Administrative Expense": "yfinance"
+          "Selling General And Administration": "sec"
         }
       },
       {
@@ -1210,7 +1208,8 @@
           "Net Income": 21160000.0,
           "Diluted EPS": 0.53,
           "Diluted Average Shares": 39732000.0,
-          "Selling General And Administration": 147391000.0
+          "Selling General And Administration": 147391000.0,
+          "General And Administrative Expense": 147391000.0
         },
         "sources": {
           "Total Revenue": "sec",
@@ -1220,7 +1219,8 @@
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1382,7 +1382,7 @@
           "Goodwill": 897456000.0,
           "Net PPE": 177996000.0,
           "Accounts Receivable": 421869000.0,
-          "Total Debt": 852735000.0
+          "Total Debt": 846167000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1391,7 +1391,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1487,7 +1487,7 @@
           "Goodwill": 758999000.0,
           "Net PPE": 117344000.0,
           "Accounts Receivable": 382506000.0,
-          "Total Debt": 742935000.0
+          "Total Debt": 748728000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1496,7 +1496,7 @@
           "Goodwill": "sec",
           "Net PPE": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1541,13 +1541,13 @@
   },
   "validation": {
     "ticker": "AMN",
-    "checked_at": "2026-08-10T14:44:49.531250+00:00",
+    "checked_at": "2026-08-11T14:45:25.056144+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "info",

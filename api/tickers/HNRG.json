@@ -23,23 +23,23 @@
     "logic_summary": "Independent power producer and coal mining company selling electricity and coal to utilities."
   },
   "snapshot": {
-    "market_cap": 777332490.0,
-    "ttm_pe": 34.43943511585663,
-    "static_pe": 18.564937307444293,
-    "ev_revenue": 1.6308298161354484,
-    "pb": 3.7812782258456807,
-    "ps": 1.7141267646630767,
-    "p_fcf": -390.22715361445785,
-    "ttm_pocf": 12.297424340700195,
-    "debt_asset": 0.012457871930669235,
-    "gross_margin": 0.50927922802468,
-    "op_margin": 0.09126632354692317,
-    "net_margin": 0.04977220906488844,
-    "roe": 0.10979501298802377,
-    "roa": 0.05031072237379411,
+    "market_cap": 787592430.0,
+    "ttm_pe": -863.5881907894736,
+    "static_pe": 18.809974206491365,
+    "ev_revenue": 1.7597653405647398,
+    "pb": 4.137992717987516,
+    "ps": 1.7420680067772316,
+    "p_fcf": -15.60763406127383,
+    "ttm_pocf": 28.171564545552098,
+    "debt_asset": 0.09172214578116587,
+    "gross_margin": null,
+    "op_margin": 0.03729246939849857,
+    "net_margin": -0.0020172438962888905,
+    "roe": -0.0047916272618372105,
+    "roa": -0.001948534753142867,
     "dividend_rate": 0.0,
-    "latest_q_ni": -9321000.0,
-    "latest_q_ocf": 20496000.0
+    "latest_q_ni": -15235000.0,
+    "latest_q_ocf": -23890000.0
   },
   "annual": {
     "income_statement": [
@@ -889,29 +889,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 111574000.0,
-          "Cost Of Revenue": 85083000.0,
-          "Operating Income": 2733000.0,
-          "Net Income": -1696000.0,
-          "Diluted EPS": -0.05,
-          "Diluted Average Shares": 34816000.0,
-          "Selling General And Administration": 5944000.0,
-          "Gross Profit": 26491000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Cost Of Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 93825000.0,
@@ -977,10 +954,10 @@
       {
         "period": "2025-06-30",
         "items": {
-          "Total Revenue": 102889000.0,
+          "Total Revenue": 102825000.0,
           "Gross Profit": 56699000.0,
           "Cost Of Revenue": 46190000.0,
-          "Operating Income": 11870000.0,
+          "Operating Income": 11806000.0,
           "Net Income": 8248000.0,
           "Diluted EPS": 0.19,
           "Diluted Average Shares": 43048000.0,
@@ -1069,22 +1046,28 @@
           "Selling General And Administration": "sec",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 101505000.0,
+          "Operating Income": -12658000.0,
+          "Net Income": -15235000.0,
+          "Diluted EPS": -0.32,
+          "Diluted Average Shares": 47133000.0,
+          "Selling General And Administration": 7552000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 23522000.0,
-          "Capital Expenditure": 13170000.0,
-          "Free Cash Flow": 10352000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1175,28 +1158,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -23890000.0,
+          "Capital Expenditure": 26260000.0,
+          "Free Cash Flow": -50150000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 10728000.0,
-          "Total Assets": 595169000.0,
-          "Common Stock Equity": 316170000.0,
-          "Net PPE": 481781000.0,
-          "Accounts Receivable": 19098000.0,
-          "Total Debt": 42672000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1339,6 +1316,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 34929000.0,
+          "Total Assets": 468044000.0,
+          "Common Stock Equity": 190332000.0,
+          "Net PPE": 305321000.0,
+          "Accounts Receivable": 14396000.0,
+          "Total Debt": 42930000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1382,7 +1378,7 @@
   },
   "validation": {
     "ticker": "HNRG",
-    "checked_at": "2026-08-10T14:44:49.615646+00:00",
+    "checked_at": "2026-08-11T14:45:25.140611+00:00",
     "status": "ok",
     "issues": []
   },

@@ -23,23 +23,23 @@
     "logic_summary": "Tech-enabled digital finance platform offering installment loans to underserved consumers."
   },
   "snapshot": {
-    "market_cap": 821009937.225,
-    "ttm_pe": 12.420349417944994,
-    "static_pe": 31.182723887158648,
-    "ev_revenue": 1.6517349292219174,
-    "pb": 2.3937405963724045,
-    "ps": 1.3488743972033785,
-    "p_fcf": 2.113423130569871,
-    "ttm_pocf": 2.010584059579668,
-    "debt_asset": 0.3948126841179077,
-    "gross_margin": 0.8376753638713048,
-    "op_margin": 0.3831824835746546,
-    "net_margin": 0.10860196857702867,
-    "roe": 0.19272731513607128,
-    "roa": 0.09180999101372664,
+    "market_cap": 819503863.275,
+    "ttm_pe": 8.05615059646691,
+    "static_pe": 31.12552179251016,
+    "ev_revenue": 1.5607607208506713,
+    "pb": 1.9782594374841582,
+    "ps": 1.757762136491356,
+    "p_fcf": 2.129112358601106,
+    "ttm_pocf": 2.0246661312259118,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": 0.45638539745184675,
+    "net_margin": 0.2181888378876925,
+    "roe": 0.2455588948835862,
+    "roa": 0.13198413450123195,
     "dividend_rate": 0.0,
-    "latest_q_ni": 28401000.0,
-    "latest_q_ocf": 90779000.0
+    "latest_q_ni": 14842000.0,
+    "latest_q_ocf": 92033000.0
   },
   "annual": {
     "income_statement": [
@@ -428,25 +428,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Operating Income": 29487000.0,
-          "Net Income": 3066000.0,
-          "Diluted EPS": 0.16,
-          "Diluted Average Shares": 19675934.0,
-          "General And Administrative Expense": 3859000.0,
-          "Total Revenue": 0
-        },
-        "sources": {
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Total Revenue": "derived"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Operating Income": 35092000.0,
@@ -515,7 +496,7 @@
           "Diluted Average Shares": 26610330.0,
           "Selling General And Administration": 21635000.0,
           "Selling And Marketing Expense": 11890000.0,
-          "General And Administrative Expense": 3923000.0
+          "General And Administrative Expense": 3922000.0
         },
         "sources": {
           "Total Revenue": "yfinance",
@@ -606,22 +587,28 @@
           "Selling And Marketing Expense": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Operating Income": 24355000.0,
+          "Net Income": 14842000.0,
+          "Diluted EPS": 0.18,
+          "Diluted Average Shares": 86037151.0,
+          "General And Administrative Expense": 4726000.0,
+          "Total Revenue": 0
+        },
+        "sources": {
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec",
+          "Total Revenue": "derived"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 77305000.0,
-          "Capital Expenditure": 2592000.0,
-          "Free Cash Flow": 74713000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -712,26 +699,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 92033000.0,
+          "Capital Expenditure": 4626000.0,
+          "Free Cash Flow": 87407000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 80837000.0,
-          "Total Assets": 573093000.0,
-          "Common Stock Equity": 201689000.0,
-          "Net PPE": 9795000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -860,6 +843,23 @@
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 91846000.0,
+          "Total Assets": 770729000.0,
+          "Common Stock Equity": 414255000.0,
+          "Net PPE": 35301000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -903,7 +903,7 @@
   },
   "validation": {
     "ticker": "OPFI",
-    "checked_at": "2026-08-10T14:44:49.674199+00:00",
+    "checked_at": "2026-08-11T14:45:25.199447+00:00",
     "status": "error",
     "issues": [
       {
@@ -919,7 +919,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "warn",

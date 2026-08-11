@@ -32,7 +32,7 @@
     "p_fcf": 24.72351157917653,
     "ttm_pocf": 5.866003434961712,
     "debt_asset": 0.18963079583072695,
-    "gross_margin": null,
+    "gross_margin": 0.07548160599869716,
     "op_margin": 0.013969699964303074,
     "net_margin": 0.0018645089857434137,
     "roe": 0.03141939540179103,
@@ -503,24 +503,18 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 1829473000.0,
-          "Gross Profit": 66953000.0,
-          "Cost Of Revenue": 1762520000.0,
           "Operating Income": -11764000.0,
           "Net Income": -12672000.0,
           "Diluted EPS": -0.12,
           "Diluted Average Shares": 115883000.0,
-          "Selling General And Administration": 41613000.0,
           "General And Administrative Expense": 41613000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       },
@@ -529,7 +523,7 @@
         "items": {
           "Total Revenue": 1998951000.0,
           "Gross Profit": 316232000.0,
-          "Cost Of Revenue": 1683287000.0,
+          "Cost Of Revenue": 1682719000.0,
           "Operating Income": 56690000.0,
           "Net Income": 20098000.0,
           "Diluted EPS": 0.16,
@@ -628,18 +622,24 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 2346543000.0,
+          "Gross Profit": 297610000.0,
+          "Cost Of Revenue": 2048933000.0,
           "Operating Income": 30380000.0,
           "Net Income": 6115000.0,
           "Diluted EPS": 0.04,
           "Diluted Average Shares": 115882000.0,
+          "Selling General And Administration": 43721000.0,
           "General And Administrative Expense": 43721000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
       }
@@ -977,7 +977,7 @@
   },
   "validation": {
     "ticker": "ARKO",
-    "checked_at": "2026-08-10T14:44:49.536789+00:00",
+    "checked_at": "2026-08-11T14:45:25.061733+00:00",
     "status": "warn",
     "issues": [
       {
@@ -988,7 +988,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "info",

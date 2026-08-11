@@ -23,23 +23,23 @@
     "logic_summary": "A wealth management and investment banking firm offering brokerage, advisory, and asset management services to individuals and institutions."
   },
   "snapshot": {
-    "market_cap": 57818460.800000004,
-    "ttm_pe": -1.2222484050311808,
-    "static_pe": -2.5771544818364167,
-    "ev_revenue": 0.21753011782032403,
-    "pb": 1.829177158404252,
-    "ps": 0.3801445192509994,
-    "p_fcf": -7.75358197666622,
-    "ttm_pocf": -7.75358197666622,
-    "debt_asset": 0.032161275199249884,
+    "market_cap": 72815209.60000001,
+    "ttm_pe": -1.0569165616744565,
+    "static_pe": -3.2456077379095167,
+    "ev_revenue": 0.3544121195934417,
+    "pb": 3.326414326176337,
+    "ps": 0.5402122531345056,
+    "p_fcf": -4.281736422439139,
+    "ttm_pocf": -4.281736422439139,
+    "debt_asset": 0.0,
     "gross_margin": null,
-    "op_margin": -0.40328476751525355,
-    "net_margin": -0.31102067115505994,
-    "roe": -1.4965674333259515,
-    "roa": -0.5544421003281763,
+    "op_margin": -0.31941538689813787,
+    "net_margin": -0.5111210030417687,
+    "roe": -3.1472818638647784,
+    "roa": -1.1999930328154393,
     "dividend_rate": 0.0,
-    "latest_q_ni": -57358000.0,
-    "latest_q_ocf": -28942000.0
+    "latest_q_ni": -4979000.0,
+    "latest_q_ocf": -9902000.0
   },
   "annual": {
     "income_statement": [
@@ -859,25 +859,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-06-30",
-        "items": {
-          "Total Revenue": 6174000.0,
-          "Operating Income": -2736000.0,
-          "Net Income": -6120000.0,
-          "Diluted EPS": -1.01,
-          "Diluted Average Shares": 6063003.0,
-          "General And Administrative Expense": 8910000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-09-30",
         "items": {
           "Total Revenue": 4043000.0,
@@ -933,8 +914,8 @@
       {
         "period": "2025-06-30",
         "items": {
-          "Total Revenue": 34095000.0,
-          "Operating Income": -19426000.0,
+          "Total Revenue": 38914000.0,
+          "Operating Income": -14856000.0,
           "Net Income": 16610000.0,
           "Diluted EPS": 1.12,
           "Diluted Average Shares": 14830534.0,
@@ -1013,22 +994,24 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 16789000.0,
+          "Operating Income": -1142000.0,
+          "Net Income": -4979000.0,
+          "Diluted Average Shares": 22754753.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted Average Shares": "sec"
+        }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": 1409000.0,
-          "Capital Expenditure": 0,
-          "Free Cash Flow": 1409000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "derived",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1119,26 +1102,22 @@
           "Capital Expenditure": "derived",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": -9902000.0,
+          "Capital Expenditure": 0,
+          "Free Cash Flow": -9902000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "derived",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 5802000.0,
-          "Total Assets": 49073000.0,
-          "Common Stock Equity": 42359000.0,
-          "Net PPE": 291000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1197,7 +1176,7 @@
       {
         "period": "2025-06-30",
         "items": {
-          "Cash And Cash Equivalents": 19100000.0,
+          "Cash And Cash Equivalents": 9469000.0,
           "Total Assets": 109338000.0,
           "Common Stock Equity": 88600000.0,
           "Net PPE": 187000.0,
@@ -1256,7 +1235,7 @@
         "items": {
           "Cash And Cash Equivalents": 27477000.0,
           "Total Assets": 85320000.0,
-          "Common Stock Equity": 31609000.0,
+          "Common Stock Equity": 31577000.0,
           "Net PPE": 108000.0,
           "Accounts Receivable": 21883000.0,
           "Total Debt": 2744000.0
@@ -1268,6 +1247,23 @@
           "Net PPE": "sec",
           "Accounts Receivable": "yfinance",
           "Total Debt": "yfinance"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 25044000.0,
+          "Total Assets": 57412000.0,
+          "Common Stock Equity": 21890000.0,
+          "Net PPE": 100000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Total Debt": "sec"
         }
       }
     ]
@@ -1312,13 +1308,13 @@
   },
   "validation": {
     "ticker": "DOMH",
-    "checked_at": "2026-08-10T14:44:49.582121+00:00",
+    "checked_at": "2026-08-11T14:45:25.106909+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "warn",

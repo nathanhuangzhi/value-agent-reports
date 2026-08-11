@@ -23,23 +23,23 @@
     "logic_summary": "An oil and gas exploration and production company operating in Canada."
   },
   "snapshot": {
-    "market_cap": 14192653.440000001,
-    "ttm_pe": -2.1651645217391304,
-    "static_pe": -1.9981209967619318,
-    "ev_revenue": 0.8926931102396516,
-    "pb": 1.7395089398210566,
-    "ps": 1.2368325437908498,
-    "p_fcf": -2.2969175335814858,
-    "ttm_pocf": -4.248025573181683,
-    "debt_asset": 0.003109481598366362,
-    "gross_margin": 0.037995642701525056,
-    "op_margin": -0.13725490196078433,
-    "net_margin": -0.5712418300653594,
-    "roe": -0.8034072803039588,
-    "roa": -0.3042186847356941,
+    "market_cap": 16031529.920000002,
+    "ttm_pe": -2.9442662846648306,
+    "static_pe": -2.2570082950865835,
+    "ev_revenue": 0.9916420785457042,
+    "pb": 1.79383796799821,
+    "ps": 1.3746810084033616,
+    "p_fcf": -2.594518517559476,
+    "ttm_pocf": -4.798422604010776,
+    "debt_asset": 0.0,
+    "gross_margin": null,
+    "op_margin": -0.07237180586520323,
+    "net_margin": -0.4669010461327388,
+    "roe": -0.6092648539778449,
+    "roa": -0.2533854530224766,
     "dividend_rate": 0.0,
-    "latest_q_ni": -1150000.0,
-    "latest_q_ocf": -655000.0
+    "latest_q_ni": -440000.0,
+    "latest_q_ocf": null
   },
   "annual": {
     "income_statement": [
@@ -877,25 +877,6 @@
   "quarterly": {
     "income_statement": [
       {
-        "period": "2024-03-31",
-        "items": {
-          "Total Revenue": 4678000.0,
-          "Operating Income": -689000.0,
-          "Net Income": -1772000.0,
-          "Diluted EPS": -0.13,
-          "Diluted Average Shares": 10019172.0,
-          "General And Administrative Expense": 1256000.0
-        },
-        "sources": {
-          "Total Revenue": "sec",
-          "Operating Income": "sec",
-          "Net Income": "sec",
-          "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec"
-        }
-      },
-      {
         "period": "2024-06-30",
         "items": {
           "Total Revenue": 4506000.0,
@@ -1053,6 +1034,25 @@
           "Selling General And Administration": "yfinance",
           "General And Administrative Expense": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Total Revenue": 3379000.0,
+          "Operating Income": 783000.0,
+          "Net Income": -440000.0,
+          "Diluted EPS": -0.03,
+          "Diluted Average Shares": 14313866.0,
+          "General And Administrative Expense": 1409000.0
+        },
+        "sources": {
+          "Total Revenue": "sec",
+          "Operating Income": "sec",
+          "Net Income": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
+        }
       }
     ],
     "cash_flow": [
@@ -1162,25 +1162,6 @@
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 4349000.0,
-          "Total Assets": 31398000.0,
-          "Common Stock Equity": 15009000.0,
-          "Net PPE": 16825000.0,
-          "Accounts Receivable": 2940000.0,
-          "Total Debt": 0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Net PPE": "sec",
-          "Accounts Receivable": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -1313,6 +1294,25 @@
           "Accounts Receivable": "sec",
           "Total Debt": "yfinance"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 4467000.0,
+          "Total Assets": 21489000.0,
+          "Common Stock Equity": 8937000.0,
+          "Net PPE": 7904000.0,
+          "Accounts Receivable": 1008000.0,
+          "Total Debt": 0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Net PPE": "sec",
+          "Accounts Receivable": "sec",
+          "Total Debt": "sec"
+        }
       }
     ]
   },
@@ -1356,13 +1356,13 @@
   },
   "validation": {
     "ticker": "BRN",
-    "checked_at": "2026-08-10T14:44:49.552827+00:00",
+    "checked_at": "2026-08-11T14:45:25.077845+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "info",

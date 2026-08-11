@@ -26,15 +26,15 @@
     "market_cap": 811299999.9999999,
     "ttm_pe": -16.557142857142853,
     "static_pe": -10.141249999999998,
-    "ev_revenue": null,
+    "ev_revenue": 71.03883333333333,
     "pb": 0.338323603002502,
-    "ps": null,
+    "ps": 1.3521666666666665,
     "p_fcf": 2.386176470588235,
     "ttm_pocf": 2.386176470588235,
-    "debt_asset": 0.08909656003552022,
+    "debt_asset": 0.9292555553206334,
     "gross_margin": null,
     "op_margin": null,
-    "net_margin": null,
+    "net_margin": -0.08166666666666667,
     "roe": -0.02043369474562135,
     "roa": -0.0010360065120409328,
     "dividend_rate": 0.0,
@@ -753,20 +753,14 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 156000000.0,
           "Net Income": -2000000.0,
           "Diluted EPS": -0.02,
-          "Diluted Average Shares": 102000000.0,
-          "Selling General And Administration": 49000000.0,
-          "General And Administrative Expense": 49000000.0
+          "Diluted Average Shares": 102000000.0
         },
         "sources": {
-          "Total Revenue": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "yfinance"
+          "Diluted Average Shares": "sec"
         }
       },
       {
@@ -848,14 +842,20 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 150000000.0,
           "Net Income": 25000000.0,
           "Diluted EPS": 0.26,
-          "Diluted Average Shares": 95000000.0
+          "Diluted Average Shares": 95000000.0,
+          "Selling General And Administration": 27000000.0,
+          "General And Administrative Expense": 27000000.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "sec",
-          "Diluted Average Shares": "sec"
+          "Diluted Average Shares": "sec",
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "yfinance"
         }
       }
     ],
@@ -1011,16 +1011,14 @@
           "Total Assets": 50950000000.0,
           "Common Stock Equity": 2589000000.0,
           "Net PPE": 34000000.0,
-          "Accounts Receivable": 1700000000.0,
-          "Total Debt": 48104000000.0
+          "Total Debt": 4855000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Net PPE": "sec",
-          "Accounts Receivable": "yfinance",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -1111,7 +1109,8 @@
           "Common Stock Equity": 2398000000.0,
           "Goodwill": 428000000.0,
           "Net PPE": 21000000.0,
-          "Total Debt": 4214000000.0
+          "Accounts Receivable": 1648000000.0,
+          "Total Debt": 43951000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1119,7 +1118,8 @@
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
           "Net PPE": "sec",
-          "Total Debt": "sec"
+          "Accounts Receivable": "yfinance",
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1164,7 +1164,7 @@
   },
   "validation": {
     "ticker": "NAVI",
-    "checked_at": "2026-08-10T14:44:49.660549+00:00",
+    "checked_at": "2026-08-11T14:45:25.185618+00:00",
     "status": "error",
     "issues": [
       {
@@ -1180,7 +1180,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "warn",
@@ -1195,7 +1195,7 @@
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2024-09-30 is 679 days old (>180)"
+        "detail": "latest quarterly period 2024-09-30 is 680 days old (>180)"
       }
     ]
   },

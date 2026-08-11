@@ -1088,22 +1088,22 @@
       {
         "period": "2025-03-31",
         "items": {
-          "Total Revenue": 0.0,
           "Operating Income": -2207522.0,
           "Net Income": -3579036.0,
           "Diluted EPS": -1.24,
           "Diluted Average Shares": 2909985.0,
           "Research And Development": 418207.0,
-          "Selling General And Administration": 1789315.0
+          "Selling General And Administration": 1789315.0,
+          "Total Revenue": 0
         },
         "sources": {
-          "Total Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Total Revenue": "derived"
         }
       },
       {
@@ -1189,22 +1189,22 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 0.0,
           "Operating Income": -16430235.0,
           "Net Income": -20788574.0,
           "Diluted EPS": -0.05,
           "Diluted Average Shares": 388144429.0,
           "Research And Development": 57352.0,
-          "Selling General And Administration": 16372883.0,
-          "Total Revenue": 0
+          "Selling General And Administration": 16372883.0
         },
         "sources": {
+          "Total Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
           "Research And Development": "sec",
-          "Selling General And Administration": "sec",
-          "Total Revenue": "derived"
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -1444,12 +1444,14 @@
           "Cash And Cash Equivalents": 3642232.0,
           "Total Assets": 66487171.0,
           "Common Stock Equity": 46400861.0,
+          "Accounts Receivable": 238758.0,
           "Total Debt": 15000000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
+          "Accounts Receivable": "yfinance",
           "Total Debt": "sec"
         }
       }
@@ -1489,7 +1491,7 @@
   },
   "validation": {
     "ticker": "USBC",
-    "checked_at": "2026-08-10T14:44:49.737668+00:00",
+    "checked_at": "2026-08-11T14:45:25.263704+00:00",
     "status": "warn",
     "issues": [
       {
@@ -1500,12 +1502,12 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "warn",
         "rule": "stale_filings",
-        "detail": "latest quarterly period 2023-06-30 is 1137 days old (>180)"
+        "detail": "latest quarterly period 2023-06-30 is 1138 days old (>180)"
       },
       {
         "severity": "info",

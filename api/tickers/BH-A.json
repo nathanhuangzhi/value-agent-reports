@@ -23,17 +23,17 @@
     "logic_summary": "Operates and franchises restaurant chains, with additional business lines in insurance, oil & gas, and publishing."
   },
   "snapshot": {
-    "market_cap": 372351980.0,
-    "ttm_pe": -12.516453662307978,
-    "static_pe": -9.932564553990611,
-    "ev_revenue": 1.335631046418745,
-    "pb": 0.6847373976623243,
-    "ps": 0.9180004043272881,
-    "p_fcf": 7.400269894268225,
-    "ttm_pocf": 4.417143907849627,
+    "market_cap": 897759720.0,
+    "ttm_pe": -30.177811691149284,
+    "static_pe": -23.94792253521127,
+    "ev_revenue": 2.630976696941905,
+    "pb": 1.6509369827947655,
+    "ps": 2.213346054850448,
+    "p_fcf": 17.842430240877654,
+    "ttm_pocf": 10.649960496814833,
     "debt_asset": 0.22530191274381628,
-    "gross_margin": 0.4470602447659339,
-    "op_margin": null,
+    "gross_margin": 0.3913049909765983,
+    "op_margin": 0.05902685324891768,
     "net_margin": -0.07334349082374289,
     "roe": -0.05470698139716213,
     "roa": -0.028102635218367176,
@@ -586,23 +586,21 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 95035000.0,
-          "Gross Profit": 34528000.0,
           "Cost Of Revenue": 37758000.0,
-          "Operating Income": 2904000.0,
           "Net Income": -33275000.0,
           "Diluted EPS": -126.4,
           "Diluted Average Shares": 263257.0,
-          "Selling General And Administration": 21367000.0
+          "Selling General And Administration": 21367000.0,
+          "Gross Profit": 57277000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
-          "Operating Income": "yfinance",
           "Net Income": "sec",
           "Diluted EPS": "yfinance",
           "Diluted Average Shares": "yfinance",
-          "Selling General And Administration": "sec"
+          "Selling General And Administration": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -697,17 +695,23 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 108524000.0,
+          "Gross Profit": 44782000.0,
           "Cost Of Revenue": 41127000.0,
+          "Operating Income": 8403000.0,
           "Net Income": 39926000.0,
-          "Selling General And Administration": 26230000.0,
-          "Gross Profit": 67397000.0
+          "Diluted EPS": 158.15,
+          "Diluted Average Shares": 627804.0,
+          "Selling General And Administration": 26230000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
+          "Operating Income": "yfinance",
           "Net Income": "sec",
-          "Selling General And Administration": "sec",
-          "Gross Profit": "sec"
+          "Diluted EPS": "yfinance",
+          "Diluted Average Shares": "yfinance",
+          "Selling General And Administration": "sec"
         }
       }
     ],
@@ -874,7 +878,7 @@
           "Net PPE": 370394000.0,
           "Inventory": 4233000.0,
           "Accounts Receivable": 22506000.0,
-          "Total Debt": 48400000.0
+          "Total Debt": 13400000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -1044,7 +1048,7 @@
   },
   "validation": {
     "ticker": "BH-A",
-    "checked_at": "2026-08-10T14:44:49.547330+00:00",
+    "checked_at": "2026-08-11T14:45:25.072336+00:00",
     "status": "error",
     "issues": [
       {
@@ -1060,7 +1064,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       }
     ]
   },

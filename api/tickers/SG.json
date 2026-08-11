@@ -26,12 +26,12 @@
     "market_cap": 1013015424.4799999,
     "ttm_pe": 74.0995848496818,
     "static_pe": -7.5561513033230145,
-    "ev_revenue": 1.2676216678351935,
+    "ev_revenue": 1.3297012547926719,
     "pb": 2.1663172194576377,
     "ps": 1.4858609567449432,
     "p_fcf": -8.709091744800846,
     "ttm_pocf": -36.65564569691706,
-    "debt_asset": 0.0,
+    "debt_asset": 0.04725459131209534,
     "gross_margin": 0.11748390219575516,
     "op_margin": -0.20478313800841927,
     "net_margin": 0.020052217023336316,
@@ -476,25 +476,23 @@
         "period": "2025-03-30",
         "items": {
           "Total Revenue": 166304000.0,
-          "Gross Profit": 29687000.0,
           "Cost Of Revenue": 136617000.0,
           "Operating Income": -28537000.0,
           "Net Income": -25039000.0,
           "Diluted EPS": -0.21,
           "Diluted Average Shares": 117307189.0,
-          "Selling General And Administration": 38337000.0,
-          "General And Administrative Expense": 38337000.0
+          "General And Administrative Expense": 38337000.0,
+          "Gross Profit": 29687000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -601,23 +599,25 @@
         "period": "2026-06-28",
         "items": {
           "Total Revenue": 192662000.0,
+          "Gross Profit": 25177000.0,
           "Cost Of Revenue": 167485000.0,
           "Operating Income": -27410000.0,
           "Net Income": -26270000.0,
           "Diluted EPS": -0.22,
           "Diluted Average Shares": 118898524.0,
-          "General And Administrative Expense": 29713000.0,
-          "Gross Profit": 25177000.0
+          "Selling General And Administration": 29713000.0,
+          "General And Administrative Expense": 29713000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -784,7 +784,7 @@
           "Net PPE": 298234000.0,
           "Inventory": 2119000.0,
           "Accounts Receivable": 7912000.0,
-          "Total Debt": 37703000.0
+          "Total Debt": 0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -794,7 +794,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -899,7 +899,7 @@
           "Net PPE": 311218000.0,
           "Inventory": 2873000.0,
           "Accounts Receivable": 5710000.0,
-          "Total Debt": 0
+          "Total Debt": 42324000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
@@ -909,7 +909,7 @@
           "Net PPE": "sec",
           "Inventory": "sec",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -954,13 +954,13 @@
   },
   "validation": {
     "ticker": "SG",
-    "checked_at": "2026-08-10T14:44:49.706378+00:00",
+    "checked_at": "2026-08-11T14:45:25.231954+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       }
     ]
   },

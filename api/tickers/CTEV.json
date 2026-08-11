@@ -26,14 +26,14 @@
     "market_cap": 235303995.2,
     "ttm_pe": -0.8311427584428612,
     "static_pe": -0.827713310023146,
-    "ev_revenue": 0.22351052983454797,
+    "ev_revenue": 4.906636273172281,
     "pb": -0.8174847577986304,
     "ps": 0.23656512387537965,
     "p_fcf": -13.127872974782415,
     "ttm_pocf": 1.7687375141879955,
-    "debt_asset": 0.0030836358018303234,
-    "gross_margin": 0.6895258623723067,
-    "op_margin": 0.04904747207362449,
+    "debt_asset": 0.9808963619185043,
+    "gross_margin": 0.6729253651214625,
+    "op_margin": 0.09424240626781372,
     "net_margin": -0.28462634303471807,
     "roe": 0.9835672024986191,
     "roa": -0.059428526087160045,
@@ -220,7 +220,7 @@
           "Net Income": -284282000.0,
           "Diluted EPS": -17.3,
           "Diluted Average Shares": 16434919.0,
-          "Selling General And Administration": 158562000.0,
+          "Selling General And Administration": 113608000.0,
           "General And Administrative Expense": 221518000.0
         },
         "sources": {
@@ -562,25 +562,23 @@
         "period": "2025-03-31",
         "items": {
           "Total Revenue": 231330000.0,
-          "Gross Profit": 154126000.0,
           "Cost Of Revenue": 60436000.0,
           "Operating Income": 9742000.0,
           "Net Income": -71319000.0,
           "Diluted EPS": -4.38,
           "Diluted Average Shares": 16273439.0,
-          "Selling General And Administration": 30200000.0,
-          "General And Administrative Expense": 46968000.0
+          "General And Administrative Expense": 46968000.0,
+          "Gross Profit": 170894000.0
         },
         "sources": {
           "Total Revenue": "sec",
-          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "Selling General And Administration": "yfinance",
-          "General And Administrative Expense": "sec"
+          "General And Administrative Expense": "sec",
+          "Gross Profit": "sec"
         }
       },
       {
@@ -593,7 +591,7 @@
           "Net Income": -62640000.0,
           "Diluted EPS": -3.81,
           "Diluted Average Shares": 16453896.0,
-          "Selling General And Administration": 34630000.0,
+          "Selling General And Administration": 24886000.0,
           "General And Administrative Expense": 51118000.0
         },
         "sources": {
@@ -639,12 +637,12 @@
           "Total Revenue": 246554000.0,
           "Gross Profit": 168520000.0,
           "Cost Of Revenue": 78034000.0,
-          "Operating Income": 8671000.0,
+          "Operating Income": 53625000.0,
           "Net Income": -80570000.0,
           "Diluted EPS": -4.88,
           "Diluted Average Shares": 16527052.0,
-          "Selling General And Administration": 48111000.0,
-          "General And Administrative Expense": 48111000.0
+          "Selling General And Administration": 3157000.0,
+          "General And Administrative Expense": 3157000.0
         },
         "sources": {
           "Total Revenue": "yfinance",
@@ -668,7 +666,7 @@
           "Net Income": -73560000.0,
           "Diluted EPS": -4.41,
           "Diluted Average Shares": 16692340.0,
-          "Selling General And Administration": 46098000.0,
+          "Selling General And Administration": 34308000.0,
           "General And Administrative Expense": 57830000.0
         },
         "sources": {
@@ -687,23 +685,25 @@
         "period": "2026-06-30",
         "items": {
           "Total Revenue": 257478000.0,
+          "Gross Profit": 173299000.0,
           "Cost Of Revenue": 67667000.0,
           "Operating Income": 23409000.0,
           "Net Income": -59226000.0,
           "Diluted EPS": -3.49,
           "Diluted Average Shares": 16964960.0,
-          "General And Administrative Expense": 55389000.0,
-          "Gross Profit": 189811000.0
+          "Selling General And Administration": 29627000.0,
+          "General And Administrative Expense": 55389000.0
         },
         "sources": {
           "Total Revenue": "sec",
+          "Gross Profit": "yfinance",
           "Cost Of Revenue": "sec",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
           "Diluted Average Shares": "sec",
-          "General And Administrative Expense": "sec",
-          "Gross Profit": "sec"
+          "Selling General And Administration": "yfinance",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
@@ -859,18 +859,16 @@
           "Total Assets": 5084524000.0,
           "Common Stock Equity": 14825000.0,
           "Goodwill": 2403140000.0,
-          "Net PPE": 315880000.0,
           "Accounts Receivable": 93466000.0,
-          "Total Debt": 4614363000.0
+          "Total Debt": 14690000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
-          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "yfinance"
+          "Total Debt": "sec"
         }
       },
       {
@@ -964,16 +962,18 @@
           "Total Assets": 4763857000.0,
           "Common Stock Equity": -287839000.0,
           "Goodwill": 2405853000.0,
+          "Net PPE": 372584000.0,
           "Accounts Receivable": 130901000.0,
-          "Total Debt": 14690000.0
+          "Total Debt": 4672850000.0
         },
         "sources": {
           "Cash And Cash Equivalents": "sec",
           "Total Assets": "sec",
           "Common Stock Equity": "sec",
           "Goodwill": "sec",
+          "Net PPE": "yfinance",
           "Accounts Receivable": "sec",
-          "Total Debt": "sec"
+          "Total Debt": "yfinance"
         }
       }
     ]
@@ -1012,13 +1012,13 @@
   },
   "validation": {
     "ticker": "CTEV",
-    "checked_at": "2026-08-10T14:44:49.572133+00:00",
+    "checked_at": "2026-08-11T14:45:25.096925+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-05-01 is 101 days old"
+        "detail": "latest close 2026-05-01 is 102 days old"
       },
       {
         "severity": "warn",

@@ -1028,7 +1028,6 @@
         "items": {
           "Total Revenue": 183788000.0,
           "Gross Profit": 31065000.0,
-          "Cost Of Revenue": 152723000.0,
           "Operating Income": 19642000.0,
           "Net Income": 9899000.0,
           "Diluted EPS": 0.8,
@@ -1038,7 +1037,6 @@
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
-          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1141,6 +1139,7 @@
         "items": {
           "Total Revenue": 214059000.0,
           "Gross Profit": 41943000.0,
+          "Cost Of Revenue": 172116000.0,
           "Operating Income": 21946000.0,
           "Net Income": 9898000.0,
           "Diluted EPS": 0.25,
@@ -1150,6 +1149,7 @@
         "sources": {
           "Total Revenue": "sec",
           "Gross Profit": "sec",
+          "Cost Of Revenue": "yfinance",
           "Operating Income": "sec",
           "Net Income": "sec",
           "Diluted EPS": "sec",
@@ -1475,13 +1475,13 @@
   },
   "validation": {
     "ticker": "USPH",
-    "checked_at": "2026-08-10T14:44:49.738955+00:00",
+    "checked_at": "2026-08-11T14:45:25.264996+00:00",
     "status": "warn",
     "issues": [
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       },
       {
         "severity": "info",

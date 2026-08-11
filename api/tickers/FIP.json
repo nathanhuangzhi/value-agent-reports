@@ -26,12 +26,12 @@
     "market_cap": 511649925.15000004,
     "ttm_pe": null,
     "static_pe": -4.774011655345514,
-    "ev_revenue": null,
-    "pb": -4.177996008182063,
-    "ps": null,
-    "p_fcf": -1.4125898316432317,
-    "ttm_pocf": -5.02929133967012,
-    "debt_asset": 0.6703223256896507,
+    "ev_revenue": 4.7068695248822445,
+    "pb": -1.5515074630961623,
+    "ps": 0.7761620818258357,
+    "p_fcf": -1.6053676207673386,
+    "ttm_pocf": -8.901975174855593,
+    "debt_asset": 0.4809186765725641,
     "gross_margin": null,
     "op_margin": null,
     "net_margin": null,
@@ -39,7 +39,7 @@
     "roa": null,
     "dividend_rate": 0.0,
     "latest_q_ni": null,
-    "latest_q_ocf": null
+    "latest_q_ocf": 39037000.0
   },
   "annual": {
     "income_statement": [
@@ -512,29 +512,20 @@
       {
         "period": "2026-06-30",
         "items": {
+          "Total Revenue": 186768000.0,
           "Diluted EPS": -1.41,
-          "Diluted Average Shares": 118163955.0
+          "Diluted Average Shares": 118163955.0,
+          "General And Administrative Expense": 3674000.0
         },
         "sources": {
-          "Diluted EPS": "yfinance",
-          "Diluted Average Shares": "yfinance"
+          "Total Revenue": "sec",
+          "Diluted EPS": "sec",
+          "Diluted Average Shares": "sec",
+          "General And Administrative Expense": "sec"
         }
       }
     ],
     "cash_flow": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash Flow From Continuing Operating Activities": -17587000.0,
-          "Capital Expenditure": 14561000.0,
-          "Free Cash Flow": -32148000.0
-        },
-        "sources": {
-          "Cash Flow From Continuing Operating Activities": "sec",
-          "Capital Expenditure": "sec",
-          "Free Cash Flow": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -625,28 +616,22 @@
           "Capital Expenditure": "sec",
           "Free Cash Flow": "sec"
         }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash Flow From Continuing Operating Activities": 39037000.0,
+          "Capital Expenditure": 82553000.0,
+          "Free Cash Flow": -43516000.0
+        },
+        "sources": {
+          "Cash Flow From Continuing Operating Activities": "sec",
+          "Capital Expenditure": "sec",
+          "Free Cash Flow": "sec"
+        }
       }
     ],
     "balance_sheet": [
-      {
-        "period": "2024-06-30",
-        "items": {
-          "Cash And Cash Equivalents": 186465000.0,
-          "Total Assets": 2452408000.0,
-          "Common Stock Equity": 286667000.0,
-          "Goodwill": 275367000.0,
-          "Net PPE": 1605786000.0,
-          "Total Debt": 1554124000.0
-        },
-        "sources": {
-          "Cash And Cash Equivalents": "sec",
-          "Total Assets": "sec",
-          "Common Stock Equity": "sec",
-          "Goodwill": "sec",
-          "Net PPE": "sec",
-          "Total Debt": "sec"
-        }
-      },
       {
         "period": "2024-09-30",
         "items": {
@@ -780,7 +765,7 @@
         "items": {
           "Cash And Cash Equivalents": 227431000.0,
           "Total Assets": 5688532000.0,
-          "Common Stock Equity": -122463000.0,
+          "Common Stock Equity": -303096000.0,
           "Goodwill": 365703000.0,
           "Net PPE": 4576463000.0,
           "Inventory": 958000.0,
@@ -795,6 +780,25 @@
           "Net PPE": "sec",
           "Inventory": "yfinance",
           "Accounts Receivable": "yfinance",
+          "Total Debt": "sec"
+        }
+      },
+      {
+        "period": "2026-06-30",
+        "items": {
+          "Cash And Cash Equivalents": 172575000.0,
+          "Total Assets": 5746745000.0,
+          "Common Stock Equity": -329776000.0,
+          "Goodwill": 275366000.0,
+          "Net PPE": 3135540000.0,
+          "Total Debt": 2763717000.0
+        },
+        "sources": {
+          "Cash And Cash Equivalents": "sec",
+          "Total Assets": "sec",
+          "Common Stock Equity": "sec",
+          "Goodwill": "sec",
+          "Net PPE": "sec",
           "Total Debt": "sec"
         }
       }
@@ -840,7 +844,7 @@
   },
   "validation": {
     "ticker": "FIP",
-    "checked_at": "2026-08-10T14:44:49.596902+00:00",
+    "checked_at": "2026-08-11T14:45:25.121781+00:00",
     "status": "error",
     "issues": [
       {
@@ -861,7 +865,7 @@
       {
         "severity": "warn",
         "rule": "stale_price",
-        "detail": "latest close 2026-06-01 is 70 days old"
+        "detail": "latest close 2026-06-01 is 71 days old"
       }
     ]
   },
